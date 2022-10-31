@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "982f6f2f4bf25cbe69ee39e98e1a71ff",
+    "content-hash": "5df095a5639404df2cf068f3a66dede2",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -5701,16 +5701,16 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "1.6.x-dev",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "2812898464f279e14ad6e9f89e2e8bf992e00c91"
+                "reference": "13bdf98b05378d0750284ace501babf65990b2c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/2812898464f279e14ad6e9f89e2e8bf992e00c91",
-                "reference": "2812898464f279e14ad6e9f89e2e8bf992e00c91",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/13bdf98b05378d0750284ace501babf65990b2c6",
+                "reference": "13bdf98b05378d0750284ace501babf65990b2c6",
                 "shasum": ""
             },
             "require": {
@@ -5769,11 +5769,7 @@
             },
             "funding": [
                 {
-                    "url": "https://github.com/[user1",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/emptynick]# Replace with up to 4 GitHub Sponsors-enabled usernames e.g.",
+                    "url": "https://github.com/emptynick",
                     "type": "github"
                 },
                 {
@@ -5783,13 +5779,9 @@
                 {
                     "url": "https://github.com/tnylea",
                     "type": "github"
-                },
-                {
-                    "url": "https://github.com/user2",
-                    "type": "github"
                 }
             ],
-            "time": "2022-07-22T07:58:51+00:00"
+            "time": "2022-10-20T09:12:29+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

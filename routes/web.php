@@ -41,3 +41,8 @@ Route::prefix('portfolio')->group(function () {
 });
 Route::get('/about', [AboutController::class, 'about'])->name('about');
 Route::get('/project/new', [ProjectController::class, 'new'])->name('new');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
