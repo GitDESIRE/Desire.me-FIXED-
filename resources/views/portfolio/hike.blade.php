@@ -3,28 +3,20 @@
     <main class="main">
         <section class="banner">
             <div class="wrapper">
-                <div class="banner-left">
-                    <h1 class="banner-title">
-                        Проект по<br> хайкингу - “HIKE”
-                    </h1>
-                    <ul class="banner-description-list">
-                        <li class="banner-description-item">Аналитика и исследование</li>
-                        <li class="banner-description-item">Прототипирование</li>
-                        <li class="banner-description-item">тВизуальная концепция</li>
-                    </ul>
-                </div>
-                <div class="banner-right">
-                    <ul class="banner-list">
-                        <li class="banner-item">
-                            <a href="/portfolio" class="banner-link"> Проекты / </a>
-                        </li>
-                        <li class="banner-item">
-                            <a href="/portfolio" class="banner-link">  Web-сайты / </a>
-                        </li>
-                        <li class="banner-item">
-                            <a href="#" class="banner-link"> Проект по хайкингу - HIKE </a>
-                        </li>
-                    </ul>
+                <div class="content">
+                    <div class="seo-banner-top">
+                        <h1 class="banner-title">
+                            Проект по<br> хайкингу - “HIKE”
+                        </h1>
+                        <p class="seo-banner-section"><a href="/portfolio">Проекты</a> &nbsp / &nbsp <a href="/portfolio"> Web-сайты</a> &nbsp / &nbsp Проект по хайкингу - Hike </p>
+                    </div>
+                    <div class="seo-banner-bot">
+                        <ul class="banner-description-list">
+                            <li class="banner-description-item">Аналитика и исследование</li>
+                            <li class="banner-description-item">Прототипирование</li>
+                            <li class="banner-description-item">тВизуальная концепция</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -50,35 +42,41 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{asset('assets/img/swiper-image.png')}}" alt="Обложка проекта" />
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Veloretti: Discover <br/> World with Us</h3>
-                                <a href="/portfolio">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
+                                <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{asset('assets/img/swiper-image.png')}}" alt="Обложка проекта" />
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Veloretti: Discover <br/> World with Us</h3>
-                                <a href="/portfolio">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <h3 class="swiper-slide-title">Dolfie <br/> Hadr to choose. Easy to wear</h3>
+                                <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{asset('assets/img/swiper-image.png')}}" alt="Обложка проекта" />
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Veloretti: Discover <br/> World with Us</h3>
-                                <a href="/portfolio">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <h3 class="swiper-slide-title">Hike <br/> Выбери свой маршрут для похода</h3>
+                                <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" />
+                            <div class="swiper-slide-main">
+                                <h3 class="swiper-slide-title">Tocha<br/> Telegram чат на вашем сайте</h3>
+                                <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                     </div>
-                    <!-- Доделать пагинацию у свайпера -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-                    <div class="swiper-pagination"></div>
                 </div>
-
-                <button class="cases-btn">Смотреть все</button>
+                <div class="swiper-pagination"></div>
+                <button class="cases-btn"><a href="/portfolio">Смотреть все</a></button>
             </div>
         </section>
     </main>
 @endsection
+

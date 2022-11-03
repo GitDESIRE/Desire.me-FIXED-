@@ -4,29 +4,21 @@
     <main class="main">
     <section class="banner">
         <div class="wrapper">
-            <div class="banner-left">
-                <h1 class="banner-title">
-                    Редизайн<br> интернет-магазина “Dolfie Paradise”
-                </h1>
-                <ul class="banner-description-list">
-                    <li class="banner-description-item">Аналитика и исследование</li>
-                    <li class="banner-description-item">Прототипирование</li>
-                    <li class="banner-description-item">Визуальная концепция</li>
-                    <li class="banner-description-item">Адаптивные версии</li>
-                </ul>
-            </div>
-            <div class="banner-right">
-                <ul class="banner-list">
-                    <li class="banner-item">
-                        <a href="/portfolio" class="banner-link"> Проекты / </a>
-                    </li>
-                    <li class="banner-item">
-                        <a href="/portfolio" class="banner-link">  Web-сайты / </a>
-                    </li>
-                    <li class="banner-item">
-                        <a href="#" class="banner-link">Редизайн интернет магазина Dolfie</a>
-                    </li>
-                </ul>
+            <div class="content">
+                <div class="seo-banner-top">
+                    <h1 class="banner-title">
+                        Редизайн<br> интернет-магазина “Dolfie Paradise”
+                    </h1>
+                    <p class="seo-banner-section"><a href="/portfolio">Проекты</a> &nbsp / &nbsp <a href="/portfolio"> Web-сайты</a> &nbsp / &nbsp Редизайн интернет магазина Dolfie</p>
+                </div>
+                <div class="seo-banner-bottom">
+                    <ul class="banner-description-list">
+                        <li class="banner-description-item">Аналитика и исследование</li>
+                        <li class="banner-description-item">Прототипирование</li>
+                        <li class="banner-description-item">Визуальная концепция</li>
+                        <li class="banner-description-item">Адаптивные версии</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -49,14 +41,14 @@
             <div class="mobile-picture">
                 <img src="{{asset('assets/img/X - 3.3.png')}}" alt="TOCHA" class="mobile-img">
                 <img src="{{asset('assets/img/X - 4.4.png')}}" alt="TOCHA" class="mobile-img">
+                <img src="{{asset('assets/img/X - 7.7.png')}}" alt="TOCHA" class="mobile-img">
             </div>
-            <img src="{{asset('assets/img/X - 7.7.png')}}" alt="TOCHA" class="mobile-img">
         </div>
     </section>
     <section class="dolfie-mobile-project">
         <div class="wrapper">
-            <img src="{{asset('assets/img/Каталог 1602 (1).png')}}" alt="TOCHA" class="mobile-img">
             <div class="mobile-picture">
+                <img src="{{asset('assets/img/Каталог 1602 (1).png')}}" alt="TOCHA" class="mobile-img">
                 <img src="{{asset('assets/img/X - 222.png')}}" alt="TOCHA" class="mobile-img">
                 <img src="{{asset('assets/img/X - 8.png')}}" class="mobile-img">
             </div>
@@ -64,14 +56,18 @@
     </section>
     <section class="projects-mobile dolfie-mobile">
         <div class="wrapper">
-            <img src="{{asset('assets/img/X - 9.png')}}" alt="TOCHA" class="mobile-img">
-            <img src="{{asset('assets/img/Card 1601 (1).png')}}" alt="TOCHA" class="mobile-img">
+            <div class="mobile-picture">
+                <img src="{{asset('assets/img/X - 9.png')}}" alt="TOCHA" class="mobile-img">
+                <img src="{{asset('assets/img/Card 1601 (1).png')}}" alt="TOCHA" class="mobile-img">
+            </div>
         </div>
     </section>
     <section class="dolfie-mobile-project">
         <div class="wrapper">
-            <img src="{{asset('assets/img/Покупка (1).png')}}" alt="TOCHA" class="mobile-img">
-            <img src="{{asset('assets/img/X - 2.2.2.2..png')}}" alt="TOCHA" class="mobile-img">
+            <div class="mobile-picture">
+                <img src="{{asset('assets/img/Покупка (1).png')}}" alt="TOCHA" class="mobile-img">
+                <img src="{{asset('assets/img/X - 2.2.2.2..png')}}" alt="TOCHA" class="mobile-img">
+            </div>
         </div>
     </section>
     <section class="lookbook">
@@ -131,44 +127,49 @@
             </div>
         </div>
     </section>
-    <section class="cases">
-        <div class="wrapper" style="max-width: 100%;">
-            <div class="wrapper">
-                <h2 class="subTitle">Смотреть ещё</h2>
-            </div>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/img/swiper-image.png')}}" alt="Обложка проекта" />
-                        <div class="swiper-slide-main">
-                            <h3 class="swiper-slide-title">Veloretti: Discover <br/> World with Us</h3>
-                            <a href="/portfolio">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/img/swiper-image.png')}}" alt="Обложка проекта" />
-                        <div class="swiper-slide-main">
-                            <h3 class="swiper-slide-title">Veloretti: Discover <br/> World with Us</h3>
-                            <a href="/portfolio">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/img/swiper-image.png')}}" alt="Обложка проекта" />
-                        <div class="swiper-slide-main">
-                            <h3 class="swiper-slide-title">Veloretti: Discover <br/> World with Us</h3>
-                            <a href="/portfolio">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                        </div>
-                    </div>
+        <section class="cases">
+            <div class="wrapper" style="max-width: 100%;">
+                <div class="wrapper">
+                    <h2 class="subTitle">Смотреть ещё</h2>
                 </div>
-                <!-- Доделать пагинацию у свайпера -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" />
+                            <div class="swiper-slide-main">
+                                <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
+                                <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" />
+                            <div class="swiper-slide-main">
+                                <h3 class="swiper-slide-title">Dolfie <br/> Hadr to choose. Easy to wear</h3>
+                                <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" />
+                            <div class="swiper-slide-main">
+                                <h3 class="swiper-slide-title">Hike <br/> Выбери свой маршрут для похода</h3>
+                                <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" />
+                            <div class="swiper-slide-main">
+                                <h3 class="swiper-slide-title">Tocha<br/> Telegram чат на вашем сайте</h3>
+                                <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
                 <div class="swiper-pagination"></div>
+                <button class="cases-btn"><a href="/portfolio">Смотреть все</a></button>
             </div>
-
-            <button class="cases-btn">Смотреть все</button>
-        </div>
-    </section>
+        </section>
 </main>
 </body>
 @endsection

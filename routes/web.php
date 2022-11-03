@@ -1,5 +1,7 @@
 <?php
 
+
+use App\Http\Controllers\FileManagerController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SeoController;
 use App\Http\Controllers\AboutController;
@@ -18,7 +20,6 @@ use App\Http\Controllers\PrivacyController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 
 Route::get('/policy',[PrivacyController::class,'polity'])->name('privacy.polity');
 Route::get('/',[IndexController::class,'index'])->name('index');
@@ -41,8 +42,3 @@ Route::prefix('portfolio')->group(function () {
 });
 Route::get('/about', [AboutController::class, 'about'])->name('about');
 Route::get('/project/new', [ProjectController::class, 'new'])->name('new');
-
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});

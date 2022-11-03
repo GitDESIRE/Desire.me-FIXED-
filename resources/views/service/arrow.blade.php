@@ -6,7 +6,7 @@
                 <div class="content">
                     <div class="seo-banner-top">
                         <h1 class="title arrow-title">Разработка сайта NoCode - ARROW</h1>
-                        <p class="seo-banner-section"><a href="#">Услуги</a> / <a href="#">Комплексные тарифы</a>  / Комплексное решение «ARROW»</p>
+                        <p class="seo-banner-section"><a href="#">Услуги</a> &nbsp / &nbsp <a href="#">Комплексные тарифы</a> &nbsp / &nbsp Комплексное решение «ARROW»</p>
                     </div>
                     <div class="seo-banner-bottom">
                         <p class="seo-banner-description">Что такое разработка NoCode и почему она требует в разы меньше времени и денежных вложений?</p>
@@ -55,7 +55,7 @@
                         <h2 class="subTitle">стоимость</h2>
                         <span>от 45 000 РУБ.</span>
                     </div>
-                    <button class="tarif-start-btn btn-project">Заказать</button>
+                    <button class="tarif-start-btn btn-project"><a href="https://t.me/desire_manager">Заказать</a></button>
                 </div>
             </div>
         </section>

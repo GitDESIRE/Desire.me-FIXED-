@@ -4,6 +4,10 @@ ul {
   padding: 0;
 }
 
+main {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: #757575;
@@ -24,7 +28,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -60,30 +64,30 @@ body {
   color: #282828;
   opacity: 0.1;
   text-transform: uppercase;
-  text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+  text-shadow: #9ad351 1px 1px 0, #9ad351 -1px -1px 0, #9ad351 -1px 1px 0, #9ad351 1px -1px 0;
   position: absolute;
   z-index: 0;
-  cursor: default;
+  user-select: none;
 }
 
 .p_1 {
   top: -36%;
   right: 25%;
   transform: rotate(-30deg);
-  font-size: 450px;
+  font-size: 370px;
   letter-spacing: 20px;
 }
 
 .p_2 {
-  top: 32%;
-  right: 12%;
+  top: 22%;
+  right: 0;
   font-size: 150px;
   letter-spacing: 20px;
 }
 
 .p_3 {
-  bottom: -5%;
-  right: 10%;
+  bottom: 0;
+  right: 0;
   transform: rotate(20deg);
   font-size: 250px;
   letter-spacing: 20px;
@@ -100,6 +104,12 @@ body {
   display: flex;
   align-items: center;
   gap: 245px;
+  z-index: 200;
+}
+
+.mainPage-content .content-text {
+  max-width: 548px;
+  width: 100%;
 }
 
 .content .btn-project {
@@ -117,7 +127,6 @@ body {
 }
 
 .mainPage-content .content-logo {
-  margin-top: 52px;
   position: relative;
 }
 
@@ -150,7 +159,7 @@ body {
 
 .team-banner-right .content-logo .logo-circle {
   position: absolute;
-  top: -7%;
+  top: -35px;
   left: -18%;
 }
 
@@ -160,7 +169,7 @@ body {
 
 .team-banner-right .content-logo .logo-arrow {
   left: -7%;
-  top: 10%;
+  top: 50px;
 }
 
 .personal-data .buttonsBox {
@@ -181,7 +190,7 @@ body {
 
 .div_ul li {
   display: inline;
-  font-family: 'Inter';
+  font-family: 'Raleway';
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
@@ -231,7 +240,6 @@ body {
 
 .white_wrap_p h1 {
   width: 100%;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
@@ -241,18 +249,22 @@ body {
 
 .white_wrap_p p {
   width: 266px;
-  margin-right: 24px;
-  font-family: 'Montserrat';
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #282828;
 }
 
+.white_wrap_p p:last-child {
+  margin-right: 24px;
+}
+
 .white_a {
+  display: flex;
+  align-items: center;
+  justify-content: end;
   text-align: center;
   margin-top: 10px;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -264,8 +276,9 @@ body {
 }
 
 .white_a img {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
 }
 
 .white_a a:visited {
@@ -293,16 +306,26 @@ body {
   margin-top: 170px;
 }
 
+.whatWeDo-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  padding-bottom: 70px;
+}
+
 .black_wrap_wrap_content {
-  margin-left: 24px;
   width: 100%;
   max-width: 384px;
   color: #ffffff;
 }
 
+.black_wrap_wrap_content:nth-child(n + 2) {
+  margin-left: 24px;
+}
+
 .h1_wrap {
   padding-bottom: 24px;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -313,7 +336,6 @@ body {
 .wrap_ul {
   margin-top: 24px;
   margin-bottom: 48px;
-  font-family: 'Montserrat';
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -322,12 +344,18 @@ body {
 .wrap_ul li {
   margin-bottom: 24px;
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .wrap_ul li:before {
-  color: #9ad351;
-  content: '\2022 ';
-  padding-right: 10px;
+  background-color: #9ad351;
+  border-radius: 50%;
+  content: '';
+  margin-right: 10px;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
 }
 
 .ul_black {
@@ -338,7 +366,6 @@ body {
 .wrap_button button {
   color: #ffffff;
   background-color: #282828;
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -380,7 +407,6 @@ body {
 
 .wrap_slider_p {
   width: 306px;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -402,7 +428,6 @@ body {
 
 .wrap_slider_a a {
   text-decoration: none;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -443,7 +468,6 @@ body {
   margin-top: 48px;
   color: #282828;
   background-color: #ffffff;
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -470,7 +494,6 @@ body {
   display: flex;
   align-items: center;
   width: 1200px;
-  /* margin-left: 200px; */
   margin-right: 200px;
 }
 
@@ -494,14 +517,6 @@ body {
   text-transform: uppercase;
   color: #9ad351;
   text-shadow: none;
-}
-
-._02 {
-  top: -20px;
-}
-
-._01 {
-  width: 185px;
 }
 
 .wrap_how_we_work_1 {
@@ -636,28 +651,13 @@ nav {
 
 /* Main */
 
-.main_container {
-  padding-right: 75px;
-}
-
 .main_container,
 .aside_container {
   margin: 150px 0;
 }
 
-.title {
-  max-width: 471px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 94px;
-  margin-top: 0;
-  margin-bottom: 25px;
-  background: linear-gradient(89.91deg, #9ad351 0.08%, #628e55 72.19%, #2a4858 150.64%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+.main_container {
+  margin-right: 146px;
 }
 
 .main_container p {
@@ -670,8 +670,19 @@ nav {
 
 .inputsBox {
   display: flex;
-  gap: 68px;
+  flex-direction: column;
+  gap: 24px;
   width: 100%;
+}
+
+.inputsBox_top {
+  display: flex;
+  gap: 68px;
+}
+
+.inputsBox_bot {
+  display: flex;
+  gap: 34px;
 }
 
 .inputsBox_leftSide,
@@ -709,7 +720,25 @@ nav {
   transition: all 0.3s linear;
 }
 
-.newProject_form select {
+.newProject_form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.newProject_form input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+.newProject_form input:focus::-moz-placeholder {
+  color: transparent;
+} /* FF 19+ */
+.newProject_form input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+/* The container must be positioned relative: */
+
+.newProject_form .custom-select {
+  position: relative;
+  max-width: 260px;
   width: 100%;
   font-size: 11px;
   font-weight: 600;
@@ -722,6 +751,61 @@ nav {
   outline: none;
   transition: all 0.3s linear;
   cursor: pointer;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: '';
+  background-image: url('../assets/svg/select-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  top: -5px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  transform: rotate(180deg);
+}
+
+/* style the items (options), including the selected item: */
+.select-items div {
+  padding: 10px;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: #9ad351;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .newProject_form option {
@@ -753,6 +837,7 @@ nav {
 
 .file-button {
   display: flex;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   width: 260px;
@@ -766,13 +851,22 @@ nav {
   color: #282828;
 }
 
+.file-button span {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .fileCancel-button {
   position: relative;
-  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .fileCancel-button_stroke2 {
   width: 20px;
+  left: 0;
+  top: 10px;
   border: 1px solid #282828;
   transform: rotate(135deg);
   position: absolute;
@@ -780,6 +874,8 @@ nav {
 
 .fileCancel-button_stroke1 {
   width: 20px;
+  right: 0;
+  top: 10px;
   border: 1px solid #282828;
   transform: rotate(45deg);
   position: absolute;
@@ -817,7 +913,6 @@ nav {
 }
 
 .agreementData-link {
-  font-weight: 300;
   text-decoration: underline;
 }
 
@@ -870,7 +965,7 @@ nav {
   background: none;
   padding-bottom: 10px;
   border: none;
-  border-bottom: 1px solid #767676;
+  border-bottom: 1px solid #76767671;
 }
 
 .form .input:focus {
@@ -952,6 +1047,14 @@ nav {
   color: #767676;
 }
 
+.mail-link:hover {
+  color: #628e55;
+}
+
+.footer-link:hover {
+  color: #628e55;
+}
+
 .footer-btn {
   padding: 15px 40px;
   font-weight: 600;
@@ -993,7 +1096,7 @@ nav {
 
 .footer-item:hover,
 .footer-bottom-link:hover {
-  text-decoration: underline;
+  color: #628e55;
 }
 
 .footer-author {
@@ -1010,10 +1113,6 @@ nav {
   color: #767676;
 }
 
-.footer-name:last-child {
-  margin-left: 62px;
-}
-
 .logo-footer {
   width: 71px;
   height: 14px;
@@ -1023,17 +1122,13 @@ nav {
 /* BANNER */
 
 .banner {
+  overflow: hidden;
   width: 100%;
+  height: 100%;
   position: relative;
   background: #282828;
   padding-top: 130px;
   padding-bottom: 254px;
-}
-
-.banner .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .banner-top {
@@ -1107,7 +1202,6 @@ nav {
 .cases-name {
   width: 100%;
   max-width: 223px;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -1116,7 +1210,6 @@ nav {
 }
 
 .case-link {
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -1126,8 +1219,8 @@ nav {
 /* PROJECT */
 
 .project {
-  padding-top: 221px;
-  padding-bottom: 220px;
+  margin: 220px 0;
+  position: relative;
 }
 
 .project .wrapper {
@@ -1168,24 +1261,26 @@ nav {
   justify-content: space-between;
 }
 
-.seo-banner-top a:hover {
+.seo-banner-section a:hover {
   color: #628e55;
 }
 
 .seo-banner-section {
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 20px;
   color: #767676;
 }
 
 .seo-banner-bottom {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
   gap: 24px;
 }
 
 .seo-banner-description {
+  margin: 0;
   max-width: 588px;
   font-weight: 500;
   font-size: 32px;
@@ -1193,7 +1288,12 @@ nav {
   color: #ffffff;
 }
 
+.seo-content-text:last-child {
+  margin-top: 24px;
+}
+
 .seo-content-text {
+  margin: 0;
   max-width: 587px;
   font-weight: 300;
   font-size: 15px;
@@ -1403,7 +1503,7 @@ nav {
 
 .tabs .tab h4 {
   margin-top: 0;
-  margin-right: 58px;
+  margin-right: 95px;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -1431,9 +1531,8 @@ nav {
 }
 
 .price {
-  margin-left: 329px;
+  margin-right: 296px;
   margin-top: 0;
-  font-family: 'Inter';
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -1456,12 +1555,12 @@ nav {
 
 .team-banner .banner-img {
   max-width: 574px;
+  max-height: 100%;
   width: 100%;
 }
 
 .team-banner-left {
-  gap: 245px;
-  margin-right: 240px;
+  gap: 228px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1470,6 +1569,7 @@ nav {
 
 .team-banner-right {
   position: relative;
+  display: flex;
 }
 
 .startProject-btn {
@@ -1479,8 +1579,8 @@ nav {
 }
 
 .team-banner-description {
+  margin: 0;
   max-width: 384px;
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -1510,10 +1610,9 @@ nav {
 }
 
 .team-list {
+  align-self: flex-end;
   width: 100%;
   max-width: 781px;
-  margin-left: 10px;
-  margin-top: 86px;
   display: flex;
   flex-direction: column;
 }
@@ -1532,7 +1631,6 @@ nav {
 }
 
 .name-team {
-  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -1541,7 +1639,6 @@ nav {
 }
 
 .team-function {
-  font-family: 'Montserrat';
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -1582,8 +1679,7 @@ nav {
 
 .team-text {
   max-width: 256px;
-  font-family: 'Montserrat';
-  font-weight: 400;
+  margin: 0;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -1595,7 +1691,7 @@ nav {
 
 .rule {
   gap: 24px;
-  margin-top: 16px;
+  margin-top: 24px;
   display: flex;
   align-items: flex-start;
 }
@@ -1645,7 +1741,7 @@ nav {
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
-  color: #282828 !important;
+  color: #282828;
   background: none;
   padding-bottom: 10px;
   border: none;
@@ -1684,12 +1780,16 @@ nav {
 /* TariffsPage */
 
 .subTitle {
-  margin: 150px 0 48px;
+  margin: 200px 0 48px;
   font-weight: 600;
   font-size: 40px;
   line-height: 49px;
   text-transform: uppercase;
   color: #282828;
+}
+
+.desicions .subTitle {
+  margin-top: 0;
 }
 
 .desicionsBox {
@@ -1699,16 +1799,24 @@ nav {
 
 .desicionBox {
   border: 1px solid #76767680;
-  padding: 45px 60px;
+  padding: 48px 60px;
   position: relative;
 }
 
-.desicion-special {
+.desicionBox span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #282828;
+}
+
+.desicionBox .desicion-special {
   position: absolute;
   top: 6px;
   right: 6px;
   padding: 4px 8px;
-  font-family: 'Inter';
+  font-family: 'Montserrat';
   font-size: 10px;
   line-height: 12px;
   color: #767676;
@@ -1740,21 +1848,32 @@ nav {
 }
 
 .desicionBox ul {
-  list-style-type: disc;
   margin: 12px 0 36px;
   line-height: 40px;
-  padding-inline-start: 20px;
+  padding-inline-start: 10px;
 }
 
 .desicionBox li {
   font-weight: 300;
   font-size: 15px;
   color: #282828;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.desicionBox li::before {
+  content: '';
+  background-color: #282828;
+  display: inline-block;
+  min-width: 3px;
+  height: 3px;
+  border-radius: 50%;
 }
 
 .desicion-btns {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 .about-btn,
@@ -1779,9 +1898,18 @@ nav {
   border: none;
 }
 
+.cases {
+  margin-bottom: 200px;
+}
+
 .cases .wrapper {
   flex-direction: column;
   align-items: flex-start;
+  position: relative;
+}
+
+.cases .wrapper .swiper-pagination {
+  bottom: 110px !important;
 }
 
 .swiper {
@@ -1795,13 +1923,14 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 80px 80px 50px;
+  padding: 50px 80px 50px;
   background-color: #282828;
   transition: background-color 1s linear !important;
 }
 
 .swiper-slide .slider-img {
-  max-height: 340px;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 .swiper-slide-prev::after,
@@ -1822,7 +1951,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
 }
 
 .swiper-slide-title {
@@ -1867,29 +1995,13 @@ nav {
 }
 
 .swiper-pagination {
-  bottom: -14px !important;
-  /* left: 115px !important; */
-  /* width: 80% !important; */
-  height: 1px;
-  background-color: #9ad351;
   opacity: 0.5;
   position: relative;
 }
 
-/* .swiper-pagination-bullet {
-  position: absolute;
-  height: 1px;
-  left: 0;
-  top: 0;
-} */
-
-.swiper-pagination-bullet-active {
-  background-color: #282828;
-}
-
 .cases-btn {
-  margin-top: 48px;
-  margin-bottom: 20px;
+  margin-top: 88px;
+  width: 195px;
   padding: 15px;
   align-self: center;
   background-color: #fff;
@@ -1906,7 +2018,7 @@ nav {
 /* TariffsPage Start */
 
 .tarif-main {
-  padding: 150px 0;
+  padding: 150px 0 200px;
 }
 
 .tarif-main .content {
@@ -1930,16 +2042,28 @@ nav {
   width: 100%;
 }
 
-.tarif-main .content-box ul {
-  list-style-type: disc;
-}
-
 .tarif-main .content-box li:nth-child(n + 2) {
   margin-top: 24px;
 }
 
+.tarif-main .content-box li {
+  display: flex;
+}
+
+.tarif-main .content-box li::before {
+  content: '';
+  background-color: #282828;
+  display: block;
+  margin-right: 10px;
+  margin-top: 8px;
+  min-width: 3px;
+  height: 3px;
+  border-radius: 50%;
+}
+
 .tarif-main .content-box span {
   align-self: center;
+  margin-left: -20px;
 }
 
 .content .tarif-start-btn {
@@ -1996,7 +2120,6 @@ nav {
 }
 
 .banner-description-item {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2011,8 +2134,6 @@ nav {
 }
 
 .banner-link {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -2027,22 +2148,18 @@ nav {
 
 .about-project {
   width: 100%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  height: 100vh;
 }
 
 .about-project .wrapper {
   display: flex;
   flex-direction: column;
-}
-
-.about-project-text {
-  padding-left: 658px;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .about-project-name {
-  font-family: 'Montserrat';
-  font-style: normal;
+  margin-top: 0;
   font-weight: 600;
   font-size: 40px;
   line-height: 49px;
@@ -2055,9 +2172,6 @@ nav {
   max-width: 588px;
   padding-top: 10px;
   margin: 0;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #282828;
@@ -2074,11 +2188,11 @@ nav {
 }
 
 .projects .wrapper {
-  text-align: center;
+  justify-content: center;
 }
 
 .projects-img {
-  width: 996px;
+  max-width: 996px;
   height: 100%;
 }
 
@@ -2101,6 +2215,10 @@ nav {
 .mobile-picture {
   display: flex;
   gap: 59px;
+}
+
+.mobile-picture img:nth-child(n + 3) {
+  margin-left: 295px;
 }
 
 /* dolfie */
@@ -2157,8 +2275,6 @@ nav {
 }
 
 .color-name {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -2181,8 +2297,7 @@ nav {
   padding-top: 20px;
   margin-top: 30px;
   border-top: 1px solid #767676;
-  font-family: 'Inter';
-  font-style: normal;
+  font-family: 'Raleway';
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -2190,9 +2305,7 @@ nav {
 }
 
 .color-description1 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Raleway';
   font-size: 18px;
   line-height: 20px;
   color: #ffffff;
@@ -2201,7 +2314,7 @@ nav {
 .typography {
   display: flex;
   align-items: flex-start;
-  gap: 287px;
+  justify-content: space-between;
 }
 
 .font {
@@ -2212,9 +2325,6 @@ nav {
 
 .font-name {
   margin-bottom: 68px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 400;
   font-size: 90px;
   line-height: 100%;
   color: #ffffff;
@@ -2233,8 +2343,6 @@ nav {
 
 .text-item1 {
   margin-bottom: 16px;
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -2243,8 +2351,6 @@ nav {
 }
 
 .text-item {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -2262,17 +2368,12 @@ nav {
   .white_logo {
     margin-right: 222px;
   }
-  ._01 {
-    width: 155px;
+
+  .p_4 {
+    left: -30%;
+    transform: rotate(-25deg);
   }
-  .qwerty {
-    width: 155px;
-  }
-  .qwerty_wrap {
-    margin-left: 0;
-    margin-right: 0;
-    width: unset;
-  }
+
   .wrap_how_we_work {
     gap: 130px;
   }
@@ -2292,11 +2393,81 @@ nav {
   .invitation .wrapper {
     gap: 70px;
   }
+
+  .main_container {
+    margin-right: 48px;
+  }
+
+  .mobile-picture img:nth-child(n + 3) {
+    margin-left: 0;
+  }
+
+  .mobile-picture {
+    gap: 106px;
+    margin: 0 auto;
+    overflow: auto;
+    width: 100%;
+  }
+
+  .mobile-picture img {
+    object-fit: scale-down;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1112px) {
+  .main .wrapper {
+    flex-direction: column;
+  }
+
+  .team-banner .wrapper {
+    flex-direction: row;
+  }
+
+  .main_container {
+    margin: 100px 0 50px;
+  }
+
+  .aside_container {
+    margin: 0 0 100px 0;
+  }
+
+  .inputsBox_top {
+    gap: 24px;
+  }
+
+  .inputsBox_bot {
+    gap: 12px;
+  }
+
+  .inputsBox_leftSide,
+  .inputsBox_rightSide,
+  .newProject_form input,
+  .newProject_form .custom-select,
+  .file-button,
+  .submit-button {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .buttonsBox {
+    gap: 24px;
+    justify-content: flex-start;
+  }
+
+  .agreement_box {
+    justify-content: flex-start;
+    margin-left: 312px;
+  }
 }
 
 @media (max-width: 1100px) {
   .white_logo {
     margin-right: 5%;
+  }
+
+  .mainPage-content .content {
+    gap: 140px;
   }
 
   .footer-social {
@@ -2334,6 +2505,35 @@ nav {
   .mainPage-content .content {
     flex-direction: column;
     gap: 0;
+  }
+
+  .team-banner {
+    padding-bottom: 120px;
+  }
+
+  .swiper {
+    max-height: 584px;
+  }
+
+  .p_1 {
+    top: 0%;
+    right: 10%;
+    transform: rotate(-25deg);
+    font-size: 180px;
+  }
+
+  .p_2 {
+    right: -50%;
+  }
+
+  .p_3 {
+    right: -70%;
+    bottom: -18%;
+  }
+
+  .p_4 {
+    bottom: 5%;
+    left: -55%;
   }
 
   .footer-social {
@@ -2419,10 +2619,6 @@ nav {
     max-width: 468px;
   }
 
-  .newProject_form input {
-    max-width: unset;
-  }
-
   .buttonsBox {
     justify-content: start;
     gap: 24px;
@@ -2437,7 +2633,7 @@ nav {
   }
 
   .team-banner .wrapper {
-    padding-top: 106px;
+    padding-top: 180px;
   }
 
   .team-banner-left {
@@ -2449,12 +2645,13 @@ nav {
   .team-banner-right .content-logo .logo-circle {
     left: unset;
     right: 0;
+    top: -380px;
   }
 
   .team-banner-right .content-logo .logo-arrow {
     left: unset;
-    right: 6%;
-    top: 12%;
+    right: 55px;
+    top: -295px;
   }
 
   .team-list {
@@ -2470,7 +2667,18 @@ nav {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
+  .seo-banner-top {
+    flex-direction: column-reverse;
+  }
+
+  .seo-banner-section {
+    align-self: flex-end;
+  }
+
+  .banner-title {
+    font-size: 62px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -2491,25 +2699,8 @@ nav {
     flex-direction: column;
     margin-bottom: 0;
     align-items: flex-start;
-    gap: 73px;
+    gap: 50px;
     padding-bottom: 23px;
-  }
-
-  .seo-banner-top {
-    flex-direction: column-reverse;
-  }
-
-  .seo-banner-section {
-    align-self: flex-end;
-  }
-
-  .team-banner-right .content-logo .logo-circle {
-    top: -90%;
-  }
-
-  .team-banner-right .content-logo .logo-arrow {
-    right: 8%;
-    top: -71%;
   }
 
   .team {
@@ -2539,9 +2730,41 @@ nav {
   .banner {
     padding-bottom: 100px;
   }
+
+  .swiper-slide .slider-img {
+    max-height: 300px;
+  }
+
+  .tarif-main .content-box span {
+    margin-left: 0;
+  }
+
+  .mobile-picture {
+    gap: 57px;
+  }
+
+  .swiper {
+    max-height: 468px;
+  }
+
+  .p_1 {
+    z-index: 100;
+    top: 20%;
+    right: 5%;
+  }
+
+  .p_2 {
+    right: -80%;
+  }
+
+  .p_3 {
+    bottom: -30%;
+    right: -100%;
+  }
+
   .header {
     position: fixed;
-    z-index: 100;
+    z-index: 350;
   }
   .nav {
     display: none;
@@ -2608,18 +2831,18 @@ nav {
     gap: 48px;
     align-items: center;
     position: fixed;
-    top: 10px;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    transform: translate(150%, 11%);
+    transform: translate(150%, 70px);
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: -webkit-transform 0.5s ease;
     background-color: #282828;
   }
 
   .burger-menu_active .burger-menu_nav {
-    transform: translate(0, 11%);
+    transform: translate(0, 70px);
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: -webkit-transform 0.5s ease;
   }
@@ -2662,10 +2885,6 @@ nav {
     transition: all 0.3s ease;
   }
 
-  .desire_p {
-    display: none;
-  }
-
   .swiper-slide {
     padding: 70px 20px 35px;
   }
@@ -2692,14 +2911,8 @@ nav {
   }
 
   .desicionBox {
-    padding: 24px 0;
     border: none;
     border-top: 1px solid #767676;
-  }
-
-  .title {
-    font-size: 40px;
-    line-height: 47px;
   }
 
   .tarif-main .content-box {
@@ -2719,15 +2932,7 @@ nav {
   }
 
   .tarif-main .content-box ul {
-    margin-inline-start: 25px;
-  }
-
-  .team-banner-right .content-logo .logo-circle {
-    top: -75%;
-  }
-
-  .team-banner-right .content-logo .logo-arrow {
-    top: -56%;
+    margin-inline-start: 5px;
   }
 
   .team-banner {
@@ -2745,16 +2950,96 @@ nav {
   .team-list {
     margin-top: 48px;
   }
+
+  .footer-bottom-list {
+    flex-direction: column;
+  }
+
+  .wrap_button button {
+    background-color: #9ad351;
+    color: #282828;
+    max-width: 287px;
+    width: 100%;
+  }
+
+  .whatWeDo-content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .black_wrap_wrap_content:nth-child(n + 2) {
+    margin-left: 0;
+    margin-top: 76px;
+  }
+
+  .h1_wrap {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .wrap_ul {
+    margin-bottom: 24px;
+  }
+
+  .wrap_ul li {
+    margin-bottom: 12px;
+  }
 }
 
 @media (max-width: 600px) {
+  .title,
+  .banner-title {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .hidden-content .hidden-wrapper .tab-wrapper h4 {
+    margin-right: 95px;
+  }
+
+  .inputsBox {
+    gap: 48px;
+  }
+
+  .inputsBox_top {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .inputsBox_bot {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .main .main_container {
+    margin-bottom: 25px;
+  }
+
+  .buttonsBox {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .agreement_box {
+    margin-left: 0;
+  }
+
+  .price {
+    margin-right: 0;
+  }
+
   .team-banner-right .content-logo .logo-circle {
-    top: 75%;
+    top: 338px;
   }
 
   .team-banner-right .content-logo .logo-arrow {
-    top: 94%;
-    right: 7%;
+    top: 420px;
+    right: 55px;
   }
 
   .team-banner {
@@ -2781,9 +3066,21 @@ nav {
 }
 
 @media (max-width: 500px) {
+  .desicionBox {
+    padding: 0;
+  }
+
   .white_logo {
     font-size: 40px;
     line-height: 47px;
+  }
+
+  .team-banner-right .content-logo .logo-circle {
+    top: 140px;
+  }
+
+  .team-banner-right .content-logo .logo-arrow {
+    top: 225px;
   }
 
   .white_wrap_p h1 {
@@ -2795,6 +3092,37 @@ nav {
   .h1_wrap {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .seo-banner-bottom {
+    margin-top: 24px;
+  }
+
+  .p_1 {
+    right: unset;
+    left: -35%;
+    font-size: 72px;
+    letter-spacing: 5px;
+  }
+
+  .p_2 {
+    right: -25%;
+    letter-spacing: 5px;
+    font-size: 72px;
+  }
+
+  .p_3 {
+    display: none;
+  }
+
+  .p_4 {
+    letter-spacing: 15px;
+    bottom: 10%;
+    left: 0;
+  }
+
+  .desicionBox .desicion-special {
+    display: none;
   }
 
   .ul_white {
@@ -2820,8 +3148,20 @@ nav {
     margin-bottom: 80px;
   }
 
+  .swiper-slide {
+    padding-top: 35px;
+  }
+
   .ul_black {
     margin-top: 80px;
+  }
+
+  .desicionBox li {
+    line-height: 18px;
+  }
+
+  .desicionBox li:nth-child(n + 2) {
+    margin-top: 24px;
   }
 
   .black_wrap {
@@ -2865,37 +3205,23 @@ nav {
     gap: 42px;
   }
 
+  .footer-item,
+  .footer-link {
+    margin-bottom: 12px;
+  }
+
   .footer-top {
     padding-bottom: 47px;
   }
 
   .banner {
-    padding: 150px 10px 22px;
+    padding: 150px 0 100px;
   }
 
   .main .main_container {
     margin: 140px 0 10px;
   }
 
-  .inputsBox {
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .inputsBox_leftSide,
-  .inputsBox_rightSide {
-    width: 100%;
-  }
-
-  .buttonsBox {
-    margin-top: 40px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .submit-button,
-  .reset-button,
-  .file-button,
   .agreement_box,
   .order-btn,
   .about-btn,
@@ -2906,11 +3232,6 @@ nav {
 
   .reset-button {
     margin-top: 110px !important;
-  }
-
-  .agreement_box {
-    align-items: flex-start;
-    flex-direction: column;
   }
 
   .main .aside_container {
@@ -2930,12 +3251,12 @@ nav {
   }
 
   .footer-bottom {
-    padding: 12px 0 16px;
+    padding: 20px 0 30px;
     gap: 0;
   }
 
   .footer-bottom-list {
-    gap: 0;
+    gap: 12px;
     width: 100%;
   }
 
@@ -2943,8 +3264,14 @@ nav {
     margin-top: 50px;
   }
 
+  .footer-name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
   .footer-name:last-child {
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-top: 0;
   }
 
   .footer-bottom span {
@@ -2978,6 +3305,7 @@ nav {
   .desicion-title {
     font-size: 16px;
     line-height: 20px;
+    margin: 24px 0;
   }
 
   .desicionsBox:last-child {
@@ -2986,6 +3314,7 @@ nav {
 
   .desicionsBox {
     margin-bottom: 0;
+    padding-bottom: 25px;
   }
 
   .project-text {
@@ -3000,6 +3329,7 @@ nav {
 
   .team-banner-left {
     gap: 24px;
+    margin-bottom: 12px;
   }
 
   .team-banner-description {
@@ -3009,15 +3339,14 @@ nav {
     line-height: 22px;
   }
 
-  .team-banner-right .content-logo .logo-arrow {
-    top: 99%;
-    right: 12%;
-  }
-
   .team-title,
   .invitation-title {
     font-size: 32px;
     line-height: 39px;
+  }
+
+  .team-banner .wrapper {
+    padding-top: 130px;
   }
 
   .team-list {
@@ -3054,5 +3383,9 @@ nav {
 
   .forms {
     width: 100%;
+  }
+
+  .wrap_ul {
+    margin-inline-start: 5px;
   }
 }
