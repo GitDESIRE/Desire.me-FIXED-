@@ -6,14 +6,18 @@
                 <div class="content">
                     <div class="seo-banner-top">
                         <h1 class="title">SEO</h1>
-                        <p class="seo-banner-section"><a href="#">Услуги </a> &nbsp / &nbsp SEO</p>
                     </div>
                     <div class="seo-banner-bottom">
-                        <p class="seo-banner-description">Оптимизируем и продвигаем сайты в ТОП, чтобы ваша целевая аудитория всегда могла вас найти.</p>
+                        <p class="seo-banner-description">Оптимизируем и продвигаем сайты в ТОП, чтобы ваша целевая
+                            аудитория всегда могла вас найти.</p>
                         <div class="banner-content">
-                            <p class="seo-content-text">Мы объединяем лучшие технологии с профессионализмом для создания индивидуальной стратегии SEO, которая принесет необходимые вам результаты. Команда наших специалистов поможет повысить узнаваемость бренда и привлечь больше клиентов.
+                            <p class="seo-content-text">Мы объединяем лучшие технологии с профессионализмом для создания
+                                индивидуальной стратегии SEO, которая принесет необходимые вам результаты. Команда наших
+                                специалистов поможет повысить узнаваемость бренда и привлечь больше клиентов.
                             </p>
-                            <p class="seo-content-text">Мы оказываем весь спектр услуг по оптимизации и продвижению проектов для повышения видимости компании в поисковых системах Яндекс и Google и привлечения новых клиентов.</p>
+                            <p class="seo-content-text">Мы оказываем весь спектр услуг по оптимизации и продвижению
+                                проектов для повышения видимости компании в поисковых системах Яндекс и Google и
+                                привлечения новых клиентов.</p>
                         </div>
                     </div>
                 </div>
@@ -26,30 +30,40 @@
             <ul class="tabs">
                 <li class="tab">
                     <label class="tab-wrapper">
-                        <input type="checkbox" class="toggler" />
-                        <h3 class="tab-title">
-                            <span class="tab-number">
-                                /01
+                        <input type="checkbox" class="toggler"/>
+                        <div class="tab-leftPart">
+                            <h3 class="tab-title">
+                                <span class="tab-number">
+                                    /01
+                                </span>
+                                Basic
+                            </h3>
+                            <a href="#" class="btn">Заказать</a>
+                        </div>
+                        <div class="tab-rightPart">
+                            <p class="text">
+                                Только запустили свой сайт и не знаете, что с ним делать дальше? Или вы на рынке уже
+                                несколько лет, и вдруг ваш сайт проседает в посещаемости?<br/><br/>
+                                В рамках <span class="text-color">Basic</span> оптимизации мы работаем на стабилизацию
+                                вашего сайта по критериям поисковых систем и трафика на нем
+                            </p>
+                            <span class="toggle">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                    <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                </svg>
                             </span>
-                            Basic
-                        </h3>
-                        <span class="toggle">
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                                <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                            </svg>
-                        </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
-                        <p class="text">
-                            Только запустили свой сайт и не знаете, что с ним делать дальше? Или вы на рынке уже несколько лет, и вдруг ваш сайт проседает в посещаемости?<br/><br/>
-                            В рамках <span class="text-color">Basic</span> оптимизации мы работаем на стабилизацию вашего сайта по критериям поисковых систем и трафика на нем</p>
+                        </div>
                     </label>
                     <div class="hidden-content" style="display: none;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <input type="checkbox" class="toggler" />
+                                <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
@@ -71,18 +85,21 @@
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
-                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
                                     </svg>
                                 </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <input type="checkbox" class="toggler" />
+                                <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
@@ -93,55 +110,66 @@
                                         </li>
                                         <li class="task-item">Естественный приток посетителей
                                         </li>
-                                        <li class="task-item">Отличного партнера в виде компании Desire, который знает особенности вашего сайта и всегда готов помочь вашему бизнесу расти и дальше!
+                                        <li class="task-item">Отличного партнера в виде компании Desire, который знает
+                                            особенности вашего сайта и всегда готов помочь вашему бизнесу расти и
+                                            дальше!
                                         </li>
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
-                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
                                     </svg>
                                 </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
-                            <h4 class="subtitle">
-                                Стоимость
-                            </h4>
-                            <p class="price">от 10 000 руб.</p>
+                            <div class="tab-wrapper">
+                                <h4 class="subtitle">
+                                    Стоимость
+                                </h4>
+                                <p class="price">от 15 000 руб.</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="tab">
                     <label class="tab-wrapper">
                         <input type="checkbox" class="toggler">
-                        <h3 class="tab-title">
-                            <span class="tab-number">
-                                /02
+                        <div class="tab-leftPart">
+                            <h3 class="tab-title">
+                                <span class="tab-number">
+                                    /02
+                                </span>
+                                Middle
+                            </h3>
+                            <a href="/project/new" class="btn">Заказать</a>
+                        </div>
+                        <div class="tab-rightPart">
+                            <p class="text">
+                                У вас уже работающий сайт, но продажи не идут? Не знаете, как исправить ошибки на сайте, чтобы клиенты быстро находили вас и ваши лучшие предложения?
+                                В рамках <span class="text-color"> Middle</span> оптимизации мы работаем на развитие вашего сайта и рост трафика на нем
+                            </p>
+                            <span class="toggle">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                </svg>
                             </span>
-                            Middle
-                        </h3>
-                        <span class="toggle">
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                                <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                            </svg>
-                        </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
-                        <p class="text">
-                            У вас уже работающий сайт, но продажи не идут? Не знаете, как исправить ошибки на сайте, чтобы клиенты быстро находили вас и ваши лучшие предложения?
-                            В рамках <span class="text-color"> Middle</span> оптимизации мы работаем на развитие вашего сайта и рост трафика на нем
-                        </p>
+                        </div>
                     </label>
                     <div class="hidden-content" style="display: none;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <input type="checkbox" class="toggler" />
+                                <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
@@ -169,18 +197,21 @@
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
-                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
                                     </svg>
                                 </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <input type="checkbox" class="toggler" />
+                                <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
@@ -191,57 +222,69 @@
                                         </li>
                                         <li class="task-item">Естественный приток посетителей
                                         </li>
-                                        <li class="task-item">Высокая релевантность (соответствие) сайта запросам потенциальных клиентов
+                                        <li class="task-item">Высокая релевантность (соответствие) сайта запросам
+                                            потенциальных клиентов
                                         </li>
-                                        <li class="task-item">Отличного партнера в виде компании Desire, который знает особенности вашего сайта и всегда готов помочь вашему бизнесу расти и дальше!
+                                        <li class="task-item">Отличного партнера в виде компании Desire, который знает
+                                            особенности вашего сайта и всегда готов помочь вашему бизнесу расти и
+                                            дальше!
                                         </li>
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
-                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
                                     </svg>
                                 </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
-                            <h4 class="subtitle">
-                                Стоимость
-                            </h4>
-                            <p class="price">от 25 000 руб.</p>
+                            <div class="tab-wrapper">
+                                <h4 class="subtitle">
+                                    Стоимость
+                                </h4>
+                                <p class="price">от 25 000 руб.</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="tab">
                     <label class="tab-wrapper">
                         <input type="checkbox" class="toggler">
-                        <h3 class="tab-title">
-                            <span class="tab-number">
-                                /03
+                        <div class="tab-leftPart">
+                            <h3 class="tab-title">
+                                <span class="tab-number">
+                                    /03
+                                </span>
+                                Premium
+                            </h3>
+                            <a href="/project/new" class="btn">Заказать</a>
+                        </div>
+                        <div class="tab-rightPart">
+                            <p class="text">
+                                Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
+                                В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
+                            </p>
+                            <span class="toggle">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                </svg>
                             </span>
-                            Premium
-                        </h3>
-                        <span class="toggle">
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                                <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                            </svg>
-                        </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
-                        <p class="text">
-                            Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
-                            В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
-                        </p>
+                        </div>>
                     </label>
                     <div class="hidden-content" style="display: none;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <input type="checkbox" class="toggler" />
+                                <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
@@ -256,7 +299,8 @@
                                         </li>
                                         <li class="task-item">Формирование семантического ядра
                                         </li>
-                                        <li class="task-item">Редактура контента на сайте и написание нового при необходимости
+                                        <li class="task-item">Редактура контента на сайте и написание нового при
+                                            необходимости
                                         </li>
                                         <li class="task-item">Работа с юзабилити сайта
                                         </li>
@@ -277,18 +321,21 @@
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
-                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
                                     </svg>
                                 </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <input type="checkbox" class="toggler" />
+                                <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
@@ -303,27 +350,35 @@
                                         </li>
                                         <li class="task-item">Настроенные социальные сети
                                         </li>
-                                        <li class="task-item">Высокая релевантность (соответствие) сайта запросам потенциальных клиентов
+                                        <li class="task-item">Высокая релевантность (соответствие) сайта запросам
+                                            потенциальных клиентов
                                         </li>
-                                        <li class="task-item">Отличного партнера в виде компании Desire, который знает особенности вашего сайта и всегда готов помочь вашему бизнесу расти и дальше!
+                                        <li class="task-item">Отличного партнера в виде компании Desire, который знает
+                                            особенности вашего сайта и всегда готов помочь вашему бизнесу расти и
+                                            дальше!
                                         </li>
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
-                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                              stroke-linejoin="round" />
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
                                     </svg>
                                 </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
-                            <h4 class="subtitle">
-                                Стоимость
-                            </h4>
-                            <p class="price">от 40 000 руб.</p>
+                            <div class="tab-wrapper">
+                                <h4 class="subtitle">
+                                    Стоимость
+                                </h4>
+                                <p class="price">от 40 000 руб.</p>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -366,14 +421,16 @@
                         </div>
                     </div>
                     <div class="swiper-button-prev">
-                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
                     </div>
                     <div class="swiper-button-next">
-                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
+                <a href="/portfolio">
+                    <button class="cases-btn">Смотреть все</button>
+                </a>
             </div>
         </section>
         <section class="desicions">
@@ -383,8 +440,10 @@
                     <div class="desicionsBox">
                         <div class="desicionBox start-desicion">
                             <h3 class="desicion-title">Комплексное решение «START»</h3>
-                            <p>Настало время выйти из тени офлайна и начать расширять бизнес. Интернет — идеальное место для поиска новых клиентов!</p>
-                            <p>Начни жизнь своего проекта в Интернете при помощи нашего комплексного решения «START». Наши специалисты займутся всеми этапами разработки и оптимизации.</p>
+                            <p>Настало время выйти из тени офлайна и начать расширять бизнес. Интернет — идеальное место
+                                для поиска новых клиентов!</p>
+                            <p>Начни жизнь своего проекта в Интернете при помощи нашего комплексного решения «START».
+                                Наши специалисты займутся всеми этапами разработки и оптимизации.</p>
                             <span>МЫ СДЕЛАЕМ:</span>
                             <ul>
                                 <li>Дизайн, разработку, контент и запуск сайта</li>
@@ -392,15 +451,22 @@
                                 <li>Маркетинговые стратегии для продвижения и соцсетей</li>
                             </ul>
                             <div class="desicion-btns">
-                                <a href="/service/start"><button class="about-btn">Подробнее</button></a>
-                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
+                                <a href="/service/start">
+                                    <button class="about-btn">Подробнее</button>
+                                </a>
+                                <a href="/project/new">
+                                    <button class="order-btn">Заказать</button>
+                                </a>
                             </div>
                         </div>
                         <div class="desicionBox arrow-desicion">
                             <span class="desicion-special">Экстремально быстрый тариф для тех, кто не любит ждать</span>
                             <h3 class="desicion-title">разработка сайта NoCode - ARROW</h3>
-                            <p>Идеальный способ начать развитие в Интернете быстро и без огромных финансовых вложений.<br/>Разработка NoCode — это отличное решение для бизнеса.</p>
-                            <p>Мы знаем, как важно быстро запустить сайт для нового проекта. Разработка без кода идеальный вариант для этого — вы не теряете качество, а получаете отличный результат.</p>
+                            <p>Идеальный способ начать развитие в Интернете быстро и без огромных финансовых
+                                вложений.<br/>Разработка NoCode — это отличное решение для бизнеса.</p>
+                            <p>Мы знаем, как важно быстро запустить сайт для нового проекта. Разработка без кода
+                                идеальный вариант для этого — вы не теряете качество, а получаете отличный
+                                результат.</p>
                             <span>МЫ СДЕЛАЕМ:</span>
                             <ul>
                                 <li>Дизайн, ориентированный на вашу целевую аудиторию</li>
@@ -408,8 +474,12 @@
                                 <li>Оптимизацию и организуем техническую поддержку</li>
                             </ul>
                             <div class="desicion-btns">
-                                <a href="/service/arrow"><button class="about-btn">Подробнее</button></a>
-                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
+                                <a href="/service/arrow">
+                                    <button class="about-btn">Подробнее</button>
+                                </a>
+                                <a href="/project/new">
+                                    <button class="order-btn">Заказать</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -418,7 +488,10 @@
         </section>
         <section class="project">
             <div class="wrapper">
-                <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
+                <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего
+                    digital-проекта: <span class="text-color">от</span> разработки сайта <span
+                        class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения
+                    проекта в поисковых системах Яндекс и Google.
                 </p>
                 <a href="/project/new" class="btn-project">Начать проект</a>
             </div>

@@ -12,7 +12,7 @@
                     <span class="nav-list_link">Услуги</span>
                     <div class="dropdown_content">
                         <a href="/service/web">Веб-дизайн и разработка</a>
-                        <a href="/service/seo">SEO</a>
+                        <a href="/service/seo">Продвижение</a>
                         <a href="/service/rate">Комплексные тарифы</a>
                     </div>
                 </li>
@@ -34,7 +34,7 @@
                 <div class="burger-menu_link openLink">Услуги
                     <div class="hidden-links">
                         <a href="/services/web" class="burger-menu_hidden-link">Web-дизайн и разработка</a>
-                        <a href="/services/seo" class="burger-menu_hidden-link">SEO</a>
+                        <a href="/services/seo" class="burger-menu_hidden-link">Продвижение</a>
                         <a href="/services/rate" class="burger-menu_hidden-link">Комплексные тарифы</a>
                     </div>
                 </div>

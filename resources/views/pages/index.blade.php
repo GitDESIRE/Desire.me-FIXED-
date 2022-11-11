@@ -10,18 +10,18 @@
                 <div class="content">
                     <div class="content-text">
                         <h1 class="title">Cоздаём <br/> и продвигаем</h1>
-                        <p>Мы не только создаём и развиваем digital-проекты, но и наглядно показываем, как они работают.</p>
+                        <p>Мы стремимся реализовывать потенциал каждой идеи, которая есть у наших клиентов.</p>
                     </div>
                     <a href="/project/new" class="content-logo">
-                        <img class="logo-circle" src="{{asset('assets/svg/textLogo.svg')}}" alt="кнопка начать проект" />
+                        <img class="logo-text" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
                         <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
                     </a>
                 </div>
             </div>
         </section>
         <section class="main_wrap">
-            <div class="white_wrap">
-                <div class="div_ul ul_white">
+            <div class="white_wrap block-animation">
+                <div class="div_ul ul_white marquee3k" data-speed="0.5" data-reverse="true"">
                     <ul>
                         <li>кто мы</li>
                         <li>кто мы</li>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="white_wrap_p">
                         <div>
-                            <h1>Делаем незаурядные digital проекты, которые привлекают внимание и клиентов</h1>
+                            <h1>Мы ориентируемся на ваши цели, помогая выйти на новый уровень: не просто «быть», а «менять мир»</h1>
                         </div>
                         <div class="text-box" style="display: flex;">
                             <div>
@@ -59,8 +59,8 @@
                     </div>
                 </div>
             </div>
-            <div class="black_wrap">
-                <div class="div_ul ul_black">
+            <div class="black_wrap block-animation">
+                <div class="div_ul ul_black marquee3k" data-speed="0.5" data-reverse="true"">
                     <ul>
                         <li>Что мы делаем</li>
                         <li>Что мы делаем</li>
@@ -93,7 +93,7 @@
                             </a>
                         </div>
                         <div class="black_wrap_wrap_content">
-                            <div class="h1_wrap">seo</div>
+                            <div class="h1_wrap">продвижение</div>
                             <div class="wrap_ul">
                                 <ul>
                                     <li>SEO-аудит</li>
@@ -125,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="white_wrap">
-                <div class="div_ul ul_white">
+            <div class="white_wrap  block-animation">
+                <div class="div_ul ul_white  marquee3k" data-speed="0.5" data-reverse="true">
                     <ul>
                         <li>портфолио</li>
                         <li>портфолио</li>
@@ -173,10 +173,10 @@
                             </div>
                         </div>
                         <div class="swiper-button-prev">
-                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
                         </div>
                         <div class="swiper-button-next">
-                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -186,8 +186,8 @@
                         <button>Смотреть всё</button></a>
                 </div>
             </div>
-            <div class="black_wrap">
-                <div class="div_ul ul_black">
+            <div class="black_wrap  block-animation">
+                <div class="div_ul ul_black  marquee3k" data-speed="0.5" data-reverse="true">
                     <ul>
                         <li>Как мы работаем</li>
                         <li>Как мы работаем</li>
@@ -202,7 +202,7 @@
                         <li>Как мы работаем</li>
                     </ul>
                 </div>
-                <div class="wrapper" style="flex-direction: column;">
+                <div class="wrapper" style="flex-direction: column;  align-items: normal;">
                     <div class="timeline">
                         <ol class="timeline__inner">
                             <li class="timeline__item">
@@ -240,7 +240,7 @@
                     </div>
                 </div>
             </div>
-            <div class="white_wrap">
+            <div class="white_wrap  block-animation">
                 <div class="white_wrap_pp">
                     <p>Мы предоставляем <span>весь спектр услуг</span> для вашего digital-проекта: <span>от</span>
                         разработки сайта <span>и</span> мобильных приложений <span>до</span> продвижения проекта в

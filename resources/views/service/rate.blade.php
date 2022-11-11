@@ -6,7 +6,6 @@
                 <div class="content">
                     <div class="seo-banner-top">
                         <h1 class="title">Комплексные тарифы</h1>
-                        <p class="seo-banner-section"><a href="#">Услуги</a> &nbsp / &nbsp Комплексные тарифы</p>
                     </div>
                     <div class="seo-banner-bottom">
                         <p class="seo-banner-description">Не знаете с чего начать <br/> развивать свой проект <br/> на просторах Интернета?</p>
