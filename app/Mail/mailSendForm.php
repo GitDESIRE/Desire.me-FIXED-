@@ -41,7 +41,7 @@ class mailSendForm extends Mailable
             $data = array('name' => $request['name'], 'phone' => $request['phone']);
             Mail::send('emails.mail', $data, function ($message) use ($data) {
                 $message->from('noreply@desire-company.com', 'Новая заявка');
-                $message->to('vkaftancikov@gmail.com');
+                $message->to('desirecompany@yandex.ru');
                 $message->subject($data['name']);
             });
             return true;
@@ -61,7 +61,7 @@ class mailSendForm extends Mailable
                 Storage::putFileAs($upload_folder, $file, $fileName);
                 Mail::send('emails.order', $data, function ($message) use ($fileName, $data) {
                     $message->from('noreply@desire-company.com', 'Новый заказ');
-                    $message->to('vkaftancikov@gmail.com');
+                    $message->to('desirecompany@yandex.ru');
                     $message->attach(storage_path('app/mailFiles/' . $fileName));
                     $message->subject($data['name']);
                 });
@@ -71,7 +71,7 @@ class mailSendForm extends Mailable
 
             Mail::send('emails.order', $data, function ($message) use ($data) {
                 $message->from('noreply@desire-company.com', 'Новый заказ');
-                $message->to('vkaftancikov@gmail.com');
+                $message->to('desirecompany@yandex.ru');
                 $message->subject($data['name']);
             });
 
@@ -93,7 +93,7 @@ class mailSendForm extends Mailable
                 Storage::putFileAs($upload_folder, $file, $fileName);
                 Mail::send('emails.kandidat', $data, function ($message) use ($fileName, $data) {
                     $message->from('noreply@desire-company.com', 'Новый кандидат');
-                    $message->to('vkaftancikov@gmail.com');
+                    $message->to('desirecompany@yandex.ru');
                     $message->attach(storage_path('app/mailFiles/' . $fileName));
                     $message->subject($data['name']);
                 });
@@ -103,7 +103,7 @@ class mailSendForm extends Mailable
 
             Mail::send('emails.kandidat', $data, function ($message) use ($data) {
                 $message->from('noreply@desire-company.com', 'Новый кандидат');
-                $message->to('vkaftancikov@gmail.com');
+                $message->to('desirecompany@yandex.ru');
                 $message->subject($data['name']);
             });
             return true;
