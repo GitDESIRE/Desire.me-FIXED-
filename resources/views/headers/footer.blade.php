@@ -26,7 +26,7 @@
                     <li class="footer-item">
                         <a href="mailto:desirecompany@yandex.ru" class="mail-link">desirecompany@yandex.ru</a>
                     </li>
-                    <li class="footer-item-no-focus">telegram-менеджер:</li>
+                    <li class="footer-item footer-item-no-focus">telegram-менеджер:</li>
                     <li class="footer-item">
                         <a href="https://t.me/desire_manager" class="footer-link">@desire_manager</a>
                     </li>
