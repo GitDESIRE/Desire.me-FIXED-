@@ -2,7 +2,7 @@
 @section('content')
     <body>
     <main class="main">
-        <section class="banner">
+        <section class="project-banner">
             <div class="wrapper">
                 <div class="content">
                     <div class="draft">
