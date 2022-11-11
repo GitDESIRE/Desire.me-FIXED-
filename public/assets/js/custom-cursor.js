@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!target) return
 
       if (
+          target.closest('button') ||
           target.closest('.tab-wrapper') ||
           target.closest('.swiper-button-next') ||
           target.closest('.swiper-button-prev') ||
