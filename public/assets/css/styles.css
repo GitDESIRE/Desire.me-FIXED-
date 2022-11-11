@@ -1105,6 +1105,15 @@ nav {
   color: #ffffff;
 }
 
+.footer-item-no-focus {
+    outline: none;
+    margin-bottom: 6px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #767676;
+}
+
 .footer-item,
 .footer-link {
   margin-bottom: 6px;
