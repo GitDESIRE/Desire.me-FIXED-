@@ -1,6 +1,6 @@
 <header class="header">
     <div class="wrapper">
-        <a href="/" class="logo-link">
+        <a @if($_SERVER['REQUEST_URI'] != '/') href="/" @endif class="logo-link">
             <img src="{{asset('assets/svg/logo.svg')}}" alt="DESIRE" class="logo">
         </a>
         <nav class="nav">
@@ -28,18 +28,18 @@
                 <span class="burger-menu_lines"></span>
             </a>
             <nav class="burger-menu_nav">
-                <a href="#" class="burger-menu_link">
+                <a href="/about" class="burger-menu_link">
                     О нас
                 </a>
                 <div class="burger-menu_link openLink">Услуги
                     <div class="hidden-links">
-                        <a href="#" class="burger-menu_hidden-link">Web-дизайн и разработка</a>
-                        <a href="#" class="burger-menu_hidden-link">SEO</a>
-                        <a href="#" class="burger-menu_hidden-link">Комплексные тарифы</a>
+                        <a href="/services/web" class="burger-menu_hidden-link">Web-дизайн и разработка</a>
+                        <a href="/services/seo" class="burger-menu_hidden-link">SEO</a>
+                        <a href="/services/rate" class="burger-menu_hidden-link">Комплексные тарифы</a>
                     </div>
                 </div>
-                <a href="#" class="burger-menu_link">Проекты</a>
-                <a href="#" class="burger-menu_link">Оставить заявку</a>
+                <a href="/portfolio" class="burger-menu_link">Проекты</a>
+                <a href="/project/new" class="burger-menu_link">Оставить заявку</a>
             </nav>
         </div>
     </div>

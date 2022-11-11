@@ -13,7 +13,7 @@
                         <div class="banner-content">
                             <p class="seo-content-text">Разрабатываем, оптимизируем и предлагаем точки роста.
                             </p>
-                            <p class="seo-content-text">Есть множество способов развивать ваш бизнес в сети: начиная от личного блога и заканчивая полномасштабным сайтом. Команда Desire предлагает комплексные решение, где мы поможем вам на всех этапах развития.</p>
+                            <p class="seo-content-text">Есть множество способов развивать ваш бизнес в сети: начиная от личного блога и заканчивая полномасштабным сайтом. Команда Desire предлагает комплексные решения, где мы поможем вам на всех этапах развития.</p>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                                 <li>Маркетинговые стратегии для продвижения и соцсетей</li>
                             </ul>
                             <div class="desicion-btns">
-                                <button class="about-btn"><a href="/service/start" >Подробнее</a></button>
-                                <button class="order-btn"><a href="https://t.me/desire_manager">Заказать</a></button>
+                                <a href="/service/start"><button class="about-btn">Подробнее</button></a>
+                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
                             </div>
                         </div>
                         <div class="desicionBox arrow-desicion">
@@ -51,8 +51,8 @@
                                 <li>Оптимизацию и организуем техническую поддержку</li>
                             </ul>
                             <div class="desicion-btns">
-                                <button class="about-btn"><a href="/service/arrow" >Подробнее</a></button>
-                                <button class="order-btn"><a href="https://t.me/desire_manager">Заказать</a></button>
+                                <a href="/service/arrow"><button class="about-btn">Подробнее</button></a>
+                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
                             </div>
                         </div>
                     </div>
@@ -95,18 +95,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev">
+                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <button class="cases-btn"><a href="/portfolio">Смотреть все</a></button>
+                <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
             </div>
         </section>
         <section class="project" style="border: none">
             <div class="wrapper">
                 <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
                 </p>
-                <a href="https://t.me/desire_manager" class="btn-project">Начать проект</a>
+                <a href="/project/new" class="btn-project">Начать проект</a>
             </div>
         </section>
     </main>

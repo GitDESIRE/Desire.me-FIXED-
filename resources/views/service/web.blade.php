@@ -44,7 +44,7 @@
                         stroke-linejoin="round" />
               </svg>
           </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             Только запустили свой сайт и не знаете, что с ним делать дальше? Или вы на рынке уже несколько лет, и вдруг ваш сайт проседает в посещаемости?<br/><br/>
                             В рамках <span class="text-color">Basic</span> оптимизации мы работаем на стабилизацию вашего сайта по критериям поисковых систем и трафика на нем</p>
@@ -135,7 +135,7 @@
                               stroke-linejoin="round" />
                     </svg>
                 </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             У вас уже работающий сайт, но продажи не идут? Не знаете, как исправить ошибки на сайте, чтобы клиенты быстро находили вас и ваши лучшие предложения?
                             В рамках <span class="text-color"> Middle</span> оптимизации мы работаем на развитие вашего сайта и рост трафика на нем
@@ -235,7 +235,7 @@
                               stroke-linejoin="round" />
                     </svg>
                 </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
                             В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
@@ -347,7 +347,7 @@
                       stroke-linejoin="round" />
             </svg>
                 </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
                             В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
@@ -459,7 +459,7 @@
                           stroke-linejoin="round" />
                 </svg>
             </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
                             В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
@@ -571,7 +571,7 @@
                         stroke-linejoin="round" />
               </svg>
           </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
                             В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
@@ -683,7 +683,7 @@
                         stroke-linejoin="round" />
               </svg>
           </span>
-                        <a href="https://t.me/desire_manager" class="btn">Заказать</a>
+                        <a href="/project/new" class="btn">Заказать</a>
                         <p class="text">
                             Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
                             В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
@@ -788,39 +788,43 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" />
+                            <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
                                 <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
                                 <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" />
+                            <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Dolfie <br/> Hadr to choose. Easy to wear</h3>
+                                <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
                                 <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" />
+                            <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Hike <br/> Выбери свой маршрут для похода</h3>
+                                <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
                                 <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" />
+                            <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Tocha<br/> Telegram чат на вашем сайте</h3>
+                                <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
                                 <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev">
+                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <button class="cases-btn"><a href="/portfolio">Смотреть все</a></button>
+                <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
             </div>
         </section>
         <section class="desicions">
@@ -839,8 +843,8 @@
                                 <li>Маркетинговые стратегии для продвижения и соцсетей</li>
                             </ul>
                             <div class="desicion-btns">
-                                <button class="about-btn"><a href="/service/start" >Подробнее</a></button>
-                                <button class="order-btn"><a href="https://t.me/desire_manager">Заказать</a></button>
+                                <a href="/service/start"><button class="about-btn">Подробнее</button></a>
+                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
                             </div>
                         </div>
                         <div class="desicionBox arrow-desicion">
@@ -855,8 +859,8 @@
                                 <li>Оптимизацию и организуем техническую поддержку</li>
                             </ul>
                             <div class="desicion-btns">
-                                <button class="about-btn"><a href="/service/arrow" >Подробнее</a></button>
-                                <button class="order-btn"><a href="https://t.me/desire_manager">Заказать</a></button>
+                                <a href="/service/arrow"><button class="about-btn">Подробнее</button></a>
+                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
                             </div>
                         </div>
                     </div>
@@ -867,7 +871,7 @@
             <div class="wrapper">
                 <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
                 </p>
-                <a href="https://t.me/desire_manager" class="btn-project">Начать проект</a>
+                <a href="/project/new" class="btn-project">Начать проект</a>
             </div>
         </section>
     </main>

@@ -8,7 +8,7 @@
                         <h1 class="banner-title">
                             Веб-сайт для <br> проекта “TOCHA”
                         </h1>
-                        <p class="seo-banner-section"><a href="/portfolio">Проекты</a> &nbsp / &nbsp <a href="#portfolio"> Web-сайты</a> &nbsp / &nbsp Веб-сайт для проекта "TOCHA"</p>
+                        <p class="seo-banner-section"><a href="/portfolio">Проекты</a> &nbsp / &nbsp <a href="#portfolio"> Web-сайты</a> &nbsp / &nbsp Телеграм чат сайта "TOCHA"</p>
                     </div>
                     <div class="seo-banner-bottom">
                         <ul class="banner-description-list">
@@ -79,8 +79,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev">
+                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <button class="cases-btn"><a href="/portfolio">Смотреть все</a></button>

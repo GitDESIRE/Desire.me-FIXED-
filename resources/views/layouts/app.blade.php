@@ -16,10 +16,11 @@
 <body>
 @include('headers.header')
 
-    @yield('content')
+@yield('content')
 
 @include('headers.footer')
 
+<script src="{{asset('assets/js/checkPrivacy.js')}}"></script>
 <script src="{{asset('assets/js/script.js')}}"></script>
 <script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>

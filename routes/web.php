@@ -1,6 +1,5 @@
 <?php
 
-
 use App\Http\Controllers\FileManagerController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SeoController;
@@ -10,6 +9,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\PrivacyController;
+use App\Http\Controllers\SendController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +20,9 @@ use App\Http\Controllers\PrivacyController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('newCandidate',[SendController::class, 'newCandidate']);
+Route::post('newOrder',[SendController::class, 'newOrder']);
+Route::post('newRequest',[SendController::class, 'newRequest']);
 
 Route::get('/policy',[PrivacyController::class,'polity'])->name('privacy.polity');
 Route::get('/',[IndexController::class,'index'])->name('index');
