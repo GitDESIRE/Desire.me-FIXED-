@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\mailsendform;
+use App\Mail\mailSendForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
