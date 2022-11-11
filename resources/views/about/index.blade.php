@@ -10,7 +10,7 @@
                 </div>
                 <div class="team-banner-right">
                     <a href="/project/new" class="content-logo">
-                        <img class="logo-circle" src="{{asset('assets/svg/textLogo.svg')}}" alt="кнопка начать проект" />
+                        <img class="logo-text" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
                         <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
                     </a>
                     <img src="{{asset('assets/img/team-banner.png')}}" alt="Работа команды" class="banner-img">
