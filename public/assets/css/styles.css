@@ -10,6 +10,10 @@ input {
   cursor: none;
 }
 
+button:disabled {
+  pointer-events: none;
+}
+
 a {
   text-decoration: none;
   color: #757575;
@@ -178,6 +182,10 @@ body {
   position: absolute;
   top: -35px;
   left: -18%;
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  background-color: #9ad351;
 }
 
 .team-banner-right .content-logo .logo-circle:hover {
@@ -1103,15 +1111,6 @@ nav {
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.footer-item-no-focus {
-    outline: none;
-    margin-bottom: 6px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    color: #767676;
 }
 
 .footer-item,
