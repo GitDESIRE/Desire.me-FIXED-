@@ -31,11 +31,11 @@
                 <a href="/about" class="burger-menu_link">
                     О нас
                 </a>
-                <div class="burger-menu_link openLink">Услуги
+                <div class="burger-menu_link openLink"><span class="openLink-toggler">Услуги</span>
                     <div class="hidden-links">
-                        <a href="/services/web" class="burger-menu_hidden-link">Web-дизайн и разработка</a>
-                        <a href="/services/seo" class="burger-menu_hidden-link">Продвижение</a>
-                        <a href="/services/rate" class="burger-menu_hidden-link">Комплексные тарифы</a>
+                        <a href="/service/web" class="burger-menu_hidden-link">Web-дизайн и разработка</a>
+                        <a href="/service/seo" class="burger-menu_hidden-link">Продвижение</a>
+                        <a href="/service/rate" class="burger-menu_hidden-link">Комплексные тарифы</a>
                     </div>
                 </div>
                 <a href="/portfolio" class="burger-menu_link">Проекты</a>

@@ -3066,6 +3066,7 @@ nav {
         height: 0;
         opacity: 0;
         margin-top: 0;
+        pointer-events: none;
         display: flex;
         flex-direction: column;
         gap: 24px;
@@ -3080,6 +3081,7 @@ nav {
     }
 
     .openLink_active .hidden-links {
+        pointer-events: all;
         margin-top: 48px;
         height: 100%;
         opacity: 1;
