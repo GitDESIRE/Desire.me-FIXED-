@@ -1,6 +1,7 @@
 const button = document.querySelector('.burger-menu_button');
 const menu = document.querySelector('.burger-menu');
 const openLink = document.querySelector('.openLink');
+const openLinkToggler = document.querySelector('.openLink-toggler');
 const body = document.body;
 
 button.addEventListener('click', (e) => {
@@ -13,7 +14,7 @@ button.addEventListener('click', (e) => {
   }
 })
 
-openLink.addEventListener('click', (e) => {
+openLinkToggler.addEventListener('click', (e) => {
   e.preventDefault();
   openLink.classList.toggle('openLink_active');
 })
