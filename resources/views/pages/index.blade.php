@@ -103,7 +103,7 @@
                                     <li>Продвижение в ТОП</li>
                                 </ul>
                             </div>
-                            <a href="/service/seo" class="wrap_button">
+                            <a href="/service/promotion" class="wrap_button">
                                 <button>Подробнее</button>
                             </a>
                         </div>

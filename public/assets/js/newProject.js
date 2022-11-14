@@ -98,7 +98,7 @@ function updateButton() {
     fileInput.style.pointerEvents = 'none';
     fileBtn.style.border = '1px solid rgba(118, 118, 118, 0.3)';
     fileBtn.style.fontSize = '13px';
-    fileBtn.style.cursor = 'auto';
+    fileBtn.style.background = '#fff';
     fileBtn.style.justifyContent = 'space-between';
     fileBtnText.textContent = curFile[0].name;
     fileBtn.appendChild(cancelBtn);
@@ -111,7 +111,7 @@ function updateButton() {
         fileBtn.removeChild(cancelBtn);
         fileBtn.style.border = '1px solid #9AD351';
         fileBtn.style.fontSize = '16px';
-        fileBtn.style.cursor = 'pointer';
+        fileBtn.style.background = '';
         fileBtn.style.justifyContent = 'center';
         fileBtnText.textContent = 'Прикрепить файл';
 
@@ -120,7 +120,7 @@ function updateButton() {
 }
 
 // TODO: когда будем отправлять запрос на сервер, переделать.
-/*if (document.forms.newProject_form && window.FormData) {
+if (document.forms.newProject_form && window.FormData) {
 
     const message = {};
     message.loading = 'Загрузка...';
@@ -181,5 +181,8 @@ function updateButton() {
         }
     });
 
-}*/
 
+    if (this.window.location.pathname === '/project/new') {
+        this.document.querySelector('.header').style.background = '#282828'
+    }
+}

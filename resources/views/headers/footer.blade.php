@@ -53,7 +53,7 @@
                     <a href="/about" class="footer-bottom-link">О нас</a>
                 </li>
                 <li class="footer-bottom-item">
-                    <a href="/service/seo" class="footer-bottom-link">SEO</a>
+                    <a href="/service/promotion" class="footer-bottom-link">Продвижение</a>
                 </li>
                 <li class="footer-bottom-item">
                     <a href="/service/web" class="footer-bottom-link">Веб-дизайн и разработка</a>

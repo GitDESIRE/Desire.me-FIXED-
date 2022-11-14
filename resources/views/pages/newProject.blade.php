@@ -2,7 +2,7 @@
 @section('content')
     <body xmlns="http://www.w3.org/1999/html">
     <main class="main">
-        <div class="wrapper">
+        <div class="wrapper newProject-wrapper">
             <section class="main_container">
                 <h1 class="title">Начнём <br/> ваш проект</h1>
                 <p>Кратко опишите свою задачу, и мы свяжемся с вами в кратчайшие сроки</p>
@@ -39,7 +39,6 @@
                             <div class="custom-select">
                                 <select name="category" id="category">
                                     <option value="select">выберите категорию проекта</option>
-                                    <option value="select">выберите категорию проекта</option>
                                     <option value="SEO">SEO</option>
                                     <option value="Лендинг">Лендинг</option>
                                     <option value="Корпоративный сайт">Корпоративный сайт</option>
@@ -61,7 +60,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- TODO: Разобраться почему не получается прикрепить файл 2 раз -->
                     <div class="buttonsBox">
                         <button class="file-button" type="button"><span class="file-button-text">Прикрепить файл</span>
                             <label for="file"><span class="label-title">Прикрепите документ</span></label>

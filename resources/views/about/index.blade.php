@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="inputs-box_right">
                                     <label for="tel"><span class="label-title">Телефон</span></label>
-                                    <input class="input" name="tel" id="tel" type="tel" placeholder="телефон">
+                                    <input class="input" name="tel" id="tel" type="tel" placeholder="ТЕЛЕФОН">
                                     <label for="telegram"><span class="label-title">Телеграм</span></label>
                                     <input class="input" name="telegram" id="telegram" type="text" placeholder="TELEGRAM">
                                 </div>

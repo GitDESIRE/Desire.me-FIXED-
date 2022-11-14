@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (
           target.closest('button') ||
+          target.closest('.custom-select') ||
+          target.closest('.nav-list_link') ||
           target.closest('.tab-wrapper') ||
           target.closest('.swiper-button-next') ||
           target.closest('.swiper-button-prev') ||
@@ -27,7 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
         el.classList.remove('custom-cursor_active') // удаляем активный класс
       }
 
-      if (target.closest('.content-logo') || 
+      if (target.closest('.content-logo') ||
+          target.closest('.file-button') || 
+          target.closest('.select-items') ||
           target.closest('.swiper-slide.swiper-slide-active') ||
           target.closest('.dropdown_content a') ||
           target.closest('.wrap_button button') ||
