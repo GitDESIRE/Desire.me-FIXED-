@@ -21,7 +21,7 @@
         </section>
         <section class="main_wrap">
             <div class="white_wrap block-animation">
-                <div class="div_ul ul_white marquee3k" data-speed="0.5" data-reverse="true">
+                <div class="div_ul ul_white marquee3k" data-speed="0.5" data-reverse="true"">
                     <ul>
                         <li>кто мы</li>
                         <li>кто мы</li>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="black_wrap block-animation">
-                <div class="div_ul ul_black marquee3k" data-speed="0.5" data-reverse="true">
+                <div class="div_ul ul_black marquee3k" data-speed="0.5" data-reverse="true"">
                     <ul>
                         <li>Что мы делаем</li>
                         <li>Что мы делаем</li>
@@ -103,7 +103,7 @@
                                     <li>Продвижение в ТОП</li>
                                 </ul>
                             </div>
-                            <a href="/service/seo" class="wrap_button">
+                            <a href="/service/promotion" class="wrap_button">
                                 <button>Подробнее</button>
                             </a>
                         </div>

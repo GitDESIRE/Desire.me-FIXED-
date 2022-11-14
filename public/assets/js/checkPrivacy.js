@@ -8,7 +8,7 @@ if ($btn != null)
         if ($checkbox.checked) {
             $btn.disabled = false;
             $btn.style.backgroundColor = '#9AD351';
-            $btn.style.borderColor = '#7E9E55'
+            $btn.style.borderColor = '#9AD351'
         } else {
             $btn.disabled = true;
             $btn.style.backgroundColor = '#adb6a2';

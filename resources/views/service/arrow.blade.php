@@ -6,6 +6,7 @@
                 <div class="content">
                     <div class="seo-banner-top">
                         <h1 class="title arrow-title">Разработка сайта NoCode - ARROW</h1>
+                        <p class="seo-banner-section"><a href="/service/rate">Комплексные услуги </a>&nbsp / &nbsp Комплексное решение Arrow </p>
                     </div>
                     <div class="seo-banner-bottom">
                         <p class="seo-banner-description">Что такое разработка NoCode и почему она требует в разы меньше времени и денежных вложений?</p>

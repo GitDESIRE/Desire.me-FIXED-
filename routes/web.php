@@ -32,7 +32,7 @@ Route::prefix('service')->group(function(){
     Route::get('/start',[ServiceController::class, 'star'])->name('service.star');
     Route::get('/arrow',[ServiceController::class, 'arrow'])->name('service.arrow');
     Route::get('/web',[ServiceController::class, 'web'])->name('service.web');
-    Route::get('/seo',[ServiceController::class, 'seo'])->name('service.seo');
+    Route::get('/promotion',[ServiceController::class, 'seo'])->name('service.promotion');
     Route::get('/rate',[ServiceController::class, 'rate'])->name('service.rate');
 
 });

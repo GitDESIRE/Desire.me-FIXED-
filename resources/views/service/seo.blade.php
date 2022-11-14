@@ -5,7 +5,7 @@
             <div class="wrapper">
                 <div class="content">
                     <div class="seo-banner-top">
-                        <h1 class="title">SEO</h1>
+                        <h1 class="title">Продвижение</h1>
                     </div>
                     <div class="seo-banner-bottom">
                         <p class="seo-banner-description">Оптимизируем и продвигаем сайты в ТОП, чтобы ваша целевая
@@ -60,14 +60,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             SEO-аудит сайта
@@ -103,7 +103,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Правильно оптимизированный сайт
@@ -166,14 +166,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             SEO-аудит сайта
@@ -215,7 +215,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Идеально оптимизированный сайт
@@ -281,14 +281,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             SEO-аудит сайта
@@ -339,7 +339,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Идеально оптимизированный сайт

@@ -31,9 +31,9 @@
                         <input type="checkbox" class="toggler">
                         <div class="tab-leftPart">
                             <h3 class="tab-title">
-                <span class="tab-number">
-                    /01
-                </span>
+                            <span class="tab-number">
+                                /01
+                            </span>
                                 Лендинг
                             </h3>
                             <a href="/project/new" class="btn">Заказать</a>
@@ -52,14 +52,14 @@
               </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -89,7 +89,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Готовый, работающий одностраничный сайт (лендинг)
                                         </li>
@@ -145,14 +145,14 @@
                   </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -182,7 +182,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Проработанный и надежный сайт вашей компании
                                         </li>
@@ -240,14 +240,14 @@
                   </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -279,7 +279,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Проработанный и надежный сайт для продажи ваших товаров  и услуг в Интернете
@@ -340,14 +340,14 @@
                 </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -379,7 +379,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Оригинальное и корректно функционирующее приложение для вашего бизнеса
                                         </li>
@@ -435,14 +435,14 @@
               </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -472,7 +472,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Необходимые для расширения вашего сайта страницы, не выбивающиеся из общего дизайна
                                         </li>
@@ -527,14 +527,14 @@
             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -564,7 +564,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Полноценный уникальный дизайн для вашего сайта
                                         </li>
@@ -620,14 +620,14 @@
             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="display: none;">
+                    <div class="hidden-content" style="opacity: 0;">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <h4 class="subtitle">
                                     Что мы сделаем
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -655,7 +655,7 @@
                                 <h4 class="subtitle">
                                     Что вы получите
                                 </h4>
-                                <div class="hidden-content" style="display: none;">
+                                <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Уникальный, ориентированный именно на специфику вашего бизнеса дизайн приложения
                                         </li>

@@ -7,7 +7,7 @@
                 <div class="content">
                     <div class="draft">
                         <h1 class="title">Наши проекты</h1>
-                        <ul class="draft-list">
+                        <!-- <ul class="draft-list">
                             <li class="draft-item">
                                 <a href="/portfolio" class="draft-link">Веб-сайты</a>
                             </li>
@@ -15,14 +15,14 @@
                                 <a href="/portfolio" class="draft-link">Мобильные приложения</a>
                             </li>
                             <li class="draft-item">
-                                <a href="/portfolio" class="draft-link">SEO</a>
+                                <a href="/portfolio" class="draft-link">Продвижение</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <ul class="cases-list">
                         <li class="cases-item">
                             <a href="/portfolio/hike">
-                                <img src="{{asset('assets/img/image 9.png')}}" alt="Hike. Проект для хайкинга." class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-3.png')}}" alt="Hike. Проект для хайкинга." class="cases-img">
                             </a>
                             <div class="ceses-text">
                                 <a href="/portfolio/hike" class="cases-name">Hike.
@@ -37,7 +37,7 @@
                         </li>
                         <li class="cases-item">
                             <a href="/portfolio/dolfie">
-                                <img src="{{asset('assets/img/image 9 (1).png')}}" alt="Dolfie. Редизайн интрнет-магазина." class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-2.png')}}" alt="Dolfie. Редизайн интернет-магазина." class="cases-img">
                             </a>
                             <div class="ceses-text">
                                 <a href="/portfolio/dolfie" class="cases-name">Dolfie. Редизайн интрнет-магазина.</a>
@@ -51,10 +51,10 @@
                         </li>
                         <li class="cases-item">
                             <a href="/portfolio/noiseland">
-                                <img src="{{asset('assets/img/image 9 (2).png')}}" alt="Рик и морти. Фансайт для мультсериала." class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-1.png')}}" alt="NoiceLand" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/portfolio/noiseland" class="cases-name">Рик и морти. Фансайт для мультсериала.</a>
+                                <a href="/portfolio/noiseland" class="cases-name">NoiceLand</a>
                                 <a href="/portfolio/noiseland" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
@@ -65,10 +65,10 @@
                         </li>
                         <li class="cases-item">
                             <a href="/portfolio/tocha">
-                                <img src="{{asset('assets/img/image 9 (3).png')}}" alt="Hike. Проект для хайкинга." class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-4.png')}}" alt="Tocha. Telegram чат" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/portfolio/tocha" class="cases-name">Hike. Проект для хайкинга.</a>
+                                <a href="/portfolio/tocha" class="cases-name">Tocha. Telegram чат</a>
                                 <a href="/portfolio/tocha" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>

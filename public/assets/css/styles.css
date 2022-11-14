@@ -1,3 +1,7 @@
+html {
+    cursor: none;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -200,7 +204,7 @@ body {
 
 .project-banner {
     background: #282828;
-    padding: 130px 100px;
+    padding: 230px 12px 100px;
 }
 
 .personal-data .buttonsBox {
@@ -728,7 +732,7 @@ nav {
 
 .main_container,
 .aside_container {
-    margin: 150px 0;
+    margin: 250px 0 150px;
 }
 
 .main_container {
@@ -822,7 +826,6 @@ nav {
     border-bottom: 1px solid #767676;
     outline: none;
     transition: all 0.3s linear;
-    cursor: pointer;
     display: inline-block;
 }
 
@@ -841,6 +844,12 @@ nav {
     position: relative;
     min-width: 17px;
     height: 14px;
+}
+
+.custom-select:hover .select-button_stroke1,
+.custom-select:hover .select-button_stroke2 {
+    border-color: #9ad351;
+    transition: all 0.3s linear;
 }
 
 .select-button_stroke1,
@@ -919,7 +928,6 @@ nav {
     bottom: 0;
     right: 0;
     pointer-events: all;
-    cursor: pointer;
 }
 
 .file-button {
@@ -936,6 +944,18 @@ nav {
     font-weight: 600;
     line-height: 20px;
     color: #282828;
+    transition: all 0.3s linear;
+}
+
+.file-button:hover {
+    background-color: #9ad351;
+    transition: all 0.3s linear;
+}
+
+.fileCancel-button:hover .fileCancel-button_stroke2,
+.fileCancel-button:hover .fileCancel-button_stroke1 {
+    border-color: #9ad351;
+    transition: all 0.3s linear;
 }
 
 .file-button span {
@@ -947,7 +967,6 @@ nav {
     position: relative;
     min-width: 20px;
     height: 20px;
-    cursor: pointer;
 }
 
 .fileCancel-button_stroke2 {
@@ -957,6 +976,7 @@ nav {
     border: 1px solid #282828;
     transform: rotate(135deg);
     position: absolute;
+    transition: all 0.3s linear;
 }
 
 .fileCancel-button_stroke1 {
@@ -966,18 +986,26 @@ nav {
     border: 1px solid #282828;
     transform: rotate(45deg);
     position: absolute;
+    transition: all 0.3s linear;
 }
 
 .submit-button,
 .reset-button {
     width: 260px;
-    border: none;
+    border: 1px solid #9ad351;
     background-color: #9ad351;
     padding: 15px 0;
     color: #282828;
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
+    transition: all 0.3s linear;
+}
+
+.submit-button:hover,
+.reset-button:hover {
+    background-color: #fff !important;
+    transition: all 0.3s linear;
 }
 
 .agreement_box {
@@ -1007,6 +1035,8 @@ nav {
 
 .footer {
     background: #282828;
+    position: absolute;
+    width: 100%;
 }
 
 .footer .wrapper {
@@ -1239,7 +1269,7 @@ nav {
 
 .title {
     margin: 0;
-    max-width: 548px;
+    max-width: 565px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 80px;
@@ -1281,13 +1311,20 @@ nav {
     max-width: 588px;
     display: flex;
     flex-direction: column;
-    background: #282828;
-    opacity: 0.5;
+}
+
+.cases-item:hover .cases-img {
+    opacity: 0.8;
+    transition: all 0.3s linear;
 }
 
 .cases-img {
     overflow: hidden;
     max-width: 100%;
+    border: 4px solid #9ad351;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: all 0.3s linear;
 }
 
 .ceses-text {
@@ -1365,6 +1402,11 @@ nav {
     transition: all 0.3s linear;
 }
 
+.project-banner .content .btn-project:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
 /* SEO */
 
 .seo-banner-top {
@@ -1387,7 +1429,6 @@ nav {
 .seo-banner-bottom {
     display: flex;
     justify-content: space-between;
-    margin-top: 72px;
     gap: 24px;
 }
 
@@ -1534,6 +1575,7 @@ nav {
 
 .hidden-content .hidden-wrapper .tab-wrapper .toggle {
     margin-left: 0;
+    align-self: flex-start;
 }
 
 .tabs .tab input {
@@ -1560,15 +1602,16 @@ nav {
 .tabs .tab .opened .btn {
     display: inline-block;
     height: 100%;
-    transition: all 0.5s linear;
 }
 
 .tabs .tab .opened .text {
     opacity: 0.8;
+    transition: all 0.3s linear;
 }
 
 .hidden-content .hidden-wrapper .tab-wrapper.opened {
     align-items: flex-start;
+    transition: all 0.3s linear;
 }
 
 .toggled {
@@ -1605,9 +1648,6 @@ nav {
 }
 
 .tabs .tab .text {
-    display: none;
-    right: 55px;
-    bottom: 17px;
     max-width: 533px;
     height: 0;
     font-weight: 300;
@@ -1619,20 +1659,24 @@ nav {
 }
 
 .tabs .tab .hidden-content {
-    display: none;
+    opacity: 0;
+    height: 0;
+    transition: all 0.3s linear;
 }
 
 .tabs .tab h4 {
-    margin-top: 0;
+    margin-top: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
     color: #9ad351;
+    align-self: flex-start;
 }
 
 .tabs .tab .task-list {
     max-width: 275px;
+    margin-top: 10px;
 }
 
 .tabs .tab .task-list li {
@@ -1641,7 +1685,7 @@ nav {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #767676;
+    color: #fff;
     opacity: 0.8;
 }
 
@@ -2036,6 +2080,7 @@ nav {
 
 .cases .wrapper .wrapper .subTitle {
     align-self: flex-start;
+    margin-top: 100px;
 }
 
 .cases .wrapper .swiper-pagination {
@@ -2337,6 +2382,13 @@ nav {
 .projects-img {
     max-width: 996px;
     height: 100%;
+    width: 100%;
+    border-radius: 45px;
+}
+
+.mobile-img {
+    width: 100%;
+    object-fit: contain;
 }
 
 /* tocha */
@@ -2351,17 +2403,13 @@ nav {
 
 .projects-mobile .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .mobile-picture {
     display: flex;
     gap: 59px;
-}
-
-.mobile-picture img:nth-child(n + 3) {
-    margin-left: 295px;
 }
 
 /* dolfie */
@@ -2386,7 +2434,7 @@ nav {
     padding-top: 170px;
     padding-bottom: 169px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -2427,6 +2475,7 @@ nav {
 
 .color-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -2456,6 +2505,7 @@ nav {
 
 .typography {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -2558,16 +2608,12 @@ nav {
         flex-direction: column;
     }
 
-    .team-banner .wrapper {
+    .main .newProject-wrapper {
         flex-direction: row;
     }
 
-    .main_container {
-        margin: 100px 0 50px;
-    }
-
-    .aside_container {
-        margin: 0 0 100px 0;
+    .team-banner .wrapper {
+        flex-direction: row;
     }
 
     .inputsBox_top {
@@ -2584,8 +2630,12 @@ nav {
     .newProject_form .custom-select,
     .file-button,
     .submit-button {
-        max-width: 288px;
+        max-width: 232px;
         width: 100%;
+    }
+
+    .inputsBox_bot {
+        display: flex;
     }
 
     .buttonsBox {
@@ -2595,7 +2645,7 @@ nav {
 
     .agreement_box {
         justify-content: flex-start;
-        margin-left: 312px;
+        margin-left: 256px;
     }
 }
 
@@ -2606,6 +2656,10 @@ nav {
 
     .about-project {
         padding: 120px 0;
+    }
+
+    .project-banner {
+        padding: 180px 12px 90px;
     }
 
     .projects {
@@ -2787,9 +2841,22 @@ nav {
         flex-direction: column;
     }
 
+    .main .newProject-wrapper {
+        align-items: flex-start;
+    }
+
+    .inputsBox_leftSide,
+    .inputsBox_rightSide,
+    .newProject_form input,
+    .newProject_form .custom-select,
+    .file-button,
+    .submit-button {
+        max-width: 288px;
+    }
+
     .main .main_container {
         padding-right: 0;
-        margin: 65px 0 50px;
+        margin: 175px 0 50px;
     }
 
     .main .aside_container {
@@ -2807,6 +2874,11 @@ nav {
 
     .agreement_box {
         max-width: 545px;
+        margin-left: 300px;
+    }
+
+    .inputsBox_bot .custom-select:last-child {
+        margin-left: 24px;
     }
 
     .seo-banner-bottom {
@@ -2917,6 +2989,10 @@ nav {
 
     .about-project {
         padding: 100px 0;
+    }
+
+    .inputsBox_bot {
+        flex-direction: column;
     }
 
     .tab.toggled .tab-wrapper.opened {
@@ -3253,7 +3329,7 @@ nav {
 
     .tab .tab-wrapper.opened .tab-rightPart,
     .tab .tab-wrapper.opened .tab-leftPart {
-        width: unset;
+        width: 100%;
     }
 
     .tab .tab-wrapper.opened .tab-leftPart {
@@ -3276,8 +3352,8 @@ nav {
 
     .hidden-content .hidden-wrapper .tab-wrapper .toggle {
         position: absolute;
-        right: 0;
-        top: -5px;
+        right: 10px;
+        top: -10px;
     }
 
     .main .main_container {
@@ -3340,6 +3416,19 @@ nav {
     }
     .desicionBox {
         padding: 0;
+    }
+
+    .project-banner {
+        padding: 160px 10px 100px;
+    }
+
+    .inputsBox_leftSide,
+    .inputsBox_rightSide,
+    .newProject_form input,
+    .newProject_form .custom-select,
+    .file-button,
+    .submit-button {
+        max-width: 300px;
     }
 
     .tab.toggled .tab-wrapper.opened {
@@ -3548,6 +3637,7 @@ nav {
 
     .main .aside_container {
         margin-bottom: 82px;
+        width: 100%;
     }
 
     .agreement_box .checkbox-label {
@@ -3623,6 +3713,14 @@ nav {
         margin-bottom: 80px;
     }
 
+    .cases a {
+        width: 100%;
+    }
+
+    .tabs .tab .btn {
+        width: 100%;
+    }
+
     .subTitle {
         font-size: 32px;
         margin-top: 80px;
@@ -3632,6 +3730,10 @@ nav {
         flex-direction: column;
         align-items: center;
         gap: 24px;
+    }
+
+    .desicion-btns a {
+        width: 100%;
     }
 
     .desicion-title {
