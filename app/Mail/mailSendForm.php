@@ -2,6 +2,8 @@
 
 namespace App\Mail;
 
+use App\Http\Requests\MailFormRequest;
+use Dotenv\Validator;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Http\Request;
@@ -10,10 +12,15 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 use JetBrains\PhpStorm\NoReturn;
+use phpDocumentor\Reflection\File;
+
 
 class mailSendForm extends Mailable
 {
     use Queueable, SerializesModels;
+
+    //private string $mailTo = 'desirecompany@yandex.ru';
+    private string $mailTo = 'vkaftancikov@gmail.com';
 
     /**
      * Create a new message instance.
@@ -37,11 +44,11 @@ class mailSendForm extends Mailable
 
     public function SendNewRequest(Request $request): bool
     {
-        if ($request['name'] != '' && $request['phone'] != ''){
+        if ($request['name'] != '' && $request['phone'] != '') {
             $data = array('name' => $request['name'], 'phone' => $request['phone']);
             Mail::send('emails.mail', $data, function ($message) use ($data) {
                 $message->from('noreply@desire-company.com', 'Новая заявка');
-                $message->to('desirecompany@yandex.ru');
+                $message->to($this->mailTo);
                 $message->subject($data['name']);
             });
             return true;
@@ -51,34 +58,35 @@ class mailSendForm extends Mailable
 
     public function SendNewOrder(Request $request): bool
     {
-        if ($request['name'] != '' && $request['tel'] != '' && $request['email']) {
-            $data = array('name' => $request['name'], 'phone' => $request['tel'], 'tg' => $request['telegram'],
-                'category' => $request['category'], 'tarif' => $request['tarif'], 'email' => $request['email']);
-            if (!empty($request['file'])) {
-                $file = $request->file('file');
-                $upload_folder = 'mailFiles';
-                $fileName = $file->getClientOriginalName();
-                Storage::putFileAs($upload_folder, $file, $fileName);
-                Mail::send('emails.order', $data, function ($message) use ($fileName, $data) {
-                    $message->from('noreply@desire-company.com', 'Новый заказ');
-                    $message->to('desirecompany@yandex.ru');
-                    $message->attach(storage_path('app/mailFiles/' . $fileName));
-                    $message->subject($data['name']);
-                });
-                Storage::delete('mailFiles/' . $fileName);
-                return true;
-            }
-
-            Mail::send('emails.order', $data, function ($message) use ($data) {
+        $request->validate([
+            'name' => 'required',
+            'tel' => 'required_without:telegram',
+            'telegram' => 'required_without:tel',
+        ]);
+        $data = array('name' => $request['name'], 'phone' => $request['tel'], 'tg' => $request['telegram'],
+            'category' => $request['category'], 'tarif' => $request['tarif'], 'email' => $request['email']);
+        if (!empty($req['file'])) {
+            $file = $req->file('file');
+            $upload_folder = 'mailFiles';
+            $fileName = $file->getClientOriginalName();
+            Storage::putFileAs($upload_folder, $file, $fileName);
+            Mail::send('emails.order', $data, function ($message) use ($fileName, $data) {
                 $message->from('noreply@desire-company.com', 'Новый заказ');
-                $message->to('desirecompany@yandex.ru');
+                $message->to($this->mailTo);
+                $message->attach(storage_path('app/mailFiles/' . $fileName));
                 $message->subject($data['name']);
             });
-
+            Storage::delete('mailFiles/' . $fileName);
             return true;
         }
 
-        return false;
+        Mail::send('emails.order', $data, function ($message) use ($data) {
+            $message->from('noreply@desire-company.com', 'Новый заказ');
+            $message->to($this->mailTo);
+            $message->subject($data['name']);
+        });
+
+        return true;
     }
 
     public function SendNewCandidate(Request $request): bool
@@ -93,7 +101,7 @@ class mailSendForm extends Mailable
                 Storage::putFileAs($upload_folder, $file, $fileName);
                 Mail::send('emails.kandidat', $data, function ($message) use ($fileName, $data) {
                     $message->from('noreply@desire-company.com', 'Новый кандидат');
-                    $message->to('desirecompany@yandex.ru');
+                    $message->to($this->mailTo);
                     $message->attach(storage_path('app/mailFiles/' . $fileName));
                     $message->subject($data['name']);
                 });
@@ -103,7 +111,7 @@ class mailSendForm extends Mailable
 
             Mail::send('emails.kandidat', $data, function ($message) use ($data) {
                 $message->from('noreply@desire-company.com', 'Новый кандидат');
-                $message->to('desirecompany@yandex.ru');
+                $message->to($this->mailTo);
                 $message->subject($data['name']);
             });
             return true;

@@ -15,14 +15,23 @@
                             <div class="inputsBox_leftSide">
                                 <label for="name"><span class="label-title">Введите своё имя</span></label>
                                 <input name="name" id="name" placeholder="ИМЯ"/>
+                                @error('name')
+                                    <p id="error">{{$message}}</p>
+                                @enderror
                                 <label for="email"><span class="label-title">Введите свою почту</span></label>
-                                <input type="email" name="email" id="email" placeholder="EMAIL" required/>
+                                <input type="email" name="email" id="email" placeholder="EMAIL"/>
                             </div>
                             <div class="inputsBox_rightSide">
                                 <label for="tel"><span class="label-title">Введите свой телефон</span></label>
-                                <input type="tel" name="tel" id="tel" placeholder="ТЕЛЕФОН" required/>
+                                <input type="tel" name="tel" id="tel" placeholder="ТЕЛЕФОН"/>
+                                @error('tel')
+                                    <p id="error">{{$message}}</p>
+                                @enderror
                                 <label for="telegram"><span class="label-title">Введите свой Телеграм</span></label>
                                 <input name="telegram" id="telegram" placeholder="TELEGRAM"/>
+                                @error('telegram')
+                                    <p id="error">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="inputsBox_bot">

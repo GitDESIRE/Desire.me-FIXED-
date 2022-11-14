@@ -120,7 +120,7 @@ function updateButton() {
 }
 
 // TODO: когда будем отправлять запрос на сервер, переделать.
-if (document.forms.newProject_form && window.FormData) {
+/*if (document.forms.newProject_form && window.FormData) {
 
     const message = {};
     message.loading = 'Загрузка...';
@@ -181,5 +181,5 @@ if (document.forms.newProject_form && window.FormData) {
         }
     });
 
-}
+}*/
 

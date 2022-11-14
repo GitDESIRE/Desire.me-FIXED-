@@ -156,6 +156,15 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'name' => [
+            'required' => 'Необходимо заполнить поле "Имя"'
+        ],
+        'tel' => [
+            'required_without' => 'Необходимо заполнить хотя бы одно из полей для связи'
+        ],
+        'telegram' => [
+            'required_without' => 'Необходимо заполнить хотя бы одно из полей для связи'
+        ]
     ],
 
     /*

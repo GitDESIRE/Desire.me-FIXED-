@@ -49,6 +49,11 @@ body {
     align-items: center;
 }
 
+#error {
+    color: #ff1200;
+    font-size: 12px;
+}
+
 .content-text_404 {
     font-weight: 500;
     font-size: 20px;
