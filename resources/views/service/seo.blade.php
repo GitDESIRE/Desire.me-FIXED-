@@ -279,7 +279,7 @@
                                           stroke-linejoin="round" />
                                 </svg>
                             </span>
-                        </div>>
+                        </div>
                     </label>
                     <div class="hidden-content" style="display: none;">
                         <div class="hidden-wrapper">
