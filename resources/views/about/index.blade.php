@@ -78,10 +78,10 @@
                                 </div>
                                 <div class="inputs-box_right">
                                     <label for="tel"><span class="label-title">Телефон</span></label>
-                                    <input class="input" name="tel" id="tel" type="tel" placeholder="ТЕЛЕФОН">
+                                    <input class="input" class="tel" name="tel" id="tel" type="tel" placeholder="ТЕЛЕФОН">
                                         <p class="tel_error" id="tel_error"></p>
                                     <label for="telegram"><span class="label-title">Телеграм</span></label>
-                                    <input class="input" name="telegram" id="telegram" type="text" placeholder="TELEGRAM">
+                                    <input class="input" class="telegram" name="telegram" id="telegram" type="text" placeholder="TELEGRAM">
                                         <p class="telegram_error" id="telegram_error"></p>
                                 </div>
                             </div>

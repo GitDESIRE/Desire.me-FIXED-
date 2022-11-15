@@ -56,8 +56,27 @@ body {
 .name_error,
 .tel_error,
 .telegram_error {
-    color: #ff1200;
+    color: #c42c2c;
     font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    position: absolute;
+    margin-top: 45px;
+    max-width: 260px;
+}
+
+.tel.error,
+.telegram.error {
+    border-color: #c42c2c;
+}
+
+.tel.error::placeholder,
+.telegram.error::placeholder {
+    color: #c42c2c;
+}
+
+.telegram_error {
+    margin-top: 105px;
 }
 
 .content-text_404 {
@@ -1420,6 +1439,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 72px;
 }
 
 .seo-banner-section a:hover {
@@ -2615,6 +2635,11 @@ nav {
         flex-direction: column;
     }
 
+    .tel_error,
+    .telegram_error {
+        max-width: 232px;
+    }
+
     .main .newProject-wrapper {
         flex-direction: row;
     }
@@ -2858,6 +2883,11 @@ nav {
     .newProject_form .custom-select,
     .file-button,
     .submit-button {
+        max-width: 288px;
+    }
+
+    .tel_error,
+    .telegram_error {
         max-width: 288px;
     }
 
