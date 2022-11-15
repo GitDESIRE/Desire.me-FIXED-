@@ -65,21 +65,24 @@
             <div class="wrapper">
                 <h2 class="invitation-title"><span class="color-text">Хочешь </span>в нашу<br> команду?</h2>
                 <div class="forms">
-                    <form class="personal-data" action="{{url('newCandidate')}}" method="post" enctype="multipart/form-data">
+                    <form class="personal-data" name="personal-data" id="personal-data" action="{{url('newCandidate')}}" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                         <div class="personal-data_inputs-box">
                             <div class="inputs-box_top">
                                 <div class="inputs-box_left">
                                     <label for="name"><span class="label-title">Имя</span></label>
                                     <input class="input" name="name" id="name" type="text" placeholder="ИМЯ">
+                                        <p class="name_error" id="name_error"></p>
                                     <label for="email"><span class="label-title">Email</span></label>
                                     <input class="input" name="email" id="email" type="email" placeholder="EMAIL">
                                 </div>
                                 <div class="inputs-box_right">
                                     <label for="tel"><span class="label-title">Телефон</span></label>
                                     <input class="input" name="tel" id="tel" type="tel" placeholder="ТЕЛЕФОН">
+                                        <p class="tel_error" id="tel_error"></p>
                                     <label for="telegram"><span class="label-title">Телеграм</span></label>
                                     <input class="input" name="telegram" id="telegram" type="text" placeholder="TELEGRAM">
+                                        <p class="telegram_error" id="telegram_error"></p>
                                 </div>
                             </div>
                             <div class="inputs-box_bottom">

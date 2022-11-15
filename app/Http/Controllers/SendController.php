@@ -18,7 +18,7 @@ class SendController extends Controller
         return redirect()->back();
     }
 
-    public function newOrder(Request $request, mailsendform $mail): RedirectResponse|JsonResponse|string
+    public function newOrder(Request $request, mailsendform $mail): RedirectResponse|JsonResponse
     {
         $validator = validator($request->all(), [
             'name' => 'required',
@@ -34,8 +34,18 @@ class SendController extends Controller
         return redirect()->back();
     }
 
-    public function newCandidate(Request $request, mailsendform $mail): RedirectResponse
+    public function newCandidate(Request $request, mailsendform $mail): RedirectResponse|JsonResponse
     {
+        $validator = validator($request->all(), [
+            'name' => 'required',
+            'tel' => 'required_without:telegram',
+            'telegram' => 'required_without:tel',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['errors' => $validator->errors()->messages()]);
+        }
+
         $mail->SendNewCandidate($request);
         return redirect()->back();
     }

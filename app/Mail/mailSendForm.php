@@ -88,32 +88,30 @@ class mailSendForm extends Mailable
 
     public function SendNewCandidate(Request $request): bool
     {
-        if ($request['name'] != '' && $request['tel'] != '' && $request['email']) {
-            $data = array('name' => $request['name'], 'phone' => $request['tel'], 'email' => $request['email'],
-                'tg' => $request['telegram'], 'story' => $request['about']);
-            if (!empty($request['file'])) {
-                $file = $request->file('file');
-                $upload_folder = 'mailFiles';
-                $fileName = $file->getClientOriginalName();
-                Storage::putFileAs($upload_folder, $file, $fileName);
-                Mail::send('emails.kandidat', $data, function ($message) use ($fileName, $data) {
-                    $message->from('noreply@desire-company.com', 'Новый кандидат');
-                    $message->to($this->mailTo);
-                    $message->attach(storage_path('app/mailFiles/' . $fileName));
-                    $message->subject($data['name']);
-                });
-                Storage::delete('mailFiles/' . $fileName);
-                return true;
-            }
-
-            Mail::send('emails.kandidat', $data, function ($message) use ($data) {
+        $data = array('name' => $request['name'], 'phone' => $request['tel'], 'email' => $request['email'],
+            'tg' => $request['telegram'], 'story' => $request['about']);
+        if (!empty($request['file'])) {
+            $file = $request->file('file');
+            $upload_folder = 'mailFiles';
+            $fileName = $file->getClientOriginalName();
+            Storage::putFileAs($upload_folder, $file, $fileName);
+            Mail::send('emails.kandidat', $data, function ($message) use ($fileName, $data) {
                 $message->from('noreply@desire-company.com', 'Новый кандидат');
                 $message->to($this->mailTo);
+                $message->attach(storage_path('app/mailFiles/' . $fileName));
                 $message->subject($data['name']);
             });
+            Storage::delete('mailFiles/' . $fileName);
             return true;
         }
-        return false;
+
+        Mail::send('emails.kandidat', $data, function ($message) use ($data) {
+            $message->from('noreply@desire-company.com', 'Новый кандидат');
+            $message->to($this->mailTo);
+            $message->subject($data['name']);
+        });
+        return true;
+
     }
 }
 
