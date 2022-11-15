@@ -21,10 +21,10 @@
                             </div>
                             <div class="inputsBox_rightSide">
                                 <label for="tel"><span class="label-title">Введите свой телефон</span></label>
-                                <input type="tel" name="tel" id="tel" placeholder="ТЕЛЕФОН"/>
+                                <input type="tel" class="tel" name="tel" id="tel" placeholder="ТЕЛЕФОН"/>
                                     <p class="tel_error" id="tel_error"></p>
                                 <label for="telegram"><span class="label-title">Введите свой Телеграм</span></label>
-                                <input name="telegram" id="telegram" placeholder="TELEGRAM"/>
+                                <input name="telegram" class="telegram" id="telegram" placeholder="TELEGRAM"/>
                                     <p class="telegram_error" id="telegram_error"></p>
                             </div>
                         </div>

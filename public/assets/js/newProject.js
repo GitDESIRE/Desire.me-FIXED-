@@ -141,13 +141,14 @@ $(document).ready(function () {
                         if (data.errors) {
                             jQuery.each(data.errors, function (key, value) {
                                 jQuery('.' + String(key) + '_error').text(value[0]);
+                                $('.' + String(key)).addClass('error');
                             });
                         } else {
                             const formHtml = form.innerHTML;
                             mainContainerHtml = mainContainer.innerHTML;
                             mainContainer.innerHTML =
                                 `<h1 class="title">Спасибо за обращение!</h1>
-                         <p>Мы обрабатываем вашу заявку. В ближайшее время наш аккаунт-менеджер свяжется с вами. Хорошего дня!</p>`;
+                                <p>Мы обрабатываем вашу заявку. В ближайшее время наш аккаунт-менеджер свяжется с вами. Хорошего дня!</p>`;
                             form.innerHTML = ``;
                             const resetBtn = document.createElement('button');
                             resetBtn.className = 'reset-button';

@@ -1,5 +1,5 @@
-const mainContainer = document.querySelector('.invitation');
-const form = document.querySelector('.personal-data');
+const mainContainerInvitation = document.querySelector('.invitation');
+const formPersonalData = document.querySelector('.personal-data');
 
 $(document).ready(function () {
     $('#personal-data').on('submit', function (e) {
@@ -22,24 +22,30 @@ $(document).ready(function () {
                         if (data.errors) {
                             jQuery.each(data.errors, function (key, value) {
                                 jQuery('.' + String(key) + '_error').text(value[0]);
+                                $('.' + String(key)).addClass('error');
                             });
                         } else {
-                            const formHtml = form.innerHTML;
-                            mainContainerHtml = mainContainer.innerHTML;
-                            mainContainer.innerHTML =
-                                `<h1 class="title">Спасибо за обращение!</h1>
-                         <p>Мы обрабатываем вашу анкету. В ближайшее время наш аккаунт-менеджер свяжется с вами. Хорошего дня!</p>`;
-                            form.innerHTML = ``;
+                            const formHtml = formPersonalData.innerHTML;
+                            mainContainerHtml = mainContainerInvitation.innerHTML;
+                            mainContainerInvitation.innerHTML =
+                                `
+                                <div class="wrapper">
+                                    <h1 class="title">Спасибо за обращение!</h1>
+                                    <p>Мы обрабатываем вашу анкету. В ближайшее время наш аккаунт-менеджер свяжется с вами. Хорошего дня!</p>
+                                </div>
+                                `
+                            ;
+                            formPersonalData.innerHTML = ``;
                             const resetBtn = document.createElement('button');
                             resetBtn.className = 'reset-button';
                             resetBtn.innerText = 'Отправить повторно';
                             resetBtn.style.marginTop = '200px';
-                            form.appendChild(resetBtn);
+                            formPersonalData.appendChild(resetBtn);
 
                             resetBtn.addEventListener('click', (e) => {
                                 e.preventDefault();
-                                mainContainer.innerHTML = mainContainerHtml;
-                                form.innerHTML = formHtml;
+                                mainContainerInvitation.innerHTML = mainContainerHtml;
+                                formPersonalData.innerHTML = formHtml;
                                 document.location.reload(true);
                             });
                         }

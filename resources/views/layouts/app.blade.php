@@ -34,11 +34,7 @@
 <script src="{{asset('assets/js/checkPrivacy.js')}}"></script>
 <script src="{{asset('assets/js/custom-cursor.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
-
-@if($_SERVER['REQUEST_URI'] == '/project/new')
-    <script src="{{asset('assets/js/newProject.js')}}"></script>
-@endif
-
+<script src="{{asset('assets/js/newProject.js')}}"></script>
 <script src="{{asset('assets/js/candidate.js')}}"></script>
 <script src="{{asset('assets/js/script.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
