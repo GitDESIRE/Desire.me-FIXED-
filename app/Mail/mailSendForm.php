@@ -4,8 +4,10 @@ namespace App\Mail;
 
 use App\Http\Requests\MailFormRequest;
 use Dotenv\Validator;
+use http\Env\Response;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
@@ -56,17 +58,12 @@ class mailSendForm extends Mailable
         return false;
     }
 
-    public function SendNewOrder(Request $request): bool
+    public function SendNewOrder(Request $request): JsonResponse|bool
     {
-        $request->validate([
-            'name' => 'required',
-            'tel' => 'required_without:telegram',
-            'telegram' => 'required_without:tel',
-        ]);
         $data = array('name' => $request['name'], 'phone' => $request['tel'], 'tg' => $request['telegram'],
             'category' => $request['category'], 'tarif' => $request['tarif'], 'email' => $request['email']);
-        if (!empty($req['file'])) {
-            $file = $req->file('file');
+        if (!empty($request['file'])) {
+            $file = $request->file('file');
             $upload_folder = 'mailFiles';
             $fileName = $file->getClientOriginalName();
             Storage::putFileAs($upload_folder, $file, $fileName);

@@ -8,30 +8,24 @@
                 <p>Кратко опишите свою задачу, и мы свяжемся с вами в кратчайшие сроки</p>
             </section>
             <section class="aside_container">
-                <form enctype="multipart/form-data" class="newProject_form" name="newProject_form" action="{{url('newOrder')}}" method="post">
+                <form enctype="multipart/form-data" class="newProject_form" id="form" name="newProject_form" action="{{url('newOrder')}}" method="post">
                     <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                     <div class="inputsBox">
                         <div class="inputsBox_top">
                             <div class="inputsBox_leftSide">
                                 <label for="name"><span class="label-title">Введите своё имя</span></label>
                                 <input name="name" id="name" placeholder="ИМЯ"/>
-                                @error('name')
-                                    <p id="error">{{$message}}</p>
-                                @enderror
+                                    <p class="name_error" id="name_error"></p>
                                 <label for="email"><span class="label-title">Введите свою почту</span></label>
                                 <input type="email" name="email" id="email" placeholder="EMAIL"/>
                             </div>
                             <div class="inputsBox_rightSide">
                                 <label for="tel"><span class="label-title">Введите свой телефон</span></label>
                                 <input type="tel" name="tel" id="tel" placeholder="ТЕЛЕФОН"/>
-                                @error('tel')
-                                    <p id="error">{{$message}}</p>
-                                @enderror
+                                    <p class="tel_error" id="tel_error"></p>
                                 <label for="telegram"><span class="label-title">Введите свой Телеграм</span></label>
                                 <input name="telegram" id="telegram" placeholder="TELEGRAM"/>
-                                @error('telegram')
-                                    <p id="error">{{$message}}</p>
-                                @enderror
+                                    <p class="telegram_error" id="telegram_error"></p>
                             </div>
                         </div>
                         <div class="inputsBox_bot">

@@ -120,69 +120,58 @@ function updateButton() {
 }
 
 // TODO: когда будем отправлять запрос на сервер, переделать.
-if (document.forms.newProject_form && window.FormData) {
+$(document).ready(function () {
+    $('#form').on('submit', function (e) {
+            let formData = new FormData(this);
+            e.preventDefault();
 
-    const message = {};
-    message.loading = 'Загрузка...';
-    message.success = 'Спасибо! У Вас все получилось';
-    message.failure = 'Ээххх! Что-то пошло не так...';
-
-    const form = document.forms[0];
-
-    const statusMessage = document.createElement('div');
-    statusMessage.className = 'status';
-
-    // Настройка AJAX запроса
-    const request = new XMLHttpRequest();
-    request.open('POST', '/newOrder', true);
-    request.setRequestHeader('accept', 'application/json');
-
-    // Добавляем обработчик на событие `submit`
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        form.appendChild(statusMessage);
-
-        // Это простой способ подготавливить данные для отправки (все браузеры и IE > 9)
-        const formData = new FormData(form);
-
-        // Отправляем данные
-        request.send(formData);
-
-        // Функция для наблюдения изменения состояния request.readyState обновления statusMessage соответственно
-        request.onreadystatechange = function () {
-            // <4 =  ожидаем ответ от сервера
-            if (request.readyState < 4)
-                statusMessage.innerHTML = message.loading;
-            // 4 = Ответ от сервера полностью загружен
-            else if (request.readyState === 4) {
-                // 200 - 299 = успешная отправка данных!
-                if (request.status === 200 && request.status < 300) {
-                    const formHtml = form.innerHTML;
-                    mainContainerHtml = mainContainer.innerHTML;
-                    mainContainer.innerHTML =
-                        `<h1 class="title">Спасибо за обращение!</h1>
+            if (window.FormData === undefined) {
+                alert('В вашем браузере FormData не поддерживается')
+            } else
+                $.ajax({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    type: 'POST',
+                    url: '/newOrder',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                        if (data.errors) {
+                            jQuery.each(data.errors, function (key, value) {
+                                jQuery('.' + String(key) + '_error').text(value[0]);
+                            });
+                        } else {
+                            const formHtml = form.innerHTML;
+                            mainContainerHtml = mainContainer.innerHTML;
+                            mainContainer.innerHTML =
+                                `<h1 class="title">Спасибо за обращение!</h1>
                          <p>Мы обрабатываем вашу заявку. В ближайшее время наш аккаунт-менеджер свяжется с вами. Хорошего дня!</p>`;
-                    form.innerHTML = ``;
-                    const resetBtn = document.createElement('button');
-                    resetBtn.className = 'reset-button';
-                    resetBtn.innerText = 'Отправить повторно';
-                    resetBtn.style.marginTop = '200px';
-                    form.appendChild(resetBtn);
+                            form.innerHTML = ``;
+                            const resetBtn = document.createElement('button');
+                            resetBtn.className = 'reset-button';
+                            resetBtn.innerText = 'Отправить повторно';
+                            resetBtn.style.marginTop = '200px';
+                            form.appendChild(resetBtn);
 
-                    resetBtn.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        mainContainer.innerHTML = mainContainerHtml;
-                        form.innerHTML = formHtml;
-                        document.location.reload(true);
-                    });
-                } else
-                    form.insertAdjacentHTML('beforeend', message.failure);
-            }
+                            resetBtn.addEventListener('click', (e) => {
+                                e.preventDefault();
+                                mainContainer.innerHTML = mainContainerHtml;
+                                form.innerHTML = formHtml;
+                                document.location.reload(true);
+                            });
+                        }
+                    },
+                });
         }
-    });
+    )
+    ;
+});
 
 
-    if (this.window.location.pathname === '/project/new') {
-        this.document.querySelector('.header').style.background = '#282828'
-    }
+if (this.window.location.pathname === '/project/new') {
+    this.document.querySelector('.header').style.background = '#282828'
 }
+
+

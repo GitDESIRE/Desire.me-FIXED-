@@ -20,9 +20,9 @@ use App\Http\Controllers\SendController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::post('newCandidate',[SendController::class, 'newCandidate']);
-Route::post('newOrder',[SendController::class, 'newOrder']);
-Route::post('newRequest',[SendController::class, 'newRequest']);
+Route::post('newCandidate',[SendController::class, 'newCandidate'])->name('newCandidate');
+Route::post('newOrder',[SendController::class, 'newOrder'])->name('newOrder');
+Route::post('newRequest',[SendController::class, 'newRequest'])->name('newRequest');
 
 Route::get('/policy',[PrivacyController::class,'polity'])->name('privacy.polity');
 Route::get('/',[IndexController::class,'index'])->name('index');

@@ -53,7 +53,9 @@ body {
     align-items: center;
 }
 
-#error {
+.name_error,
+.tel_error,
+.telegram_error {
     color: #ff1200;
     font-size: 12px;
 }
