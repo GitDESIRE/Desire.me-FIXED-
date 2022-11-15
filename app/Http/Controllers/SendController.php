@@ -21,7 +21,6 @@ class SendController extends Controller
     public function newOrder(Request $request, mailsendform $mail): RedirectResponse|JsonResponse
     {
         $validator = validator($request->all(), [
-            'name' => 'required',
             'tel' => 'required_without:telegram',
             'telegram' => 'required_without:tel',
         ]);
@@ -37,7 +36,6 @@ class SendController extends Controller
     public function newCandidate(Request $request, mailsendform $mail): RedirectResponse|JsonResponse
     {
         $validator = validator($request->all(), [
-            'name' => 'required',
             'tel' => 'required_without:telegram',
             'telegram' => 'required_without:tel',
         ]);

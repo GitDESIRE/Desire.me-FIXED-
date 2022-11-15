@@ -170,6 +170,23 @@ $(document).ready(function () {
     ;
 });
 
+jQuery(function($) {
+    $('.tel').on('input', function() {
+        $('.tel_error').text('');
+        $('.telegram_error').text('');
+        $(this).removeClass('error');
+        $('.telegram').removeClass('error');
+    });
+});
+
+jQuery(function($) {
+    $('.telegram').on('input', function() {
+        $('.tel_error').text('');
+        $('.telegram_error').text('');
+        $(this).removeClass('error');
+        $('.telegram').removeClass('error');
+    });
+});
 
 if (this.window.location.pathname === '/project/new') {
     this.document.querySelector('.header').style.background = '#282828'

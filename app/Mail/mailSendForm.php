@@ -21,8 +21,7 @@ class mailSendForm extends Mailable
 {
     use Queueable, SerializesModels;
 
-    //private string $mailTo = 'desirecompany@yandex.ru';
-    private string $mailTo = 'vkaftancikov@gmail.com';
+    private string $mailTo = 'desirecompany@yandex.ru';
 
     /**
      * Create a new message instance.
@@ -46,16 +45,13 @@ class mailSendForm extends Mailable
 
     public function SendNewRequest(Request $request): bool
     {
-        if ($request['name'] != '' && $request['phone'] != '') {
-            $data = array('name' => $request['name'], 'phone' => $request['phone']);
-            Mail::send('emails.mail', $data, function ($message) use ($data) {
-                $message->from('noreply@desire-company.com', 'Новая заявка');
-                $message->to($this->mailTo);
-                $message->subject($data['name']);
-            });
-            return true;
-        }
-        return false;
+        $data = array('name' => $request['name'], 'phone' => $request['phone']);
+        Mail::send('emails.mail', $data, function ($message) use ($data) {
+            $message->from('noreply@desire-company.com', 'Новая заявка');
+            $message->to($this->mailTo);
+            $message->subject($data['name']);
+        });
+        return true;
     }
 
     public function SendNewOrder(Request $request): JsonResponse|bool
