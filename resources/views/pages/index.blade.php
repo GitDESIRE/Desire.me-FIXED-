@@ -146,7 +146,7 @@
                             <div class="swiper-slide">
                                 <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
                                 <div class="swiper-slide-main">
-                                    <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
+                                    <h3 class="swiper-slide-title">NoiceLand </h3>
                                     <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>

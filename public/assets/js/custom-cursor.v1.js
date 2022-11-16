@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!target) return
 
             if (target.closest('button') ||
+                target.closest('.arrowBox') ||
                 target.closest('.custom-select') ||
                 target.closest('.nav-list_link') ||
                 target.closest('.tab-wrapper') ||
@@ -27,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (target.closest('.content-logo') ||
+                target.closest('.arrowBox') ||
                 target.closest('.file-button') ||
                 target.closest('.select-items') ||
                 target.closest('.swiper-slide.swiper-slide-active') ||
@@ -46,6 +48,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     followCursor() // вызываем функцию followCursor
+
+    const scrollTop = () => {
+        const scrollBtn = document.querySelector('.arrowBox');
+        
+        window.addEventListener('scroll', function() {
+            if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
+                scrollBtn.style.display = 'flex';
+            } else {
+                scrollBtn.style.display = 'none';
+            }
+        });
+
+        scrollBtn.addEventListener('click', function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        })
+      }
+      
+    scrollTop();
 
 })
 

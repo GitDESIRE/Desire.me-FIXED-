@@ -15,7 +15,6 @@
                             <div class="inputsBox_leftSide">
                                 <label for="name"><span class="label-title">Введите своё имя</span></label>
                                 <input name="name" id="name" placeholder="ИМЯ"/>
-                                    <p class="name_error" id="name_error"></p>
                                 <label for="email"><span class="label-title">Введите свою почту</span></label>
                                 <input type="email" name="email" id="email" placeholder="EMAIL"/>
                             </div>
