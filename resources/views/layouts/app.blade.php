@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.v1.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/timeline.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.css')}}">
