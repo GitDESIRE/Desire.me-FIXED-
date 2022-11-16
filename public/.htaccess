@@ -19,5 +19,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-    Header add "Cache-Control" "no-cache" env=VERSIONED_FILE
+    RewriteRule ^/(.*\.)v[0-9.]+\.(css|js|gif|png|jpg)$ /$1$2 [L,E=VERSIONED_FILE:1]
 </IfModule>
