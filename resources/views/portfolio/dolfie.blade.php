@@ -78,8 +78,10 @@
         <section class="development">
             <div class="wrapper">
                 <div class="color">
-                    <span class="color-name">Цвет</span>
-                    <ul class="color-list">
+                    <div class="dolfi__color">
+                        <span class="color-name dolfi__color-span">Цвет</span>
+                        <div class="dolfi__color-div">
+                            <ul class="color-list">
                         <li class="color-item">
                             <img src="{{asset('assets/img/Color (5).png')}}" alt="Черный" class="color-img">
                             <span class="color-description">Черный</span>
@@ -106,10 +108,14 @@
                             <span class="color-description1">##FFFFFF</span>
                         </li>
                     </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="typography">
-                    <span class="color-name">Типографика</span>
-                    <div class="font">
+                    <div class="dolfi__typography">                
+                        <span class="color-name dolfi__typography-span">Типографика</span>
+                        <div class="dolfi__typography-div">
+                            <div class="font dolfi__color_typography-div">                          
                         <span class="font-name">Mulish</span>
                         <div class="text">
                             <ul class="text-list">
@@ -122,6 +128,8 @@
                                 <li class="text-item">Текст - 15px</li>
                                 <li class="text-item">Примечания - 9px</li>
                             </ul>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
