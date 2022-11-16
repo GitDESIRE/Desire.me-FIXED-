@@ -135,6 +135,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 15 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -250,6 +251,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 25 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -378,6 +380,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 40 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
