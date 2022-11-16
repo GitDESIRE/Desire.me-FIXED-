@@ -1075,9 +1075,6 @@ nav {
 .footer-top {
     width: 100%;
     padding: 80px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .footer-title {
@@ -1166,8 +1163,9 @@ nav {
 }
 
 .footer-social {
+    width: 100%;
     display: flex;
-    gap: 247px;
+    justify-content: space-between;
 }
 
 .footer-item-title {
@@ -1179,44 +1177,35 @@ nav {
     color: #ffffff;
 }
 
-.footer-item,
-.footer-link {
+.footer-item {
     margin-bottom: 6px;
-    font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #767676;
+    color: #fff;
+}
+
+.footer-list:nth-last-child(-n + 1) .footer-item:nth-last-child(n + 2) {
+    margin-bottom: 16px;
+}
+
+.footer-item:nth-last-child(-n + 1) {
+    margin-bottom: 0;
+}
+
+.footer-item:hover svg path {
+    fill: #9ad351;
+}
+
+.footer-item a {
+    color: #fff;
 }
 
 .mail-link:hover {
-    color: #628e55;
+    color: #9ad351;
 }
 
 .footer-link:hover {
-    color: #628e55;
-}
-
-.footer-btn {
-    padding: 15px 40px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #282828;
-    background: #9ad351;
-    border: 1px solid #9ad351;
-    transition: all 0.3s linear;
-}
-
-.footer-btn:active {
-    transform: translateY(2px);
-    transition: all 0.1s linear;
-}
-
-.footer-btn:hover {
-    background-color: #282828 !important;
-    color: #fff !important;
-    transition: all 0.3s linear;
+    color: #9ad351;
 }
 
 /* footer-bottom */
@@ -1224,48 +1213,35 @@ nav {
 .footer-bottom {
     width: 100%;
     border-top: 1px solid #767676;
-    padding-top: 28px;
-    margin-bottom: 84px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-bottom-list {
-    gap: 24px;
+    gap: 12px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.footer-bottom-link .mail-link {
+.footer-bottom-list a {
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
-    color: #767676;
 }
 
 .footer-bottom-link:hover {
-    color: #628e55;
-}
-
-.footer-author {
-    display: flex;
-    gap: 4px;
+    color: #9ad351;
 }
 
 .footer-name {
     margin: 0;
     padding: 0;
-    font-weight: 300;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
-    color: #767676;
-}
-
-.logo-footer {
-    width: 71px;
-    height: 14px;
-    overflow: hidden;
+    color: #fff;
 }
 
 /* BANNER */
@@ -2702,10 +2678,6 @@ nav {
         gap: 140px;
     }
 
-    .footer-social {
-        gap: 180px;
-    }
-
     .footer-top {
         justify-content: space-around;
     }
@@ -2801,11 +2773,6 @@ nav {
     .p_4 {
         bottom: 5%;
         left: -55%;
-    }
-
-    .footer-social {
-        gap: 0;
-        justify-content: space-between;
     }
 
     .mainPage-content .content-logo {
@@ -2972,28 +2939,8 @@ nav {
 }
 
 @media (max-width: 700px) {
-    .footer-top {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .footer-request {
-        margin-bottom: 60px;
-    }
-
-    .footer-social {
-        gap: 110px;
-    }
-
     .footer-bottom {
-        margin-bottom: 0;
-        align-items: flex-start;
-        justify-content: space-between;
-        padding-bottom: 23px;
-    }
-
-    .footer-author {
-        align-self: flex-end;
+        padding-bottom: 20px;
     }
 
     .team {
@@ -3433,20 +3380,6 @@ nav {
     }
 }
 
-@media (max-width: 520px) {
-    .footer-bottom {
-        flex-direction: column;
-    }
-
-    .footer-author {
-        align-self: flex-start;
-    }
-
-    .footer-bottom-list {
-        margin-bottom: 48px;
-    }
-}
-
 @media (max-width: 500px) {
     .wrapper {
         padding: 0 10px;
@@ -3598,12 +3531,6 @@ nav {
         margin-top: 40px;
     }
 
-    /* .wrap_button button {
-        background-color: #9ad351;
-        color: #282828;
-        border: none;
-    } */
-
     .white_wrap_pp {
         font-size: 20px;
         line-height: 24px;
@@ -3634,6 +3561,16 @@ nav {
     .footer-item,
     .footer-link {
         margin-bottom: 12px;
+    }
+
+    .footer-list:nth-last-child(-n + 1) {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .footer-list:nth-last-child(-n + 1) .footer-item:nth-last-child(n + 2) {
+        margin-bottom: 0;
     }
 
     .footer-top {
