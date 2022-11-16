@@ -32,7 +32,7 @@
 <script src="{{asset('assets/js/blockAnimation.js')}}"></script>
 <script src="{{asset('assets/js/burgerMenu.js')}}"></script>
 <script src="{{asset('assets/js/checkPrivacy.js')}}"></script>
-<script src="{{asset('assets/js/custom-cursor.js')}}"></script>
+<script src="{{asset('assets/js/custom-cursor.v1.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
 <script src="{{asset('assets/js/newProject.js')}}"></script>
 <script src="{{asset('assets/js/candidate.js')}}"></script>
