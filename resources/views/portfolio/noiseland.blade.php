@@ -1,4 +1,8 @@
 @extends('layouts.app')
+    <head>
+        <title>Проект “Noiceland”: информационный блог о дизайне</title>
+        <meta name="description" content="Для блога, объединяющего работы дизайнеров со всех уголков земли, хотелось сделать красиво. Здесь мы занимались backend-разработкой: писали код на css, java и html, после эффективно и аккуратно внедряя его в работу, чтобы не помешать творцам."/>
+    </head>
 @section('content')
     <main class="main">
         <section class="project-banner">
@@ -42,28 +46,28 @@
                         <div class="swiper-slide">
                             <img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">NoiceLand</h3>
+                                <p class="swiper-slide-title">NoiceLand</p>
                                 <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
+                                <p class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</p>
                                 <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
+                                <p class="swiper-slide-title">Hike: Выбери свой маршрут для похода</p>
                                 <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" />
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
+                                <p class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</p>
                                 <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>

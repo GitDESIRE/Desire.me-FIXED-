@@ -269,6 +269,10 @@ body {
     margin-left: 328px;
 }
 
+.personal-data .checkbox-label {
+    margin-left: 0;
+}
+
 .mainPage-content .content-text p {
     max-width: 361px;
     font-size: 15px;
@@ -334,7 +338,7 @@ body {
     flex-wrap: wrap;
 }
 
-.white_wrap_p h1 {
+.white_wrap_p h2 {
     width: 100%;
     font-weight: 500;
     font-size: 32px;
@@ -697,6 +701,7 @@ body {
 
 .header {
     position: absolute;
+    display: flex;
     width: 100%;
     height: 100px;
     background-color: #28282880;
@@ -704,7 +709,6 @@ body {
 
 .wrapper {
     width: 100%;
-    height: 100%;
     max-width: 1199px;
     margin: 0 auto;
     display: flex;
@@ -797,8 +801,10 @@ nav {
     margin-right: 146px;
 }
 
-.main_container p {
+.main_container h2 {
     font-size: 15px;
+    margin: 0;
+    font-weight: 400;
     line-height: 18px;
     color: #282828;
     max-width: 384px;
@@ -1276,6 +1282,7 @@ form input::placeholder {
 /* BANNER */
 
 .banner {
+    display: flex;
     overflow: hidden;
     width: 100%;
     height: 100vh;
@@ -1540,7 +1547,7 @@ form input::placeholder {
     width: 52%;
 }
 
-.hidden-content .hidden-wrapper .tab-wrapper h4 {
+.hidden-content .hidden-wrapper .tab-wrapper .subtitle {
     margin-bottom: 10px;
 }
 
@@ -1701,7 +1708,7 @@ form input::placeholder {
     transition: all 0.3s linear;
 }
 
-.tabs .tab h4 {
+.tabs .tab .subtitle {
     width: 33%;
     margin-top: 10px;
     font-weight: 500;
@@ -1923,7 +1930,7 @@ form input::placeholder {
 .invitation .wrapper {
     display: flex;
     align-items: flex-start;
-    gap: 204px;
+    justify-content: space-between;
 }
 
 .invitation-title {
@@ -1940,6 +1947,7 @@ form input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    max-width: 588px;
 }
 
 .personal-data .input {
@@ -1971,7 +1979,6 @@ form input::placeholder {
 
 .inputs-box_top {
     display: flex;
-    justify-content: space-between;
     gap: 68px;
     margin-bottom: 36px;
 }
@@ -2667,10 +2674,6 @@ form input::placeholder {
         flex-direction: column;
     }
 
-    .invitation .wrapper {
-        gap: 70px;
-    }
-
     .main_container {
         margin-right: 48px;
     }
@@ -2695,6 +2698,10 @@ form input::placeholder {
 @media (max-width: 1112px) {
     .main .wrapper {
         flex-direction: column;
+    }
+
+    .invitation .wrapper {
+        flex-direction: row;
     }
 
     .tel_error,
@@ -2728,6 +2735,11 @@ form input::placeholder {
         width: 100%;
     }
 
+    .invitation .file-button,
+    .invitation .submit-button {
+        max-width: unset;
+    }
+
     .inputsBox_bot {
         display: flex;
     }
@@ -2737,8 +2749,16 @@ form input::placeholder {
         justify-content: flex-start;
     }
 
+    .invitation .buttonsBox {
+        justify-content: space-between;
+    }
+
     .agreement_box {
         margin-left: -72px !important;
+    }
+
+    .invitation .agreement_box {
+        margin-left: 280px !important;
     }
 
     .inputs-box_top {
@@ -2792,9 +2812,8 @@ form input::placeholder {
         flex-direction: column;
     }
 
-    .invitation .wrapper {
-        flex-direction: column;
-        gap: 48px;
+    .invitation .forms {
+        max-width: 588px;
     }
 
     .content .tarif-start-btn {
@@ -2946,6 +2965,10 @@ form input::placeholder {
 
     .main .wrapper {
         flex-direction: column;
+    }
+
+    .invitation .wrapper {
+        gap: 48px;
     }
 
     .main .newProject-wrapper {
@@ -3118,7 +3141,7 @@ form input::placeholder {
     }
 
     .personal-data .agreement_box {
-        margin-left: 310px;
+        margin-left: 0 !important;
         margin-top: -48px;
     }
 
