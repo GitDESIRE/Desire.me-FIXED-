@@ -6,7 +6,7 @@
                 <div class="content">
                     <div class="seo-banner-top">
                         <h1 class="title">Комплексное решение «START»</h1>
-                        <p class="seo-banner-section"><a href="/service/rate">Комплексные услуги </a>&nbsp / &nbsp Комплексное решение Start </p>
+                        <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные услуги </a>&nbsp / &nbsp Комплексное решение Start </p>
                     </div>
                     <div class="seo-banner-bottom">
                         <p class="seo-banner-description">Лучшее предложение <br/> для любого бизнеса <br/> на пути в e-commerce.</p>
@@ -46,7 +46,7 @@
                         <h2 class="subTitle">стоимость</h2>
                         <span>от 80 000 РУБ.</span>
                     </div>
-                    <a href="/project/new" class="tarif-start-btn btn-project">Заказать</a>
+                    <a href="/new-project" class="tarif-start-btn btn-project">Заказать</a>
                 </div>
             </div>
         </section>
