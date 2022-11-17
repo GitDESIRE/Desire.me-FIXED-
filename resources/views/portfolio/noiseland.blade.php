@@ -1,12 +1,11 @@
 @extends('layouts.app')
 @section('content')
     <main class="main">
-        <section class="banner">
-            <div class="wrapper">
-                <div class="content">
+        <section class="project-banner">
+            <div class="wrapper project-wrapper">
                     <div class="seo-banner-top">
                         <h1 class="banner-title">
-                            Информационный <br> блог “NOICELAND”
+                            Информационный блог “NOICELAND”
                         </h1>
                         <p class="seo-banner-section"><a href="/portfolio">Проекты</a> &nbsp / &nbsp Информационный блог “NOICELAND”</p>
                     </div>
@@ -18,7 +17,6 @@
                             <li class="banner-description-item">CSS</li>
                         </ul>
                     </div>
-                </div>
             </div>
         </section>
         <section class="about-project">
@@ -31,7 +29,7 @@
         </section>
         <section class="projects">
             <div class="wrapper">
-                <img src="{{asset('assets/img/Desktop.jpg')}}" alt="HIKE" class="projects-img">
+                <img src="{{asset('assets/img/Noicelend.png')}}" alt="Noicelend" class="projects-img">
             </div>
         </section>
         <section class="cases">
@@ -70,11 +68,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-prev">
-                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
-                    </div>
-                    <div class="swiper-button-next">
-                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                    <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                            </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
