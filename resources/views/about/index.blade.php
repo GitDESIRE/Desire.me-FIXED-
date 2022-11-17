@@ -9,10 +9,12 @@
                     <p class="team-banner-description">Качество, креативность и открытость. Новые веяния и дух авантюризма. Мы — DESIRE, и мы готовы показать вам, каково это — совмещать мечты и реальность в каждом проекте.</p>
                 </div>
                 <div class="team-banner-right">
-                    <a href="/project/new" class="content-logo">
-                        <img class="logo-circle" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
-                        <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
-                    </a>
+                    <div class="logo-wrapper">
+                        <a href="/new-project" class="content-logo">
+                            <img class="logo-text" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
+                            <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
+                        </a>
+                    </div>
                     <img src="{{asset('assets/img/team-banner.png')}}" alt="Работа команды" class="banner-img">
                 </div>
             </div>
@@ -42,7 +44,7 @@
                         <span class="team-function">руководитель SEO-отдела</span>
                     </li>
                     <li class="team-item team-item1">
-                        <span class="name-team">Иван Кокшаров</span>
+                        <span class="name-team">Сергей Купец</span>
                         <span class="team-function">руководитель отдела продаж</span>
                     </li>
                 </ul>
@@ -52,12 +54,12 @@
             <div class="wrapper team-wrapper">
                 <h2 class="team-title team-title1">Наша <span class="color-text">миссия</span></h2>
                 <div class="task">
-                    <p class="team-text">Наша главная задача: делать незаурядные digital-проекты, которые привлекут внимание и ваших клиентов.</p>
+                    <p class="team-text">Мы хотим не просто реализовывать ваши запросы, а помогать вам стать лучше, меняя принципы подачи продукта, образ компании и выводя ваш бизнес на новый уровень. </p>
                     <img src="{{asset('assets/img/team-mission-1.png')}}" alt="Команда DESIRE" class="task-img">
                 </div>
                 <div class="rule">
                     <img src="{{asset('assets/img/team-mission-2.png')}}" alt="Команда DESIRE" class="rule-img">
-                    <p class="team-text1 team-text">Наше главное правило заключается в открытости процессов. Мы всегда демонстрируем все возможности и перспективы бизнеса клиента, а также рассказываем о своих этапах работы над проектом.</p>
+                    <p class="team-text1 team-text">Desire - это желание. Наше желание - предоставлять лучший сервис и услуги. Постоянно совершенствуясь и идя в ногу со временем, мы помогаем и вам, раскрывая желания ваших клиентов через яркую подачу, уникальные решения и удобство вашего продукта.</p>
                 </div>
             </div>
         </section>
@@ -72,7 +74,6 @@
                                 <div class="inputs-box_left">
                                     <label for="name"><span class="label-title">Имя</span></label>
                                     <input class="input" name="name" id="name" type="text" placeholder="ИМЯ">
-                                        <p class="name_error" id="name_error"></p>
                                     <label for="email"><span class="label-title">Email</span></label>
                                     <input class="input" name="email" id="email" type="email" placeholder="EMAIL">
                                 </div>

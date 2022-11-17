@@ -36,7 +36,7 @@
                             </span>
                                 Лендинг
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
@@ -115,6 +115,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 30 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </label>
                         </div>
                     </div>
@@ -129,7 +130,7 @@
                     </span>
                                 корпоративный сайт
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
@@ -210,6 +211,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 60 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </label>
                         </div>
                     </div>
@@ -224,7 +226,7 @@
                     </span>
                                 интернет-магазин
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
@@ -310,6 +312,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 80 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -324,11 +327,11 @@
                   </span>
                                 мобильные приложения
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
-                                По данным статистики люди около 90% времени проводят именно в мобильных приложениях, а доля продаж через них еще в 2020 году сравнялась с долей покупок через компьютеры. Это, не много не мало - более 50%. Люди все активнее совершают покупки через телефон, И для любого бизнеса это огромное преимущество - иметь понятное и приятное глазу клиента мобильное приложение с возможностью совершать покупки прямо в нем.
+                                По данным статистики люди около 90% времени проводят именно в мобильных приложениях, а доля продаж через них еще в 2020 году сравнялась с долей покупок через компьютеры. Это ни много ни мало - более 50%. Люди все активнее совершают покупки через телефон, И для любого бизнеса это огромное преимущество - иметь понятное и приятное глазу клиента мобильное приложение с возможностью совершать покупки прямо в нем.
                             </p>
                             <span class="toggle">
                   <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -405,6 +408,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 75 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -419,7 +423,7 @@
                 </span>
                                 дополнительные страницы
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
@@ -496,6 +500,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 8 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -510,7 +515,7 @@
               </span>
                                 Разработка дизайна сайта
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
@@ -590,6 +595,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 30 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -604,7 +610,7 @@
               </span>
                                 Разработка дизайна мобильного приложения
                             </h3>
-                            <a href="/project/new" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
@@ -681,6 +687,7 @@
                                     Стоимость
                                 </h4>
                                 <p class="price">от 50 000 руб.</p>
+                                <span class="credit">рассрочка и кредит</span>
                             </div>
                         </div>
                     </div>
@@ -695,43 +702,45 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
+                            <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
-                                <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <h3 class="swiper-slide-title">NoiceLand </h3>
+                                <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
+                            <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
                                 <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
+                            <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
                                 <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
+                            <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
                             <div class="swiper-slide-main">
                                 <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-prev">
-                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
-                    </div>
-                    <div class="swiper-button-next">
-                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
+                    <div class="swiper-buttons">
+                        <div class="swiper-button-prev">
+                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
+                <a href="/projects"><button class="cases-btn">Смотреть все</button></a>
             </div>
         </section>
         <section class="desicions">
@@ -750,10 +759,10 @@
                                 <li>Маркетинговые стратегии для продвижения и соцсетей</li>
                             </ul>
                             <div class="desicion-btns">
-                                <a href="/service/start">
+                                <a href="/complex-tariffs/start">
                                     <button class="about-btn">Подробнее</button>
                                 </a>
-                                <a href="/project/new">
+                                <a href="/new-project">
                                     <button class="order-btn">Заказать</button>
                                 </a>
                             </div>
@@ -770,10 +779,10 @@
                                 <li>Оптимизацию и организуем техническую поддержку</li>
                             </ul>
                             <div class="desicion-btns">
-                                <a href="/service/arrow">
+                                <a href="/complex-tariffs/arrow">
                                     <button class="about-btn">Подробнее</button>
                                 </a>
-                                <a href="/project/new">
+                                <a href="/new-project">
                                     <button class="order-btn">Заказать</button>
                                 </a>
                             </div>
@@ -786,7 +795,7 @@
             <div class="wrapper">
                 <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
                 </p>
-                <a href="/project/new" class="btn-project">Начать проект</a>
+                <a href="/new-project" class="btn-project">Начать проект</a>
             </div>
         </section>
     </main>

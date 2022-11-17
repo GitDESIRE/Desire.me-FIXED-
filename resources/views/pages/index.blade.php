@@ -12,7 +12,7 @@
                         <h1 class="title">Cоздаём <br/> и продвигаем</h1>
                         <p>Мы стремимся реализовывать потенциал каждой идеи, которая есть у наших клиентов.</p>
                     </div>
-                    <a href="/project/new" class="content-logo">
+                    <a href="/new-project" class="content-logo">
                         <img class="logo-text" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
                         <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
                     </a>
@@ -51,7 +51,7 @@
                             </div>
                             <div>
                                 <p>Ориентируемся на клиента, создаем новое, меняем старое до неузнаваемости!</p>
-                                <div class="white_a"><a href="/portfolio">Познакомиться поближе</a>
+                                <div class="white_a"><a href="/projects">Познакомиться поближе</a>
                                     <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх">
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                                     <li>Исправление ошибок</li>
                                 </ul>
                             </div>
-                            <a href="/service/web" class="wrap_button">
+                            <a href="/web-design-and-dev" class="wrap_button">
                                 <button>Подробнее</button>
                             </a>
                         </div>
@@ -103,7 +103,7 @@
                                     <li>Продвижение в ТОП</li>
                                 </ul>
                             </div>
-                            <a href="/service/promotion" class="wrap_button">
+                            <a href="/promotion" class="wrap_button">
                                 <button>Подробнее</button>
                             </a>
                         </div>
@@ -118,7 +118,7 @@
                                     <li>Дизайн сайта или приложения</li>
                                 </ul>
                             </div>
-                            <a href="/service/web" class="wrap_button">
+                            <a href="/web-design-and-dev" class="wrap_button">
                                 <button>Подробнее</button>
                             </a>
                         </div>
@@ -144,45 +144,47 @@
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
                                 <div class="swiper-slide-main">
-                                    <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
-                                    <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <h3 class="swiper-slide-title">NoiceLand </h3>
+                                    <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                    <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                    <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                    <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-button-prev">
-                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
-                        </div>
-                        <div class="swiper-button-next">
-                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
                 <div class="wrap_button_white">
-                    <a href="/portfolio" class="wrap_button">
+                    <a href="/projects" class="wrap_button">
                         <button>Смотреть всё</button></a>
                 </div>
             </div>
@@ -248,7 +250,7 @@
                     </p>
                 </div>
                 <div class="wrap_button_white wrap_button_green" style="margin-bottom: 0;">
-                    <a href="/project/new">
+                    <a href="/new-project">
                         <button style="margin-top: 0">Начать проект</button></a>
                 </div>
             </div>
