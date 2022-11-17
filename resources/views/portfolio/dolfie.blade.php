@@ -2,9 +2,8 @@
 @section('content')
     <body>
     <main class="main">
-        <section class="banner">
-            <div class="wrapper">
-                <div class="content">
+        <section class="project-banner">
+            <div class="wrapper project-wrapper">
                     <div class="seo-banner-top">
                         <h1 class="banner-title">
                             Редизайн<br> интернет-магазина “Dolfie Paradise”
@@ -19,7 +18,6 @@
                             <li class="banner-description-item">Адаптивные версии</li>
                         </ul>
                     </div>
-                </div>
             </div>
         </section>
         <section class="about-project">
@@ -171,12 +169,14 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="swiper-button-prev">
-                        <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
-                    </div>
-                    <div class="swiper-button-next">
-                        <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
-                    </div>
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
+                            </div>
+                        </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>

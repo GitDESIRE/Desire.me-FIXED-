@@ -172,11 +172,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-button-prev">
-                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
-                        </div>
-                        <div class="swiper-button-next">
-                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
