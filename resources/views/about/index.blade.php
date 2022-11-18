@@ -14,7 +14,7 @@
                 </div>
                 <div class="team-banner-right">
                     <div class="logo-wrapper">
-                        <a href="/project/new" class="content-logo">
+                        <a href="/new-project" class="content-logo">
                             <img class="logo-text" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
                             <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
                         </a>

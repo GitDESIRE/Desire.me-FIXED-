@@ -188,7 +188,7 @@ jQuery(function($) {
     });
 });
 
-if (this.window.location.pathname === '/project/new') {
+if (this.window.location.pathname === '/new-project') {
     this.document.querySelector('.header').style.background = '#282828'
 }
 

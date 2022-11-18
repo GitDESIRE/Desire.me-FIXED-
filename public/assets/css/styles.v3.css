@@ -1460,7 +1460,7 @@ form input::placeholder {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 72px;
+    margin-bottom: 100px;
 }
 
 .seo-banner-section a:hover {

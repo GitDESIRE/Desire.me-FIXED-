@@ -38,8 +38,8 @@
                                 <li>Маркетинговые стратегии для продвижения и соцсетей</li>
                             </ul>
                             <div class="desicion-btns">
-                                <a href="/service/start"><button class="about-btn">Подробнее</button></a>
-                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
+                                <a href="/complex-tariffs/start"><button class="about-btn">Подробнее</button></a>
+                                <a href="/new-project"><button class="order-btn">Заказать</button></a>
                             </div>
                         </div>
                         <div class="desicionBox arrow-desicion">
@@ -54,8 +54,8 @@
                                 <li>Оптимизацию и организуем техническую поддержку</li>
                             </ul>
                             <div class="desicion-btns">
-                                <a href="/service/arrow"><button class="about-btn">Подробнее</button></a>
-                                <a href="/project/new"><button class="order-btn">Заказать</button></a>
+                                <a href="/complex-tariffs/arrow"><button class="about-btn">Подробнее</button></a>
+                                <a href="/new-project"><button class="order-btn">Заказать</button></a>
                             </div>
                         </div>
                     </div>
@@ -70,31 +70,31 @@
                 <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
+                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">NoiceLand </h3>
-                                    <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
+                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                    <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
+                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                    <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
+                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                    <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                         </div>
@@ -108,14 +108,14 @@
                         </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
+                <a href="/projects"><button class="cases-btn">Смотреть все</button></a>
             </div>
         </section>
         <section class="project" style="border: none">
             <div class="wrapper">
                 <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
                 </p>
-                <a href="/project/new" class="btn-project">Начать проект</a>
+                <a href="/new-project" class="btn-project">Начать проект</a>
             </div>
         </section>
     </main>

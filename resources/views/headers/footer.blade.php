@@ -4,19 +4,19 @@
             <div class="footer-social">
                 <ul class="footer-bottom-list">
                     <li class="footer-bottom-item">
-                        <a href="/about" class="footer-bottom-link">О нас</a>
+                        <a href="/about-us" class="footer-bottom-link">О нас</a>
                     </li>
                     <li class="footer-bottom-item">
-                        <a href="/service/promotion" class="footer-bottom-link">Продвижение</a>
+                        <a href="/promotion" class="footer-bottom-link">Продвижение</a>
                     </li>
                     <li class="footer-bottom-item">
-                        <a href="/service/web" class="footer-bottom-link">Веб-дизайн и разработка</a>
+                        <a href="/web-design-and-dev" class="footer-bottom-link">Веб-дизайн и разработка</a>
                     </li>
                     <li class="footer-bottom-item">
-                        <a href="/service/rate" class="footer-bottom-link">Комплексные тарифы</a>
+                        <a href="/complex-tariffs" class="footer-bottom-link">Комплексные тарифы</a>
                     </li>
                     <li class="footer-bottom-item">
-                        <a href="/portfolio " class="footer-bottom-link">Проекты</a>
+                        <a href="/projects" class="footer-bottom-link">Проекты</a>
                     </li>
                 </ul>
                 <ul class="footer-list">

@@ -25,13 +25,13 @@
                     </div>
                     <ul class="cases-list">
                         <li class="cases-item">
-                            <a href="/portfolio/hike">
+                            <a href="/projects/hike">
                                 <img src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/portfolio/hike" class="cases-name">Hike.
+                                <a href="/projects/hike" class="cases-name">Hike.
                                     Проект для хайкинга.</a>
-                                <a href="/portfolio/hike" class="case-link">Посмотреть
+                                <a href="/projects/hike" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
@@ -40,12 +40,12 @@
                             </div>
                         </li>
                         <li class="cases-item">
-                            <a href="/portfolio/dolfie">
+                            <a href="/projects/dolfie">
                                 <img src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/portfolio/dolfie" class="cases-name">Dolfie. Редизайн интрнет-магазина.</a>
-                                <a href="/portfolio/dolfie" class="case-link">Посмотреть
+                                <a href="/projects/dolfie" class="cases-name">Dolfie. Редизайн интрнет-магазина.</a>
+                                <a href="/projects/dolfie" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
@@ -54,12 +54,12 @@
                             </div>
                         </li>
                         <li class="cases-item">
-                            <a href="/portfolio/noiseland">
+                            <a href="/projects/noiceland">
                                 <img src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/portfolio/noiseland" class="cases-name">NoiceLand</a>
-                                <a href="/portfolio/noiseland" class="case-link">Посмотреть
+                                <a href="/projects/noiceland" class="cases-name">NoiceLand</a>
+                                <a href="/projects/noiceland" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
@@ -68,12 +68,12 @@
                             </div>
                         </li>
                         <li class="cases-item">
-                            <a href="/portfolio/tocha">
+                            <a href="/projects/tocha">
                                 <img src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/portfolio/tocha" class="cases-name">Tocha. Telegram чат</a>
-                                <a href="/portfolio/tocha" class="case-link">Посмотреть
+                                <a href="/projects/tocha" class="cases-name">Tocha. Telegram чат</a>
+                                <a href="/projects/tocha" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
@@ -82,7 +82,7 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="/portfolio" class="btn-project">Показать ещё</a>
+                    <a href="/projects" class="btn-project">Показать ещё</a>
                 </div>
             </div>
         </section>
@@ -90,7 +90,7 @@
             <div class="wrapper">
                 <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
                 </p>
-                <a href="project/new" class="btn-project">Начать проект</a>
+                <a href="/new-project" class="btn-project">Начать проект</a>
             </div>
         </section>
     </main>

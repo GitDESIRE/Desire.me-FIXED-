@@ -12,7 +12,7 @@
                         <h1 class="banner-title">
                             Редизайн<br> интернет-магазина “Dolfie Paradise”
                         </h1>
-                        <p class="seo-banner-section"><a href="/portfolio">Проекты</a> &nbsp / &nbsp Редизайн интернет магазина Dolfie</p>
+                        <p class="seo-banner-section"><a href="/projects">Проекты</a> &nbsp / &nbsp Редизайн интернет магазина Dolfie</p>
                     </div>
                     <div class="seo-banner-bottom">
                         <ul class="banner-description-list">
@@ -114,10 +114,10 @@
                     </div>
                 </div>
                 <div class="typography">
-                    <div class="dolfi__typography">                
+                    <div class="dolfi__typography">
                         <span class="color-name dolfi__typography-span">Типографика</span>
                         <div class="dolfi__typography-div">
-                            <div class="font dolfi__color_typography-div">                          
+                            <div class="font dolfi__color_typography-div">
                         <span class="font-name">Mulish</span>
                         <div class="text">
                             <ul class="text-list">
@@ -145,31 +145,31 @@
                 <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
+                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">NoiceLand </h3>
-                                    <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
+                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                    <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
+                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                    <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
+                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                    <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                    <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                         </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
+                <a href="/projects"><button class="cases-btn">Смотреть все</button></a>
             </div>
         </section>
     </main>
