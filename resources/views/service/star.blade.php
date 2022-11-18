@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<head>
+    <title>Подробнее о комплексном тарифе “START”</title>
+    <meta name="description" content="Лучшее предложение для любого бизнеса на пути в e-commerce. Базовый тариф, включающий в себя всё от дизайна до продвижения."/>
+</head>
 @section('content')
     <main>
         <section class="banner">
@@ -9,7 +13,7 @@
                         <p class="seo-banner-section"><a href="/service/rate">Комплексные услуги </a>&nbsp / &nbsp Комплексное решение Start </p>
                     </div>
                     <div class="seo-banner-bottom">
-                        <p class="seo-banner-description">Лучшее предложение <br/> для любого бизнеса <br/> на пути в e-commerce.</p>
+                        <h2 class="seo-banner-description">Лучшее предложение <br/> для любого бизнеса <br/> на пути в e-commerce.</h2>
                         <div class="banner-content">
                             <p class="seo-content-text">Впервые появилась необходимость создать сайт для бизнеса?  Только выходите на online рынок?
                             </p>

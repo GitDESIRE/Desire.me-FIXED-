@@ -384,8 +384,10 @@ body {
     text-transform: uppercase;
 }
 
-.white_a a:hover {
+.white_a a:hover,
+.white_a a:hover svg path {
     color: #9ad351;
+    stroke: #9ad351;
 }
 
 .white_a img {
@@ -2480,7 +2482,7 @@ form input::placeholder {
 /* projects */
 
 .projects-dolfie {
-    background-image: url("../assets/img/Лента синяя(1).png");
+    background-image: url("../img/Dolfie-blueLine.png");
     background-repeat: no-repeat;
     background-position: 0px 100px;
 }
@@ -2507,8 +2509,6 @@ form input::placeholder {
     text-align: center;
     padding-top: 300px;
     padding-bottom: 170px;
-    background-image: url("../assets/img/Rectangle\169\\(1).png");
-    background-repeat: no-repeat;
 }
 
 .development {
@@ -3118,6 +3118,15 @@ form input::placeholder {
     }
     .dolfi__typography-div {
         grid-area: 2;
+    }
+
+    .font-name {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+
+    .text-list:nth-child(2) {
+        margin-left: 10vw;
     }
 
     .white_wrap {

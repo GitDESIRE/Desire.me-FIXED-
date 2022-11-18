@@ -57,8 +57,14 @@
                             </div>
                             <div>
                                 <p>Ориентируемся на клиента, создаем новое, меняем старое до неузнаваемости!</p>
-                                <div class="white_a"><a href="/portfolio">Познакомиться поближе</a>
-                                    <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх">
+                                <div class="white_a">
+                                    <a href="/portfolio">
+                                        Познакомиться поближе
+                                        <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 8.5L9 0.5" stroke="#282828" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 0.5H9V8.5" stroke="#282828" stroke-linecap="square" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -150,28 +156,28 @@
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">NoiceLand </h3>
                                     <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
                                     <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
                                     <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
                                     <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
@@ -262,4 +268,16 @@
             </div>
         </section>
     </main>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Desire Company",
+        "alternateName": "DESIRE",
+        "url": "https://desire-company.com/",
+        "logo": "https://desire-company.com/assets/svg/footerLogo.svg",
+        "sameAs": "https://www.linkedin.com/company/desire-company/"
+        }
+    </script>
+
 @endsection

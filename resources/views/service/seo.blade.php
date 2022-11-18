@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<head>
+    <title>Услуги продвижения и SEO-оптимизации</title>
+    <meta name="description" content="Продвижение и SEO - это и про творчество тоже: мы разрабатываем индивидуальные, отвечающие вашим целям и запросам SEO-стратегии, ориентируясь на результат и максимальное привлечение клиентов."/>
+</head>
 @section('content')
     <main class="main">
         <section class="banner">
@@ -8,8 +12,8 @@
                         <h1 class="title">Продвижение</h1>
                     </div>
                     <div class="seo-banner-bottom">
-                        <p class="seo-banner-description">Оптимизируем и продвигаем сайты в ТОП, чтобы ваша целевая
-                            аудитория всегда могла вас найти.</p>
+                        <h2 class="seo-banner-description">Оптимизируем и продвигаем сайты в ТОП, чтобы ваша целевая
+                            аудитория всегда могла вас найти.</h2>
                         <div class="banner-content">
                             <p class="seo-content-text">Мы объединяем лучшие технологии с профессионализмом для создания
                                 индивидуальной стратегии SEO, которая принесет необходимые вам результаты. Команда наших
@@ -64,9 +68,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -100,9 +104,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -131,9 +135,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 15 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -171,9 +175,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -213,9 +217,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -247,9 +251,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 25 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -287,9 +291,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -338,9 +342,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -376,9 +380,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 40 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -393,44 +397,44 @@
                     <h2 class="subTitle">Кейсы</h2>
                 </div>
                 <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">NoiceLand <br/> </h3>
-                                <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">NoiceLand </h3>
+                                    <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
+                                    <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
+                                    <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
+                                    <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-buttons">
+                        <div class="swiper-buttons">
                             <div class="swiper-button-prev">
                                 <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
                             </div>
                             <div class="swiper-button-next">
                                 <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
-                    </div>
+                        </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <a href="/portfolio">

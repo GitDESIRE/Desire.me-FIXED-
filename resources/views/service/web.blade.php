@@ -704,44 +704,44 @@
                     <h2 class="subTitle" style="margin-top: 0;">кейсы</h2>
                 </div>
                 <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <p class="swiper-slide-title">NoiceLand</p>
-                                <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="/portfolio/noiseland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">NoiceLand </h3>
+                                    <a href="/portfolio/noiseland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
+                                    <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
+                                    <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
+                                    <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="/portfolio/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <p class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</p>
-                                <a href="/portfolio/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/portfolio/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <p class="swiper-slide-title">Hike: Выбери свой маршрут для похода</p>
-                                <a href="/portfolio/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/portfolio/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <p class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</p>
-                                <a href="/portfolio/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-buttons">
+                        <div class="swiper-buttons">
                             <div class="swiper-button-prev">
                                 <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
                             </div>
                             <div class="swiper-button-next">
                                 <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
-                    </div>
+                        </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <a href="/portfolio"><button class="cases-btn">Смотреть все</button></a>
