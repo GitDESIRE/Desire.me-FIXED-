@@ -1,4 +1,10 @@
 @extends('layouts.app')
+    <head>
+        <title>Web-дизайн, разработка и продвижение - Desire</title> 
+        <meta name="description" content="Первый шаг к успеху - желание. 
+            В Desire всё просто: вы приходите к нам с запросом, а мы быстро, красиво и эффективно его воплощаем в жизнь так, чтобы вам понравилось. Ведь лучший результат - тот, от которого без ума сам клиент, верно?."
+        /> 
+    </head>
 @section('content')
     <main class="mainPage-content">
         <section class="banner">
@@ -43,7 +49,7 @@
                     </div>
                     <div class="white_wrap_p">
                         <div>
-                            <h1>Мы ориентируемся на ваши цели, помогая выйти на новый уровень: не просто «быть», а «менять мир»</h1>
+                            <h2>Мы ориентируемся на ваши цели, помогая выйти на новый уровень: не просто «быть», а «менять мир»</h2>
                         </div>
                         <div class="text-box" style="display: flex;">
                             <div>
@@ -51,8 +57,14 @@
                             </div>
                             <div>
                                 <p>Ориентируемся на клиента, создаем новое, меняем старое до неузнаваемости!</p>
-                                <div class="white_a"><a href="/projects">Познакомиться поближе</a>
-                                    <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх">
+                                <div class="white_a">
+                                    <a href="/projects">
+                                        Познакомиться поближе
+                                        <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 8.5L9 0.5" stroke="#282828" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 0.5H9V8.5" stroke="#282828" stroke-linecap="square" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -144,28 +156,28 @@
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NoiceLand" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">NoiceLand </h3>
                                     <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - Dolfie" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
                                     <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - Hike" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
                                     <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
+                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - Tocha" /></a>
                                 <div class="swiper-slide-main">
                                     <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
                                     <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
@@ -256,4 +268,16 @@
             </div>
         </section>
     </main>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Desire Company",
+        "alternateName": "DESIRE",
+        "url": "https://desire-company.com/",
+        "logo": "https://desire-company.com/assets/svg/footerLogo.svg",
+        "sameAs": "https://www.linkedin.com/company/desire-company/"
+        }
+    </script>
+
 @endsection

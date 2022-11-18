@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<head>
+    <title>Проекты Desire: кейсы разработки, продвижения и дизайна</title>
+    <meta name="description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?"/>
+</head>
 @section('content')
     <body>
     <main class="main">
@@ -22,7 +26,7 @@
                     <ul class="cases-list">
                         <li class="cases-item">
                             <a href="/projects/hike">
-                                <img src="{{asset('assets/img/slider-image-3.png')}}" alt="Hike. Проект для хайкинга." class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" class="cases-img">
                             </a>
                             <div class="ceses-text">
                                 <a href="/projects/hike" class="cases-name">Hike.
@@ -37,7 +41,7 @@
                         </li>
                         <li class="cases-item">
                             <a href="/projects/dolfie">
-                                <img src="{{asset('assets/img/slider-image-2.png')}}" alt="Dolfie. Редизайн интернет-магазина." class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" class="cases-img">
                             </a>
                             <div class="ceses-text">
                                 <a href="/projects/dolfie" class="cases-name">Dolfie. Редизайн интрнет-магазина.</a>
@@ -51,7 +55,7 @@
                         </li>
                         <li class="cases-item">
                             <a href="/projects/noiceland">
-                                <img src="{{asset('assets/img/slider-image-1.png')}}" alt="NoiceLand" class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" class="cases-img">
                             </a>
                             <div class="ceses-text">
                                 <a href="/projects/noiceland" class="cases-name">NoiceLand</a>
@@ -65,7 +69,7 @@
                         </li>
                         <li class="cases-item">
                             <a href="/projects/tocha">
-                                <img src="{{asset('assets/img/slider-image-4.png')}}" alt="Tocha. Telegram чат" class="cases-img">
+                                <img src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" class="cases-img">
                             </a>
                             <div class="ceses-text">
                                 <a href="/projects/tocha" class="cases-name">Tocha. Telegram чат</a>

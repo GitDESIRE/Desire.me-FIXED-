@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<head>
+    <title>Комплексные тарифы и выгодные предложения</title>
+    <meta name="description" content="Если вы не знаете, с чего начать, то вам стоит обратить внимание на наши комплексные тарифы - идеальные предложения для быстрого и легкого старта, ведь они включают в себя все базовые услуги и наше постоянное сопровождение на каждом этапе."/>
+</head>
 @section('content')
     <main>
         <section class="banner">
@@ -8,7 +12,7 @@
                         <h1 class="title">Комплексные тарифы</h1>
                     </div>
                     <div class="seo-banner-bottom">
-                        <p class="seo-banner-description">Не знаете с чего начать <br/> развивать свой проект <br/> на просторах Интернета?</p>
+                        <h2 class="seo-banner-description">Не знаете с чего начать <br/> развивать свой проект <br/> на просторах Интернета?</h2>
                         <div class="banner-content">
                             <p class="seo-content-text">Разрабатываем, оптимизируем и предлагаем точки роста.
                             </p>
@@ -64,44 +68,44 @@
                     <h2 class="subTitle">Кейсы</h2>
                 </div>
                 <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">NoiceLand </h3>
-                                <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">NoiceLand </h3>
+                                    <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
+                                    <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
+                                    <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
+                                    <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-buttons">
-                        <div class="swiper-button-prev">
-                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
-                        </div>
-                        <div class="swiper-button-next">
-                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
-                        </div>
-                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <a href="/projects"><button class="cases-btn">Смотреть все</button></a>

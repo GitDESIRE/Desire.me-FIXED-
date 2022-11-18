@@ -1,11 +1,15 @@
 @extends('layouts.app')
+    <head>
+        <title>Оставьте заявку на создание своего проекта</title>
+        <meta name="description" content="Уже есть идея? Давайте скорее начнём ваш проект! Заполните небольшую форму, чтобы мы могли с вами связаться - и ждите ответа в самое ближайшее время."/>
+    </head>
 @section('content')
     <body xmlns="http://www.w3.org/1999/html">
     <main class="main">
         <div class="wrapper newProject-wrapper">
             <section class="main_container">
                 <h1 class="title">Начнём <br/> ваш проект</h1>
-                <p>Кратко опишите свою задачу, и мы свяжемся с вами в кратчайшие сроки</p>
+                <h2>Кратко опишите свою задачу, и мы свяжемся с вами в кратчайшие сроки</h2>
             </section>
             <section class="aside_container">
                 <form enctype="multipart/form-data" class="newProject_form" id="form" name="newProject_form" action="{{url('newOrder')}}" method="post">
