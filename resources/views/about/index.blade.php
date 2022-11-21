@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<head>
+    <title>Знакомимся ближе: всё о компании Desire</title>
+    <meta name="description" content="Всё о нашей компании и даже немного больше. Здесь мы познакомимся ближе, расскажем вам о миссии и мечтах Desire, а также о мечтах каждого члена команды. У каждой компании ведь есть душа, правда?"/>
+</head>
 @section('content')
     <body>
     <main class="main">
@@ -6,7 +10,7 @@
             <div class="wrapper">
                 <div class="team-banner-left">
                     <h1 class="title">О нас</h1>
-                    <p class="team-banner-description">Качество, креативность и открытость. Новые веяния и дух авантюризма. Мы — DESIRE, и мы готовы показать вам, каково это — совмещать мечты и реальность в каждом проекте.</p>
+                    <h2 class="team-banner-description">Качество, креативность и открытость. Новые веяния и дух авантюризма. Мы — DESIRE, и мы готовы показать вам, каково это — совмещать мечты и реальность в каждом проекте.</h2>
                 </div>
                 <div class="team-banner-right">
                     <div class="logo-wrapper">
@@ -15,7 +19,7 @@
                             <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
                         </a>
                     </div>
-                    <img src="{{asset('assets/img/team-banner.png')}}" alt="Работа команды" class="banner-img">
+                    <img src="{{asset('assets/img/team-banner.png')}}" alt="Работа команды DESIRE" class="banner-img">
                 </div>
             </div>
         </section>
@@ -55,7 +59,7 @@
                 <h2 class="team-title team-title1">Наша <span class="color-text">миссия</span></h2>
                 <div class="task">
                     <p class="team-text">Мы хотим не просто реализовывать ваши запросы, а помогать вам стать лучше, меняя принципы подачи продукта, образ компании и выводя ваш бизнес на новый уровень. </p>
-                    <img src="{{asset('assets/img/team-mission-1.png')}}" alt="Команда DESIRE" class="task-img">
+                    <img src="{{asset('assets/img/team-mission-1.png')}}" alt="Команда DESIRE в работе" class="task-img">
                 </div>
                 <div class="rule">
                     <img src="{{asset('assets/img/team-mission-2.png')}}" alt="Команда DESIRE" class="rule-img">

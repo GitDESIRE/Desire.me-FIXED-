@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(91224212, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<!-- /Yandex.Metrika counter -->
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +25,22 @@
     <meta meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.v2.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v1.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/timeline.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.css')}}">
-    <title>Desire</title>
-    <link type="image/x-icon" href="{{asset('assets/img/favicon.png')}}" rel="shortcut icon">
+    <link type="image/x-icon" href="{{asset('assets/svg/favicon.svg')}}" rel="shortcut icon">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap');
     </style>
 </head>
-<body>
+
 @include('headers.header')
+
+<noscript><div><img src="https://mc.yandex.ru/watch/91224212" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
 @yield('content')
 
@@ -33,7 +51,7 @@
 <script src="{{asset('assets/js/blockAnimation.js')}}"></script>
 <script src="{{asset('assets/js/burgerMenu.js')}}"></script>
 <script src="{{asset('assets/js/checkPrivacy.js')}}"></script>
-<script src="{{asset('assets/js/custom-cursor.v1.js')}}"></script>
+<script src="{{asset('assets/js/custom-cursor.v2.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
 <script src="{{asset('assets/js/newProject.js')}}"></script>
 <script src="{{asset('assets/js/candidate.js')}}"></script>

@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<head>
+    <title>Подробнее о комплексном тарифе “NoCode - Arrow”</title>
+    <meta name="description" content="Сайт, для которого не нужно писать код - уже не сказка, а реальность. Если у кого вас нет времени ждать, то этот тариф - идеальный вариант: рабочий проект, созданный на подходящем конструкторе сайтов, в кратчайшие сроки будет у вас на руках."/>
+</head>
 @section('content')
     <main>
         <section class="banner">
@@ -9,7 +13,7 @@
                         <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные услуги </a>&nbsp / &nbsp Комплексное решение Arrow </p>
                     </div>
                     <div class="seo-banner-bottom">
-                        <p class="seo-banner-description">Что такое разработка NoCode и почему она требует в разы меньше времени и денежных вложений?</p>
+                        <h2 class="seo-banner-description">Что такое разработка NoCode и почему она требует в разы меньше времени и денежных вложений?</h2>
                         <div class="banner-content">
                             <p class="seo-content-text">Программирование NoCode - дословно: «программирование без кода», - в последнее время становится все более и более востребованным на рынке IT-продуктов.
                             </p>

@@ -1,4 +1,8 @@
 @extends('layouts.app')
+    <head>
+        <title>Услуги web-дизайна и разработки - Desire</title>
+        <meta name="description" content="Практично. Индивидуально. Эффективно. Интуитивно понятный интерфейс, правильное позиционирование товаров и услуг - то, на что мы ориентируемся, работая над созданием уникальных дизайнов и продумывая структуру и логику сайта."/>
+    </head>
 @section('content')
     <main class="main">
         <section class="banner">
@@ -8,10 +12,10 @@
                         <h1 class="title">WEB-дизайн и разработка</h1>
                     </div>
                     <div class="seo-banner-bottom">
-                        <p class="seo-banner-description">
+                        <h2 class="seo-banner-description">
                             Удобно. Практично. Индивидуально.
                             Мы ориентируемся на <br/> удобство пользователей.
-                        </p>
+                        </h2>
                         <div class="banner-content">
                             <p class="seo-content-text">Мы ориентируемся на ваши цели и создаём сайты и приложения, удобные в использовании как вам, так и вашим клиентам. Не нагружаем интерфейсы и помогаем вам преподносить товары и услуги так, чтобы их хотели приобрести.
                             </p>
@@ -56,9 +60,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -86,9 +90,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Готовый, работающий одностраничный сайт (лендинг)
@@ -111,9 +115,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 30 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </label>
@@ -150,9 +154,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -180,9 +184,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Проработанный и надежный сайт вашей компании
@@ -207,9 +211,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 60 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </label>
@@ -246,9 +250,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -278,9 +282,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">
@@ -308,9 +312,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 80 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -347,9 +351,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -379,9 +383,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Оригинальное и корректно функционирующее приложение для вашего бизнеса
@@ -404,9 +408,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 75 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -443,9 +447,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -473,9 +477,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Необходимые для расширения вашего сайта страницы, не выбивающиеся из общего дизайна
@@ -496,9 +500,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 8 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -536,9 +540,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -566,9 +570,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Полноценный уникальный дизайн для вашего сайта
@@ -591,9 +595,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 30 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -630,9 +634,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что мы сделаем
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
@@ -658,9 +662,9 @@
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Что вы получите
-                                </h4>
+                                </span>
                                 <div class="hidden-content" style="opacity: 0;">
                                     <ul class="task-list">
                                         <li class="task-item">Уникальный, ориентированный именно на специфику вашего бизнеса дизайн приложения
@@ -683,9 +687,9 @@
                         </div>
                         <div class="hidden-wrapper">
                             <div class="tab-wrapper">
-                                <h4 class="subtitle">
+                                <span class="subtitle">
                                     Стоимость
-                                </h4>
+                                </span>
                                 <p class="price">от 50 000 руб.</p>
                                 <span class="credit">рассрочка и кредит</span>
                             </div>
@@ -700,44 +704,44 @@
                     <h2 class="subTitle" style="margin-top: 0;">кейсы</h2>
                 </div>
                 <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">NoiceLand </h3>
-                                <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NOICELAND" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">NoiceLand </h3>
+                                    <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
+                                    <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - HIKE" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
+                                    <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - TOCHA" /></a>
+                                <div class="swiper-slide-main">
+                                    <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
+                                    <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх"/> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-buttons">
-                        <div class="swiper-button-prev">
-                            <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
-                        </div>
-                        <div class="swiper-button-next">
-                            <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
-                        </div>
-                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <a href="/projects"><button class="cases-btn">Смотреть все</button></a>

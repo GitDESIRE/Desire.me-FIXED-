@@ -14,7 +14,8 @@
         "orchid/platform": "^13.7",
         "tcg/voyager": "^1.6",
         "unisharp/laravel-filemanager": "^2.5",
-      "ext-http": "*"
+      "ext-http": "*",
+      "ext-simplexml": "*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
