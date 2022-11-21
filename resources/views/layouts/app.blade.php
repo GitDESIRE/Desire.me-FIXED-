@@ -25,7 +25,7 @@
     <meta meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.v3.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.v4.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v1.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/timeline.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.css')}}">
@@ -50,7 +50,7 @@
 <script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/blockAnimation.js')}}"></script>
 <script src="{{asset('assets/js/burgerMenu.js')}}"></script>
-<script src="{{asset('assets/js/checkPrivacy.js')}}"></script>
+<script src="{{asset('assets/js/checkPrivacy.v1.js')}}"></script>
 <script src="{{asset('assets/js/custom-cursor.v2.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
 <script src="{{asset('assets/js/newProject.js')}}"></script>

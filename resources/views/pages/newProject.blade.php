@@ -43,16 +43,9 @@
                                     <option value="Дополнительные страницы">Дополнительные страницы</option>
                                     <option value="Редизайн сайта">Редизайн сайта</option>
                                     <option value="Разработка уникального дизайна">Разработка уникального дизайна</option>
-                                    <option value="Другое">Другое</option>
-                                </select>
-                            </div>
-                            <label for="tarif"><span class="label-title">Тариф</span></label>
-                            <div class="custom-select">
-                                <select name="tarif" id="tarif">
-                                    <option value="select">выберите тариф</option>
-                                    <option value="select">выберите тариф</option>
                                     <option value="Start">Комплексное решение «START»</option>
                                     <option value="Arrow">разработка сайта NoCode - ARROW</option>
+                                    <option value="Другое">Другое</option>
                                 </select>
                             </div>
                         </div>

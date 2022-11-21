@@ -422,9 +422,9 @@
                         <input type="checkbox" class="toggler">
                         <div class="tab-leftPart">
                             <h3 class="tab-title">
-                <span class="tab-number">
-                    /05
-                </span>
+                                <span class="tab-number">
+                                    /05
+                                </span>
                                 дополнительные страницы
                             </h3>
                             <a href="/new-project" class="btn">Заказать</a>
@@ -434,13 +434,13 @@
                                 Обновление контента или устаревание статей, товаров и услуг, которые уже есть на сайте - все это требует регулярного обновления, в том числе и на новых страницах на вашем сайте
                             </p>
                             <span class="toggle">
-                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                    <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                </svg>
-              </span>
+                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            </span>
                         </div>
                     </label>
                     <div class="hidden-content" style="opacity: 0;">
@@ -465,13 +465,13 @@
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                    </svg>
-                  </span>
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                    </svg>
+                                </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
@@ -514,26 +514,25 @@
                         <input type="checkbox" class="toggler">
                         <div class="tab-leftPart">
                             <h3 class="tab-title">
-              <span class="tab-number">
-                  /06
-              </span>
+                                <span class="tab-number">
+                                    /06
+                                </span>
                                 Разработка дизайна сайта
                             </h3>
                             <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">
-                                Нужно быстро вырваться в лидеры вашей отрасли? Хотите оставить всех конкурентов позади?
-                                В рамках <span class="text-color"> premium</span> оптимизации мы работаем на выведение вашего сайта в ТОП поисковиков и рост трафика на нем.
+                                Если вы только создаете свой сайт или придумали идеальную концепцию, у вас уже есть свой разработчик, но нет дизайнера, который сможет воплотить вашу идею в жизнь, то компания Desire предлагает выход из этой ситуации
                             </p>
                             <span class="toggle">
-              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                  <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-              </svg>
-            </span>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                </svg>
+                            </span>
                         </div>
                     </label>
                     <div class="hidden-content" style="opacity: 0;">
@@ -558,13 +557,13 @@
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                      <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                  </svg>
-                </span>
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                    </svg>
+                                </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
@@ -584,13 +583,13 @@
                                     </ul>
                                 </div>
                                 <span class="toggle">
-                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                      <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                  </svg>
-                </span>
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 7.29199V27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        <path d="M7.29199 17.5H27.7087" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                    </svg>
+                                </span>
                             </label>
                         </div>
                         <div class="hidden-wrapper">
@@ -803,4 +802,22 @@
             </div>
         </section>
     </main>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Desire Company",
+    "item": "https://desire-company.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Веб-дизайн и разработка",
+    "item": "https://desire-company.com/web-design-and-dev"  
+  }]
+}
+</script>
+
 @endsection

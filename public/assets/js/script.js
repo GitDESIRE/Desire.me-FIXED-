@@ -25,8 +25,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 e.target.parentNode.parentNode.querySelector('.hidden-content').style.opacity = '1';
                 e.target.parentNode.parentNode.querySelector('.hidden-content').style.height = '100%';
             } else {
-                e.target.parentNode.parentNode.querySelector('.hidden-content').style.opacity = '0';
                 e.target.parentNode.parentNode.querySelector('.hidden-content').style.height = '0';
+                e.target.parentNode.parentNode.querySelector('.hidden-content').style.opacity = '0';
             }
         })
     });
