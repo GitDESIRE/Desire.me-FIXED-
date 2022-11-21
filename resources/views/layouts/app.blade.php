@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v1.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/timeline.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.v1.css')}}">
     <link type="image/x-icon" href="{{asset('assets/svg/favicon.svg')}}" rel="shortcut icon">
 
     <style>
