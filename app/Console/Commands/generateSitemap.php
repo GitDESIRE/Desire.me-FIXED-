@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use DateTime;
 use Illuminate\Console\Command;
+use Watson\Active\Route;
 
 class generateSitemap extends Command
 {
@@ -28,25 +29,44 @@ class generateSitemap extends Command
      */
     public function handle()
     {
-//дефолтная дата, к примеру создания сайта. Используется там,
-//где нужно указать дату для страниц не сохраненных в базе данных
         $defaultdate = new DateTime('2018-01-01 10:01:01');
-//берем базовый урл сайта
+
         $site_url = env('APP_URL');
-//это шаблон файла XML для сайтмапа, здесь не нужно ничего менять
-        $base = '<?xml version="1.0" encoding="UTF-8"?>
+        $base =
+            '<?xml version="1.0" encoding="UTF-8"?>
             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             </urlset>';
-//создаем корневой элемент, в который будут добавлены все остальные
+
         $xmlbase = new \SimpleXMLElement($base);
-//создаем первый элемент, с ссылкой на главную страницу
-        $row = $xmlbase->addChild("url");
-        $row->addChild("loc", $site_url);
-//параметр lastmod - последнее обновление вашей страницы.
-//дата последней модификации задана временем генерации файла
-//учитывайте формат времени здесь должен быть конкретный Y-m-d\TH:i:sP , в противном случае
-//получите ошибку валидности файла
-        //после того как создали карту сайта, ее нужно записать в файл
-        $xmlbase->saveXML(public_path() . "/sitemap.xml");
+
+        $routes = ['privacy.polity', 'index', 'service.web', 'service.promotion',
+            'service.rate', 'service.star', 'service.arrow', 'portfolio', 'portfolio.dolfie',
+            'portfolio.nike', 'portfolio.noiseland', 'portfolio.tocha', 'about', 'new'];
+       /* $row  = $xmlbase->addChild("url");
+        $row->addChild("loc",$site_url);
+        $row->addChild("lastmod",date("c"));
+        $row->addChild("changefreq","monthly");
+        $row->addChild("priority","1");
+
+        $row  = $xmlbase->addChild("url");
+        $row->addChild("loc",route('page_about'));
+        $row->addChild("lastmod",$defaultdate->format("Y-m-d\TH:i:sP"));
+        $row->addChild("changefreq","monthly");
+        $row->addChild("priority","1");*/
+
+        foreach ($routes as $route) {
+            $this->addUrl($route, $defaultdate, $xmlbase);
+        }
+
+        $xmlbase->saveXML(public_path()."/sitemap.xml");
+    }
+
+    private function addUrl($urlName, $date, $xml)
+    {
+        $row  = $xml->addChild("url");
+        $row->addChild("loc",route($urlName));
+        $row->addChild("lastmod",$date->format("Y-m-d\TH:i:sP"));
+        $row->addChild("changefreq","monthly");
+        $row->addChild("priority","1");
     }
 }
