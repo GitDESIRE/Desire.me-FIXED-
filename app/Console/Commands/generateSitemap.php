@@ -65,7 +65,7 @@ class generateSitemap extends Command
     {
         $row  = $xml->addChild("url");
         $row->addChild("loc",route($urlName));
-        $row->addChild("lastmod",$date->format("Y-m-d\TH:i:sP"));
+        $row->addChild("lastmod",date("c"));
         $row->addChild("changefreq","monthly");
         $row->addChild("priority","1");
     }
