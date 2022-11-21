@@ -119,5 +119,22 @@
             </div>
         </section>
     </main>
+    <script type="application/ld+json">
     </body>
+    {
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Desire Company",
+    "item": "https://desire-company.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "О нас",
+    "item": "https://desire-company.com/about-us"  
+  }]
+}
+</script>
 @endsection

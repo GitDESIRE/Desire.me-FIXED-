@@ -12,7 +12,6 @@ if ($btn != null)
         } else {
             $btn.disabled = true;
             $btn.style.backgroundColor = '#adb6a2';
-            $btn.style.borderColor = '#83897D'
         }
     });
 }

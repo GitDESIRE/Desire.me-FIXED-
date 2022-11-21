@@ -1,6 +1,7 @@
 html {
     cursor: none;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -96,12 +97,33 @@ body {
     margin-top: 105px;
 }
 
-.content-text_404 {
+.content-text_404 p {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.btn-404 {
+    width: 340px;
+    display: inline-block;
+    text-align: center;
+    background-color: #9ad351;
+    color: #282828;
+    border: 1px solid #9ad351;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    transition: all 0.3s linear;
+}
+
+.btn-404:hover {
+    background-color: #282828;
+    color: #fff;
+    transition: all 0.3s linear;
 }
 /* 404 PAGE */
 
@@ -154,22 +176,22 @@ body {
 .p_2 {
     top: 36%;
     right: 5%;
-    font-size: 150px;
+    font-size: 151px;
     letter-spacing: 20px;
 }
 
 .p_3 {
-    bottom: 0;
+    bottom: -50px;
     right: 0;
     transform: rotate(20deg);
-    font-size: 250px;
+    font-size: 228px;
     letter-spacing: 20px;
 }
 
 .p_4 {
     left: 0;
-    bottom: -3%;
-    font-size: 150px;
+    bottom: 0;
+    font-size: 151px;
     letter-spacing: 20px;
 }
 
@@ -824,10 +846,6 @@ nav {
     gap: 68px;
 }
 
-.inputsBox_bot .custom-select:last-child {
-    margin-left: 63px;
-}
-
 .inputsBox_leftSide,
 .inputsBox_rightSide {
     display: flex;
@@ -1404,6 +1422,15 @@ form input::placeholder {
     transition: all 0.3s linear;
 }
 
+.case-link svg path {
+    transition: all 0.3s linear;
+}
+
+.case-link:hover svg path {
+    stroke: #fff;
+    transition: all 0.3s linear;
+}
+
 /* PROJECT */
 
 .project {
@@ -1528,7 +1555,7 @@ form input::placeholder {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .tabs .hidden-wrapper {
@@ -1695,6 +1722,7 @@ form input::placeholder {
 }
 
 .tabs .tab .text {
+    display: none;
     max-width: 533px;
     height: 0;
     font-size: 15px;
@@ -1722,6 +1750,7 @@ form input::placeholder {
 }
 
 .tabs .tab .task-list {
+    min-width: 275px;
     max-width: 275px;
     margin-top: 10px;
 }
@@ -2721,15 +2750,11 @@ form input::placeholder {
         gap: 24px;
     }
 
-    .inputsBox_bot .custom-select:last-child {
-        margin-left: 20px;
-    }
-
     .inputsBox_leftSide,
     .inputsBox_rightSide,
     .newProject_form input,
-    .newProject_form .custom-select,
     .file-button,
+    .newProject_form .custom-select,
     .submit-button {
         max-width: 232px;
         width: 100%;
@@ -2978,9 +3003,9 @@ form input::placeholder {
     .inputsBox_leftSide,
     .inputsBox_rightSide,
     .newProject_form input,
-    .newProject_form .custom-select,
     .file-button,
-    .submit-button {
+    .submit-button,
+    .newProject_form .custom-select {
         max-width: 288px;
     }
 
@@ -2996,6 +3021,7 @@ form input::placeholder {
 
     .main .aside_container {
         margin: 0 0 100px 0;
+        width: 100%;
     }
 
     .main_container .title {
@@ -3010,10 +3036,6 @@ form input::placeholder {
     .agreement_box {
         max-width: 545px;
         margin-left: 300px;
-    }
-
-    .inputsBox_bot .custom-select:last-child {
-        margin-left: 24px;
     }
 
     .seo-banner-bottom {
@@ -3065,6 +3087,13 @@ form input::placeholder {
 
     .custom-cursor {
         display: none !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .content-404 {
+        flex-direction: column-reverse;
+        gap: 50px;
     }
 }
 
@@ -3344,10 +3373,6 @@ form input::placeholder {
         line-height: 20px;
     }
 
-    .seo-content-text {
-        font-size: 12px;
-    }
-
     .desicionBox {
         border: none;
         border-top: 1px solid #767676;
@@ -3466,11 +3491,6 @@ form input::placeholder {
     .newProject_form .custom-select {
         display: block;
     }
-
-    .inputsBox_bot .custom-select:last-child {
-        margin-left: 0;
-        margin-top: 36px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -3559,6 +3579,10 @@ form input::placeholder {
 @media (max-width: 500px) {
     .wrapper {
         padding: 0 10px;
+    }
+
+    .cases-img {
+        opacity: 1;
     }
 
     .desicionBox {
@@ -3798,7 +3822,8 @@ form input::placeholder {
     .agreement_box,
     .order-btn,
     .about-btn,
-    .cases-btn {
+    .cases-btn,
+    .btn-project {
         max-width: 300px;
         width: 100%;
     }
@@ -3993,5 +4018,19 @@ form input::placeholder {
 
     .wrap_ul {
         margin-inline-start: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content-404 {
+        gap: 24px;
+    }
+
+    .content-404 img {
+        width: 100%;
+    }
+
+    .btn-404 {
+        width: 100%;
     }
 }
