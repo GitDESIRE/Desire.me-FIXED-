@@ -2,6 +2,11 @@
 <head>
     <title>Подробнее о комплексном тарифе “NoCode - Arrow”</title>
     <meta name="description" content="Сайт, для которого не нужно писать код - уже не сказка, а реальность. Если у кого вас нет времени ждать, то этот тариф - идеальный вариант: рабочий проект, созданный на подходящем конструкторе сайтов, в кратчайшие сроки будет у вас на руках."/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Подробнее о комплексном тарифе “NoCode - Arrow”">
+    <meta property="og:url" content="https://desire-company.com/complex-tariffs/arrow">
+    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:description" content="Сайт, для которого не нужно писать код - уже не сказка, а реальность. Если у кого вас нет времени ждать, то этот тариф - идеальный вариант: рабочий проект, созданный на подходящем конструкторе сайтов, в кратчайшие сроки будет у вас на руках.">
 </head>
 @section('content')
     <main>
@@ -65,26 +70,26 @@
         </section>
     </main>
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "Desire Company",
-    "item": "https://desire-company.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "Комплексные тарифы",
-    "item": "https://desire-company.com/complex-tariffs"  
-  },{
-    "@type": "ListItem", 
-    "position": 3, 
-    "name": "Разработка NoCODE - ARROW",
-    "item": "https://desire-company.com/complex-tariffs/arrow"  
-  }]
-}
-</script>
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Комплексные тарифы",
+            "item": "https://desire-company.com/complex-tariffs"  
+        },{
+            "@type": "ListItem", 
+            "position": 3, 
+            "name": "Разработка NoCODE - ARROW",
+            "item": "https://desire-company.com/complex-tariffs/arrow"  
+        }]
+        }
+    </script>
 
 @endsection

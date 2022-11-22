@@ -2,6 +2,11 @@
 <head>
     <title>Подробнее о комплексном тарифе “START”</title>
     <meta name="description" content="Лучшее предложение для любого бизнеса на пути в e-commerce. Базовый тариф, включающий в себя всё от дизайна до продвижения."/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Подробнее о комплексном тарифе “START”">
+    <meta property="og:url" content="https://desire-company.com/complex-tariffs/start">
+    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:description" content="Лучшее предложение для любого бизнеса на пути в e-commerce. Базовый тариф, включающий в себя всё от дизайна до продвижения.">
 </head>
 @section('content')
     <main>
@@ -56,26 +61,26 @@
         </section>
     </main>
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "Desire Company",
-    "item": "https://desire-company.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "Комплексные тарифы",
-    "item": "https://desire-company.com/complex-tariffs"  
-  },{
-    "@type": "ListItem", 
-    "position": 3, 
-    "name": "Комплексное решение START",
-    "item": "https://desire-company.com/complex-tariffs/start"  
-  }]
-}
-</script>
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Комплексные тарифы",
+            "item": "https://desire-company.com/complex-tariffs"  
+        },{
+            "@type": "ListItem", 
+            "position": 3, 
+            "name": "Комплексное решение START",
+            "item": "https://desire-company.com/complex-tariffs/start"  
+        }]
+        }
+    </script>
 
 @endsection

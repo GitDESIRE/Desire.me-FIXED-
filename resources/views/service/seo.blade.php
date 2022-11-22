@@ -2,6 +2,11 @@
 <head>
     <title>Услуги продвижения и SEO-оптимизации</title>
     <meta name="description" content="Продвижение и SEO - это и про творчество тоже: мы разрабатываем индивидуальные, отвечающие вашим целям и запросам SEO-стратегии, ориентируясь на результат и максимальное привлечение клиентов."/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Услуги продвижения и SEO-оптимизации - Desire">
+    <meta property="og:url" content="https://desire-company.com/promotion">
+    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:description" content="Продвижение и SEO - это и про творчество тоже: мы разрабатываем индивидуальные, отвечающие вашим целям и запросам SEO-стратегии, ориентируясь на результат и максимальное привлечение клиентов.">
 </head>
 @section('content')
     <main class="main">
@@ -64,14 +69,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             SEO-аудит сайта
@@ -107,7 +112,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Правильно оптимизированный сайт
@@ -171,14 +176,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0">
+                    <div class="hidden-content">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             SEO-аудит сайта
@@ -220,7 +225,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Идеально оптимизированный сайт
@@ -287,14 +292,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content">
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler"/>
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             SEO-аудит сайта
@@ -345,7 +350,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content">
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Идеально оптимизированный сайт
@@ -429,10 +434,8 @@
                         </div>
                         <div class="swiper-buttons">
                             <div class="swiper-button-prev">
-                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
                             </div>
                             <div class="swiper-button-next">
-                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
                         </div>
                 </div>

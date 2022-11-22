@@ -2,6 +2,11 @@
 <head>
     <title>Комплексные тарифы и выгодные предложения</title>
     <meta name="description" content="Если вы не знаете, с чего начать, то вам стоит обратить внимание на наши комплексные тарифы - идеальные предложения для быстрого и легкого старта, ведь они включают в себя все базовые услуги и наше постоянное сопровождение на каждом этапе."/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Комплексные тарифы и выгодные предложения - Desire">
+    <meta property="og:url" content="https://desire-company.com/complex-tariffs">
+    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:description" content="Если вы не знаете, с чего начать, то вам стоит обратить внимание на наши комплексные тарифы - идеальные предложения для быстрого и легкого старта, ведь они включают в себя все базовые услуги и наше постоянное сопровождение на каждом этапе.">
 </head>
 @section('content')
     <main>
@@ -100,10 +105,8 @@
                         </div>
                         <div class="swiper-buttons">
                             <div class="swiper-button-prev">
-                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
                             </div>
                             <div class="swiper-button-next">
-                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
                         </div>
                 </div>
@@ -120,21 +123,21 @@
         </section>
     </main>
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "Desire Company",
-    "item": "https://desire-company.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "Комплексные тарифы",
-    "item": "https://desire-company.com/complex-tariffs"  
-  }]
-}
-</script>
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Комплексные тарифы",
+            "item": "https://desire-company.com/complex-tariffs"  
+        }]
+        }
+    </script>
 
 @endsection

@@ -3,7 +3,12 @@
         <title>Web-дизайн, разработка и продвижение - Desire</title> 
         <meta name="description" content="Первый шаг к успеху - желание. 
             В Desire всё просто: вы приходите к нам с запросом, а мы быстро, красиво и эффективно его воплощаем в жизнь так, чтобы вам понравилось. Ведь лучший результат - тот, от которого без ума сам клиент, верно?."
-        /> 
+        />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Web-дизайн, разработка и продвижение - Desire">
+        <meta property="og:url" content="https://desire-company.com/">
+        <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+        <meta property="og:description" content="В Desire всё просто: вы приходите к нам с запросом, а мы быстро, красиво и эффективно его воплощаем в жизнь так, чтобы вам понравилось. Ведь лучший результат - тот, от которого без ума сам клиент, верно?">
     </head>
 @section('content')
     <main class="mainPage-content">
@@ -186,10 +191,8 @@
                         </div>
                         <div class="swiper-buttons">
                             <div class="swiper-button-prev">
-                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево"/>
                             </div>
                             <div class="swiper-button-next">
-                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо"/>
                             </div>
                         </div>
                     </div>
@@ -279,5 +282,13 @@
         "sameAs": "https://www.linkedin.com/company/desire-company/"
         }
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHNKPBNHBL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-HHNKPBNHBL');
+    </script>
 @endsection

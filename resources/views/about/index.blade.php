@@ -2,6 +2,11 @@
 <head>
     <title>Знакомимся ближе: всё о компании Desire</title>
     <meta name="description" content="Всё о нашей компании и даже немного больше. Здесь мы познакомимся ближе, расскажем вам о миссии и мечтах Desire, а также о мечтах каждого члена команды. У каждой компании ведь есть душа, правда?"/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Знакомимся ближе: всё о компании Desire">
+    <meta property="og:url" content="https://desire-company.com/about-us">
+    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:description" content="Всё о нашей компании и даже немного больше. Здесь мы познакомимся ближе, расскажем вам о миссии и мечтах Desire, а также о мечтах каждого члена команды. У каждой компании ведь есть душа, правда?">
 </head>
 @section('content')
     <body>
@@ -119,22 +124,22 @@
             </div>
         </section>
     </main>
-    <script type="application/ld+json">
     </body>
-    {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "Desire Company",
-    "item": "https://desire-company.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "О нас",
-    "item": "https://desire-company.com/about-us"  
-  }]
-}
-</script>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "О нас",
+            "item": "https://desire-company.com/about-us"  
+        }]
+        }
+    </script>
 @endsection
