@@ -74,10 +74,8 @@
                         </div>
                         <div class="swiper-buttons">
                             <div class="swiper-button-prev">
-                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
                             </div>
                             <div class="swiper-button-next">
-                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
                         </div>
                 </div>
@@ -86,4 +84,27 @@
             </div>
         </section>
     </main>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Проекты",
+            "item": "https://desire-company.com/projects"  
+        },{
+            "@type": "ListItem", 
+            "position": 3, 
+            "name": "Кейс NOICELAND",
+            "item": "https://desire-company.com/projects/noiceland"  
+        }]
+        }
+    </script>
+
 @endsection

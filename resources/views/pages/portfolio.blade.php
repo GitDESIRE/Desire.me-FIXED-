@@ -2,6 +2,11 @@
 <head>
     <title>Проекты Desire: кейсы разработки, продвижения и дизайна</title>
     <meta name="description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?"/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Проекты Desire: кейсы разработки, продвижения и дизайна">
+    <meta property="og:url" content="https://desire-company.com/projects">
+    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?">
 </head>
 @section('content')
     <body>
@@ -11,17 +16,6 @@
                 <div class="content">
                     <div class="draft">
                         <h1 class="title">Наши проекты</h1>
-                        <!-- <ul class="draft-list">
-                            <li class="draft-item">
-                                <a href="/portfolio" class="draft-link">Веб-сайты</a>
-                            </li>
-                            <li class="draft-item">
-                                <a href="/portfolio" class="draft-link">Мобильные приложения</a>
-                            </li>
-                            <li class="draft-item">
-                                <a href="/portfolio" class="draft-link">Продвижение</a>
-                            </li>
-                        </ul> -->
                     </div>
                     <ul class="cases-list">
                         <li class="cases-item">
@@ -95,4 +89,22 @@
         </section>
     </main>
     </body>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Проекты",
+            "item": "https://desire-company.com/projects"  
+        }]
+        }
+    </script>
+
 @endsection

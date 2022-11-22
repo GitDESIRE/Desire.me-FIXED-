@@ -1733,9 +1733,15 @@ form input::placeholder {
 }
 
 .tabs .tab .hidden-content {
+    align-self: start;
     opacity: 0;
     height: 0;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs .tab .hidden-content.active {
+    opacity: 1;
+    height: 100%;
 }
 
 .tabs .tab .subtitle {
@@ -1770,7 +1776,8 @@ form input::placeholder {
 
 .price {
     margin: 0;
-    width: 33%;
+    width: 50%;
+    text-align: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -2226,21 +2233,33 @@ form input::placeholder {
     color: #fff;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-    color: #ffffff !important;
-}
-
 .swiper-buttons {
     position: absolute;
-    max-width: 1199px;
     width: 100%;
     height: 100%;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    margin: 0 auto;
+}
+
+.custom-cursor.swiper-btn-right {
+    background-image: url("../svg/swiper-right.svg");
+}
+
+.custom-cursor.swiper-btn-left {
+    background-image: url("../svg/swiper-left.svg");
+}
+
+.custom-cursor.swiper-btn-right,
+.custom-cursor.swiper-btn-left {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 75px;
+    height: 75px;
+    background-color: #9bd35183;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+        background-color 0.3s ease-in-out;
 }
 
 .swiper-slide-active {
@@ -2513,7 +2532,7 @@ form input::placeholder {
 .projects-dolfie {
     background-image: url("../img/Dolfie-blueLine.png");
     background-repeat: no-repeat;
-    background-position: 0px 100px;
+    background-position: center 100px;
 }
 
 .dolfie-mobile {
@@ -2870,14 +2889,17 @@ form input::placeholder {
         max-height: 584px;
     }
 
-    .hidden-content .hidden-wrapper.toggled .tab-wrapper {
+    .hidden-content .hidden-wrapper .tab-wrapper {
         flex-direction: column;
+    }
+
+    .hidden-content .hidden-wrapper:nth-last-child(-n + 1) .tab-wrapper {
+        flex-direction: row;
     }
 
     .hidden-content .hidden-wrapper .tab-wrapper .toggle {
         position: absolute;
         right: 0;
-        top: -15px;
     }
 
     .seo-banner-top {
@@ -2904,6 +2926,10 @@ form input::placeholder {
 
     .tab-rightPart {
         align-items: flex-start;
+    }
+
+    .hidden-content .hidden-wrapper .tab-wrapper .subtitle {
+        width: 100%;
     }
 
     .p_1 {
@@ -2972,16 +2998,6 @@ form input::placeholder {
         padding-right: 20px;
         padding-left: 20px;
         align-items: unset;
-    }
-
-    .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev {
-        display: none !important;
     }
 
     .wrap_how_we_work_1 {

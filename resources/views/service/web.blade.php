@@ -2,6 +2,11 @@
     <head>
         <title>Услуги web-дизайна и разработки - Desire</title>
         <meta name="description" content="Практично. Индивидуально. Эффективно. Интуитивно понятный интерфейс, правильное позиционирование товаров и услуг - то, на что мы ориентируемся, работая над созданием уникальных дизайнов и продумывая структуру и логику сайта."/>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Услуги web-дизайна и разработки - Desire">
+        <meta property="og:url" content="https://desire-company.com/web-design-and-dev">
+        <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+        <meta property="og:description" content="Практично. Индивидуально. Эффективно. Интуитивно понятный интерфейс, правильное позиционирование товаров и услуг - то, на что мы ориентируемся, работая над созданием уникальных дизайнов и продумывая структуру и логику сайта.">
     </head>
 @section('content')
     <main class="main">
@@ -56,14 +61,14 @@
               </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -93,7 +98,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Готовый, работающий одностраничный сайт (лендинг)
                                         </li>
@@ -150,14 +155,14 @@
                   </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -187,7 +192,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Проработанный и надежный сайт вашей компании
                                         </li>
@@ -246,14 +251,14 @@
                   </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -285,7 +290,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">
                                             Проработанный и надежный сайт для продажи ваших товаров  и услуг в Интернете
@@ -338,23 +343,23 @@
                                 По данным статистики люди около 90% времени проводят именно в мобильных приложениях, а доля продаж через них еще в 2020 году сравнялась с долей покупок через компьютеры. Это ни много ни мало - более 50%. Люди все активнее совершают покупки через телефон, И для любого бизнеса это огромное преимущество - иметь понятное и приятное глазу клиента мобильное приложение с возможностью совершать покупки прямо в нем.
                             </p>
                             <span class="toggle">
-                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                      <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                  </svg>
-                </span>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5 7.29199V27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    <path d="M7.29199 17.5H27.7087" stroke="#282828" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                </svg>
+                            </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -386,7 +391,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Оригинальное и корректно функционирующее приложение для вашего бизнеса
                                         </li>
@@ -443,14 +448,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -480,7 +485,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Необходимые для расширения вашего сайта страницы, не выбивающиеся из общего дизайна
                                         </li>
@@ -535,14 +540,14 @@
                             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -572,7 +577,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Полноценный уникальный дизайн для вашего сайта
                                         </li>
@@ -629,14 +634,14 @@
             </span>
                         </div>
                     </label>
-                    <div class="hidden-content" style="opacity: 0;">
+                    <div class="hidden-content" >
                         <div class="hidden-wrapper">
                             <label class="tab-wrapper">
                                 <input type="checkbox" class="toggler" />
                                 <span class="subtitle">
                                     Что мы сделаем
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Аналитика и оценка
                                         </li>
@@ -664,7 +669,7 @@
                                 <span class="subtitle">
                                     Что вы получите
                                 </span>
-                                <div class="hidden-content" style="opacity: 0;">
+                                <div class="hidden-content" >
                                     <ul class="task-list">
                                         <li class="task-item">Уникальный, ориентированный именно на специфику вашего бизнеса дизайн приложения
                                         </li>
@@ -735,10 +740,8 @@
                         </div>
                         <div class="swiper-buttons">
                             <div class="swiper-button-prev">
-                                <img src="{{asset('assets/svg/swiper-left.svg')}}" alt="стрелочка влево" />
                             </div>
                             <div class="swiper-button-next">
-                                <img src="{{asset('assets/svg/swiper-right.svg')}}" alt="стрелочка вправо" />
                             </div>
                         </div>
                 </div>

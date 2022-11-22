@@ -6,13 +6,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const target = e.target // определяем, где находится курсор
             if (!target) return
 
+            if (target.closest('.swiper-button-next')) {
+                el.classList.add('swiper-btn-right');
+            } else {
+                el.classList.remove('swiper-btn-right');
+            }
+
+            if (target.closest('.swiper-button-prev')) {
+                el.classList.add('swiper-btn-left');
+            } else {
+                el.classList.remove('swiper-btn-left');
+            }
+
             if (target.closest('button') ||
                 target.closest('.arrowBox') ||
                 target.closest('.custom-select') ||
                 target.closest('.nav-list_link') ||
                 target.closest('.tab-wrapper') ||
-                target.closest('.swiper-button-next') ||
-                target.closest('.swiper-button-prev') ||
                 target.closest('.checkbox') ||
                 target.closest('input')) { // если курсор наведён на элементс таким классом или тегом
                 el.classList.add('custom-cursor_active') // элементу добавляем активный класс

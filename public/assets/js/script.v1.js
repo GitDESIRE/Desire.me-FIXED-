@@ -15,18 +15,16 @@ window.addEventListener('DOMContentLoaded', () => {
         screenY:     -window.screenY - (window.outerHeight-window.innerHeight),
       }}
 
-    const togglers = document.querySelectorAll('.toggler')
+    const togglers = document.querySelectorAll('.toggler');
 
     togglers.forEach((toggler) => {
         toggler.addEventListener('click', (e) => {
             e.target.parentNode.classList.toggle('opened')
             e.target.parentNode.parentNode.classList.toggle('toggled')
-            if (e.target.parentNode.parentNode.querySelector('.hidden-content').style.opacity === '0') {
-                e.target.parentNode.parentNode.querySelector('.hidden-content').style.opacity = '1';
-                e.target.parentNode.parentNode.querySelector('.hidden-content').style.height = '100%';
+            if (e.target.parentNode.parentNode.querySelector('.hidden-content').className === 'hidden-content') {
+                e.target.parentNode.parentNode.querySelector('.hidden-content').classList.add('active');
             } else {
-                e.target.parentNode.parentNode.querySelector('.hidden-content').style.height = '0';
-                e.target.parentNode.parentNode.querySelector('.hidden-content').style.opacity = '0';
+                e.target.parentNode.parentNode.querySelector('.hidden-content').classList.remove('active');
             }
         })
     });

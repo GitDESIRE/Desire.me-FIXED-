@@ -2,6 +2,11 @@
     <head>
         <title>Оставьте заявку на создание своего проекта</title>
         <meta name="description" content="Уже есть идея? Давайте скорее начнём ваш проект! Заполните небольшую форму, чтобы мы могли с вами связаться - и ждите ответа в самое ближайшее время."/>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Оставьте заявку на создание своего проекта">
+        <meta property="og:url" content="https://desire-company.com/new-project">
+        <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+        <meta property="og:description" content="Уже есть идея? Давайте скорее начнём ваш проект! Заполните небольшую форму, чтобы мы могли с вами связаться - и ждите ответа в самое ближайшее время">
     </head>
 @section('content')
     <body xmlns="http://www.w3.org/1999/html">
@@ -74,4 +79,22 @@
         </div>
     </main>
     </body>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Desire Company",
+            "item": "https://desire-company.com/"  
+        },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Оставить заявку",
+            "item": "https://desire-company.com/new-project"  
+        }]
+        }
+    </script>
+
 @endsection
