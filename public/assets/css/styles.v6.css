@@ -2024,13 +2024,17 @@ form input::placeholder {
 
 .desicionsBox {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 40px 24px;
+    margin-bottom: 50px;
 }
 
 .desicionBox {
     border: 1px solid #76767680;
     padding: 48px 60px;
     position: relative;
+    width: 49%;
+    max-width: 600px;
 }
 
 .desicionBox span {
@@ -2798,6 +2802,11 @@ form input::placeholder {
 
     .desicionsBox {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .desicionBox {
+        width: 100%;
     }
 
     .main_container {
@@ -3467,6 +3476,7 @@ form input::placeholder {
     .desicionBox {
         border: none;
         border-top: 1px solid #767676;
+        padding: 0;
     }
 
     .tarif-main .content-box {
@@ -3682,10 +3692,6 @@ form input::placeholder {
 
     .cases-img {
         opacity: 1;
-    }
-
-    .desicionBox {
-        padding: 0;
     }
 
     .banner-description-list {

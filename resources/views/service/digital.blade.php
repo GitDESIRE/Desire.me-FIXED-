@@ -72,10 +72,11 @@
         }, {
             "@type": "ListItem",
             "position": 3,
-            "name": "Тариф «FULL DIGITAL»",
-            "item": "https://desire-company.com/complex-tariffs/digital"
+            "name": "Решение FULL DIGITAL",
+            "item": "https://desire-company.com/complex-tariffs/full-digital"
         }]
     }
 </script>
+
 
 @endsection

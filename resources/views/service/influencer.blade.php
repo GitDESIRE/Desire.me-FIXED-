@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 <head>
-  <title>Подробнее о комплексном решении “INFLUENCER”</title>
+  <title>Подробнее о комплексном решении INFLUENCER</title>
+
+  <meta name="description" content="Тариф INFLUENCER станет идеальным решением для тех, кто пока не может найти свои уникальный стиль и “я” в медиапространстве. Мы проведем анализ, оживим соцсети бренда “характером” и яркими медиа материалами, чтобы глаза клиента смотрели только на вас!" />
+
 </head>
 @section('content')
 <main>
@@ -76,10 +79,11 @@
     }, {
       "@type": "ListItem",
       "position": 3,
-      "name": "Тариф - упаковка соцсетей",
+      "name": "Решение INFLUENCER",
       "item": "https://desire-company.com/complex-tariffs/influencer"
     }]
   }
 </script>
+
 
 @endsection
