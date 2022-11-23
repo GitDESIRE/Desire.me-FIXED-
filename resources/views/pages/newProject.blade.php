@@ -25,7 +25,8 @@
                                 <label for="name"><span class="label-title">Введите своё имя</span></label>
                                 <input name="name" id="name" placeholder="ИМЯ"/>
                                 <label for="email"><span class="label-title">Введите свою почту</span></label>
-                                <input type="email" name="email" id="email" placeholder="EMAIL"/>
+                                <input type="text" class="email" name="email" id="email" placeholder="EMAIL"/>
+                                    <p class="email_error" id="email_error"></p>
                             </div>
                             <div class="inputsBox_rightSide">
                                 <label for="tel"><span class="label-title">Введите свой телефон</span></label>
@@ -116,18 +117,18 @@
     </body>
     <script type="application/ld+json">
         {
-        "@context": "https://schema.org/", 
-        "@type": "BreadcrumbList", 
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
         "itemListElement": [{
-            "@type": "ListItem", 
-            "position": 1, 
+            "@type": "ListItem",
+            "position": 1,
             "name": "Desire Company",
-            "item": "https://desire-company.com/"  
+            "item": "https://desire-company.com/"
         },{
-            "@type": "ListItem", 
-            "position": 2, 
+            "@type": "ListItem",
+            "position": 2,
             "name": "Оставить заявку",
-            "item": "https://desire-company.com/new-project"  
+            "item": "https://desire-company.com/new-project"
         }]
         }
     </script>

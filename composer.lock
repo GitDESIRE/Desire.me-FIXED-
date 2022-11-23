@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "573902bd7778b71349a32c47ceb8d476",
+    "content-hash": "6d3a8b5e6c8f3129b2d3fd25a76bea33",
     "packages": [
         {
             "name": "alexusmai/laravel-file-manager",
@@ -1635,6 +1635,58 @@
                 }
             ],
             "time": "2022-01-22T11:14:47+00:00"
+        },
+        {
+            "name": "jackocnr/intl-tel-input",
+            "version": "17.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jackocnr/intl-tel-input.git",
+                "reference": "a21a1aee03bfd6b82a028704490547ff77d8bf98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jackocnr/intl-tel-input/zipball/a21a1aee03bfd6b82a028704490547ff77d8bf98",
+                "reference": "a21a1aee03bfd6b82a028704490547ff77d8bf98",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jack O'Connor",
+                    "homepage": "http://jackocnr.com"
+                }
+            ],
+            "description": "A JavaScript plugin for entering and validating international telephone numbers",
+            "homepage": "https://github.com/jackocnr/intl-tel-input",
+            "keywords": [
+                "code",
+                "country",
+                "dial",
+                "flag",
+                "i18n",
+                "input",
+                "international",
+                "mobile",
+                "number",
+                "tel",
+                "telephone"
+            ],
+            "support": {
+                "issues": "https://github.com/jackocnr/intl-tel-input/issues",
+                "source": "https://github.com/jackocnr/intl-tel-input/tree/v17.0.19"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jackocnr",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-09-13T14:01:20+00:00"
         },
         {
             "name": "larapack/doctrine-support",

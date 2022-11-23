@@ -54,3 +54,7 @@ Disallow: /assets/img/X%20-%20222.png
 Disallow: /assets/img/team-mission-1.png
 Disallow: /assets/Privacy%20politic.pdf
 
+Host: https://desire-company.com/
+
+
+Sitemap: https://desire-company.com/sitemap.xml

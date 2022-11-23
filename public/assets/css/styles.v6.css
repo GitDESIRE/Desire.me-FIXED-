@@ -71,7 +71,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+.email_error,
 .tel_error,
 .telegram_error {
     color: #c42c2c;
@@ -83,16 +83,17 @@ body {
     max-width: 260px;
 }
 
+.email.error,
 .tel.error,
 .telegram.error {
     border-color: #c42c2c;
 }
-
+.email.error::placeholder,
 .tel.error::placeholder,
 .telegram.error::placeholder {
     color: #c42c2c;
 }
-
+.email_error,
 .telegram_error {
     margin-top: 105px;
 }
@@ -2651,7 +2652,7 @@ form input::placeholder {
 }
 /***
 * 20221116
-* rewrite blade \resources\views\portfolio\dolfie.blade.php:80-130 
+* rewrite blade \resources\views\portfolio\dolfie.blade.php:80-130
 * @ahilespelid
 ***/
 .dolfi__color,
