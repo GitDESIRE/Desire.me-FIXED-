@@ -21,6 +21,7 @@ use App\Http\Controllers\SendController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::post('newCandidate', [SendController::class, 'newCandidate'])->name('newCandidate');
 Route::post('newOrder', [SendController::class, 'newOrder'])->name('newOrder');
 Route::post('newRequest', [SendController::class, 'newRequest'])->name('newRequest');
@@ -35,6 +36,8 @@ Route::prefix('/complex-tariffs')->group(function () {
     Route::get('/', [ServiceController::class, 'rate'])->name('service.rate');
     Route::get('/start', [ServiceController::class, 'star'])->name('service.star');
     Route::get('/arrow', [ServiceController::class, 'arrow'])->name('service.arrow');
+    Route::get('/full-digital', [ServiceController::class, 'digital'])->name('service.digital');
+    Route::get('/influencer', [ServiceController::class, 'influencer'])->name('service.influencer');
 });
 
 
@@ -44,6 +47,7 @@ Route::prefix('projects')->group(function () {
     Route::get('/hike', [PortfolioController::class, 'hike'])->name('portfolio.nike');
     Route::get('/noiceland', [PortfolioController::class, 'noiseland'])->name('portfolio.noiseland');
     Route::get('/tocha', [PortfolioController::class, 'tocha'])->name('portfolio.tocha');
+    Route::get('/atlant', [PortfolioController::class, 'atlant'])->name('portfolio.atlant');
 });
 Route::get('/about-us', [AboutController::class, 'about'])->name('about');
 Route::get('/new-project', [ProjectController::class, 'new'])->name('new');

@@ -26,4 +26,8 @@ class PortfolioController extends Controller
     {
         return view('portfolio.dolfie');
     }
+    public function atlant()
+    {
+        return view('portfolio.atlant');
+    }
 }

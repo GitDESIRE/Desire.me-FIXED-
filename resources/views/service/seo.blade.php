@@ -47,7 +47,7 @@
                                 </span>
                                 Basic
                             </h3>
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="/new-project" class="btn">Заказать</a>
                         </div>
                         <div class="tab-rightPart">
                             <p class="text">

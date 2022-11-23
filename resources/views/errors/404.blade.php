@@ -9,7 +9,7 @@
                     <p>ошибки бывают - у меня же лапки</p>
                     <a onclick="history.back()" class="btn-404">Вернуться назад</a>
                 </div>
-                <img src="{{asset('assets/svg/🦆 illustration _cat kitten animal sad pink_.svg')}}" alt="котик"/>
+                <img src="{{asset('assets/svg/error-kitten.svg')}}" alt="котик"/>
             </div>
         </div>
     </section>

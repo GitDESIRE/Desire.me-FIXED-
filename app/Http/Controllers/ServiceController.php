@@ -31,4 +31,12 @@ class ServiceController extends Controller
     {
         return view('service.rate');
     }
+    public function digital()
+    {
+        return view('service.digital');
+    }
+    public function influencer()
+    {
+        return view('service.influencer');
+    }
 }

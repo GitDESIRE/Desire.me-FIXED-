@@ -15,7 +15,7 @@
                 <div class="content">
                     <div class="seo-banner-top">
                         <h1 class="title">Комплексное решение «START»</h1>
-                        <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные услуги </a>&nbsp / &nbsp Комплексное решение Start </p>
+                        <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Комплексное решение Start </p>
                     </div>
                     <div class="seo-banner-bottom">
                         <h2 class="seo-banner-description">Лучшее предложение <br/> для любого бизнеса <br/> на пути в e-commerce.</h2>
