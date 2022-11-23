@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/cursor.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.v1.css')}}">
     <link type="image/x-icon" href="{{asset('assets/svg/favicon.svg')}}" rel="shortcut icon">
-
+    <link rel="stylesheet" href="{{asset('assets/css/intlTelInput.css')}}">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap');
@@ -56,7 +56,19 @@
 <script src="{{asset('assets/js/candidate.js')}}"></script>
 <script src="{{asset('assets/js/script.v1.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
-
+<script src="{{asset('assets/js/intlTelInput.js')}}"></script>
+<script>
+    var input = document.querySelector("#tel");
+    window.intlTelInput(input, {
+       initialCountry: "auto",
+        geoIpLookup: function(callback) {
+            $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "us";
+                callback(countryCode);
+            });
+    }
+    });
+</script>
 <div class="custom-cursor"></div>
 <div class="arrowBox">
     <svg width="57" height="48" viewBox="0 0 57 48" fill="none" xmlns="http://www.w3.org/2000/svg">

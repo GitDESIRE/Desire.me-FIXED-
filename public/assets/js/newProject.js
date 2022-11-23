@@ -170,8 +170,8 @@ $(document).ready(function () {
     ;
 });
 
-jQuery(function($) {
-    $('.tel').on('input', function() {
+jQuery(function ($) {
+    $('.tel').on('input', function () {
         $('.tel_error').text('');
         $('.telegram_error').text('');
         $(this).removeClass('error');
@@ -179,8 +179,8 @@ jQuery(function($) {
     });
 });
 
-jQuery(function($) {
-    $('.telegram').on('input', function() {
+jQuery(function ($) {
+    $('.telegram').on('input', function () {
         $('.tel_error').text('');
         $('.telegram_error').text('');
         $(this).removeClass('error');

@@ -140,7 +140,7 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute must be a valid URL.',
     'uuid' => 'The :attribute must be a valid UUID.',
-
+    'phone' => 'The :attribute field contains an invalid number.',
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
@@ -160,7 +160,8 @@ return [
             'required' => 'Необходимо заполнить поле "Имя"'
         ],
         'tel' => [
-            'required_without' => 'Необходимо заполнить хотя бы одно из полей для связи'
+            'required_without' => 'Необходимо заполнить хотя бы одно из полей для связи',
+            'phone' => 'Введите пожалуйста, корректный номер телефона'
         ],
         'telegram' => [
             'required_without' => 'Необходимо заполнить хотя бы одно из полей для связи'
