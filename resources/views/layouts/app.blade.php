@@ -66,7 +66,9 @@
                 var countryCode = (resp && resp.country) ? resp.country : "us";
                 callback(countryCode);
             });
-    }
+    },
+        utilsScript: "{{asset('assets/js/utils.js')}}",
+        hiddenInput: "tel"
     });
 </script>
 <div class="custom-cursor"></div>
