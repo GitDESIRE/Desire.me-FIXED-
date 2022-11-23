@@ -84,7 +84,8 @@
                                     <label for="name"><span class="label-title">Имя</span></label>
                                     <input class="input" name="name" id="name" type="text" placeholder="ИМЯ">
                                     <label for="email"><span class="label-title">Email</span></label>
-                                    <input class="input" name="email" id="email" type="email" placeholder="EMAIL">
+                                    <input class="input" name="email" id="email" type="text" placeholder="EMAIL">
+                                        <p class="email_error" id="email_error"></p>
                                 </div>
                                 <div class="inputs-box_right">
                                     <label for="tel"><span class="label-title">Телефон</span></label>
@@ -127,18 +128,18 @@
     </body>
     <script type="application/ld+json">
         {
-        "@context": "https://schema.org/", 
-        "@type": "BreadcrumbList", 
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
         "itemListElement": [{
-            "@type": "ListItem", 
-            "position": 1, 
+            "@type": "ListItem",
+            "position": 1,
             "name": "Desire Company",
-            "item": "https://desire-company.com/"  
+            "item": "https://desire-company.com/"
         },{
-            "@type": "ListItem", 
-            "position": 2, 
+            "@type": "ListItem",
+            "position": 2,
             "name": "О нас",
-            "item": "https://desire-company.com/about-us"  
+            "item": "https://desire-company.com/about-us"
         }]
         }
     </script>

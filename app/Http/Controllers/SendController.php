@@ -24,6 +24,7 @@ class SendController extends Controller
         $validator = validator($request->all(), [
             'tel' => 'required_without:telegram|phone',
             'telegram' => 'required_without:tel',
+            'email' => 'email'
         ]);
 
         if ($validator->fails()) {
@@ -39,6 +40,7 @@ class SendController extends Controller
         $validator = validator($request->all(), [
             'tel' => 'required_without:telegram|phone',
             'telegram' => 'required_without:tel',
+            'email' => 'email'
         ]);
 
         if ($validator->fails()) {
