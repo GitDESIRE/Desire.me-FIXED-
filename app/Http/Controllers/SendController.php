@@ -22,7 +22,7 @@ class SendController extends Controller
     {
 
         $validator = validator($request->all(), [
-            'tel' => 'required_without:telegram|phone',
+            'tel' => 'required_without:telegram|phone:AUTO',
             'telegram' => 'required_without:tel',
             'email' => 'email'
         ]);
@@ -38,7 +38,7 @@ class SendController extends Controller
     public function newCandidate(Request $request, mailsendform $mail): RedirectResponse|JsonResponse
     {
         $validator = validator($request->all(), [
-            'tel' => 'required_without:telegram|phone',
+            'tel' => 'required_without:telegram|phone:AUTO',
             'telegram' => 'required_without:tel',
             'email' => 'email'
         ]);
