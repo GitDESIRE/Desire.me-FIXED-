@@ -900,104 +900,82 @@ form input::placeholder {
 
 /* The container must be positioned relative: */
 
-.newProject_form .custom-select {
-    position: relative;
-    max-width: 260px;
-    width: 100%;
-    font-size: 11px;
+.inputsBox_bot legend {
     font-weight: 600;
-    text-transform: uppercase;
+    font-size: 11px;
     line-height: 13px;
+    text-transform: uppercase;
     color: #282828;
-    border: none;
-    border-bottom: 1px solid #767676;
-    outline: none;
-    transition: all 0.3s linear;
-    display: inline-block;
+    margin-bottom: 14px;
 }
 
-.custom-select select {
-    display: none; /*hide original SELECT element: */
-}
-
-.select-selected {
-    background-color: transparent;
-    height: 23px;
+.services-box {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 7px;
+    max-width: 587px;
 }
 
-.select-button {
+.service-chips {
+    display: flex;
+    align-items: center;
     position: relative;
-    min-width: 17px;
-    height: 14px;
+    padding: 5px 10px;
+    border: 1px solid #9ad351;
+    border-radius: 23px;
 }
 
-.custom-select:hover .select-button_stroke1,
-.custom-select:hover .select-button_stroke2 {
-    border-color: #9ad351;
+.service-chips label {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+}
+
+.service-chips::before {
+    content: "";
+    display: block;
+    background-image: url("../svg/check.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 0;
+    height: 16px;
+    opacity: 0;
+    background-position: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-chips:hover {
+    background-color: #282828;
     transition: all 0.3s linear;
 }
 
-.select-button_stroke1,
-.select-button_stroke2 {
-    position: absolute;
-    width: 10px;
-    top: 5px;
-    border: 1px solid #282828;
+.service-chips:hover label {
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.service-chips:has(input:checked) {
     background-color: #282828;
 }
 
-.select-button_stroke1 {
-    transform: rotate(-135deg);
-    left: 1px;
+.service-chips:has(input:checked) label {
+    color: #fff;
 }
 
-.select-button_stroke2 {
-    transform: rotate(135deg);
-    right: 0;
+.service-chips:has(input:checked)::before {
+    opacity: 1;
+    width: 16px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
 }
 
-/* Point the arrow upwards when the select box is open (active): */
-.select-selected.select-arrow-active .select-button {
-    transform: rotate(180deg);
-}
-
-/* style the items (options), including the selected item: */
-.select-items div {
-    padding: 10px;
-}
-
-/* Style items (options): */
-.select-items {
+.service-chips input {
     position: absolute;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    background-color: #9ad351;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-}
-
-/* Hide the items when the select box is closed: */
-.select-hide {
-    display: none;
-}
-
-.select-items div:hover,
-.same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.newProject_form option {
-    background-color: #9ad351;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #282828;
-    padding: 10px 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    width: 90%;
 }
 
 .buttonsBox {
@@ -2786,6 +2764,7 @@ form input::placeholder {
 
     .inputsBox_bot {
         display: flex;
+        flex-direction: column;
     }
 
     .buttonsBox {
@@ -3180,10 +3159,6 @@ form input::placeholder {
 
     .about-project {
         padding: 100px 0;
-    }
-
-    .inputsBox_bot {
-        flex-direction: column;
     }
 
     .tab.toggled .tab-wrapper.opened {
@@ -3595,6 +3570,14 @@ form input::placeholder {
 @media (max-width: 500px) {
     .wrapper {
         padding: 0 10px;
+    }
+
+    .service-chips {
+        padding: 5px;
+    }
+
+    .services-box {
+        gap: 15px 10px;
     }
 
     .cases-img {

@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 target.closest('.nav-list_link') ||
                 target.closest('.tab-wrapper') ||
                 target.closest('.checkbox') ||
+                target.closest('.service-chips') ||
                 target.closest('input')) { // если курсор наведён на элементс таким классом или тегом
                 el.classList.add('custom-cursor_active') // элементу добавляем активный класс
             } else if (target.closest('a')) { // проверяем кнопку на аттирибут disabled
