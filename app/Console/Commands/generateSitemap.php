@@ -39,14 +39,11 @@ class generateSitemap extends Command
 
         $xmlbase = new SimpleXMLElement($base);
 
-        $row  = $xmlbase->addChild("url");
-        $row->addChild("loc","https://desire-company.com/assets/Privacy%20politic.pdf");
-        $row->addChild("lastmod","2022-11-16T12:25:13+01:00");
-        $row->addChild("priority","0.8");
-
-        $routes = ['privacy.polity', 'index', 'service.web', 'service.promotion',
+        $routes = ['index', 'service.web', 'service.promotion',
             'service.rate', 'service.star', 'service.arrow', 'portfolio', 'portfolio.dolfie',
-            'portfolio.nike', 'portfolio.noiseland', 'portfolio.tocha', 'about', 'new'];
+            'portfolio.nike', 'portfolio.noiseland', 'portfolio.tocha', 'about', 'new',
+            'service.digital', 'service.influencer', 'portfolio.atlant'
+        ];
 
         foreach ($routes as $route) {
             $this->addUrl($route, $defaultdate, $xmlbase);
