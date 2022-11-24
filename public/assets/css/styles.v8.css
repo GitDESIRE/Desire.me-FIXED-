@@ -3182,10 +3182,6 @@ form input::placeholder {
     .banner-title {
         font-size: 62px;
     }
-
-    .custom-cursor {
-        display: none !important;
-    }
 }
 
 @media (max-width: 750px) {
