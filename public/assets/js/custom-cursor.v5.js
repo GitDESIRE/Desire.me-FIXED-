@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 target.closest('.custom-select') ||
                 target.closest('.nav-list_link') ||
                 target.closest('.tab-wrapper') ||
+                target.closest('.iti__selected-flag') ||
+                target.closest('.iti__country') ||
                 target.closest('.checkbox') ||
                 target.closest('.service-chips') ||
                 target.closest('input')) { // если курсор наведён на элементс таким классом или тегом

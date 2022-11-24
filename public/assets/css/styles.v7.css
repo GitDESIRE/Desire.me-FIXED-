@@ -926,7 +926,7 @@ form input::placeholder {
     border-radius: 23px;
 }
 
-.service-chips label {
+.service-chips {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     line-height: 16px;
@@ -948,19 +948,12 @@ form input::placeholder {
 
 .service-chips:hover {
     background-color: #282828;
-    transition: all 0.3s linear;
-}
-
-.service-chips:hover label {
     color: #fff;
     transition: all 0.3s linear;
 }
 
 .service-chips:has(input:checked) {
     background-color: #282828;
-}
-
-.service-chips:has(input:checked) label {
     color: #fff;
 }
 
@@ -2092,7 +2085,6 @@ form input::placeholder {
     color: #282828;
     display: flex;
     gap: 10px;
-    align-items: center;
 }
 
 .desicionBox li::before {
@@ -2100,6 +2092,7 @@ form input::placeholder {
     background-color: #282828;
     display: inline-block;
     min-width: 3px;
+    margin-top: 18px;
     height: 3px;
     border-radius: 50%;
 }
