@@ -56,6 +56,9 @@
 <script src="{{asset('assets/js/candidate.js')}}"></script>
 <script src="{{asset('assets/js/script.v1.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
+
+@if($_SERVER['REQUEST_URI'] == 'new-project' | $_SERVER['REQUEST_URI'] == 'about-us')
+
 <script src="{{asset('assets/js/intlTelInput.js')}}"></script>
 <script>
     var input = document.querySelector("#tel");
@@ -71,6 +74,8 @@
         hiddenInput: "tel"
     });
 </script>
+
+@endif
 <div class="custom-cursor"></div>
 <div class="arrowBox">
     <svg width="57" height="48" viewBox="0 0 57 48" fill="none" xmlns="http://www.w3.org/2000/svg">
