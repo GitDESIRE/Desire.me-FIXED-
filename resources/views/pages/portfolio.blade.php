@@ -1,15 +1,17 @@
 @extends('layouts.app')
+
 <head>
     <title>Проекты Desire: кейсы разработки, продвижения и дизайна</title>
-    <meta name="description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?"/>
+    <meta name="description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?" />
     <meta property="og:type" content="website">
     <meta property="og:title" content="Проекты Desire: кейсы разработки, продвижения и дизайна">
     <meta property="og:url" content="https://desire-company.com/projects">
-    <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
+    <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?">
 </head>
 @section('content')
-    <body>
+
+<body>
     <main class="main">
         <section class="project-banner">
             <div class="wrapper">
@@ -27,8 +29,8 @@
                                     Проект для хайкинга.</a>
                                 <a href="/projects/hike" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
+                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round" />
                                     </svg>
                                 </a>
                             </div>
@@ -41,8 +43,8 @@
                                 <a href="/projects/dolfie" class="cases-name">Dolfie. Редизайн интрнет-магазина.</a>
                                 <a href="/projects/dolfie" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
+                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round" />
                                     </svg>
                                 </a>
                             </div>
@@ -55,8 +57,8 @@
                                 <a href="/projects/noiceland" class="cases-name">NoiceLand</a>
                                 <a href="/projects/noiceland" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
+                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round" />
                                     </svg>
                                 </a>
                             </div>
@@ -69,8 +71,8 @@
                                 <a href="/projects/tocha" class="cases-name">Tocha. Telegram чат</a>
                                 <a href="/projects/tocha" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round"/>
+                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round" />
                                     </svg>
                                 </a>
                             </div>
@@ -88,23 +90,23 @@
             </div>
         </section>
     </main>
-    </body>
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org/", 
-        "@type": "BreadcrumbList", 
+</body>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
         "itemListElement": [{
-            "@type": "ListItem", 
-            "position": 1, 
+            "@type": "ListItem",
+            "position": 1,
             "name": "Desire Company",
-            "item": "https://desire-company.com/"  
-        },{
-            "@type": "ListItem", 
-            "position": 2, 
+            "item": "https://desire-company.com/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
             "name": "Проекты",
-            "item": "https://desire-company.com/projects"  
+            "item": "https://desire-company.com/projects"
         }]
-        }
-    </script>
+    }
+</script>
 
 @endsection

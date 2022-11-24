@@ -2,9 +2,7 @@
 
 <head>
   <title>Подробнее о комплексном решении INFLUENCER</title>
-
   <meta name="description" content="Тариф INFLUENCER станет идеальным решением для тех, кто пока не может найти свои уникальный стиль и “я” в медиапространстве. Мы проведем анализ, оживим соцсети бренда “характером” и яркими медиа материалами, чтобы глаза клиента смотрели только на вас!" />
-
 </head>
 @section('content')
 <main>
@@ -13,7 +11,7 @@
       <div class="content">
         <div class="seo-banner-top">
           <h1 class="title arrow-title">Тариф <br /> «INFLUENCER»</h1>
-          <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Тариф «упаковка соцсетей»</p>
+          <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Тариф «INFLUENCER»</p>
         </div>
         <div class="seo-banner-bottom">
           <h2 class="seo-banner-description">Развиваться в медиа пространстве означает идти в ногу со своими клиентами!</h2>
