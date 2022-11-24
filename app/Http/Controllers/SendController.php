@@ -37,9 +37,9 @@ class SendController extends Controller
     public function newCandidate(Request $request, mailsendform $mail): RedirectResponse|JsonResponse
     {
         $validator = validator($request->all(), [
-            'tel' => 'required_without:telegram|phone:AUTO',
+            'tel' => 'required_without:telegram|phone:AUTO|nullable',
             'telegram' => 'required_without:tel',
-            'email' => 'email'
+            'email' => 'email:rfc,dns'
         ]);
 
         if ($validator->fails()) {
