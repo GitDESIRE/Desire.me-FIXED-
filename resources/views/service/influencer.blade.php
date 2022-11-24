@@ -2,9 +2,29 @@
 
 <head>
   <title>Подробнее о комплексном решении INFLUENCER</title>
-
   <meta name="description" content="Тариф INFLUENCER станет идеальным решением для тех, кто пока не может найти свои уникальный стиль и “я” в медиапространстве. Мы проведем анализ, оживим соцсети бренда “характером” и яркими медиа материалами, чтобы глаза клиента смотрели только на вас!" />
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Desire Company",
+        "item": "https://desire-company.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Комплексные тарифы",
+        "item": "https://desire-company.com/complex-tariffs"
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Решение INFLUENCER",
+        "item": "https://desire-company.com/complex-tariffs/influencer"
+      }]
+    }
+  </script>
 </head>
 @section('content')
 <main>
@@ -13,7 +33,7 @@
       <div class="content">
         <div class="seo-banner-top">
           <h1 class="title arrow-title">Тариф <br /> «INFLUENCER»</h1>
-          <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Тариф «упаковка соцсетей»</p>
+          <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Тариф «INFLUENCER»</p>
         </div>
         <div class="seo-banner-bottom">
           <h2 class="seo-banner-description">Развиваться в медиа пространстве означает идти в ногу со своими клиентами!</h2>
@@ -62,28 +82,5 @@
     </div>
   </section>
 </main>
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Desire Company",
-      "item": "https://desire-company.com/"
-    }, {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Комплексные тарифы",
-      "item": "https://desire-company.com/complex-tariffs"
-    }, {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Решение INFLUENCER",
-      "item": "https://desire-company.com/complex-tariffs/influencer"
-    }]
-  }
-</script>
-
 
 @endsection

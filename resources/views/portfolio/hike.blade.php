@@ -3,6 +3,28 @@
 <head>
     <title>Проект “HIKE”: от аналитики до визуала сайта</title>
     <meta name="description" content="Наша компания принимала участие в создании сайта, объединяющего хайкеров со всего мира в одно огромное и очень энергичное сообщество. Наши разработанная уникальная визуальная концепция, прототипирование и аналитика сделали его одним из лучших проектов на рынке." />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Проекты",
+                "item": "https://desire-company.com/projects"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Кейс HIKE",
+                "item": "https://desire-company.com/projects/hike"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 <main class="main">
@@ -85,27 +107,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Проекты",
-            "item": "https://desire-company.com/projects"
-        }, {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Кейс HIKE",
-            "item": "https://desire-company.com/projects/hike"
-        }]
-    }
-</script>
 
 @endsection
