@@ -43,6 +43,7 @@ function updateButton() {
 }
 
 // TODO: когда будем отправлять запрос на сервер, переделать.
+
 $(document).ready(function () {
     $('#form').on('submit', function (e) {
             let formData = new FormData(this);
@@ -92,6 +93,7 @@ $(document).ready(function () {
     )
     ;
 });
+
 
 jQuery(function ($) {
     $('.tel').on('input', function () {
