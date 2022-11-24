@@ -41,51 +41,51 @@
                             <legend>выберите услугу</legend>
                             <div class="services-box">
                                 <div class="service-chips">
-                                    <input type="radio" id="seo" name="service" value="seo" />
+                                    <input type="radio" id="seo" name="service" value="SEO Продвижение" />
                                     <label for="seo">Продвижение</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="landing" name="service" value="landing" checked />
+                                    <input type="radio" id="landing" name="service" value="Лендинг" checked />
                                     <label for="landing">Лендинг</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="corp" name="service" value="corp" />
+                                    <input type="radio" id="corp" name="service" value="Корпоративный сайт" />
                                     <label for="corp">Корпоративный сайт</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="internet" name="service" value="internet" />
+                                    <input type="radio" id="internet" name="service" value="Интернет-магазин" />
                                     <label for="internet">Интернет-магазин</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="pages" name="service" value="pages" />
+                                    <input type="radio" id="pages" name="service" value="Дополнительные страницы" />
                                     <label for="pages">Дополнительные страницы</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="redesign" name="service" value="redesign" />
+                                    <input type="radio" id="redesign" name="service" value="Редизайн сайта" />
                                     <label for="redesign">Редизайн сайта</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="uniq" name="service" value="uniq" />
+                                    <input type="radio" id="uniq" name="service" value="Разработка уникального дизайна" />
                                     <label for="uniq">Разработка уникального дизайна</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="start" name="service" value="start" />
+                                    <input type="radio" id="start" name="service" value="Решение «START»" />
                                     <label for="start">Решение «START»</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="arrow" name="service" value="arrow" />
+                                    <input type="radio" id="arrow" name="service" value="Решение «ARROW»" />
                                     <label for="arrow">Решение «ARROW»</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="influencer" name="service" value="influencer" />
+                                    <input type="radio" id="influencer" name="service" value="Решение «INFLUENCER»" />
                                     <label for="influencer">Решение «INFLUENCER»</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="digital" name="service" value="digital" />
+                                    <input type="radio" id="digital" name="service" value="Решение «FULL DIGITAL»" />
                                     <label for="digital">Решение «FULL DIGITAL»</label>
                                 </div>
                                 <div class="service-chips">
-                                    <input type="radio" id="other" name="service" value="other" />
+                                    <input type="radio" id="other" name="service" value="Другое" />
                                     <label for="other">Другое</label>
                                 </div>
                             </div>

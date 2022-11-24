@@ -57,7 +57,7 @@ class mailSendForm extends Mailable
     public function SendNewOrder(Request $request): JsonResponse|bool
     {
         $data = array('name' => $request['name'], 'phone' => $request['tel'], 'tg' => $request['telegram'],
-            'category' => $request['category'], 'tarif' => $request['tarif'], 'email' => $request['email']);
+            'service' => $request['service'], 'email' => $request['email']);
         if (!empty($request['file'])) {
             $file = $request->file('file');
             $upload_folder = 'mailFiles';
