@@ -8,6 +8,28 @@
     <meta property="og:url" content="https://desire-company.com/complex-tariffs/start">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="Лучшее предложение для любого бизнеса на пути в e-commerce. Базовый тариф, включающий в себя всё от дизайна до продвижения.">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Комплексные тарифы",
+                "item": "https://desire-company.com/complex-tariffs"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Комплексное решение START",
+                "item": "https://desire-company.com/complex-tariffs/start"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 <main>
@@ -61,27 +83,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Комплексные тарифы",
-            "item": "https://desire-company.com/complex-tariffs"
-        }, {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Комплексное решение START",
-            "item": "https://desire-company.com/complex-tariffs/start"
-        }]
-    }
-</script>
 
 @endsection

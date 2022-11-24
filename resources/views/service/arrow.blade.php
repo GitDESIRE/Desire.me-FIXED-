@@ -8,6 +8,28 @@
     <meta property="og:url" content="https://desire-company.com/complex-tariffs/arrow">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="Сайт, для которого не нужно писать код - уже не сказка, а реальность. Если у кого вас нет времени ждать, то этот тариф - идеальный вариант: рабочий проект, созданный на подходящем конструкторе сайтов, в кратчайшие сроки будет у вас на руках.">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Комплексные тарифы",
+                "item": "https://desire-company.com/complex-tariffs"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Разработка NoCODE - ARROW",
+                "item": "https://desire-company.com/complex-tariffs/arrow"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 <main>
@@ -70,27 +92,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Комплексные тарифы",
-            "item": "https://desire-company.com/complex-tariffs"
-        }, {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Разработка NoCODE - ARROW",
-            "item": "https://desire-company.com/complex-tariffs/arrow"
-        }]
-    }
-</script>
 
 @endsection

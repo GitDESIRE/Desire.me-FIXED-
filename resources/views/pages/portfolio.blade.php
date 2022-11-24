@@ -8,6 +8,24 @@
     <meta property="og:url" content="https://desire-company.com/projects">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="На этой странице вы можете найти интерактивные презентации всех проектов, в реализации которых принимала участие наша команда. Они все разные и прекрасно демонстрируют уникальный подход к работе. Возможно, скоро тут будет и ваш сайт?">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Проекты",
+                "item": "https://desire-company.com/projects"
+            }]
+        }
+    </script>
+
 </head>
 @section('content')
 
@@ -91,22 +109,5 @@
         </section>
     </main>
 </body>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Проекты",
-            "item": "https://desire-company.com/projects"
-        }]
-    }
-</script>
 
 @endsection

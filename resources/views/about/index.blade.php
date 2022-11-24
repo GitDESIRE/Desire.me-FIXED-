@@ -1,15 +1,34 @@
 @extends('layouts.app')
+
 <head>
     <title>Знакомимся ближе: всё о компании Desire</title>
-    <meta name="description" content="Всё о нашей компании и даже немного больше. Здесь мы познакомимся ближе, расскажем вам о миссии и мечтах Desire, а также о мечтах каждого члена команды. У каждой компании ведь есть душа, правда?"/>
+    <meta name="description" content="Всё о нашей компании и даже немного больше. Здесь мы познакомимся ближе, расскажем вам о миссии и мечтах Desire, а также о мечтах каждого члена команды. У каждой компании ведь есть душа, правда?" />
     <meta property="og:type" content="website">
     <meta property="og:title" content="Знакомимся ближе: всё о компании Desire">
     <meta property="og:url" content="https://desire-company.com/about-us">
     <meta property="og:image" content="https://desire-company.com/assets/svg/footerLogo.svg">
     <meta property="og:description" content="Всё о нашей компании и даже немного больше. Здесь мы познакомимся ближе, расскажем вам о миссии и мечтах Desire, а также о мечтах каждого члена команды. У каждой компании ведь есть душа, правда?">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "О нас",
+                "item": "https://desire-company.com/about-us"
+            }]
+        }
+    </script>
 </head>
 @section('content')
-    <body>
+
+<body>
     <main class="main">
         <section class="team-banner">
             <div class="wrapper">
@@ -46,7 +65,7 @@
                     </li>
                     <li class="team-item">
                         <span class="name-team">Ольга Дубовская</span>
-                        <span class="team-function">ведущий  UX/UI дизайнер</span>
+                        <span class="team-function">ведущий UX/UI дизайнер</span>
                     </li>
                     <li class="team-item">
                         <span class="name-team">Данила Леонтьев</span>
@@ -85,15 +104,15 @@
                                     <input class="input" name="name" id="name" type="text" placeholder="ИМЯ">
                                     <label for="email"><span class="label-title">Email</span></label>
                                     <input class="input" name="email" id="email" type="text" placeholder="EMAIL">
-                                        <p class="email_error" id="email_error"></p>
+                                    <p class="email_error" id="email_error"></p>
                                 </div>
                                 <div class="inputs-box_right">
                                     <label for="tel"><span class="label-title">Телефон</span></label>
                                     <input class="input" class="tel" name="tel" id="tel" type="tel" placeholder="ТЕЛЕФОН">
-                                        <p class="tel_error" id="tel_error"></p>
+                                    <p class="tel_error" id="tel_error"></p>
                                     <label for="telegram"><span class="label-title">Телеграм</span></label>
                                     <input class="input" class="telegram" name="telegram" id="telegram" type="text" placeholder="TELEGRAM">
-                                        <p class="telegram_error" id="telegram_error"></p>
+                                    <p class="telegram_error" id="telegram_error"></p>
                                 </div>
                             </div>
                             <div class="inputs-box_bottom">
@@ -113,11 +132,11 @@
                                 <input type="checkbox" id="input" class="checkbox-input">
                                 <div class="checkbox">
                                     <svg id='agr-arrow-icon' width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 1.20284L4.7828 10.5L0 5.67571L0.696799 4.97287L4.7828 9.09431L13.3032 0.5L14 1.20284Z" fill="Grey"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 1.20284L4.7828 10.5L0 5.67571L0.696799 4.97287L4.7828 9.09431L13.3032 0.5L14 1.20284Z" fill="Grey" />
                                     </svg>
                                 </div>
                                 <span class="rights">Даю согласие на обработку
-                              <a href="{{asset('assets/Privacy politic.pdf')}}" target="_blank" class="agreementData-link">Персональных данных</a></span>
+                                    <a href="{{asset('assets/Privacy politic.pdf')}}" target="_blank" class="agreementData-link">Персональных данных</a></span>
                             </label>
                         </div>
                     </form>
@@ -125,22 +144,6 @@
             </div>
         </section>
     </main>
-    </body>
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "О нас",
-            "item": "https://desire-company.com/about-us"
-        }]
-        }
-    </script>
+</body>
+
 @endsection

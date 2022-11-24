@@ -8,6 +8,23 @@
     <meta property="og:url" content="https://desire-company.com/new-project">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="Уже есть идея? Давайте скорее начнём ваш проект! Заполните небольшую форму, чтобы мы могли с вами связаться - и ждите ответа в самое ближайшее время">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Оставить заявку",
+                "item": "https://desire-company.com/new-project"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 
@@ -117,22 +134,5 @@
         </div>
     </main>
 </body>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Оставить заявку",
-            "item": "https://desire-company.com/new-project"
-        }]
-    }
-</script>
 
 @endsection

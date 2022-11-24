@@ -3,6 +3,28 @@
 <head>
   <title>Подробнее о комплексном решении INFLUENCER</title>
   <meta name="description" content="Тариф INFLUENCER станет идеальным решением для тех, кто пока не может найти свои уникальный стиль и “я” в медиапространстве. Мы проведем анализ, оживим соцсети бренда “характером” и яркими медиа материалами, чтобы глаза клиента смотрели только на вас!" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Desire Company",
+        "item": "https://desire-company.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Комплексные тарифы",
+        "item": "https://desire-company.com/complex-tariffs"
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Решение INFLUENCER",
+        "item": "https://desire-company.com/complex-tariffs/influencer"
+      }]
+    }
+  </script>
 </head>
 @section('content')
 <main>
@@ -60,28 +82,5 @@
     </div>
   </section>
 </main>
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Desire Company",
-      "item": "https://desire-company.com/"
-    }, {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Комплексные тарифы",
-      "item": "https://desire-company.com/complex-tariffs"
-    }, {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Решение INFLUENCER",
-      "item": "https://desire-company.com/complex-tariffs/influencer"
-    }]
-  }
-</script>
-
 
 @endsection

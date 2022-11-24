@@ -8,6 +8,29 @@
     <meta property="og:url" content="https://desire-company.com/">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="В Desire всё просто: вы приходите к нам с запросом, а мы быстро, красиво и эффективно его воплощаем в жизнь так, чтобы вам понравилось. Ведь лучший результат - тот, от которого без ума сам клиент, верно?">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Desire Company",
+            "alternateName": "DESIRE",
+            "url": "https://desire-company.com/",
+            "logo": "https://desire-company.com/assets/img/snippet-image.png",
+            "sameAs": "https://www.linkedin.com/company/desire-company/"
+        }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHNKPBNHBL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HHNKPBNHBL');
+    </script>
 </head>
 @section('content')
 <main class="mainPage-content">
@@ -270,27 +293,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Desire Company",
-        "alternateName": "DESIRE",
-        "url": "https://desire-company.com/",
-        "logo": "https://desire-company.com/assets/img/snippet-image.png",
-        "sameAs": "https://www.linkedin.com/company/desire-company/"
-    }
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HHNKPBNHBL"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-HHNKPBNHBL');
-</script>
 @endsection

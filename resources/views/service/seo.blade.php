@@ -8,6 +8,23 @@
     <meta property="og:url" content="https://desire-company.com/promotion">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="Продвижение и SEO - это и про творчество тоже: мы разрабатываем индивидуальные, отвечающие вашим целям и запросам SEO-стратегии, ориентируясь на результат и максимальное привлечение клиентов.">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Продвижение",
+                "item": "https://desire-company.com/promotion"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 <main class="main">
@@ -455,22 +472,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Продвижение",
-            "item": "https://desire-company.com/promotion"
-        }]
-    }
-</script>
 
 @endsection

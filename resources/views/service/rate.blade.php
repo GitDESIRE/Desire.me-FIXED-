@@ -8,6 +8,23 @@
     <meta property="og:url" content="https://desire-company.com/complex-tariffs">
     <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
     <meta property="og:description" content="Если вы не знаете, с чего начать, то вам стоит обратить внимание на наши комплексные тарифы - идеальные предложения для быстрого и легкого старта, ведь они включают в себя все базовые услуги и наше постоянное сопровождение на каждом этапе.">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Комплексные тарифы",
+                "item": "https://desire-company.com/complex-tariffs"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 <main>
@@ -152,22 +169,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Комплексные тарифы",
-            "item": "https://desire-company.com/complex-tariffs"
-        }]
-    }
-</script>
 
 @endsection

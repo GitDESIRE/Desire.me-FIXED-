@@ -3,6 +3,28 @@
 <head>
     <title>Подробнее о комплексном решении FULL DIGITAL</title>
     <meta name="description" content="Есть хороший продукт, а заказы все не появляются? Тариф FULL DIGITAL - и никаких проблем: мы продвинем вас в соцсетях, сформируем маркетинговые воронки и стратегии, быстро и красиво выведя бизнес на новый уровень" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Desire Company",
+                "item": "https://desire-company.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Комплексные тарифы",
+                "item": "https://desire-company.com/complex-tariffs"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Решение FULL DIGITAL",
+                "item": "https://desire-company.com/complex-tariffs/full-digital"
+            }]
+        }
+    </script>
 </head>
 @section('content')
 <main>
@@ -55,28 +77,5 @@
         </div>
     </section>
 </main>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Desire Company",
-            "item": "https://desire-company.com/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Комплексные тарифы",
-            "item": "https://desire-company.com/complex-tariffs"
-        }, {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Решение FULL DIGITAL",
-            "item": "https://desire-company.com/complex-tariffs/full-digital"
-        }]
-    }
-</script>
-
 
 @endsection
