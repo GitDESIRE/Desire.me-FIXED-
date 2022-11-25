@@ -33,7 +33,7 @@
     <meta meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.v8.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.v9.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v2.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/timeline.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.v1.css')}}">
@@ -65,7 +65,7 @@
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
 <script src="{{asset('assets/js/newProject.v1.js')}}"></script>
 <script src="{{asset('assets/js/candidate.js')}}"></script>
-<script src="{{asset('assets/js/script.v2.js')}}"></script>
+<script src="{{asset('assets/js/script.v3.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
 
 @if($_SERVER['REQUEST_URI'] == 'new-project' | $_SERVER['REQUEST_URI'] == 'about-us')

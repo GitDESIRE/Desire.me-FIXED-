@@ -2,7 +2,7 @@
 
 <head>
     <title>Проект “HIKE”: от аналитики до визуала сайта</title>
-    <meta name="description" content="Наша компания принимала участие в создании сайта, объединяющего хайкеров со всего мира в одно огромное и очень энергичное сообщество. Наши разработанная уникальная визуальная концепция, прототипирование и аналитика сделали его одним из лучших проектов на рынке." />
+    <meta name="description" content="Наша компания принимала участие в создании сайта, объединяющего хайкеров со всего мира в одно огромное и очень энергичное сообщество. Разработанная уникальная визуальная концепция, прототипирование и аналитика сделали его одним из лучших проектов на рынке." />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
@@ -25,6 +25,7 @@
             }]
         }
     </script>
+
 </head>
 @section('content')
 <main class="main">
@@ -92,6 +93,13 @@
                         <div class="swiper-slide-main">
                             <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
                             <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/projects/atlant"><img class="slider-img" src="{{asset('assets/img/slider-image-5.png')}}" alt="Обложка проекта - Atlant" /></a>
+                        <div class="swiper-slide-main">
+                            <h3 class="swiper-slide-title">Atlant: Трекер задач</h3>
+                            <a href="/projects/atlant">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,37 @@
 @extends('layouts.app')
 
 <head>
-  <title>Трекер задач «ATLANT»</title>
+  <title>Проект ATLANT: дизайн мобильного приложения</title>
+
+  <meta name="description" content="Уникальный дизайн приложения для бренда с уникальным мифологическим позиционированием? Мы справились и с этим, превратив идею в стильный интерактивный макет с наполнением, выдержанным в стиле персонажа бренда - всесильного Атланта" />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Проект ATLANT: дизайн мобильного приложения">
+  <meta property="og:url" content="https://desire-company.com/projects/atlant">
+  <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
+  <meta property="og:description" content="Уникальный дизайн приложения для бренда с уникальным мифологическим позиционированием? Мы справились и с этим, превратив идею в стильный интерактивный макет  с наполнением, выдержанным в стиле персонажа бренда - всесильного Атланта">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Desire Company",
+        "item": "https://desire-company.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Проекты",
+        "item": "https://desire-company.com/projects/"
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Кейс ATLANT",
+        "item": "https://desire-company.com/projects/atlant"
+      }]
+    }
+  </script>
+
 </head>
 @section('content')
 <main class="main">
@@ -152,6 +182,13 @@
             <div class="swiper-slide-main">
               <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
               <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <a href="/projects/atlant"><img class="slider-img" src="{{asset('assets/img/slider-image-5.png')}}" alt="Обложка проекта - Atlant" /></a>
+            <div class="swiper-slide-main">
+              <h3 class="swiper-slide-title">Atlant: Трекер задач</h3>
+              <a href="/projects/atlant">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
             </div>
           </div>
         </div>

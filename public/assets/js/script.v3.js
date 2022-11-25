@@ -28,6 +28,18 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         })
     });
+
+    const showBtn = document.querySelector('.btn-show');
+    if (showBtn) showBtn.addEventListener('click', showProjects);
+
+    function showProjects() {
+        const hiddenCases = document.querySelectorAll('.cases-item:nth-child(n + 5)');
+        showBtn.style.display = 'none';
+        hiddenCases.forEach((hidCase) => {
+            hidCase.style.opacity = 1;
+            hidCase.style.height = '100%';
+        });
+    }
     
 /***
 * 2022.11.17
