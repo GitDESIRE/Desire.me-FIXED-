@@ -3,6 +3,12 @@
 <head>
     <title>Подробнее о комплексном решении FULL DIGITAL</title>
     <meta name="description" content="Есть хороший продукт, а заказы все не появляются? Тариф FULL DIGITAL - и никаких проблем: мы продвинем вас в соцсетях, сформируем маркетинговые воронки и стратегии, быстро и красиво выведя бизнес на новый уровень" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Подробнее о комплексном решении FULL DIGITAL">
+    <meta property="og:url" content="https://desire-company.com/complex-tariffs/full-digital">
+    <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
+    <meta property="og:description" content="Есть хороший продукт, а заказы все не появляются? Тариф FULL DIGITAL - и никаких проблем: мы продвинем вас в соцсетях, сформируем маркетинговые воронки и стратегии, быстро и красиво выведя бизнес на новый уровень">
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",

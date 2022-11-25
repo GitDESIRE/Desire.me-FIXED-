@@ -95,8 +95,22 @@
                                 </a>
                             </div>
                         </li>
+                        <li class="cases-item">
+                            <a href="/projects/atlant">
+                                <img src="{{asset('assets/img/slider-image-5.png')}}" alt="Обложка проекта - Atlant" class="cases-img">
+                            </a>
+                            <div class="ceses-text">
+                                <a href="/projects/atlant" class="cases-name">Atlant. Трекер задач</a>
+                                <a href="/projects/atlant" class="case-link">Посмотреть
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 0.824219H9V8.82422" stroke="#9AD351" stroke-linecap="square" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
                     </ul>
-                    <a href="/projects" class="btn-project">Показать ещё</a>
+                    <button class="btn-project btn-show">Показать ещё</button>
                 </div>
             </div>
         </section>

@@ -1339,18 +1339,23 @@ form input::placeholder {
 .cases-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 23px;
+    gap: 48px 23px;
 }
 
 .cases-item {
-    margin-bottom: 48px;
     width: 100%;
     max-width: 588px;
     display: flex;
     flex-direction: column;
 }
 
-.cases-item:hover .cases-img {
+.cases-item:nth-child(n + 5) {
+    opacity: 0;
+    height: 0;
+    transition: all 0.5s ease-out;
+}
+
+.cases-item .cases-img:hover {
     opacity: 0.8;
     transition: all 0.3s linear;
 }
@@ -3587,8 +3592,8 @@ form input::placeholder {
 @media (max-width: 600px) {
     .title,
     .banner-title {
-        font-size: 40px;
-        line-height: 47px;
+        font-size: 40px !important;
+        line-height: 47px !important;
         word-break: break-word;
     }
 

@@ -3,6 +3,12 @@
 <head>
   <title>Подробнее о комплексном решении INFLUENCER</title>
   <meta name="description" content="Тариф INFLUENCER станет идеальным решением для тех, кто пока не может найти свои уникальный стиль и “я” в медиапространстве. Мы проведем анализ, оживим соцсети бренда “характером” и яркими медиа материалами, чтобы глаза клиента смотрели только на вас!" />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Подробнее о комплексном решении INFLUENCER">
+  <meta property="og:url" content="https://desire-company.com/complex-tariffs/influencer">
+  <meta property="og:image" content="https://desire-company.com/assets/img/snippet-image.png">
+  <meta property="og:description" content="Тариф INFLUENCER станет идеальным решением для тех, кто пока не может найти свои уникальный стиль и “я” в медиапространстве. Мы проведем анализ, оживим соцсети бренда “характером” и яркими медиа материалами, чтобы глаза клиента смотрели только на вас!">
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",

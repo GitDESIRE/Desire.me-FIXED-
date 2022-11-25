@@ -28,6 +28,18 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         })
     });
+
+    const showBtn = document.querySelector('.btn-show');
+    if (showBtn) showBtn.addEventListener('click', showProjects);
+
+    function showProjects() {
+        const hiddenCases = document.querySelectorAll('.cases-item:nth-child(n + 5)');
+        showBtn.style.display = 'none';
+        hiddenCases.forEach((hidCase) => {
+            hidCase.style.opacity = 1;
+            hidCase.style.height = '100%';
+        });
+    }
     
 /***
 * 2022.11.17
@@ -55,7 +67,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function sectionBanner(coef=1){
         seo_banner_section.css('margin-top',  banner_title.css('margin-top'));
         seo_banner_top.css('margin-bottom',  banner_title.css('margin-bottom'));
-        banner_title.css('font-size', 'calc('+fontSizeBannerTitle+'px / '+(coef/1.5)+')').css('line-height', 'calc('+lineHeighteBannerTitle+'px / '+(coef/1.5)+')');
+        banner_title.css('font-size', 'calc('+fontSizeBannerTitle+'px / '+(coef/1.2)+')').css('line-height', 'calc('+lineHeighteBannerTitle+'px / '+(coef/1.2)+')');
         banner_description_item.css('font-size', 'calc('+fontSizeBannerDeskItem+'px / '+(coef/1.5)+')').css('line-height', 'calc('+lineHeighteBannerDeskItem+'px / '+(coef/1.5)+')');
         banner_description_list.css('gap', 'calc('+gapBannerDeskList+'px / '+(coef/1.5)+')');
     }
