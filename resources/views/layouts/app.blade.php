@@ -63,9 +63,9 @@
 <script src="{{asset('assets/js/checkPrivacy.v1.js')}}"></script>
 <script src="{{asset('assets/js/custom-cursor.v5.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
-<script src="{{asset('assets/js/newProject.v1.js')}}"></script>
-<script src="{{asset('assets/js/candidate.js')}}"></script>
 <script src="{{asset('assets/js/script.v3.js')}}"></script>
+<script src="{{asset('assets/js/newProject.v2.js')}}"></script>
+<script src="{{asset('assets/js/candidate.v1.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
 
 @if($_SERVER['REQUEST_URI'] == 'new-project' | $_SERVER['REQUEST_URI'] == 'about-us')

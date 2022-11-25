@@ -10,7 +10,7 @@ Disallow: /assets/js/custom-cursor.v1.js
 Disallow: /assets/js/blockAnimation.js
 Disallow: /assets/js/script.js
 Disallow: /assets/js/burgerMenu.js
-Disallow: /assets/js/candidate.js
+Disallow: /assets/js/candidate.v1.js
 Disallow: /assets/js/swiper-bundle.min.js
 Disallow: /assets/css/styles.v1.css
 Disallow: /assets/css/blockAnimation.css

@@ -20,4 +20,22 @@
     RewriteRule ^ index.php [L]
 
     RewriteRule ^/(.*\.)v[0-9.]+\.(css|js|gif|png|jpg)$ /$1$2 [L,E=VERSIONED_FILE:1]
+
+    #перенаправляем основной домен с www если к нему обратились по http
+    RewriteCond %{HTTP:X-HTTPS} !1
+
+    RewriteCond %{HTTP_HOST} ^www\.desire-company\.com$
+    RewriteRule ^(.*)$ https://www.desire-company.com/$1 [R=301,L]
+
+    #перенаправляем основной домен без www по любому протоколу
+    RewriteCond %{HTTP_HOST} ^desire-company\.com$
+    RewriteRule ^(.*)$ http://www.desire-company.com/$1 [R=301,L]
+
+    #перенаправляем зеркало без www по любому протоколу
+    RewriteCond %{HTTP_HOST} ^desire-company\.com$
+    RewriteRule ^(.*)$ https://www.desire-company.com/$1 [R=301,L]
+
+    #перенаправляем зеркало с www по любому протоколу
+    RewriteCond %{HTTP_HOST} ^www\.desire-company\.com$
+    RewriteRule ^(.*)$ https://www.desire-company.com/$1 [R=301,L]
 </IfModule>
