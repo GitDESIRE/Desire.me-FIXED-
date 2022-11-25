@@ -55,3 +55,30 @@ $(document).ready(function () {
     )
     ;
 });
+
+
+jQuery(function ($) {
+    $('#tel').on('input', function () {
+        $('.tel_error').text('');
+        $('.telegram_error').text('');
+        $(this).removeClass('error');
+        $('.telegram').removeClass('error');
+    });
+});
+
+jQuery(function ($) {
+    $('#telegram').on('input', function () {
+        $('.tel_error').text('');
+        $('.telegram_error').text('');
+        $(this).removeClass('error');
+        $('.telegram').removeClass('error');
+    });
+});
+
+jQuery(function ($) {
+    $('#email').on('input', function () {
+        $('.email_error').text('');
+        $(this).removeClass('error');
+        $('.email').removeClass('error');
+    });
+});

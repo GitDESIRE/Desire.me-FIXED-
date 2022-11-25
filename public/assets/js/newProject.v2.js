@@ -113,6 +113,14 @@ jQuery(function ($) {
     });
 });
 
+jQuery(function ($) {
+    $('.email').on('input', function () {
+        $('.email_error').text('');
+        $(this).removeClass('error');
+        $('.email').removeClass('error');
+    });
+});
+
 if (this.window.location.pathname === '/new-project') {
     this.document.querySelector('.header').style.background = '#282828'
 }

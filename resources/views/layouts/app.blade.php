@@ -63,8 +63,8 @@
 <script src="{{asset('assets/js/checkPrivacy.v1.js')}}"></script>
 <script src="{{asset('assets/js/custom-cursor.v5.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
-<script src="{{asset('assets/js/newProject.v1.js')}}"></script>
-<script src="{{asset('assets/js/candidate.js')}}"></script>
+<script src="{{asset('assets/js/newProject.v2.js')}}"></script>
+<script src="{{asset('assets/js/candidate.v1.js')}}"></script>
 <script src="{{asset('assets/js/script.v2.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
 
