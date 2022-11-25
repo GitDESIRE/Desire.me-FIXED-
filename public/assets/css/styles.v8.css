@@ -3587,8 +3587,8 @@ form input::placeholder {
 @media (max-width: 600px) {
     .title,
     .banner-title {
-        font-size: 40px;
-        line-height: 47px;
+        font-size: 40px !important;
+        line-height: 47px !important;
         word-break: break-word;
     }
 
