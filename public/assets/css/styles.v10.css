@@ -42,8 +42,8 @@ body {
     background: white;
     cursor: none;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .main {
@@ -276,7 +276,7 @@ body {
 
 .project-banner {
     background: #282828;
-    padding: 230px 12px 100px;
+    padding: 230px 12px;
 }
 
 .personal-data .buttonsBox {
@@ -2159,7 +2159,6 @@ form input::placeholder {
 
 .swiper {
     width: 100%;
-    max-height: 554px;
 }
 
 .swiper-slide {
@@ -2366,6 +2365,7 @@ form input::placeholder {
 .wrapper.project-wrapper {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0;
 }
 
 .wrapper.project-wrapper .seo-banner-top {
@@ -2683,7 +2683,7 @@ form input::placeholder {
 }
 
 .project-screen img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -2695,6 +2695,68 @@ form input::placeholder {
     line-height: 49px;
     text-transform: uppercase;
     color: #282828;
+}
+
+.project-screen.about {
+    position: relative;
+    height: 100%;
+    max-height: 850px;
+    background-image: url("../img/Atlant-about.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-wrapper.about {
+    width: 100%;
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 200px 12px 0;
+}
+
+.project-screen.wireframes {
+    background-color: #282828;
+    background-image: url("../img/Atlant-wireframes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 100%;
+    max-height: 850px;
+}
+
+.project-screen.colors {
+    background-color: #282828;
+}
+
+.project-screen.adaptive {
+    background-image: url("../img/Atlant-android.png");
+    height: 100%;
+    max-height: 856px;
+    background-color: #9ad351;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.5s;
+}
+
+.project-screen.adaptive .project-wrapper {
+    padding-top: 1px;
+}
+
+.project-screen.adaptive .project-wrapper .subTitle {
+    margin-top: 150px;
+}
+
+.project-wrapper.about p {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 403px;
+    color: #fff;
+}
+
+.project-wrapper .project-subtitle {
+    color: #fff;
 }
 
 .project-info {
@@ -2774,12 +2836,82 @@ form input::placeholder {
     background-position: 100px bottom;
 }
 
+.project-wrapper.colors {
+    width: 100%;
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 150px 12px;
+}
+
+.icon-wrapper {
+    width: 99px;
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.project-typography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.project-typography p.project-font {
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.typo-icons {
+    display: flex;
+    gap: 38px;
+    margin-left: 280px;
+}
+
+.typo-icons .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon-blue .icon-wrapper {
+    background-color: #127cbc;
+    outline: 5px solid rgba(18, 124, 188, 0.2);
+}
+
+.icon-black .icon-wrapper {
+    background-color: #27282a;
+    outline: 5px solid rgba(255, 255, 255, 0.1);
+}
+
+.icon-white .icon-wrapper {
+    background-color: #fff;
+    outline: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.typo-icons span {
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    opacity: 0.8;
+}
+
 @media (max-width: 1200px) {
     .wrapper {
         padding: 0 12px;
     }
     .white_logo {
         margin-right: 222px;
+    }
+
+    .project-screen.wireframes {
+        background-size: cover;
     }
 
     .p_4 {
@@ -2835,6 +2967,10 @@ form input::placeholder {
     }
 
     .invitation .wrapper {
+        flex-direction: row;
+    }
+
+    .project-info .wrapper {
         flex-direction: row;
     }
 
@@ -2910,6 +3046,15 @@ form input::placeholder {
         padding: 120px 0;
     }
 
+    .project-screen.about,
+    .project-screen.wireframes {
+        max-height: 554px;
+    }
+
+    .project-screen.wireframes .project-wrapper.about {
+        padding-top: 120px;
+    }
+
     .project-banner {
         padding: 180px 12px 90px;
     }
@@ -2968,12 +3113,12 @@ form input::placeholder {
         gap: 0;
     }
 
-    .team-banner {
-        padding-bottom: 120px;
+    .project-screen.adaptive {
+        background-image: url("../img/Atlant-androidMid.png");
     }
 
-    .swiper {
-        max-height: 584px;
+    .team-banner {
+        padding-bottom: 120px;
     }
 
     .hidden-content .hidden-wrapper .tab-wrapper {
@@ -2982,6 +3127,10 @@ form input::placeholder {
 
     .hidden-content .hidden-wrapper:nth-last-child(-n + 1) .tab-wrapper {
         flex-direction: row;
+    }
+
+    .project-screen.wireframes {
+        background-image: url("../img/Atlant-wireframesMiddle.png");
     }
 
     .hidden-content .hidden-wrapper .tab-wrapper .toggle {
@@ -3095,6 +3244,10 @@ form input::placeholder {
         flex-direction: column;
     }
 
+    .project-info .wrapper {
+        flex-direction: row;
+    }
+
     .invitation .wrapper {
         gap: 48px;
     }
@@ -3201,6 +3354,10 @@ form input::placeholder {
         padding-bottom: 20px;
     }
 
+    .project-info .wrapper {
+        gap: 24px;
+    }
+
     .team {
         margin-bottom: 100px;
     }
@@ -3208,6 +3365,22 @@ form input::placeholder {
     .task {
         align-self: unset;
         gap: 13px;
+    }
+
+    .project-wrapper.about {
+        padding-top: 120px;
+    }
+
+    .project-wrapper.about p {
+        max-width: 288px;
+    }
+
+    .project-typography {
+        align-items: flex-start;
+    }
+
+    .typo-icons {
+        margin-left: 0;
     }
 
     .rule p {
@@ -3246,6 +3419,41 @@ form input::placeholder {
     }
     .dolfi__typography-div {
         grid-area: 2;
+    }
+
+    .icon-wrapper {
+        width: 72px;
+        height: 72px;
+    }
+
+    .icon-wrapper svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .project-info {
+        margin: 100px 0;
+    }
+
+    .project-info .wrapper {
+        flex-direction: column;
+    }
+
+    .screen-wrapper:nth-child(-2n + 3) {
+        background-image: none;
+    }
+
+    .screen-wrapper:nth-child(n + 2) {
+        margin-top: 0;
+    }
+
+    .screen-wrapper:nth-child(2n + 2) {
+        flex-direction: column-reverse !important;
+    }
+
+    .project-info p {
+        font-size: 15px;
+        line-height: 18px;
     }
 
     .font-name {
@@ -3296,10 +3504,6 @@ form input::placeholder {
 
     .mobile-picture {
         gap: 57px;
-    }
-
-    .swiper {
-        max-height: 468px;
     }
 
     .p_1 {
@@ -3448,7 +3652,7 @@ form input::placeholder {
     }
 
     .swiper-slide {
-        padding: 70px 20px 35px;
+        padding: 70px 20px 20px;
     }
 
     .main .main_container {
@@ -3616,6 +3820,10 @@ form input::placeholder {
         padding: 0;
     }
 
+    .project-screen.wireframes {
+        background-image: url("../img/Atlant-wireframesMob.png");
+    }
+
     .tab .tab-wrapper.opened .tab-rightPart .toggle {
         position: absolute;
         right: 0;
@@ -3624,6 +3832,14 @@ form input::placeholder {
 
     .tabs .hidden-wrapper {
         justify-content: flex-start;
+    }
+
+    .project-screen.adaptive {
+        background-image: url("../img/Atlant-androidMob.png");
+    }
+
+    .project-screen.adaptive .project-wrapper .subTitle {
+        margin-top: 100px;
     }
 
     .hidden-content .hidden-wrapper .tab-wrapper {
@@ -3677,8 +3893,46 @@ form input::placeholder {
         padding: 0 10px;
     }
 
+    .project-subtitle {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .icon-wrapper {
+        width: 68px;
+        height: 68px;
+    }
+
+    .typo-icons {
+        gap: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .project-typography p.project-font {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .project-wrapper.colors {
+        padding: 100px 10px;
+    }
+
+    .project-info {
+        margin: 100px 0;
+    }
+
+    .project-info .wrapper {
+        flex-direction: column;
+    }
+
     .service-chips {
         padding: 5px;
+    }
+
+    .seo-banner-section {
+        align-self: flex-start;
     }
 
     .services-box {
@@ -3695,6 +3949,20 @@ form input::placeholder {
 
     .project-content {
         padding: 100px 0;
+    }
+
+    .project-screen.about {
+        background-image: url("../img/Atlant-mobAbout.png");
+        max-height: 700px;
+    }
+
+    .project-wrapper.about {
+        padding-top: 100px;
+    }
+
+    .project-wrapper .project-subtitle {
+        font-size: 32px;
+        line-height: 39px;
     }
 
     .project-content .seo-banner-bottom {
@@ -3908,13 +4176,9 @@ form input::placeholder {
     }
 
     .swiper {
-        max-height: 355px;
         height: 100%;
     }
 
-    .swiper-slide {
-        min-height: 355px;
-    }
     .main .main_container {
         margin: 140px 0 10px;
     }

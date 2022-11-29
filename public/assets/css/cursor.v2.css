@@ -18,12 +18,13 @@
     width: 36px;
     height: 36px;
     opacity: 0.4;
-    transition: width 0.3s, height 0.3s, backgroundColor 0.3s,
-        opacity 0.3s top 0.3s, left 0.3s;
+    transition: width 0.3s, height 0.3s, background 0.5s, opacity 0.3s top 0.3s,
+        left 0.3s;
 }
 
 .custom-cursor_dark {
     background-color: #282828;
+    transition: background 0.5s linear;
 }
 
 @media (max-width: 800px) {

@@ -50,7 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 target.closest('.wrap_button_white button') ||
                 target.closest('.white_a a') ||
                 target.closest('.cases-btn') ||
-                target.closest('.about-btn')
+                target.closest('.about-btn') ||
+                target.closest('.project-screen.adaptive')
             ) {
                 el.classList.add('custom-cursor_dark')
             } else {
