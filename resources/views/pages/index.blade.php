@@ -286,7 +286,11 @@
                 </div>
             </div>
         </div>
-        <div class="white_wrap  block-animation">
+        <div class="white_wrap  block-animation" style="overflow: hidden">
+            <div class="mainpage-back b1"></div>
+            <div class="mainpage-back b2"></div>
+            <div class="mainpage-back b3"></div>
+            <div class="mainpage-back b4"></div>
             <div class="white_wrap_pp">
                 <p>Мы предоставляем <span>весь спектр услуг</span> для вашего digital-проекта: <span>от</span>
                     разработки сайта <span>и</span> мобильных приложений <span>до</span> продвижения проекта в
@@ -295,7 +299,8 @@
             </div>
             <div class="wrap_button_white wrap_button_green" style="margin-bottom: 0;">
                 <a href="/new-project">
-                    <button style="margin-top: 0">Начать проект</button></a>
+                    <button style="margin-top: 0">Начать проект</button>
+                </a>
             </div>
         </div>
     </section>
