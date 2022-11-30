@@ -9,9 +9,14 @@
     position: fixed;
     z-index: 999;
     pointer-events: none;
-    transition: width 0.3s, height 0.3s, backgroundColor 0.3s, opacity 0.3s,
-        top 0.3s, left 0.3s;
+    transition: scale 0.3s, width 0.3s, height 0.3s, backgroundColor 0.3s,
+        opacity 0.3s, top 0.3s, left 0.3s;
     transform: translate(calc(-50% + 15px), -50%);
+}
+
+.custom-cursor.leave {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
 }
 
 .custom-cursor_active {

@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const target = e.target // определяем, где находится курсор
             if (!target) return
 
+            // Анимация курсора для свайпера
             if (target.closest('.swiper-button-next')) {
                 el.classList.add('swiper-btn-right');
             } else {
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 el.classList.remove('swiper-btn-left');
             }
 
+            // Анимация курсора для активных элементов
             if (target.closest('button') ||
                 target.closest('.arrowBox') ||
                 target.closest('.custom-select') ||
@@ -40,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 el.classList.remove('custom-cursor_active') // удаляем активный класс
             }
 
+            // Затемняем курсор при наводе на элементы
             if (target.closest('.content-logo') ||
                 target.closest('.arrowBox') ||
                 target.closest('.file-button') ||
@@ -57,6 +60,15 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 el.classList.remove('custom-cursor_dark')
             }
+
+
+            // Убираем курсор при отстуствии в body
+            if (e.clientY <= 0 || !target.closest('body')) {
+                el.classList.add('leave');
+            } else {
+                el.classList.remove('leave');
+            }
+
             el.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
         });
     }
