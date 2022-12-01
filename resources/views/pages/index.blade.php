@@ -53,8 +53,8 @@
         </div>
     </section>
     <section class="main_wrap">
-        <div class="white_wrap block-animation">
-            <div class="div_ul ul_white marquee3k" data-speed="0.5" data-reverse="true">
+        <div class="white_wrap">
+            <div class="div_ul ul_white marquee3k marque-animation" data-speed="0.5" data-reverse="true">
                 <ul>
                     <li>кто мы</li>
                     <li>кто мы</li>
@@ -71,10 +71,10 @@
                 </ul>
             </div>
             <div class="wrapper">
-                <div class="white_logo">
+                <div class="white_logo block-animation">
                     Мы <br /> DESIRE
                 </div>
-                <div class="white_wrap_p">
+                <div class="white_wrap_p block-animation">
                     <div>
                         <h2>Мы ориентируемся на ваши цели, помогая выйти на новый уровень: не просто «быть», а «менять мир»</h2>
                     </div>
@@ -98,8 +98,8 @@
                 </div>
             </div>
         </div>
-        <div class="black_wrap block-animation">
-            <div class="div_ul ul_black marquee3k" data-speed="0.5" data-reverse="true">
+        <div class="black_wrap">
+            <div class="div_ul ul_black marquee3k marque-animation" data-speed="0.5" data-reverse="true">
                 <ul>
                     <li>Что мы делаем</li>
                     <li>Что мы делаем</li>
@@ -116,7 +116,7 @@
             </div>
             <div class="wrapper">
                 <div class="whatWeDo-content">
-                    <div class="black_wrap_wrap_content">
+                    <div class="black_wrap_wrap_content block-animation">
                         <div class="h1_wrap">дизайн</div>
                         <div class="wrap_ul">
                             <ul>
@@ -131,7 +131,7 @@
                             <button>Подробнее</button>
                         </a>
                     </div>
-                    <div class="black_wrap_wrap_content">
+                    <div class="black_wrap_wrap_content block-animation">
                         <div class="h1_wrap">разработка</div>
                         <div class="wrap_ul">
                             <ul>
@@ -146,7 +146,7 @@
                             <button>Подробнее</button>
                         </a>
                     </div>
-                    <div class="black_wrap_wrap_content">
+                    <div class="black_wrap_wrap_content block-animation">
                         <div class="h1_wrap">продвижение</div>
                         <div class="wrap_ul">
                             <ul>
@@ -164,8 +164,8 @@
                 </div>
             </div>
         </div>
-        <div class="white_wrap  block-animation">
-            <div class="div_ul ul_white  marquee3k" data-speed="0.5" data-reverse="true">
+        <div class="white_wrap ">
+            <div class="div_ul ul_white  marquee3k marque-animation" data-speed="0.5" data-reverse="true">
                 <ul>
                     <li>портфолио</li>
                     <li>портфолио</li>
@@ -179,7 +179,7 @@
                     <li>портфолио</li>
                 </ul>
             </div>
-            <div class="white_wrap_wrap_slider">
+            <div class="white_wrap_wrap_slider block-animation">
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -227,13 +227,14 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <div class="wrap_button_white">
+            <div class="wrap_button_white block-animation">
                 <a href="/projects" class="wrap_button">
-                    <button>Смотреть всё</button></a>
+                    <button>Смотреть всё</button>
+                </a>
             </div>
         </div>
-        <div class="black_wrap  block-animation">
-            <div class="div_ul ul_black  marquee3k" data-speed="0.5" data-reverse="true">
+        <div class="black_wrap ">
+            <div class="div_ul ul_black  marquee3k marque-animation" data-speed="0.5" data-reverse="true">
                 <ul>
                     <li>Как мы работаем</li>
                     <li>Как мы работаем</li>
@@ -251,31 +252,31 @@
             <div class="wrapper" style="flex-direction: column;  align-items: normal;">
                 <div class="timeline">
                     <ol class="timeline__inner">
-                        <li class="timeline__item">
+                        <li class="timeline__item block-animation">
                             <div class="timeline-item">
                                 <div class="timeline-item__title">Знакомство</div>
                                 <div class="timeline-item__info">Мы создали отдельный блок для каждого направления, где вы сможете узнать больше о наших услугах и их ценовой диапазон</div>
                             </div>
                         </li>
-                        <li class="timeline__item">
+                        <li class="timeline__item block-animation">
                             <div class="timeline-item">
                                 <div class="timeline-item__title">Оформление заказа</div>
                                 <div class="timeline-item__info">Оставьте заявку нам в Telegram, через сайт или по рабочей почте и мы с вами свяжемся</div>
                             </div>
                         </li>
-                        <li class="timeline__item">
+                        <li class="timeline__item block-animation">
                             <div class="timeline-item">
                                 <div class="timeline-item__title">Оценка</div>
                                 <div class="timeline-item__info">Мы ответим на любые интересующие вас вопросы, предоставим примерную оценку работы, а также уточним все важные детали</div>
                             </div>
                         </li>
-                        <li class="timeline__item">
+                        <li class="timeline__item block-animation">
                             <div class="timeline-item">
                                 <div class="timeline-item__title">Оплата</div>
                                 <div class="timeline-item__info">Гарантируем безопасную сделку по договору и предлагаем несколько вариантов оплаты</div>
                             </div>
                         </li>
-                        <li class="timeline__item">
+                        <li class="timeline__item block-animation">
                             <div class="timeline-item">
                                 <div class="timeline-item__title">Исполнение</div>
                                 <div class="timeline-item__info">После создания заказа берём его в работу, отправляем промежуточные отчёты и поддерживаем связь с вами</div>

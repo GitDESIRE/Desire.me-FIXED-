@@ -1,8 +1,0 @@
-.block-animation {
-    opacity: 0;
-}
-
-.block-animation.block-show {
-    opacity: 1;
-    transition: opacity 0.5s;
-}
