@@ -134,7 +134,7 @@ body {
 
 .arrowBox {
     position: fixed;
-    bottom: 30%;
+    bottom: 5%;
     right: 5%;
     width: 100px;
     height: 100px;
@@ -1379,9 +1379,7 @@ form input::placeholder {
 }
 
 .cases-item:nth-child(n + 5) {
-    opacity: 0;
-    height: 0;
-    transition: all 0.5s ease-out;
+    display: none;
 }
 
 .cases-item .cases-img:hover {
@@ -1685,8 +1683,8 @@ form input::placeholder {
 }
 
 .tabs .tab .opened .text {
-    opacity: 0.8;
-    transition: all 0.3s linear;
+    animation: fadeIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* animation-delay: 0.3s; */
 }
 
 .hidden-content .hidden-wrapper .tab-wrapper.opened {
@@ -1730,12 +1728,20 @@ form input::placeholder {
 .tabs .tab .text {
     display: none;
     max-width: 533px;
-    height: 0;
     font-size: 15px;
     line-height: 18px;
-    /* White */
     color: #ffffff;
-    opacity: 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        height: 100%;
+    }
 }
 
 .tabs .tab .hidden-content {
@@ -3728,6 +3734,10 @@ form input::placeholder {
         padding: 0;
     }
 
+    .desicionBox .desicion-special {
+        display: none;
+    }
+
     .tarif-main .content-box {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -4122,10 +4132,6 @@ form input::placeholder {
         letter-spacing: 15px;
         bottom: 10%;
         left: 0;
-    }
-
-    .desicionBox .desicion-special {
-        display: none;
     }
 
     .swiper-slide-main {

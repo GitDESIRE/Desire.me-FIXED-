@@ -110,7 +110,7 @@
                             </div>
                         </li>
                     </ul>
-                    <button class="btn-project btn-show">Показать ещё</button>
+                    <button class="btn-project btn-show" style="margin-top: 48px">Показать ещё</button>
                 </div>
             </div>
         </section>
