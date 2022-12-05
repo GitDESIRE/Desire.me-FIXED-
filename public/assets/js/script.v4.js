@@ -36,8 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const hiddenCases = document.querySelectorAll('.cases-item:nth-child(n + 5)');
         showBtn.style.display = 'none';
         hiddenCases.forEach((hidCase) => {
-            hidCase.style.opacity = 1;
-            hidCase.style.height = '100%';
+            hidCase.style.display = 'block';
         });
     }
     

@@ -16,6 +16,11 @@ function onBlockEntry(blockEntry) {
   blockEntry.forEach(change => {
     if (change.isIntersecting) {
       change.target.classList.add('block-show');
+      $('.block-show').each(function(index){
+        $(this).css({
+          'transition-delay' : 0.1*(0.3 + index / 2) + 's' 
+        });
+      });
     }
   });
 }
@@ -25,9 +30,3 @@ let blockElements = document.querySelectorAll('.block-animation');
 for (let elm of blockElements) {
   blocksObserver.observe(elm);
 }
-
-$('.block-animation').each(function(index){
-  $(this).css({
-    'transition-delay' : 0.1*(0.3 + index) + 's' 
-  });
-});
