@@ -118,9 +118,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="swiper-pagination"></div>
-        <a href="/projects"><button class="cases-btn">Смотреть все</button></a>
+            <div class="swiper-pagination"></div>
+            <a href="/projects"><button class="cases-btn">Смотреть все</button></a>
         </div>
     </section>
 </main>

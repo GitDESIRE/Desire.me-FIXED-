@@ -33,11 +33,12 @@
     <meta meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.v12.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v2.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.v13.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/timeline.v1.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.v2.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/creditModal.css')}}">
     <link type="image/x-icon" href="{{asset('assets/svg/favicon.svg')}}" rel="shortcut icon">
     <link rel="stylesheet" href="{{asset('assets/css/intlTelInput.v1.css')}}">
     <style>
@@ -63,10 +64,11 @@
 <script src="{{asset('assets/js/checkPrivacy.v1.js')}}"></script>
 <script src="{{asset('assets/js/custom-cursor.v7.js')}}"></script>
 <script src="{{asset('assets/js/marquee3k.js')}}"></script>
-<script src="{{asset('assets/js/script.v4.js')}}"></script>
+<script src="{{asset('assets/js/script.v5.js')}}"></script>
 <script src="{{asset('assets/js/newProject.v2.js')}}"></script>
 <script src="{{asset('assets/js/candidate.v1.js')}}"></script>
 <script src="{{asset('assets/js/swiper.js')}}"></script>
+<script src="{{asset('assets/js/tinkoffModal.js')}}"></script>
 
 @if($_SERVER['REQUEST_URI'] == 'new-project' | $_SERVER['REQUEST_URI'] == 'about-us')
 
