@@ -33,7 +33,7 @@
         <div class="wrapper newProject-wrapper">
             <section class="main_container">
                 <h1 class="title">Начнём <br /> ваш проект</h1>
-                <h2>Кратко опишите свою задачу, и мы свяжемся с вами в кратчайшие сроки</h2>
+                <h2>Оставьте заявку, и мы свяжемся с вами в ближайшее время</h2>
             </section>
             <section class="aside_container">
                 <form enctype="multipart/form-data" class="newProject_form" id="form" name="newProject_form" action="{{url('newOrder')}}" method="post">

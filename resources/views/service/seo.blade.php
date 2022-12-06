@@ -147,7 +147,22 @@
                                 Стоимость
                             </span>
                             <p class="price">от 30 000 руб.</p>
-                            <span class="credit">рассрочка и кредит</span>
+                            <div class="blank-spot"></div>
+                        </div>
+                    </div>
+                    <div class="hidden-wrapper">
+                        <div class="tab-wrapper">
+                            <span class="subtitle">
+                                <span class="credit"> Рассрочка</span>
+                            </span>
+                            <p class="price">от 800 руб. / мес.</p>
+                            <span class="modal-link">
+                                Подробнее
+                                <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 8.5L9 0.5" stroke="#9ad351" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M1 0.5H9V8.5" stroke="#9ad351" stroke-linecap="square" stroke-linejoin="round" />
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -251,7 +266,22 @@
                                 Стоимость
                             </span>
                             <p class="price">от 50 000 руб.</p>
-                            <span class="credit">рассрочка и кредит</span>
+                            <div class="blank-spot"></div>
+                        </div>
+                    </div>
+                    <div class="hidden-wrapper">
+                        <div class="tab-wrapper">
+                            <span class="subtitle">
+                                <span class="credit"> Рассрочка</span>
+                            </span>
+                            <p class="price">от 800 руб. / мес.</p>
+                            <span class="modal-link">
+                                Подробнее
+                                <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 8.5L9 0.5" stroke="#9ad351" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M1 0.5H9V8.5" stroke="#9ad351" stroke-linecap="square" stroke-linejoin="round" />
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -368,7 +398,22 @@
                                 Стоимость
                             </span>
                             <p class="price">от 80 000 руб.</p>
-                            <span class="credit">рассрочка и кредит</span>
+                            <div class="blank-spot"></div>
+                        </div>
+                    </div>
+                    <div class="hidden-wrapper">
+                        <div class="tab-wrapper">
+                            <span class="subtitle">
+                                <span class="credit"> Рассрочка</span>
+                            </span>
+                            <p class="price">от 800 руб. / мес.</p>
+                            <span class="modal-link">
+                                Подробнее
+                                <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 8.5L9 0.5" stroke="#9ad351" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M1 0.5H9V8.5" stroke="#9ad351" stroke-linecap="square" stroke-linejoin="round" />
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -479,5 +524,5 @@
         </div>
     </section>
 </main>
-
+@include('modals.tinkoff')
 @endsection
