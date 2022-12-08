@@ -65,26 +65,26 @@
         <section class="projects-mobile dolfie-mobile">
             <div class="wrapper">
                 <div class="mobile-picture">
-                    <img src="{{asset('assets/img/Dolfie-mobileMenu.png')}}" alt="Dolfie - меню сайта" class="mobile-img">
-                    <img src="{{asset('assets/img/Dolfie-mobileLookbook.png')}}" alt="Dolfie - миссия компании" class="mobile-img">
-                    <img src="{{asset('assets/img/Dolfie-mobileAboutUs.png')}}" alt="Dolfie - о компании" class="mobile-img">
+                    <img src="{{asset('assets/img/Dolfie-mobileMenu.png')}}" alt="Dolfie - меню сайта" class="mobile-img" style="max-height: 540px;">
+                    <img src="{{asset('assets/img/Dolfie-mobileLookbook.png')}}" alt="Dolfie - миссия компании" class="mobile-img" style="max-height: 540px;">
+                    <img src="{{asset('assets/img/Dolfie-mobileAboutUs.png')}}" alt="Dolfie - о компании" class="mobile-img" style="max-height: 540px;">
                 </div>
             </div>
         </section>
         <section class="dolfie-mobile-project">
             <div class="wrapper">
                 <div class="mobile-picture">
-                    <img src="{{asset('assets/img/Dolfie-catalog.png')}}" alt="Dolfie - женский каталог" class="mobile-img">
-                    <img src="{{asset('assets/img/Dolfie-mobileCard.png')}}" alt="Dolfie - карточка товара с фильтром" class="mobile-img">
-                    <img src="{{asset('assets/img/Dolfie-mobileCardList.png')}}" alt="Dolfie - карточка товара" class="mobile-img">
+                    <img src="{{asset('assets/img/Dolfie-catalog.png')}}" alt="Dolfie - женский каталог" class="mobile-img" style="max-height: 700px;">
+                    <img src="{{asset('assets/img/Dolfie-mobileCard.png')}}" alt="Dolfie - карточка товара с фильтром" class="mobile-img" style="max-height: 540px;">
+                    <img src="{{asset('assets/img/Dolfie-mobileCardList.png')}}" alt="Dolfie - карточка товара" class="mobile-img" style="max-height: 540px;">
                 </div>
             </div>
         </section>
         <section class="projects-mobile dolfie-mobile">
             <div class="wrapper">
                 <div class="mobile-picture">
-                    <img src="{{asset('assets/img/Dolfie-mobileCart.png')}}" alt="Dolfie - корзина мобильная" class="mobile-img">
-                    <img src="{{asset('assets/img/Dolfie-desktopCart.png')}}" alt="Dolfie - корзина десктоп" class="mobile-img">
+                    <img src="{{asset('assets/img/Dolfie-mobileCart.png')}}" alt="Dolfie - корзина мобильная" class="mobile-img" style="max-height: 540px;">
+                    <img src="{{asset('assets/img/Dolfie-desktopCart.png')}}" alt="Dolfie - корзина десктоп" class="mobile-img" style="max-height: 466px;">
                 </div>
             </div>
         </section>

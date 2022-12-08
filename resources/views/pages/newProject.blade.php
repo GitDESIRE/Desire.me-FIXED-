@@ -28,7 +28,7 @@
 </head>
 @section('content')
 
-<body xmlns="http://www.w3.org/1999/html">
+<body xmlns="http://www.w3.org/1999/html" style="display: flex; flex-direction: column;">
     <main class="main">
         <div class="wrapper newProject-wrapper">
             <section class="main_container">

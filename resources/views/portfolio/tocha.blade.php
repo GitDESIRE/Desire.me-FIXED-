@@ -62,9 +62,9 @@
     <section class="projects-mobile">
         <div class="wrapper">
             <div class="mobile-picture">
-                <img src="{{asset('assets/img/Tocha-bot.png')}}" alt="TOCHA - подключение бота" class="mobile-img">
-                <img src="{{asset('assets/img/Tocha-reviews.png')}}" alt="TOCHA - отзывы" class="mobile-img">
-                <img src="{{asset('assets/img/Tocha-onboarding.png')}}" alt="TOCHA - онбординг" class="mobile-img">
+                <img src="{{asset('assets/img/Tocha-bot.png')}}" alt="TOCHA - подключение бота" class="mobile-img" style="max-height: 540px;">
+                <img src="{{asset('assets/img/Tocha-reviews.png')}}" alt="TOCHA - отзывы" class="mobile-img" style="max-height: 540px;">
+                <img src="{{asset('assets/img/Tocha-onboarding.png')}}" alt="TOCHA - онбординг" class="mobile-img" style="max-height: 540px;">
             </div>
         </div>
     </section>
