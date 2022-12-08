@@ -2557,6 +2557,7 @@ form input::placeholder {
 
 .mobile-picture {
     display: flex;
+    align-items: center;
     gap: 59px;
 }
 
