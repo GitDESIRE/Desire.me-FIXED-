@@ -42,8 +42,6 @@ body {
     background: white;
     cursor: none;
     height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .main {
@@ -183,7 +181,7 @@ body {
 
 .p_3 {
     bottom: -50px;
-    right: 0;
+    right: -200px;
     transform: rotate(20deg);
     font-size: 228px;
     letter-spacing: 20px;
@@ -852,7 +850,7 @@ nav {
 .newProject-wrapper {
     justify-content: space-between;
     align-items: flex-start;
-    padding: 250px 0 100px;
+    padding: 250px 0 150px;
 }
 
 .main_container h2 {
@@ -3089,6 +3087,11 @@ form input::placeholder {
 }
 
 @media (max-width: 1100px) {
+    .p_3 {
+        right: -70%;
+        bottom: -18%;
+    }
+
     .white_logo {
         margin-right: 5%;
     }
@@ -3236,11 +3239,6 @@ form input::placeholder {
 
     .p_2 {
         right: -50%;
-    }
-
-    .p_3 {
-        right: -70%;
-        bottom: -18%;
     }
 
     .p_4 {
@@ -3556,6 +3554,10 @@ form input::placeholder {
 
     .white_wrap {
         padding: 250px 0 100px;
+    }
+
+    .white_wrap:nth-last-child(-n + 1) {
+        padding-top: 70px;
     }
 
     .about-project {
@@ -4218,16 +4220,6 @@ form input::placeholder {
         font-size: 20px;
         line-height: 24px;
         margin: 0 10px 0;
-    }
-
-    .wrap_button_green {
-        padding-bottom: 80px;
-    }
-
-    .footer-title,
-    .footer-btn {
-        max-width: 100%;
-        width: 100%;
     }
 
     .wrap_button_green button,
