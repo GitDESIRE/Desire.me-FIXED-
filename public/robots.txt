@@ -84,7 +84,7 @@ Disallow: /assets/img/Dolfie-mobileMenu.png
 Disallow: /assets/img/Dolfie-screen.png
 Disallow: /assets/img/flags.png
 Disallow: /assets/img/flags@2x.png
-Disallow: /assets/img/Hike-главная.png
+Disallow: /assets/img/Hike-main.png
 Disallow: /assets/img/Noicelend.png
 Disallow: /assets/img/Color-black.png
 Disallow: /assets/img/team-mission-2.png
