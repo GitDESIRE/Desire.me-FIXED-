@@ -57,7 +57,7 @@
     </section>
     <section class="projects">
         <div class="wrapper">
-            <img src="{{asset('assets/img/Hike-главная.png')}}" alt="HIKE - главная страница" class="projects-img">
+            <img src="{{asset('assets/img/Hike-main.png')}}" alt="HIKE - главная страница" class="projects-img">
         </div>
     </section>
     <section class="cases">
