@@ -54,6 +54,7 @@
     <div><img src="https://mc.yandex.ru/watch/91224212" style="position:absolute; left:-9999px;" alt="" /></div>
 </noscript>
 
+
 @yield('content')
 
 @include('headers.footer')

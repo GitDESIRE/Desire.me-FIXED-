@@ -6,8 +6,8 @@
       </svg>
     </button>
     <div class="modal-header">
-      <img src="{{asset('assets/svg/Tinkoff-logo.svg')}}" alt="Tinkoff логотип" />
-      <img src="{{asset('assets/svg/Tinkoff-logoText.svg')}}" alt="Tinkoff текст" />
+      <img style="width: 94px; height: 68px" src="{{asset('assets/svg/Tinkoff-logo-new.svg')}}" alt="Tinkoff логотип" />
+      {{--<img src="{{asset('assets/svg/Tinkoff-logoText.svg')}}" alt="Tinkoff текст" />--}}
     </div>
     <div class="modal-main">
       <h1>Оформите рассрочку </br> на выгодных условиях</h1>

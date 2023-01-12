@@ -801,6 +801,13 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
+                        <a href="/projects/atlant"><img class="slider-img" src="{{asset('assets/img/slider-image-5.png')}}" alt="Обложка проекта - Atlant" /></a>
+                        <div class="swiper-slide-main">
+                            <h3 class="swiper-slide-title">Atlant: Трекер задач</h3>
+                            <a href="/projects/atlant">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" /></a>
                         <div class="swiper-slide-main">
                             <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
@@ -821,13 +828,7 @@
                             <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <a href="/projects/atlant"><img class="slider-img" src="{{asset('assets/img/slider-image-5.png')}}" alt="Обложка проекта - Atlant" /></a>
-                        <div class="swiper-slide-main">
-                            <h3 class="swiper-slide-title">Atlant: Трекер задач</h3>
-                            <a href="/projects/atlant">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="swiper-buttons">
                     <div class="swiper-button-prev">

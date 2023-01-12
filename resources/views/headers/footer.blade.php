@@ -63,7 +63,7 @@
         </div>
         <div class="footer-bottom">
             <img src="{{asset('assets/svg/footerLogo.svg')}}" alt="DESIRE - логотип" class="logo-footer">
-            <p class="footer-name">© Все права защищены 2022г.</p>
+            <p class="footer-name">© Все права защищены 2023г.</p>
         </div>
     </div>
 </footer>
