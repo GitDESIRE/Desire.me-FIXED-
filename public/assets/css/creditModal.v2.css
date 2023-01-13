@@ -60,6 +60,7 @@
 
 .modal-close {
     position: absolute;
+    box-sizing: content-box;
     right: 16px;
     top: 16px;
     width: 24px;
