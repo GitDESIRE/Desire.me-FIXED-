@@ -137,15 +137,15 @@
         display: block;
     }
     .modal-close {
-        width: 24px;
-        height: 24px;
+        width: 16px;
+        height: 16px;
     }
 }
 
 @media (max-width: 500px) {
     .modal-close {
-        width: 24px;
-        height: 24px;
+        width: 16px;
+        height: 16px;
     }
     .modal-container {
         padding: 20px;
