@@ -60,13 +60,12 @@
 
 .modal-close {
     position: absolute;
-    box-sizing: border-box;
     right: 16px;
     top: 16px;
     width: 24px;
     height: 24px;
     background-color: #9ad351;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 1px solid #9ad351;
 }
 
