@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/cursor.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.v2.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/normalize.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/creditModal.v2.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/creditModal.css')}}">
     <link type="image/x-icon" href="{{asset('assets/svg/favicon.svg')}}" rel="shortcut icon">
     <link rel="stylesheet" href="{{asset('assets/css/intlTelInput.v1.css')}}">
     <style>
