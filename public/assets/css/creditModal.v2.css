@@ -60,7 +60,6 @@
 
 .modal-close {
     position: absolute;
-    box-sizing: content-box;
     right: 16px;
     top: 16px;
     width: 24px;
@@ -137,16 +136,11 @@
     .modal {
         display: block;
     }
-    .modal-close {
-        width: 24px;
-        height: 24px;
-    }
 }
 
 @media (max-width: 500px) {
     .modal-close {
-        width: 24px;
-        height: 24px;
+        padding: 0;
     }
     .modal-container {
         padding: 20px;
