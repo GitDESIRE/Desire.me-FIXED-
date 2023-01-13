@@ -144,7 +144,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 2 800 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -249,7 +249,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 5 700 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -359,7 +359,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 7 400 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -466,7 +466,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 6 900 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -566,7 +566,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 1 400 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -669,7 +669,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 5 300 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -772,7 +772,7 @@
                             <span class="subtitle">
                                 <span class="credit"> Рассрочка</span>
                             </span>
-                            <p class="price">от 800 руб. / мес.</p>
+                            <p class="price">от 8 800 руб. / мес.</p>
                             <span class="modal-link">
                                 Подробнее
                                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
