@@ -33,60 +33,69 @@
   </script>
 </head>
 @section('content')
-<main>
-  <section class="banner">
-    <div class="wrapper">
-      <div class="content">
-        <div class="seo-banner-top">
-          <h1 class="title arrow-title">Тариф <br /> «INFLUENCER»</h1>
-          <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Тариф «INFLUENCER»</p>
+<main class="main">
+        
+        <section class="influencer-welcome">
+            <div class="wrapper">
+                <div class="plan-welcome__content arrow-welcome__content">
+                <h1 class="title start-title"> Комплексное <br> Решение INFLUENCER</h1>
+                <div class="main-link main-link__plan">
+                    <a href="/index" class="main-link__src">Главная</a>
+                    <a href="/complex-tariffs" class="main-link__src"><span class="main-link__span main-link__span-plan">Комплексные решения</span></a>
+                    <span class="main-link__span">Комплексное решение INFLUENCER</span>
+                  </div>
+                <p class="plan-brief influencer-brief">Развиваться в медиа пространстве означает идти в ногу со своими клиентами!</p>
+                <div class="plan-desc">
+                    <p class="plan-desc__part">Большая аудитория, которой интересен именно ваш продукт — вот, в чем залог успеха!</p>
+                    <p class="plan-desc__part">Социальные сети уже давно стали двигателем трендов, привлекая людей со всего мира к проектам. Команда Desire поможет запустить соцсети, а также наполнить их необычным контентом!</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="arrow__plan-description plan-description">
+            <div class="wrapper">
+  
+            <div class="job-plan job">
+                <h2 class="plan-desc__header">что мы сделаем</h2>
+                <ul class="plan-desc__list">
+                    <li class="plan-list-item">Создадим социальные сети, настроим их и заполним описание вашей компании/проекта</li>
+                    <li class="plan-list-item">Оформим всю айдентику и визуал социальных сетей</li>
+                    <li class="plan-list-item">Напишем необходимый для быстрого старта контент и оптимизируем его</li>
+                    
+                </ul>
+            </div>
+            <div class="job-also job">
+                <h2 class="plan-desc__header">еще мы можем</h2>
+                <ul class="plan-desc__list">
+                    <li class="plan-list-item">
+                       Анимировать ваши сторис и посты
+                    </li>
+                    <li class="plan-list-item">
+                        Сформировать шаблоны для будущих публикаций в социальных сетях, чтобы вы могли работать с ними самостоятельно.
+                    </li>
+                    <li class="plan-list-item">
+                        Интегрировать ботов в ваши социальные сети
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="job-result job">
+                <h2 class="plan-desc__header">что вы получите</h2>
+                <ul class="plan-desc__list">
+                   
+                    <li class="plan-list-item">Оформленные и наполненные контентом социальные сети, готовые к дальнейшему развитию</li>
+                    <li class="plan-list-item">Индивидуальную маркетинговую стратегию для ваших социальных сетей</li>
+                    <li class="plan-list-item">Отличного партнера в виде компании Desire, который всегда готов помочь вашему бизнесу расти и дальше!</li>
+                </ul>
+            </div>
+            <div class="job-price job">
+                <h2 class="plan-desc__header">стоимость</h2>
+                <h3 class="price-src">от  20 000 руб.</h3>
+            </div>
+            <div class="btn-container"> <button class="btn-reset btn-fill start__order-btn"><a href="/new-project" class="plan-link">Заказать</a> </button></div>
         </div>
-        <div class="seo-banner-bottom">
-          <h2 class="seo-banner-description">Развиваться в медиа пространстве означает идти в ногу со своими клиентами!</h2>
-          <div class="banner-content">
-            <p class="seo-content-text">Большая аудитория, которой интересен именно ваш продукт — вот, в чем залог успеха!
-            </p>
-            <p class="seo-content-text">Социальные сети уже давно стали двигателем трендов, привлекая людей со всего мира к проектам. Команда Desire поможет запустить соцсети, а также наполнить их необычным контентом!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="tarif-main">
-    <div class="wrapper">
-      <div class="content">
-        <div class="content-box">
-          <h2 class="subTitle">что мы сделаем</h2>
-          <ul>
-            <li>Создадим социальные сети, настроим их и заполним описание вашей компании/проекта</li>
-            <li>Оформим всю айдентику и визуал социальных сетей</li>
-            <li>Напишем необходимый для быстрого старта контент и оптимизируем его</li>
-          </ul>
-        </div>
-        <div class="content-box">
-          <h2 class="subTitle">ещё мы можем</h2>
-          <ul>
-            <li>Анимировать ваши сторис и посты</li>
-            <li>Сформировать шаблоны для будущих публикаций в социальных сетях, чтобы вы могли работать с ними самостоятельно</li>
-            <li>Интегрировать ботов в ваши социальные сети</li>
-          </ul>
-        </div>
-        <div class="content-box">
-          <h2 class="subTitle">что вы получите</h2>
-          <ul>
-            <li>Оформленные и наполненные контентом социальные сети, готовые к дальнейшему развитию</li>
-            <li>Индивидуальную маркетинговую стратегию для ваших социальных сетей</li>
-            <li>Отличного партнёра в виде компании Desire, который знает особенности ваших соцсетей и всегда готов помочь вашему бизнесу расти и дальше!</li>
-          </ul>
-        </div>
-        <div class="content-box">
-          <h2 class="subTitle">стоимость</h2>
-          <span>от 20 000 РУБ.</span>
-        </div>
-        <a href="/new-project"><button class="tarif-start-btn btn-project">Заказать</button></a>
-      </div>
-    </div>
-  </section>
-</main>
+        
+        </section>
+      </main>
 
 @endsection

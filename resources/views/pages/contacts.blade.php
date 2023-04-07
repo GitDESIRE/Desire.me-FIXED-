@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <head>
     <title>Услуги web-дизайна и разработки - Desire</title>
     <meta name="description" content="Практично. Индивидуально. Эффективно. Интуитивно понятный интерфейс, правильное позиционирование товаров и услуг - то, на что мы ориентируемся, работая над созданием уникальных дизайнов и продумывая структуру и логику сайта." />
@@ -38,7 +39,7 @@
             <div class="button-block">
                 <h2 class="button-block__header">Хотите обсудить проект?</h2>
                 <p class="button-block__text">Оставьте заявку и мы свяжемся с вами!</p>
-                <button class="btn-reset btn-fill button-block__btn"><a href="index-newProject.html" class="contacts-link">Оставить заявку</a></button>
+                <button class="btn-reset btn-fill button-block__btn contacts-btn"><a href="index-newProject.html" class="contacts-link">Оставить заявку</a></button>
             </div>
 
             <div class="contacts-social">

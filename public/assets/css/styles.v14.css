@@ -34,7 +34,7 @@ button:disabled {
 a {
     text-decoration: none;
     color: #757575;
-    /* cursor: none !important; */
+     cursor: none !important; 
 }
 
 button a {
@@ -148,6 +148,18 @@ align {
 .btn-fill {
     background-color: #9AD351;
 }
+
+.btn-fill:hover {
+    border:1px solid #9AD351;
+    color:#000000;
+    background-color:transparent;
+}
+
+.contacts-btn:hover .contacts-link {
+    color: #ffffff;
+}
+
+
 
 .btn-bg-dark:hover {
     border:1px solid #9AD351;
@@ -1363,7 +1375,7 @@ form input::placeholder {
     color: #9ad351;
 }
 
-.footer-link:hover, .contacts-link:hover, .contacts-item:hover {
+.footer-link:hover, .contacts-item:hover {
     color: #9ad351;
 }
 
@@ -3035,6 +3047,7 @@ form input::placeholder {
 .order-btn:hover {
     background-color: #fff;
     transition: all 0.3s linear;
+    color: #000000;
 }
 
 .cases {
@@ -7090,9 +7103,11 @@ form input::placeholder {
     color: #9ad351;
 }
 
-.footer-link:hover, .contacts-link:hover {
+.footer-link:hover {
     color: #9ad351;
 }
+
+
 
 /* footer-bottom */
 
