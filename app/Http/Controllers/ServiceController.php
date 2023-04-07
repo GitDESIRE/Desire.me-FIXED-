@@ -11,6 +11,8 @@ class ServiceController extends Controller
     {
         return view('service.index');
     }
+
+   
     public function star()
     {
         return view('service.star');
@@ -22,6 +24,14 @@ class ServiceController extends Controller
     public function web()
     {
         return view('service.web');
+    }
+    public function design()
+    {
+        return view('service.design');
+    }
+    public function promotion()
+    {
+        return view('service.promotion');
     }
     public function seo()
     {

@@ -15,19 +15,33 @@ window.addEventListener('DOMContentLoaded', () => {
         screenY:     -window.screenY - (window.outerHeight-window.innerHeight),
       }}
 
-    const togglers = document.querySelectorAll('.toggler');
-
-    togglers.forEach((toggler) => {
-        toggler.addEventListener('click', (e) => {
-            e.target.parentNode.classList.toggle('opened')
-            e.target.parentNode.parentNode.classList.toggle('toggled')
-            if (e.target.parentNode.parentNode.querySelector('.hidden-content').className === 'hidden-content') {
-                e.target.parentNode.parentNode.querySelector('.hidden-content').classList.add('active');
-            } else {
-                e.target.parentNode.parentNode.querySelector('.hidden-content').classList.remove('active');
-            }
-        })
-    });
+      const togglers = document.querySelectorAll('.tab-toggle-btn');
+      const hidden = document.querySelectorAll('.invisible')
+      
+      togglers.forEach((toggler) => {
+          toggler.addEventListener('click', (e) => {
+              
+              e.target.classList.toggle('rotate');
+            
+              if (e.target.parentNode.parentNode.querySelector('.invisible').classList.contains('invisible')) {
+                  
+                  if ( e.target.parentNode.parentNode.parentNode.classList.contains('tab-container')) {
+      
+                 
+                  e.target.parentNode.parentNode.parentNode.classList.toggle('tabs-item__expanded');
+              } if (e.target.parentNode.parentNode.parentNode.classList.contains('tab-container')) {
+                  e.target.parentNode.parentNode.parentNode.querySelectorAll('.invisible').forEach((enigma) => {
+                      enigma.classList.toggle('but-not-now');
+                  }) } else {
+                      e.target.parentNode.parentNode.querySelectorAll('.invisible').forEach((enigma) => {
+                          enigma.classList.toggle('but-not-now');
+                  })}
+                  
+              } else {
+                  e.target.parentNode.parentNode.querySelector('.hidden-content').classList.remove('active');
+              }
+          })
+      });
 
     const showBtn = document.querySelector('.btn-show');
     if (showBtn) showBtn.addEventListener('click', showProjects);
