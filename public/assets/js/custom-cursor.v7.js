@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Анимация курсора для активных элементов
             if (target.closest('button') ||
                 target.closest('.arrowBox') ||
+                target.closest('.tab-toggle-btn') ||
                 target.closest('.custom-select') ||
                 target.closest('.nav-list_link') ||
                 target.closest('.tab-wrapper') ||

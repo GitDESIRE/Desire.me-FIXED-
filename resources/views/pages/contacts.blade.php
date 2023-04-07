@@ -39,7 +39,7 @@
             <div class="button-block">
                 <h2 class="button-block__header">Хотите обсудить проект?</h2>
                 <p class="button-block__text">Оставьте заявку и мы свяжемся с вами!</p>
-                <button class="btn-reset btn-fill button-block__btn"><a href="index-newProject.html" class="contacts-link">Оставить заявку</a></button>
+                <button class="btn-reset btn-fill button-block__btn contacts-btn"><a href="index-newProject.html" class="contacts-link">Оставить заявку</a></button>
             </div>
 
             <div class="contacts-social">

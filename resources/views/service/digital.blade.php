@@ -33,55 +33,55 @@
     </script>
 </head>
 @section('content')
-<main>
-    <section class="banner">
-        <div class="wrapper">
-            <div class="content">
-                <div class="seo-banner-top">
-                    <h1 class="title arrow-title">Тариф <br /> «FULL DIGITAL»</h1>
-                    <p class="seo-banner-section"><a href="/complex-tariffs">Комплексные тарифы </a>&nbsp / &nbsp Тариф «FULL DIGITAL»</p>
-                </div>
-                <div class="seo-banner-bottom">
-                    <h2 class="seo-banner-description">Маркетинг — основная составляющая любого типа бизнеса.</h2>
-                    <div class="banner-content">
-                        <p class="seo-content-text">Увеличение трафика, лидов, выстраивание брендирования, а также популяризация вашей компании и управление её репутацией — все это лишь малая часть того, что может компания Desire.
-                        </p>
-                        <p class="seo-content-text">Раскрывайте весь потенциал вашего бизнеса и выводите его на совершенно новый уровень!</p>
-                    </div>
+<main class="main">
+        
+        <section class="digital-welcome">
+            <div class="wrapper">
+    
+        <div class=" plan-welcome__content start-welcome__content">
+                <h1 class="title start-title"> Комплексное <br> Решение <BR> FULL DIGITAL</h1>
+                <div class="main-link main-link__plan">
+                    <a href="/index" class="main-link__src">Главная</a>
+                    <a href="/complex-taiffs" class="main-link__src"><span class="main-link__span main-link__span-plan">Комплексные решения</span>
+                    <span class="main-link__span">Комплексное решение FULL DIGITAL</span>
+                  </div>
+                <p class="plan-brief digital-brief">Маркетинг — основная составляющая любого типа бизнеса.</p>
+                <div class="plan-desc">
+                    <p class="plan-desc__part">Увеличения трафика, лидов, выстраивание брендирования, а также популяризация вашей компании и управление её репутацией — все это лишь малая часть того, что может компания Desire.</p>
+                    <p class="plan-desc__part">Раскрывайте весь потенциал вашего бизнеса и выводите его на совершенно новый уровень!</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="tarif-main">
-        <div class="wrapper">
-            <div class="content">
-                <div class="content-box">
-                    <h2 class="subTitle">что мы сделаем</h2>
-                    <ul>
-                        <li>Создадим социальные сети, настроим их и заполним описание вашей компании/проекта</li>
-                        <li>Предложим варианты продвижения через кросс-сейл и апсейл системы</li>
-                        <li>Сформируем стратегию рекламной кампании онлайн (таргетированная и контекстная реклама) и оффлайн</li>
-                        <li>Разработаем варианты маркетинговых воронок для привлечения вашей целевой аудитории и роста трафика</li>
-                        <li>Сформируем или доработаем брендирование вашего бизнеса</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h2 class="subTitle">что вы получите</h2>
-                    <ul>
-                        <li>Несколько готовых и корректно настроенных инструментов работы с вашими клиентами и целевой аудиторией</li>
-                        <li>Индивидуальную маркетинговую стратегию, ориентированную на развитие вашего бизнеса в медиа и онлайн пространстве.</li>
-                        <li>Несколько индивидуальных маркетинговых стратегий, в том числе для социальных сетей и продвижения сайта</li>
-                        <li>Отличного партнёра в виде компании Desire, который знает особенности вашего бизнеса и всегда готов помочь ему расти и дальше!</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h2 class="subTitle">стоимость</h2>
-                    <span>от 50 000 РУБ.</span>
-                </div>
-                <a href="/new-project"><button class="tarif-start-btn btn-project">Заказать</button></a>
             </div>
+        </section>
+        <section class="plan-description">
+            <div class="wrapper">
+            <div class="job-plan job">
+                <h2 class="plan-desc__header">что мы сделаем</h2>
+                <ul class="plan-desc__list">
+                    <li class="plan-list-item">Создадим социальные сети, настроим их и заполним описание вашей компании/проекта </li>
+                    <li class="plan-list-item">Предложим варианты продвижения через кросс-сейл и апсейл системы</li>
+                    <li class="plan-list-item">Сформируем стратегию рекламной кампании онлайн (таргетированная и контекстная реклама) и оффлайн</li>
+                    <li class="plan-list-item">Разработаем варианты маркетинговых воронок для привлечения вашей целевой аудитории и роста трафика</li>
+                    <li class="plan-list-item">Сформируем или доработаем брендирование вашего бизнеса</li>
+                  
+                </ul>
+            </div>
+            <div class="job-result job">
+                <h2 class="plan-desc__header">что вы получите</h2>
+                <ul class="plan-desc__list">
+                    <li class="plan-list-item">Несколько готовых и корректно настроенных инструментов работы с вашими клиентами и целевой аудиторией </li>
+                    <li class="plan-list-item">Индивидуальную маркетинговую стратегию, ориентированную на развитие вашего бизнеса в медиа и онлайн пространстве.</li>
+                    <li class="plan-list-item">Несколько индивидуальных маркетинговых стратегий, в том числе для социальных сетей и продвижения сайта</li>
+                    <li class="plan-list-item">Отличного партнёра в виде компании Desire, который всегда готов помочь вашему бизнесу расти и дальше!</li>
+                </ul>
+            </div>
+            <div class="job-price job">
+                <h2 class="plan-desc__header">стоимость</h2>
+                <h3 class="price-src">от  80 000 руб.</h3>
+            </div>
+            <div class="btn-container"> <button class="btn-reset btn-fill start__order-btn"><a href="/new-project" class="plan-link">Заказать</a> </button></div>
         </div>
-    </section>
-</main>
-
+        
+        </section>
+      </main>
 @endsection

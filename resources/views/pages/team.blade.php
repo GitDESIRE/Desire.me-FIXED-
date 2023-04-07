@@ -83,7 +83,7 @@
               <label for="file"><span class="label-title">Прикрепите документ</span></label>
               <input class="file-input" multiple type="file" name="file" id="file" accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
             </button>
-            <button class="submit-button" type="submit">Отправить</button>
+            <button class=" btn-fill submit-button" type="submit">Отправить</button>
           </div>
           <div class="agreement_box">
             <label class="checkbox-label">
@@ -94,7 +94,7 @@
                   </svg>
               </div> 
               <span class="rights">Даю согласие на обработку 
-              <a href="#" class="agreementData-link">Персональных данных</a></span>
+              <a href="{{asset('assets/privacy-policy.html')}}" class="agreementData-link">Персональных данных</a></span>
             </label>
           </div>
         </form>

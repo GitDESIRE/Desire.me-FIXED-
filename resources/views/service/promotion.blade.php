@@ -311,7 +311,7 @@
                       
                     </div>
                     <div class="tab-toggle-btn">
-                        src="
+                        
                           <img class="toggle-src" src="{{asset('assets/svg/plus-close.svg')}}" alt="expand/close">  
                         
                       </div>
@@ -770,7 +770,7 @@
                 <li>Маркетинговые стратегии для продвижения и соцсетей</li>
               </ul>
               <div class="desicion-btns">
-               <button class="btn-reset btn-stroke-green desicion-btn"><a href="/start">Подробнее</a></button>
+               <button class="btn-reset btn-stroke-green desicion-btn"><a href="/complex-tariffs/start">Подробнее</a></button>
                <button class="btn-reset btn-fill desicion-btn"> <a href="/new-project">Заказать</a></button>
               </div>
             </div>
@@ -788,7 +788,7 @@
                     <li>Оптимизацию и организуем техническую поддержку</li>
                   </ul>
                   <div class="desicion-btns">
-                    <button class="btn-reset btn-stroke-green desicion-btn"><a href="/arrow">Подробнее</a></button>
+                    <button class="btn-reset btn-stroke-green desicion-btn"><a href="/complex-tariffs/arrow">Подробнее</a></button>
                <button class="btn-reset btn-fill desicion-btn"> <a href="/new-project">Заказать</a></button>
                   </div>
             </div>

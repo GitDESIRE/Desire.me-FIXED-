@@ -80,7 +80,7 @@
               <li>Маркетинговые стратегии для продвижения и соцсетей</li>
             </ul>
             <div class="desicion-btns">
-             <button class="btn-reset btn-stroke-green desicion-btn"><a href="/start">Подробнее</a></button>
+             <button class="btn-reset btn-stroke-green desicion-btn"><a href="/complex-tariffs/start">Подробнее</a></button>
              <button class="btn-reset btn-fill desicion-btn"> <a href="/new-project">Заказать</a></button>
             </div>
           </div>
@@ -98,7 +98,7 @@
                   <li>Оптимизацию и организуем техническую поддержку</li>
                 </ul>
                 <div class="desicion-btns">
-                  <button class="btn-reset btn-stroke-green desicion-btn"><a href="/arrow">Подробнее</a></button>
+                  <button class="btn-reset btn-stroke-green desicion-btn"><a href="/complex-tariffs/arrow">Подробнее</a></button>
              <button class="btn-reset btn-fill desicion-btn"> <a href="/new-project">Заказать</a></button>
                 </div>
           </div>
@@ -116,7 +116,7 @@
                 <li>Напишем необходимый для быстрого старта контент и оптимизируем его</li>
               </ul>
               <div class="desicion-btns">
-               <button class="btn-reset btn-stroke-green desicion-btn"><a href="/influencer">Подробнее</a></button>
+               <button class="btn-reset btn-stroke-green desicion-btn"><a href="/complex-tariffs/influencer">Подробнее</a></button>
                <button class="btn-reset btn-fill desicion-btn"> <a href="/new-project">Заказать</a></button>
               </div>
             </div>
@@ -133,7 +133,7 @@
                 <li>Сформируем стратегию рекламной кампании онлайн (таргетированная и контекстная реклама) и офлайн</li>
               </ul>
               <div class="desicion-btns">
-               <button class="btn-reset btn-stroke-green desicion-btn"><a href="/digital">Подробнее</a></button>
+               <button class="btn-reset btn-stroke-green desicion-btn"><a href="/complex-tariffs/digital">Подробнее</a></button>
                <button class="btn-reset btn-fill desicion-btn"> <a href="/new-project">Заказать</a></button>
               </div>
             </div>
