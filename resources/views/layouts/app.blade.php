@@ -35,13 +35,14 @@
     <meta http-equiv="expires" content="0">
     <link rel="stylesheet" href="{{asset('assets/css/styles.v14.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v3.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/timeline.v1.css')}}">
+    
     <link rel="stylesheet" href="{{asset('assets/css/cursor.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.v2.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/normalize.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/creditModal.v2.css')}}">
     <link type="image/x-icon" href="{{asset('assets/svg/favicon.svg')}}" rel="shortcut icon">
     <link rel="stylesheet" href="{{asset('assets/css/intlTelInput.v1.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/timeline.v1.css')}}">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap');
