@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <head>
     <title>Услуги web-дизайна и разработки - Desire</title>
     <meta name="description" content="Практично. Индивидуально. Эффективно. Интуитивно понятный интерфейс, правильное позиционирование товаров и услуг - то, на что мы ориентируемся, работая над созданием уникальных дизайнов и продумывая структуру и логику сайта." />
@@ -47,8 +48,8 @@
                 <a href="mailto:desirecompany@yandex.ru" class="contacts-text__link">desirecompany@yandex.ru</a>
                 <h6 class="contacts-text__header">менеджер в телеграм</h6>
                 <a href="https://t.me/desire_manager" class="contacts-text__link">@desire_manager</a>
-               
-             </div>   
+
+             </div>
               <ul class="contacts-list">
                 <li class="contacts-item">
                   <a
@@ -179,6 +180,6 @@
             </div>
           </div>
           </div>
-          </main> 
-         
+          </main>
+
 @endsection
