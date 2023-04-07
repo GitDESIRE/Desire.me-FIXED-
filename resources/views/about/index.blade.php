@@ -104,52 +104,52 @@
                         <li class="policy-list__item">
                             <h2 class="color-text item-number">01</h2>
                             <div class="policy-item__description">
-                               
+
                                 <h3 class="description-header">разбиваем «бабушкин сервис»</h3>
                                 <p class="description-text">
-                                    Главный принцип нашей работы – уважение. 
-                                    Мы отказываемся от привычных схем взаимодействия 
-                                    «заказчик-исполнитель», становясь вашими партнерами 
+                                    Главный принцип нашей работы – уважение.
+                                    Мы отказываемся от привычных схем взаимодействия
+                                    «заказчик-исполнитель», становясь вашими партнерами
                                     в развитии бизнеса, опираясь на качество и идею, а не на цену.</p>
                             </div>
-                            
+
                         </li>
                         <li class="policy-list__item">
                             <h2 class="color-text item-number">02</h2>
                             <div class="policy-item__description">
-                                
+
                                 <h3 class="description-header">в поисках идеала</h3>
                                 <p class="description-text">Проходя с нами путь от начала до конца,
-                                    вы принимаете непосредственное участие в каждом этапе, 
+                                    вы принимаете непосредственное участие в каждом этапе,
                                     получая удовольствие не только от результатов, но и от с
                                     амого процесса, пока мы шлифуем конечный продукт до идеала. </p>
                             </div>
-                           
+
                         </li>
                         <li class="policy-list__item">
                             <h2 class="color-text item-number">03</h2>
                             <div class="policy-item__description">
-                                
+
                                 <h3 class="description-header">быть лидером или не быть?</h3>
                                 <p class="description-text">Мы хотим не просто реализовывать ваши запросы,
                                     а помогать вам стать лучше, меняя принципы подачи продукта,
                                      образ компании и выводя ваш бизнес на новый уровень. </p>
                             </div>
-                            
+
                         </li>
                         <li class="policy-list__item">
                             <h2 class="color-text item-number">04</h2>
                             <div class="policy-item__description">
-                                
+
                                 <h3 class="description-header">через огонь и медные трубы</h3>
                                 <p class="description-text">Долгосрочное партнерство, как и дружба,
                                     начинается с доверия, а оно, в свою очередь – с поддержки.
-                                     Мы помогаем вашему бизнесу расти, проходим вместе каждый 
+                                     Мы помогаем вашему бизнесу расти, проходим вместе каждый
                                      этап с самого старта до конечного релиза продукта. И даже
                                       после – мы остаемся рядом, чтобы поддерживать ваш бизнес
                                        и прийти на помощь в трудную минуту. </p>
                             </div>
-                           
+
                         </li>
                     </ul>
                 </div>
@@ -163,7 +163,10 @@
                     </h2>
                     <div class="forms">
                         <form class="personal-data" name="personal-data" id="personal-data" action="https://desire-company.com/newCandidate" method="post" enctype="multipart/form-data">
+                            @csrf
+{{--
                             <input type="hidden" name="_token" value="EIFxb7KwM5HjABoE1biWxTHdGQt1qZDdGfyZq1Ed">
+--}}
                             <div class="personal-data_inputs-box">
                                 <div class="inputs-box_top">
                                     <div class="inputs-box_left">
@@ -217,7 +220,7 @@
                                     </div>
                                     <span class="rights">
                                         Даю согласие на обработку
-                                    <a href="privacy-policy.html" target="_blank" class="agreementData-link">Персональных данных</a>
+                                    <a href="{{asset('assets/Privacy politic.pdf')}}" target="_blank" class="agreementData-link">Персональных данных</a>
                                     </span>
                                 </label>
                             </div>
