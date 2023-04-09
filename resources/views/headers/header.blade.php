@@ -32,7 +32,7 @@
                 <span class="burger-menu_lines"></span>
             </a>
             <nav class="burger-menu_nav">
-                <a href="/about-us" class="burger-menu_link">
+                <a href="/team" class="burger-menu_link">
                     О нас
                 </a>
                 <div class="burger-menu_link openLink"><span class="openLink-toggler">Услуги</span>
@@ -50,5 +50,6 @@
         </div>
     </div>
 </header>
+
 
 

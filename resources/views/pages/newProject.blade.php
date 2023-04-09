@@ -45,7 +45,7 @@
 
         <div class="form-container">
       <form enctype="multipart/form-data" class="newProject_form" id="form" name="newProject_form" action="{{url('newOrder')}}" method="post">
-                    <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+                    @csrf
                     <div class="inputsBox">
                         <div class="inputsBox_top">
                             <div class="inputsBox_leftSide">
