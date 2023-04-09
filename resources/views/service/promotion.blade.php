@@ -56,7 +56,7 @@
             </div>
             <div class="decor-container decor-container__promotion">
               <div class="main-link">
-                <a href="/index" class="main-link__src">Главная</a>
+                <a href="/" class="main-link__src">Главная</a>
                 <span class="main-link__span">Продвижение</span>
               </div>
               <div class="spinner-container promotion-spinner">
@@ -267,7 +267,7 @@
                         
                           <div class="tab-toggle-btn">
                     
-                            <img class="toggle-src"src="{{asset('assets/svg/plus-close.svg')}}" alt="expand/close">  
+                            <img class="toggle-src" src="{{asset('assets/svg/plus-close.svg')}}" alt="expand/close">  
                           
                         </div>
                       
@@ -392,7 +392,7 @@
                               </ul>
                             
                               <div class="tab-toggle-btn">
-                        src="
+                       
                                 <img class="toggle-src" src="{{asset('assets/svg/plus-close.svg')}}" alt="expand/close">  
                               
                             </div>

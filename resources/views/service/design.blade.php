@@ -54,7 +54,7 @@
             </div>
             <div class="decor-container decor-container__design">
               <div class="main-link">
-                <a href="/index" class="main-link__src">Главная</a>
+                <a href="/" class="main-link__src">Главная</a>
                 <span class="main-link__span">Дизайн</span>
               </div>
               <div class="spinner-container design-spinner">

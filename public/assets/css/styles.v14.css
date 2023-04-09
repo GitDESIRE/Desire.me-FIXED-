@@ -7280,7 +7280,6 @@ form input::placeholder {
 }
 
 .section-text {
-    width: 49%;
 }
 
 .whoweare-textbox {
@@ -10397,7 +10396,7 @@ form input::placeholder {
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-    top: 484px;
+    top: 95%;
 }
 
 .white_wrap_wrap_slider {
@@ -10774,6 +10773,7 @@ form input::placeholder {
 
 .chip {
     padding: 4px 13px;
+    margin: 0;
 }
 
 .banner-chip {
@@ -10895,7 +10895,7 @@ form input::placeholder {
     .wrapper {
         /* max-width: 320px; */
         padding: 0 10px;
-        justify-content: unset;
+        justify-content: center;
     }
 
     .project-subtitle {
@@ -11574,7 +11574,7 @@ form input::placeholder {
     }
 
     .tab-container {
-        padding: 28px 0 4px 0;
+        padding: 28px 0 0px 0;
     }
 
     .tab-title {
@@ -11628,7 +11628,7 @@ form input::placeholder {
     }
 
     .swiper-pagination-bullets.swiper-pagination-horizontal {
-        top: 343px;
+        top: 94%;
     }
 
     .cases .white_wrap {
