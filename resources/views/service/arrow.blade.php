@@ -39,7 +39,7 @@
                 <div class="plan-welcome__content arrow-welcome__content">
                 <h1 class="title start-title"> Комплексное <br> Решение ARROW</h1>
                 <div class="main-link main-link__plan">
-                    <a href="/index" class="main-link__src">Главная</a>
+                    <a href="/" class="main-link__src">Главная</a>
                     <a href="/complex-tariffs" class="main-link__src"><span class="main-link__span main-link__span-plan">Комплексные решения</span></a>
                     <span class="main-link__span">Комплексное решение ARROW</span>
                   </div>

@@ -50,7 +50,7 @@
             </div>
             <div class="decor-container decor-container__plans">
               <div class="main-link">
-                <a href="/index" class="main-link__src">Главная</a>
+                <a href="/" class="main-link__src">Главная</a>
                 <span class="main-link__span">Комплексные решения</span>
               </div>
               <div class="spinner-container plans-spinner">

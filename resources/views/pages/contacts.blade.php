@@ -33,7 +33,7 @@
                 <h1 class="contacts-title">Контакты</h1>
             </div>
             <div class="nav-link main-link ">
-                <a href="index.html" class="main-link__src">Главная</a>
+                <a href="/" class="main-link__src">Главная</a>
                 <span class="main-link__span">Контакты</span>
               </div>
             <div class="button-block">

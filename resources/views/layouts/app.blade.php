@@ -33,9 +33,9 @@
     <meta meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.v14.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v3.css')}}">
     
+    <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v3.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.v14.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/blockAnimation.v2.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/normalize.css')}}">
