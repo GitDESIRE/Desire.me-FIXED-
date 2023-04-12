@@ -1,7 +1,7 @@
 const fileBtn = document.querySelector('.file-button');
 const fileBtnText = document.querySelector('.file-button-text');
 const fileInput = document.querySelector('.file-input');
-const mainContainer = document.querySelector('.main_container');
+const mainContainer = document.querySelector('.new-project-desc');
 const form = document.querySelector('.newProject_form');
 
 if (fileInput) {
