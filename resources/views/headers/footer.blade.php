@@ -179,7 +179,7 @@
         </div>
         <div class="footer-bottom">
           <img
-          src="{{asset('assets/svg/footerLogo.svg')}}"
+          src="{{asset('assets/svg/logo-footer.svg')}}"
             alt="DESIRE - логотип"
             class="logo-footer"
           />

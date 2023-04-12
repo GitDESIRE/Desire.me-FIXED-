@@ -145,10 +145,8 @@
     <div class="wrapper">
       <h2 class="cases-title">кейсы</h2>
       </div>
-    <div class="white_wrap block-animation">
-     
       <div class="white_wrap_wrap_slider">
-      <div class="swiper">
+            <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img
@@ -232,26 +230,8 @@
           <div class="wrap_button_white">
            <button class="btn-reset btn-stroke-dark swiper-redirect-btn"><a href="/projects">Смотреть всё</a></button>
           </div>
-    </div>
-  </section>
-  
-  <section class="section-start section-start-dev">
-      <div class="white_wrap block-animation">
-        <div class="white_wrap_pp">
-          <p class="start-text">
-            Мы предоставляем <span>весь спектр услуг</span> для вашего
-            digital-проекта: <span>от разработки</span> сайта и мобильных
-            приложений <span>до продвижения</span> проекта в поисковых
-            системах Яндекс и Google.
-          </p>
         </div>
-        <div
-          class="wrap_button_white wrap_button_green"
-          style="margin-bottom: 0"
-        >
-          <button class="btn-reset btn-stroke-green start-btn"><a href="/new-project">Начать проект</a></button>
-        </div>
-      </div>
+    
     </section>
 
 
