@@ -18,30 +18,59 @@ window.addEventListener('DOMContentLoaded', () => {
       const togglers = document.querySelectorAll('.tab-toggle-btn');
       const hidden = document.querySelectorAll('.invisible')
       
-      togglers.forEach((toggler) => {
-          toggler.addEventListener('click', (e) => {
-              
-              e.target.classList.toggle('rotate');
+    //   togglers.forEach((toggler) => {
+    //       toggler.addEventListener('click', (e) => {
             
-              if (e.target.parentNode.parentNode.querySelector('.invisible').classList.contains('invisible')) {
-                  
-                  if ( e.target.parentNode.parentNode.parentNode.classList.contains('tab-container')) {
+              
+    //           e.target.classList.toggle('rotate');
+
+    //           if(e.target.paentNode.parentNode)
+            
+    //   })
+
+    // });
+
+    
+
+    function initTabs() {
+        // Получаем все элементы с классом "tab-toggle-btn"
+        const toggleBtns = document.querySelectorAll(".tab-toggle-btn");
       
-                 
-                  e.target.parentNode.parentNode.parentNode.classList.toggle('tabs-item__expanded');
-              } if (e.target.parentNode.parentNode.parentNode.classList.contains('tab-container')) {
-                  e.target.parentNode.parentNode.parentNode.querySelectorAll('.invisible').forEach((enigma) => {
-                      enigma.classList.toggle('but-not-now');
-                  }) } else {
-                      e.target.parentNode.parentNode.querySelectorAll('.invisible').forEach((enigma) => {
-                          enigma.classList.toggle('but-not-now');
-                  })}
-                  
-              } else {
-                  e.target.parentNode.parentNode.querySelector('.hidden-content').classList.remove('active');
-              }
-          })
-      });
+        // Проходим по всем элементам и добавляем обработчик событий "click"
+        toggleBtns.forEach((toggleBtn) => {
+          toggleBtn.addEventListener("click", (e) => {
+            e.target.classList.toggle('rotate');
+          
+            // Получаем родительский элемент, который содержит все скрытые части
+            const parent = e.target.closest(".tabs-item");
+            const subParent = e.target.closest('.hidden-part-container');
+      
+           
+            if (e.target.parentNode.parentNode.classList.contains('tab__visible-part')) {
+                
+                parent.classList.toggle('tabs-item__expanded');
+                parent.querySelectorAll('.invisible').forEach( (hidden)=> {
+                    hidden.classList.toggle('but-not-now');
+                })
+            };
+
+            if (e.target.parentNode.parentNode.classList.contains('hidden-part-container')) {
+                console.log(subParent)
+               
+                subParent.querySelectorAll('.invisible').forEach( (hidden)=> {
+                    hidden.classList.toggle('but-not-now');
+                })
+            }
+          
+      
+            // Изменяем иконку на кнопке, чтобы показать, что содержимое было скрыто/показано
+       
+          });
+        });
+      }
+      
+      // Вызываем функцию при загрузке страницы, чтобы добавить обработчики событий на все кнопки
+      window.addEventListener("load", initTabs);
 
     const showBtn = document.querySelector('.btn-show');
     if (showBtn) showBtn.addEventListener('click', showProjects);

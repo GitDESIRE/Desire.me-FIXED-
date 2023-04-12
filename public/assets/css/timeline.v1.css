@@ -39,15 +39,16 @@
 }
 
 .dev-timeline-item:last-child::after {
-    top: 7px;
+    top: 0px;
 }
 
 .dev-timeline-item:last-child::before {
-    top: 3px;
+    top: -3px;
 }
 
 .dev-timeline-item:last-child p {
-    line-height:22px;
+    line-height: 19px;
+    padding-top: 0;
 }
 
 .dev-timeline-item:nth-child(even) p {
@@ -71,11 +72,10 @@
     display: block;
     content:'';
     height: 60%;
-    max-height: 236px;
     width:1px;
     background-color: #9AD351;
     bottom: 27%;
-    right: 91.3%;
+    left: 8.4%;
 }
 
 
@@ -342,19 +342,18 @@
 
 }
 
-@media (max-width:840px) {
+@media (max-width: 840px) {
 
     .section-timeline {
-        padding-bottom: 900px;
+        /* padding-bottom: 900px; */
     }
 
     .timeline-source {
         padding: 0;
-        height: 101vh;
     }
    
     .timeline-source::after {
-        height: 101vh;
+        height: 100%;
         width: 1px;
         left: 49.7%;
         top: 0;
@@ -452,14 +451,12 @@
 
 @media (max-width:800px) {
    
-.timeline-src::before {
-    right: 93%;
-}
+.timeline-src::before {left: 6.85%;}
 }
 
 @media (max-width: 750px) {
 .timeline-src::before {
-    right: 82.9%;
+    left: 17%;
     bottom: 27%;
 }
 
@@ -468,22 +465,26 @@
     max-width: 300px;
 }
 
+       .timeline-source::after {
+         left: 50%;
+       }
+
+
 }
 
 @media (max-width:640px) {
 
     .section-timeline {
-        /* padding-bottom: 800px; */
+        padding-bottom: 113px;
     }
 
     .timeline-source {
         padding: 0;
-        position: absolute;
-        height: 100vh;
+        height: 100%;
     }
    
     .timeline-source::after {
-        height: 101vh;
+        height: 102vh;
         width: 1px;
         left: 50%;
         top: 0;
@@ -496,6 +497,7 @@
     
     .timeline-item:nth-child(even) {
         width: 100%;
+        height: 20%;
     }
 
     .timeline-item:nth-child(even) .timeline-item__desc {
@@ -509,16 +511,17 @@
 
     .timeline-item:nth-child(even)::before {
         left: 42%;
-        top: 25%;
+        top: 29%;
     }
 
     .timeline-item:nth-child(even)::after {
         left: 49%;
-        top: 23%;
+        top: 26%;
     }
 
     .timeline-item:nth-child(odd) {
         width: 100%;
+        height: 24%;
     }
 
     .timeline-item:nth-child(odd) div {
@@ -527,17 +530,19 @@
     }
 
     .timeline-item:nth-child(odd)::before {
-        Left: 54%;
-        top: 22%;
+        Left: 54.7%;
+        top: 34%;
     }
 
     .timeline-item:nth-child(odd)::after {
         left: 49%;
-        top: 18%;
+        top: 30%;
     }
 
+ 
     .timeline-item:first-child {
     width: 100%;
+    height: 23%;
     }
 
     .timeline-item:first-child div{
@@ -546,36 +551,41 @@
 
     .timeline-item:first-child::before {
         left: 55%;
-        top: 32%;
+        top: 34%;
     }
 
     .timeline-item:first-child::after {
         left: 49%;
-        top: 28%;
+        top: 30%;
     }
 
      .timeline-item:last-child {
     width: 100%;
+    height: 20%;
     }
 
     .timeline-item:last-child div{
-    top: -16%;
+    top: 3%;
     }
 
     .timeline-item:last-child::before {
         left: 55%;
-        top: 12%;
+        top: 6.5vh;
     }
 
     .timeline-item:last-child::after {
         left: 49%;
-        top: 8%;
+        top: 6.5vh;
     }
 
     .promotion-welcome .timeline-src::before {
     right: 82.9%;
     bottom: 18%;
 }
+
+       .timeline-item {
+    height: 20%;
+    }
 
 }
 
@@ -612,20 +622,25 @@
     }
    
     .timeline-source::after {
-        height: 94vh;
+        height: 83vh;
         width: 1px;
-        left: 3.4%;
-        top: -21px;
+        left: 3.3%;
+        top: 7px;
     }
 
     .timeline-item {
         height: 21%;
     }
 
+    .timeline-item:first-child {
+    width: 100%;
+    /* height: 32%; */
+}
+
       
 
     .timeline-item:nth-child(even) {
-        height: 21%;
+        height: 18%;
     }    
 
     .timeline-item:nth-child(even) div {
@@ -634,12 +649,12 @@
 
     .timeline-item:nth-child(even)::before {
         left: 7%;
-        top: 2%;
+        top: 3%;
     }
     
     .timeline-item:nth-child(even)::after {
         left: 2%;
-        top: 0%;
+        top: 0;
     }
 
     .timeline-item:nth-child(odd) div {
@@ -681,16 +696,20 @@
         
     }
 
+        .timeline-item:last-child {
+            height: -4%;
+    }
+
     .timeline-item:last-child div {
-        
+    top: 4px;
     }
 
     .timeline-item:last-child::before {
-        
+        top: px;
     }
     
     .timeline-item:last-child::after {
-        
+    top: -4px;
     }
 
     .timeline-item div {
@@ -713,22 +732,33 @@
 .timeline-item__desc {
     font-size:15px;
     width: 86%;
-    line-height: 18px;
+    line-height: 17px;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: start;
 }
 
     .dev-timeline-item__src {
     padding-left: 20px;
-    width: 320px;
-
+    width: 315px;
     }
 
 }
 
    @media (max-width:500px) {
+
+.timeline-source {
+}
+
+.timeline-source:after {
+    
+}
+
+       
+       
        .timeline-src::before {
     right: 83%;
     top:unset;
-    bottom: 41%;
 }
 
 
@@ -741,21 +771,33 @@
 }
    }
 
+  @media (max-width:450px) {
+
+
+.timeline-source:after {
+    left: 3.8%;
+}
+
+  }
+
 
 @media (max-width:375px) {
 
-    .timeline-src::before, .promotion-welcome .timeline-src::before {
-    
-    bottom: 41%;
+    .dev-timeline .timeline-src {
+    padding-top: 20px;
 }
 
+    .timeline-src::before, .promotion-welcome .timeline-src::before {height: 83%;bottom: 16%;}
+
     .promotion-welcome .timeline-src::before {
-    bottom: 23%;
+    bottom: 19%;
     top: unset;
+    height: 80%;
 }
 
     .design-welcome .timeline-src::before {
-    bottom: 28%;
+    bottom: 18%;
+    height: 80%;
 }
 
     .section-timeline {
@@ -764,7 +806,8 @@
 
     .timeline-source::after {
    left: 5.1%;
-   top: 0;
+   top: 11px;
+   height: 80vh;
 }
 
     
@@ -775,8 +818,8 @@
     }
 
     .dev-timeline-item__src {
-    padding-left: 20px;
-    width: 260px;
+    padding-left: 38px;
+    width: 256px;
     padding-bottom: 0;
 }
 

@@ -40,16 +40,16 @@
             <div class="banner-chips">
               <ul class="banner-chips-list">
                 <li class="banner-chip chip">
-                  <a href="/dev" class="banner-chip chip__src">разработка</a>
+                  <a href="/dev" class="chip__src">разработка</a>
                 </li>
                 <li class="banner-chip chip">
-                  <a href="/design" class="banner-chip chip__src">дизайн</a>
+                  <a href="/design" class="chip__src">дизайн</a>
                 </li>
                 <li class="banner-chip chip">
-                  <a href="/promotion" class="banner-chip chip__src">продвижение</a>
+                  <a href="/promotion" class="chip__src">продвижение</a>
                 </li>
                 <li class="banner-chip chip">
-                  <a href="/complex-tariffs" class="banner-chip chip__src">комплексные решения</a>
+                  <a href="/complex-tariffs" class="chip__src">комплексные решения</a>
                 </li>
               </ul>
             </div>
@@ -242,7 +242,7 @@
                   Ориентируемся на клиента, создаем новое, меняем старое до
                   неузнаваемости!
                 </p>
-                <a class="textbox-link page-link" href="index-team.html"
+                <a class="textbox-link page-link" href="/team"
                   >Познакомиться поближе</a
                 >
               </div>

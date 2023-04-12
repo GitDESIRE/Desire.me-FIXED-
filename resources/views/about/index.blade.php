@@ -217,7 +217,7 @@
                                     </div>
                                     <span class="rights">
                                         Даю согласие на обработку
-                                    <a href="privacy-policy.html" target="_blank" class="agreementData-link">Персональных данных</a>
+                                    <a href="/policy" target="_blank" class="agreementData-link">Персональных данных</a>
                                     </span>
                                 </label>
                             </div>

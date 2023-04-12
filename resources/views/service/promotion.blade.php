@@ -81,7 +81,7 @@
                 </span>
               <span class="tab-header__text">  тариф basic</span>
               </div>
-            <button type="button" class="btn-reset btn-fill order-btn invisible">Заказать</button>
+            <button type="button" class="btn-reset btn-fill order-btn invisible"><a class="order-btn__link" href="/new-project">Заказать </a></button>
             </div>
             <div class="tab-description invisible">
               <p class="tab-description__text promotion__description-text">
@@ -185,7 +185,7 @@
                     </span>
                     <span class="tab-header__text">Тариф MIDDLE</span>
                 </div>
-                <button type="button" class="btn-reset btn-fill order-btn invisible">Заказать</button>
+                <button type="button" class="btn-reset btn-fill order-btn invisible"><a class="order-btn__link" href="/new-project">Заказать </a></button>
                 </div>
                 <div class="tab-description invisible">
                   <p class="tab-description__text design__description-text">
@@ -303,7 +303,7 @@
                         </span>
                         <span class="tab-header__text">тариф premium</span>
                     </div>
-                    <button type="button" class="btn-reset btn-fill order-btn invisible">Заказать</button>
+                    <button type="button" class="btn-reset btn-fill order-btn invisible"><a class="order-btn__link" href="/new-project">Заказать </a></button>
                     </div>
                     <div class="tab-description invisible">
                       <p class="tab-description__text design__description-text">
@@ -432,7 +432,7 @@
                   </span>
                 <span class="tab-header__text">  таргетированная</span>
                 </div>
-              <button type="button" class="btn-reset btn-fill order-btn invisible">Заказать</button>
+              <button type="button" class="btn-reset btn-fill order-btn invisible"><a class="order-btn__link" href="/new-project">Заказать </a></button>
               </div>
               <div class="tab-description invisible">
                 <p class="tab-description__text promotion__description-text">
@@ -546,7 +546,7 @@
                       </span>
                       <span class="tab-header__text">контекстная</span>
                   </div>
-                  <button type="button" class="btn-reset btn-fill order-btn invisible">Заказать</button>
+                  <button type="button" class="btn-reset btn-fill order-btn invisible"><a class="order-btn__link" href="/new-project">Заказать </a></button>
                   </div>
                   <div class="tab-description invisible">
                     <p class="tab-description__text design__description-text">
@@ -661,10 +661,8 @@
     <div class="wrapper">
       <h2 class="cases-title">кейсы</h2>
       </div>
-    <div class="white_wrap block-animation">
-     
       <div class="white_wrap_wrap_slider">
-      <div class="swiper">
+            <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img
@@ -748,8 +746,9 @@
           <div class="wrap_button_white">
            <button class="btn-reset btn-stroke-dark swiper-redirect-btn"><a href="/projects">Смотреть всё</a></button>
           </div>
-    </div>
-  </section>
+        </div>
+    
+    </section>
   <section class="desicions">
       <div class="wrapper desicions-wrapper">
         <h2 class="subTitle">выгодные предложения</h2>
