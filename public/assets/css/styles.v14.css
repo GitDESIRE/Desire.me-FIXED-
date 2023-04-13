@@ -4551,6 +4551,8 @@ width:100%;
 
 @media (max-width: 1100px) {
 
+    
+
     .mainPage-content .content-text {
     width: 68.5%;
     
@@ -4581,7 +4583,7 @@ width:100%;
 
 
 .info-container {
-    width: 56%;
+    width: 61%;
 }
 
 .decor-container {
@@ -4701,9 +4703,7 @@ width:100%;
     margin-right: 35px;
 }
 
-.promotion-welcome .timeline-src::before {
-    right: 91.2%;
-}
+
 
 .info-container__plans {
     width:55%;
@@ -4725,6 +4725,8 @@ width:100%;
 .plan-desc__header {
     width:43%;
 }
+
+ 
 
 }
 
@@ -9826,7 +9828,6 @@ form input::placeholder {
     .header {
         /* position: fixed; */
         z-index: 350;
-        height: 50px;
     }
     .nav {
         display: none;
@@ -10698,7 +10699,6 @@ form input::placeholder {
 
 .agreement_box {
    width: 100%;
-   justify-content: center;
 }
 
 
@@ -11421,9 +11421,9 @@ form input::placeholder {
 
     .file-button, .submit-button {
    width:300px;
-   
         
 }
+    
 }
 
 @media (max-width: 400px) {
@@ -11828,6 +11828,10 @@ form input::placeholder {
     .service-chips {
     
 }
+
+    .header {
+        height:50px;
+    }
 
 }
 
