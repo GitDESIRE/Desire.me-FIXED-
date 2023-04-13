@@ -21,7 +21,7 @@ class mailSendForm extends Mailable
 {
     use Queueable, SerializesModels;
 
-    private string $mailTo = 'vkaftancikov@gmail.com';
+    private string $mailTo = 'hello@desire-company.com';
 
     /**
      * Create a new message instance.
