@@ -90,32 +90,32 @@ window.addEventListener('DOMContentLoaded', () => {
 * 
 * @ahilespelid
 */
-    let screen = sizes(), coef = screen.screenHeight / screen.windowHeight;
-    //let _zoom = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth, _height = window.innerHeight;
-    let banner = $('section.banner'), 
-        banner_title = $('.banner-title'),
-        seo_banner_top = $('.seo-banner-top'),
-        seo_banner_section = $('.seo-banner-section'), 
-        banner_description_item = $('.banner-description-item'),
-        banner_description_list = $('.banner-description-list');
+ //    let screen = sizes(), coef = screen.screenHeight / screen.windowHeight;
+ //    //let _zoom = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth, _height = window.innerHeight;
+ //    let banner = $('section.banner'), 
+ //        banner_title = $('.banner-title'),
+ //        seo_banner_top = $('.seo-banner-top'),
+ //        seo_banner_section = $('.seo-banner-section'), 
+ //        banner_description_item = $('.banner-description-item'),
+ //        banner_description_list = $('.banner-description-list');
         
-    let fontSizeBannerTitle = (coef > 1) ? parseFloat(banner_title.css('font-size')) / coef : parseFloat(banner_title.css('font-size')) * coef,
-        lineHeighteBannerTitle = (coef > 1) ? parseFloat(banner_title.css('line-height')) / coef : parseFloat(banner_title.css('line-height')) * coef,
-        fontSizeBannerDeskItem = (coef > 1) ? parseFloat(banner_description_item.css('font-size')) / coef : parseFloat(banner_description_item.css('font-size')) * coef,
-        lineHeighteBannerDeskItem = (coef > 1) ? parseFloat(banner_description_item.css('line-height')) / coef : parseFloat(banner_description_item.css('line-height')) * coef,
-        gapBannerDeskList = (coef > 1) ? parseFloat(banner_description_list.css('gap')) / coef : parseFloat(banner_description_list.css('gap')) * coef;
-        //console.log(coef);     
+ //    let fontSizeBannerTitle = (coef > 1) ? parseFloat(banner_title.css('font-size')) / coef : parseFloat(banner_title.css('font-size')) * coef,
+ //        lineHeighteBannerTitle = (coef > 1) ? parseFloat(banner_title.css('line-height')) / coef : parseFloat(banner_title.css('line-height')) * coef,
+ //        fontSizeBannerDeskItem = (coef > 1) ? parseFloat(banner_description_item.css('font-size')) / coef : parseFloat(banner_description_item.css('font-size')) * coef,
+ //        lineHeighteBannerDeskItem = (coef > 1) ? parseFloat(banner_description_item.css('line-height')) / coef : parseFloat(banner_description_item.css('line-height')) * coef,
+ //        gapBannerDeskList = (coef > 1) ? parseFloat(banner_description_list.css('gap')) / coef : parseFloat(banner_description_list.css('gap')) * coef;
+ //        //console.log(coef);     
 
-    function sectionBanner(coef=1){
-        seo_banner_section.css('margin-top',  banner_title.css('margin-top'));
-        seo_banner_top.css('margin-bottom',  banner_title.css('margin-bottom'));
-        banner_title.css('font-size', 'calc('+fontSizeBannerTitle+'px / '+(coef/1.3)+')').css('line-height', 'calc('+lineHeighteBannerTitle+'px / '+(coef/1.3)+')');
-        banner_description_item.css('font-size', 'calc('+fontSizeBannerDeskItem+'px / '+(coef/1.5)+')').css('line-height', 'calc('+lineHeighteBannerDeskItem+'px / '+(coef/1.5)+')');
-        banner_description_list.css('gap', 'calc('+gapBannerDeskList+'px / '+(coef/1.5)+')');
-    }
+ //    function sectionBanner(coef=1){
+ //        seo_banner_section.css('margin-top',  banner_title.css('margin-top'));
+ //        seo_banner_top.css('margin-bottom',  banner_title.css('margin-bottom'));
+ //        banner_title.css('font-size', 'calc('+fontSizeBannerTitle+'px / '+(coef/1.3)+')').css('line-height', 'calc('+lineHeighteBannerTitle+'px / '+(coef/1.3)+')');
+ //        banner_description_item.css('font-size', 'calc('+fontSizeBannerDeskItem+'px / '+(coef/1.5)+')').css('line-height', 'calc('+lineHeighteBannerDeskItem+'px / '+(coef/1.5)+')');
+ //        banner_description_list.css('gap', 'calc('+gapBannerDeskList+'px / '+(coef/1.5)+')');
+ //    }
 
-    sectionBanner(coef);
+ //    sectionBanner(coef);
 
-    $(window).resize(function(){let screenResize = sizes(), coefResize = screenResize.screenHeight / screenResize.windowHeight; sectionBanner(coefResize);});
+ //    $(window).resize(function(){let screenResize = sizes(), coefResize = screenResize.screenHeight / screenResize.windowHeight; sectionBanner(coefResize);});
  })
 

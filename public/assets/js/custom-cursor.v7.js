@@ -1,6 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const followCursor = () => { // объявляем функцию followCursor
+        const isTouchDevice = ('ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0);
+
+if (!isTouchDevice) {
+    const el = document.querySelector('.custom-cursor');
+    el.style.display = 'block';
+} else {
+    const el = document.querySelector('.custom-cursor');
+    el.style.display = 'none';
+}
         const el = document.querySelector('.custom-cursor') // ищем элемент, который будет следовать за курсором
         window.addEventListener('mousemove', e => {// при движении курсора
             const target = e.target // определяем, где находится курсор
@@ -22,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Анимация курсора для активных элементов
             if (target.closest('button') ||
                 target.closest('.arrowBox') ||
-                target.closest('.tab-toggle-btn') ||
                 target.closest('.custom-select') ||
                 target.closest('.nav-list_link') ||
                 target.closest('.tab-wrapper') ||
