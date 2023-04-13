@@ -2086,8 +2086,7 @@ form input::placeholder {
 }
 
 .cases-item {
-    width: 100%;
-    max-width: 588px;
+    width: 48%;
     display: flex;
     flex-direction: column;
 }
@@ -2118,8 +2117,7 @@ form input::placeholder {
 }
 
 .cases-name {
-    width: 100%;
-    max-width: 223px;
+    width: 80%;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -3301,19 +3299,17 @@ form input::placeholder {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
+    display: flex;
 }
 
 .wrapper.project-wrapper .seo-banner-top {
     margin-bottom: 0;
 }
 
-.wrapper.project-wrapper .banner-title {
-    max-width: 785px;
-}
+.wrapper.project-wrapper .banner-title {/* width: 60%; */}
 
 .banner-title {
     width: 100%;
-    max-width: 753px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -3412,7 +3408,6 @@ form input::placeholder {
 
 .projects-img {
     max-width: 996px;
-    height: 100%;
     width: 100%;
 }
 
@@ -3760,6 +3755,10 @@ form input::placeholder {
 
 .project-info .image-content img {
     width: 100%;
+}
+
+.screen-wrapper {
+    display:flex;
 }
 
 .screen-wrapper:nth-child(n + 2) {
@@ -5072,6 +5071,15 @@ width:100%;
    
 }
 
+    .cases-item {
+    width: 100%;
+   
+}
+
+    .cases-list {
+    justify-content:center;
+}
+
 
 }
 
@@ -5904,17 +5912,8 @@ align {
 /* LINKS TEMPLATES  */
 
 .page-link {
-    text-align: right;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19.5px;
-    color: #000000;
-    background-image: url(../svg/arrow-up-right.svg);
-    background-repeat: no-repeat;
-    background-position: 60% 68%;
-    padding-right: 91px;
-    position: relative;
-    transition: 0.5s;
+  width:100%;
+  background-position: 88% 50%;
 }
 
 .link-black {
@@ -8701,6 +8700,7 @@ form input::placeholder {
     align-items: flex-start;
     width: 100%;
     align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .swiper-slide-title {
@@ -8710,6 +8710,7 @@ form input::placeholder {
     text-transform: uppercase;
     color: #ffffff;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .swiper-slide-main a {
@@ -8878,7 +8879,6 @@ form input::placeholder {
 }
 
 .wrapper.project-wrapper .banner-title {
-    max-width: 785px;
 }
 
 .banner-title {
@@ -8978,12 +8978,6 @@ form input::placeholder {
 
 .projects .wrapper {
     justify-content: center;
-}
-
-.projects-img {
-    max-width: 996px;
-    height: 100%;
-    width: 100%;
 }
 
 .mobile-img {
@@ -9433,6 +9427,7 @@ form input::placeholder {
 
     .banner-title {
         font-size: 62px;
+        line-height: 70px;
     }
 
     .info-container {
@@ -9955,7 +9950,7 @@ form input::placeholder {
     }
 
     .swiper-slide {
-        padding: 70px 20px 20px;
+        padding: 70px 20px 30px;
     }
 
     .main .main_container {
@@ -10279,6 +10274,11 @@ form input::placeholder {
     margin-bottom: 0;
 }
 
+    .portfolio-main {
+    margin-bottom: 98px;
+    
+}
+
 .cases-title {
     padding-bottom: 20px;
 }
@@ -10584,6 +10584,8 @@ form input::placeholder {
     .newProject_form {
     margin-top: 18px;
 }
+
+    .wrapper.project-wrapper .banner-title {width: 100%;font-size: 58px;}
 
 }
 
@@ -11371,6 +11373,12 @@ form input::placeholder {
     flex-wrap:wrap;;
 }
 
+.wrapper.project-wrapper .banner-title {
+    font-size: 42px;
+    width:100%;
+    line-height: 48px;
+}
+
 }
 
 @media (max-width: 450px) {
@@ -11831,6 +11839,12 @@ form input::placeholder {
 
     .header {
         height:50px;
+    }
+
+    .wrapper.project-wrapper .banner-title {font-size: 32px;}
+
+    .seo-banner-top .banner-title {
+        font-size:36px;
     }
 
 }
