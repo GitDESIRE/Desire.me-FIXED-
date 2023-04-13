@@ -33,7 +33,7 @@
     <meta meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    
+
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.v3.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/styles.v14.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/cursor.v3.css')}}">
@@ -73,11 +73,12 @@
 <script src="{{asset('assets/js/swiper.js')}}"></script>
 <script src="{{asset('assets/js/tinkoffModal.js')}}"></script>
 
-@if($_SERVER['REQUEST_URI'] == 'new-project' | $_SERVER['REQUEST_URI'] == 'about-us')
+@if($_SERVER['REQUEST_URI'] == '/new-project' || $_SERVER['REQUEST_URI'] == '/about-us')
 
 <script src="{{asset('assets/js/intlTelInput.js')}}"></script>
 <script>
-    var input = document.querySelector("#tel");
+    let input = document.querySelector("#tel");
+
     window.intlTelInput(input, {
         initialCountry: "auto",
         geoIpLookup: function(callback) {
