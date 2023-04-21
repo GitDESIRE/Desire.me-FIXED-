@@ -72,10 +72,6 @@
                                     Лендинг
                                 </label>
                                 <label class="service-chips">
-                                    <input type="radio" id="corp" name="service" value="corp" />
-                                    Корпоративный сайт
-                                </label>
-                                <label class="service-chips">
                                     <input type="radio" id="mob" name="service" value="mob" />
                                     Мобильное приложение
                                 </label>
@@ -84,6 +80,18 @@
                                     Интернет-магазин
                                 </label>
                                 <label class="service-chips">
+                                    <input type="radio" id="brandbook" name="service" value="brandbook" />
+                                    Брендбук
+                                </label>
+                                <label class="service-chips">
+                                    <input type="radio" id="corp" name="service" value="corp" />
+                                    Корпоративный сайт
+                                </label>
+                                <label class="service-chips">
+                                    <input type="radio" id="guideline" name="service" value="guideline" />
+                                    Гайдлайн
+                                </label>                               
+                                <label class="service-chips">
                                     <input type="radio" id="pages" name="service" value="pages" />
                                     Дополнительные страницы
                                 </label>
@@ -91,37 +99,29 @@
                                     <input type="radio" id="seo" name="service" value="seo" />
                                     Продвижение
                                 </label>
+                                <label class="service-chips">
+                                    <input type="radio" id="webdesign" name="service" value="webdesign" />
+                                    Дизайн сайта
+                                </label>
                                <label class="service-chips">
                                     <input type="radio" id="mobdesign" name="service" value="mobdesign" />
                                     Дизайн мобильного приложения
                                 </label>
                                 <label class="service-chips">
-                                    <input type="radio" id="webdesign" name="service" value="webdesign" />
-                                    Дизайн сайта
-                                </label>
-                                <label class="service-chips">
-                                    <input type="radio" id="brandbook" name="service" value="brandbook" />
-                                    Брендбук
-                                </label>
-                                <label class="service-chips">
-                                    <input type="radio" id="guideline" name="service" value="guideline" />
-                                    Гайдлайн
-                                </label>
-                                <label class="service-chips">
                                     <input type="radio" id="start" name="service" value="start" />
-                                    Решение START
+                                   START
                                 </label>
                                 <label class="service-chips">
                                     <input type="radio" id="arrow" name="service" value="arrow" />
-                                    Решение ARROW
+                                    ARROW
                                 </label>
                                 <label class="service-chips">
                                     <input type="radio" id="influencer" name="service" value="influencer" />
-                                    Решение INFLUENCER
+                                 INFLUENCER
                                 </label>
                                 <label class="service-chips">
                                     <input type="radio" id="digital" name="service" value="digital" />
-                                    Решение FULL DIGITAL
+                                 FULL DIGITAL
                                 </label>
                                 <label class="service-chips">
                                     <input type="radio" id="other" name="service" value="other" />

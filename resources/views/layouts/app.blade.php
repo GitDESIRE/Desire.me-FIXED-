@@ -58,7 +58,7 @@
 
 @yield('content')
 
-@include('headers.footer')
+
 
 <script src="{{asset('assets/js/jquery.js')}}"></script>
 <script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
@@ -90,6 +90,16 @@
         hiddenInput: "tel"
     });
 </script>
+
+@endif
+
+
+@if($_SERVER['REQUEST_URI'] == '/contacts' )
+
+@include('headers.shortfooter')
+
+@else 
+@include('headers.footer')
 
 @endif
 <div class="custom-cursor"></div>

@@ -40,7 +40,7 @@
                         <a href="/dev" class="burger-menu_hidden-link">Разработка</a>
                         <a href="/design" class="burger-menu_hidden-link">Дизайн</a>
                         <a href="/promotion" class="burger-menu_hidden-link">Продвижение</a>
-                        <a href="/complex-tariffs" class="burger-menu_hidden-link">Комплексные тарифы</a>
+                        <a href="/complex-tariffs" class="burger-menu_hidden-link">Комплексные решения</a>
                     </div>
                 </div>
                 <a href="/projects" class="burger-menu_link">Проекты</a>

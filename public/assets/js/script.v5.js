@@ -18,56 +18,117 @@ window.addEventListener('DOMContentLoaded', () => {
       const togglers = document.querySelectorAll('.tab-toggle-btn');
       const hidden = document.querySelectorAll('.invisible')
       
-    //   togglers.forEach((toggler) => {
-    //       toggler.addEventListener('click', (e) => {
-            
-              
-    //           e.target.classList.toggle('rotate');
-
-    //           if(e.target.paentNode.parentNode)
-            
-    //   })
-
-    // });
+   
 
     
 
     function initTabs() {
-        // Получаем все элементы с классом "tab-toggle-btn"
-        const toggleBtns = document.querySelectorAll(".tab-toggle-btn");
       
-        // Проходим по всем элементам и добавляем обработчик событий "click"
-        toggleBtns.forEach((toggleBtn) => {
-          toggleBtn.addEventListener("click", (e) => {
-            e.target.classList.toggle('rotate');
-          
-            // Получаем родительский элемент, который содержит все скрытые части
-            const parent = e.target.closest(".tabs-item");
-            const subParent = e.target.closest('.hidden-part-container');
-      
-           
-            if (e.target.parentNode.parentNode.classList.contains('tab__visible-part')) {
-                
-                parent.classList.toggle('tabs-item__expanded');
-                parent.querySelectorAll('.invisible').forEach( (hidden)=> {
-                    hidden.classList.toggle('but-not-now');
-                })
-            };
+      const tabs = document.querySelectorAll('.tab-container');
+      tabs.forEach((parent) => {
+       parent.addEventListener("click", (e) => {
+        
+        
+        console.log(e.target);
+        console.log( e.target.closest('.tab-toggle-btn'));
+        console.log( document.querySelectorAll('.toggle-src'));
+    // Проверяем, на каком элементе произошел клик
+    if (e.target.closest('.tab__visible-part')) {
+      console.log(e.target);
+      e.target.closest('.tab-container').querySelector('.tab-toggle-btn').querySelector('.toggle-src').classList.toggle('rotate');
+       e.target.closest('.tab-container').querySelectorAll('.invisible').forEach((hidden) => {
+        
+        e.target.closest('.tabs-item').classList.toggle('tabs-item__expanded');
+        hidden.classList.toggle('but-not-now');
+       });
+    } else 
+    if (e.target.closest('.hidden-part-container')) {
+      e.target.closest('.hidden-part-container').querySelector('.tab-toggle-btn').querySelector('.toggle-src').classList.toggle('rotate');
+      e.target.closest('.hidden-part-container').querySelectorAll('.invisible').forEach((hidden) => {
+       console.log(hidden);
+       hidden.classList.toggle('but-not-now');
+      });
+   }
+      });
+    }
+);
 
-            if (e.target.parentNode.parentNode.classList.contains('hidden-part-container')) {
-                console.log(subParent)
+      // e.target.closest('.toggle-src').classList.toggle('rotate');
+
+        // const invisibleBlock = e.target.closest('.tab__visible-part, .tab__hidden-part');
+        // // invisibleBlock.closest('.toggle-src').classList.toggle('rotate');
+        // console.log(invisibleBlock);
+        // invisibleBlock.querySelectorAll('.invisible').forEach(element => {
+        //   console.log(element);
+        //   element.classList.toggle('but-not-now');
+        // });
+      
+    //   e.target.classList.contains("tab-toggle-btn") && e.target.parentNode.classList.contains("tab__visible-part") ||
+    //   e.target.classList.contains("tab__visible-part")
+    // ) {
+    
+    //   e.target.querySelector('.toggle-src').classList.toggle('rotate');
+    //   e.target.closest('.tabs-item').classList.toggle('tabs-item__expanded');
+    //   console.log( e.target.closest('.tab-container'));
+    //   e.target.closest('.tab-container').querySelectorAll('.invisible').forEach((hidden) => {
+    //     hidden.classList.toggle('but-not-now');
+    //   })
+    //   console.log( e.target.closest('.tab-container'));
+    //   // console.log(e.target);
+    //   // console.log(e.target.querySelectorAll('.invisible'))
+    //   // e.target.querySelector('.toggle-src').classList.toggle('rotate');
+    //   // e.target.closest('.tabs-item').classList.toggle('tabs-item__expanded');
+    //   // e.target.querySelectorAll('.invisible').forEach((hiddenItem) => {
+    //   //   console.log(hiddenItem);
+    //   //   hiddenItem.classList.toggle('but-not-now');
+    //   // })
+
+     
+    
+
+
+
+
+
+        // // Получаем все элементы с классом "tab-toggle-btn"
+        // const toggleBtns = document.querySelectorAll(".tab-toggle-btn");
+      
+        // // Проходим по всем элементам и добавляем обработчик событий "click"
+        // toggleBtns.forEach((toggleBtn) => {
+        //   toggleBtn.addEventListener("click", (e) => {
+        //     console.log(e.target);
+        //     e.target.querySelector('.toggle-src').classList.toggle('rotate');
+          
+        //     // Получаем родительский элемент, который содержит все скрытые части
+        //     const parent = e.target.closest(".tabs-item");
+        //     const subParent = e.target.closest('.hidden-part-container');
+        //     console.log(parent);
+        //     console.log(subParent);
+           
+        //     if (e.target.parentNode.classList.contains('tab__visible-part')) {
+                
+        //         parent.classList.toggle('tabs-item__expanded');
+        //         parent.querySelectorAll('.invisible').forEach( (hidden)=> {
+        //             hidden.classList.toggle('but-not-now');
+        //         })
+        //     };
+
+        //     if (e.target.parentNode.classList.contains('hidden-part-container')) {
+        //         console.log(subParent)
                
-                subParent.querySelectorAll('.invisible').forEach( (hidden)=> {
-                    hidden.classList.toggle('but-not-now');
-                })
-            }
+        //         subParent.querySelectorAll('.invisible').forEach( (hidden)=> {
+        //             hidden.classList.toggle('but-not-now');
+        //         })
+        //     }
           
       
-            // Изменяем иконку на кнопке, чтобы показать, что содержимое было скрыто/показано
+        //     // Изменяем иконку на кнопке, чтобы показать, что содержимое было скрыто/показано
        
-          });
-        });
-      }
+         
+         };
+      
+
+    
       
       // Вызываем функцию при загрузке страницы, чтобы добавить обработчики событий на все кнопки
       window.addEventListener("load", initTabs);

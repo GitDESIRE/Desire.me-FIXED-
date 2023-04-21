@@ -106,7 +106,7 @@
            
               <h3 class="desicion-title">Комплексное решение INFLUENCER</h3>
               <div class="desicionBox-text">
-              <p>Развиваться в медиа пространстве означает идти в ногусо своими клиентам. Большая аудитория, которой интересен именно ваш продукт — вот, в чем залог успеха.</p>
+              <p>Развиваться в медиа пространстве означает идти в ногу со своими клиентам. Большая аудитория, которой интересен именно ваш продукт — вот, в чем залог успеха.</p>
               <p>Команда Desire поможет оформить и запустить социальные сети, а также наполнить их необычным контентом!</p>
             </div>
               <span>МЫ СДЕЛАЕМ:</span>
@@ -149,6 +149,7 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/noiceland">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-1.png')}}"
@@ -161,8 +162,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/dolfie">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-2.png')}}"
@@ -177,8 +180,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/hike">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-3.png')}}"
@@ -193,8 +198,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/tocha">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-4.png')}}"
@@ -209,6 +216,27 @@
                     
                   </a>
                   </div>
+                  </a>
+                  </div>
+                <div class="swiper-slide">
+                <a class="slider-link" href="projects/atlant"
+                    >
+                  <img
+                    class="slider-img"
+                    src="{{asset('assets/img/slider-image-5.png')}}"
+                    alt="Обложка проекта"
+                  />
+                  <div class="swiper-slide-main">
+                    <h3 class="swiper-slide-title">
+                      atlant. трекер задач
+                    </h3>
+                    <a class="slide-link page-link link-green" href="projects/atlant"
+                    >Посмотреть
+                    
+                  </a>
+                  </div>
+                  </a>
+                </div>
                 </div>
               </div>
               <div class="swiper-button-prev">
@@ -224,15 +252,34 @@
                   alt="стрелочка вправо"
                 />
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
+            
           </div>
           <div class="wrap_button_white">
            <button class="btn-reset btn-stroke-dark swiper-redirect-btn"><a href="/projects">Смотреть всё</a></button>
           </div>
         </div>
-    
     </section>
+    <section class="section-start plans-start">
+        <div class="white_wrap block-animation">
+          <div class="white_wrap_pp">
+            <p class="start-text">
+              Мы предоставляем <span>весь спектр услуг</span> для вашего
+              digital-проекта: <span>от разработки</span> сайта и мобильных
+              приложений <span>до продвижения</span> проекта в поисковых
+              системах Яндекс и Google.
+            </p>
+          </div>
+          <div
+            class="wrap_button_white wrap_button_green"
+            style="margin-bottom: 0"
+          >
+            <button class="btn-reset btn-stroke-green"><a href="/new-project">Начать проект</a></button>
+          </div>
+        </div>
+      </section>
+
 
 
   </main>
