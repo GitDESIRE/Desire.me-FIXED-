@@ -71,6 +71,7 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                <a class="slider-link" href="/projects/noiceland">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-1.png')}}"
@@ -83,8 +84,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="/projects/dolfie">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-2.png')}}"
@@ -94,13 +97,15 @@
                     <h3 class="swiper-slide-title">
                       Dolfie: Hard to choose. Easy to wear
                     </h3>
-                    <a class="slide-link page-link link-green" href="projects/dolfie"
+                    <a class="slide-link page-link link-green" href="/projects/dolfie"
                       >Посмотреть
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="/projects/hike">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-3.png')}}"
@@ -115,8 +120,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="/projects/tocha">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-4.png')}}"
@@ -126,11 +133,32 @@
                     <h3 class="swiper-slide-title">
                       Tocha: Telegram чат на вашем сайте
                     </h3>
-                    <a class="slide-link page-link link-green" href="projects/tocha"
+                    <a class="slide-link page-link link-green" href="/projects/tocha"
                     >Посмотреть
                     
                   </a>
                   </div>
+                  </a>
+                  </div>
+                <div class="swiper-slide">
+                <a class="slider-link" href="/projects/atlant"
+                    >
+                  <img
+                    class="slider-img"
+                    src="{{asset('assets/img/slider-image-5.png')}}"
+                    alt="Обложка проекта"
+                  />
+                  <div class="swiper-slide-main">
+                    <h3 class="swiper-slide-title">
+                      atlant. трекер задач
+                    </h3>
+                    <a class="slide-link page-link link-green" href="/projects/atlant"
+                    >Посмотреть
+                    
+                  </a>
+                  </div>
+                  </a>
+                </div>
                 </div>
               </div>
               <div class="swiper-button-prev">
@@ -146,14 +174,14 @@
                   alt="стрелочка вправо"
                 />
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
+           
           </div>
           <div class="wrap_button_white">
            <button class="btn-reset btn-stroke-dark swiper-redirect-btn"><a href="/projects">Смотреть всё</a></button>
           </div>
         </div>
-    
     </section>
 </main>
 

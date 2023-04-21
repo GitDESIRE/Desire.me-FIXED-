@@ -109,18 +109,30 @@
                                 </a>
                             </div>
                         </li>
+                        
                     </ul>
                     <button class="btn-project btn-show" style="margin-top: 48px">Показать ещё</button>
                 </div>
             </div>
         </section>
-        <section class="project">
-            <div class="wrapper">
-                <p class="project-text">Мы предоставляем <span class="text-color">весь спектр услуг</span> для вашего digital-проекта: <span class="text-color">от</span> разработки сайта <span class="text-color">и</span> мобильных приложений <span class="text-color">до </span> продвижения проекта в поисковых системах Яндекс и Google.
-                </p>
-                <a href="/new-project" class="btn-project">Начать проект</a>
-            </div>
-        </section>
+        <section class="section-start plans-start">
+        <div class="white_wrap block-animation">
+          <div class="white_wrap_pp">
+            <p class="start-text">
+              Мы предоставляем <span>весь спектр услуг</span> для вашего
+              digital-проекта: <span>от разработки</span> сайта и мобильных
+              приложений <span>до продвижения</span> проекта в поисковых
+              системах Яндекс и Google.
+            </p>
+          </div>
+          <div
+            class="wrap_button_white wrap_button_green"
+            style="margin-bottom: 0"
+          >
+            <button class="btn-reset btn-stroke-green"><a href="/new-project">Начать проект</a></button>
+          </div>
+        </div>
+      </section>
     </main>
 </body>
 

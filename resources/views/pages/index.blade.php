@@ -252,11 +252,26 @@
       </section>
       <section class="resps">
         <div class="resps-container">
-          <div class="black_wrap">
+          <div class="black_wrap black_wrap__resp">
+          <img
+                    class="watermark watermark-left"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  <img
+                    class="watermark watermark-center"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  
+                  <img
+                    class="watermark watermark-right"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
             <div class="wrapper">
             <div class="resp-container block-animation development">
-              
-              
+            
               <div class="resp-desc">
                 <h2 class="resp-header">Разработка</h2>
                 <p class="resp-desc__text">
@@ -278,7 +293,23 @@
             </div>
           </div>
           </div>
-          <div class="white_wrap">
+          <div class="white_wrap white_wrap__resp">
+          <img
+                    class="watermark watermark-left"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  <img
+                    class="watermark watermark-center"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  
+                  <img
+                    class="watermark watermark-right"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
             <div class="wrapper">
             <div class="resp-container block-animation promotion">
               
@@ -310,7 +341,23 @@
             </div>
           </div>
 
-          <div class="black_wrap">
+          <div class="black_wrap black_wrap__resp">
+          <img
+                    class="watermark watermark-left"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  <img
+                    class="watermark watermark-center"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  
+                  <img
+                    class="watermark watermark-right"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
             <div class="wrapper">
             <div class="resp-container block-animation design">
              
@@ -365,6 +412,7 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/noiceland">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-1.png')}}"
@@ -377,8 +425,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/dolfie">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-2.png')}}"
@@ -393,8 +443,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/hike">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-3.png')}}"
@@ -409,8 +461,10 @@
                       
                     </a>
                   </div>
+      </a>
                 </div>
                 <div class="swiper-slide">
+                <a class="slider-link" href="projects/tocha">
                   <img
                     class="slider-img"
                     src="{{asset('assets/img/slider-image-4.png')}}"
@@ -425,6 +479,27 @@
                     
                   </a>
                   </div>
+                  </a>
+                  </div>
+                <div class="swiper-slide">
+                <a class="slider-link" href="projects/atlant"
+                    >
+                  <img
+                    class="slider-img"
+                    src="{{asset('assets/img/slider-image-5.png')}}"
+                    alt="Обложка проекта"
+                  />
+                  <div class="swiper-slide-main">
+                    <h3 class="swiper-slide-title">
+                      atlant. трекер задач
+                    </h3>
+                    <a class="slide-link page-link link-green" href="projects/atlant"
+                    >Посмотреть
+                    
+                  </a>
+                  </div>
+                  </a>
+                </div>
                 </div>
               </div>
               <div class="swiper-button-prev">
@@ -440,8 +515,9 @@
                   alt="стрелочка вправо"
                 />
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
+           
           </div>
           <div class="wrap_button_white">
            <button class="btn-reset btn-stroke-dark swiper-redirect-btn"><a href="/projects">Смотреть всё</a></button>
@@ -480,8 +556,8 @@
                     <h3 class="timeline-item__header">знакомство</h3>
                     <p class="timeline-item__desc">
                       Мы IT-компания по развитию бизнеса. Вы можете узнать о
-                      наших услугах на страницах «Дизайн», «Разработка» и
-                      «Продвижение»
+                      наших услугах на страницах <a class="timeline-link" href="/design">«Дизайн»</a>, <a class="timeline-link" href="/dev">«Разработка»</a> и
+                      <a class="timeline-link" href="/promotion">«Продвижение»</a>
                     </p>
                   </div>
                 </li>
@@ -524,6 +600,27 @@
         </div>
       </section>
       <section class="section-start">
+      <img
+                    class="watermark watermark-top-left"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  <img
+                    class="watermark watermark-bottom-left"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  <img
+                    class="watermark watermark-bottom-right"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
+                  
+                  <img
+                    class="watermark watermark-top-right"
+                    src="{{asset('assets/svg/watermark.svg')}}"
+                    alt="Обложка проекта"
+                  />  
         <div class="white_wrap block-animation">
           <div class="white_wrap_pp">
             <p class="start-text">
@@ -545,278 +642,6 @@
 
     </main>
 
-<!-- <main class="mainPage-content">
-    <section class="banner">
-        <div class="desire_p p_1">desire</div>
-        <div class="desire_p p_2">desire</div>
-        <div class="desire_p p_3">desire</div>
-        <div class="desire_p p_4">desire</div>
-        <div class="wrapper">
-            <div class="content">
-                <div class="content-text">
-                    <h1 class="title">Cоздаём <br /> и продвигаем</h1>
-                    <p>Мы стремимся реализовывать потенциал каждой идеи, которая есть у наших клиентов.</p>
-                </div>
-                <a href="/new-project" class="content-logo">
-                    <img class="logo-text" src="{{asset('assets/svg/button-text.svg')}}" alt="кнопка начать проект" />
-                    <img class="logo-arrow" src="{{asset('assets/svg/arrowLogo.svg')}}" alt="стрелка" />
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="main_wrap">
-        <div class="white_wrap">
-            <div class="div_ul ul_white marquee3k marque-animation" data-speed="0.5" data-reverse="true">
-                <ul>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                    <li>кто мы</li>
-                </ul>
-            </div>
-            <div class="wrapper">
-                <div class="white_logo block-animation">
-                    Мы <br /> DESIRE
-                </div>
-                <div class="white_wrap_p block-animation">
-                    <div>
-                        <h2>Мы ориентируемся на ваши цели, помогая выйти на новый уровень: не просто «быть», а «менять мир»</h2>
-                    </div>
-                    <div class="text-box" style="display: flex;">
-                        <div>
-                            <p>Наша команда всегда знает, как реализовать любую, даже самую смелую идею. Мы помогаем вам начать свой путь в e-commerce</p>
-                        </div>
-                        <div>
-                            <p>Ориентируемся на клиента, создаем новое, меняем старое до неузнаваемости!</p>
-                            <div class="white_a">
-                                <a href="/projects">
-                                    Познакомиться поближе
-                                    <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 8.5L9 0.5" stroke="#282828" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M1 0.5H9V8.5" stroke="#282828" stroke-linecap="square" stroke-linejoin="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="black_wrap">
-            <div class="div_ul ul_black marquee3k marque-animation" data-speed="0.5" data-reverse="true">
-                <ul>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                    <li>Что мы делаем</li>
-                </ul>
-            </div>
-            <div class="wrapper">
-                <div class="whatWeDo-content">
-                    <div class="black_wrap_wrap_content block-animation">
-                        <div class="h1_wrap">дизайн</div>
-                        <div class="wrap_ul">
-                            <ul>
-                                <li>Лендинг</li>
-                                <li>Корпоративный сайт</li>
-                                <li>Интернет-магазин</li>
-                                <li>Редизайн сайта</li>
-                                <li>Дизайн сайта или приложения</li>
-                            </ul>
-                        </div>
-                        <a href="/web-design-and-dev" class="wrap_button">
-                            <button>Подробнее</button>
-                        </a>
-                    </div>
-                    <div class="black_wrap_wrap_content block-animation">
-                        <div class="h1_wrap">разработка</div>
-                        <div class="wrap_ul">
-                            <ul>
-                                <li>Лендинг</li>
-                                <li>Корпоративный сайт</li>
-                                <li>Интернет-Магазин</li>
-                                <li>Мобильное приложение</li>
-                                <li>Исправление ошибок</li>
-                            </ul>
-                        </div>
-                        <a href="/web-design-and-dev" class="wrap_button">
-                            <button>Подробнее</button>
-                        </a>
-                    </div>
-                    <div class="black_wrap_wrap_content block-animation">
-                        <div class="h1_wrap">продвижение</div>
-                        <div class="wrap_ul">
-                            <ul>
-                                <li>SEO-аудит</li>
-                                <li>SMM</li>
-                                <li>Маркетинг-стратегия</li>
-                                <li>Оптимизация</li>
-                                <li>Продвижение в ТОП</li>
-                            </ul>
-                        </div>
-                        <a href="/promotion" class="wrap_button">
-                            <button>Подробнее</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="white_wrap ">
-            <div class="div_ul ul_white  marquee3k marque-animation" data-speed="0.5" data-reverse="true">
-                <ul>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                    <li>портфолио</li>
-                </ul>
-            </div>
-            <div class="white_wrap_wrap_slider block-animation">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="/projects/noiceland"><img class="slider-img" src="{{asset('assets/img/slider-image-1.png')}}" alt="Обложка проекта - NoiceLand" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">NoiceLand </h3>
-                                <a href="/projects/noiceland">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/atlant"><img class="slider-img" src="{{asset('assets/img/slider-image-5.png')}}" alt="Обложка проекта - Atlant" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Atlant: Трекер задач</h3>
-                                <a href="/projects/atlant">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/dolfie"><img class="slider-img" src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - Dolfie" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Dolfie: Hard to choose. Easy to wear</h3>
-                                <a href="/projects/dolfie">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/hike"><img class="slider-img" src="{{asset('assets/img/slider-image-3.png')}}" alt="Обложка проекта - Hike" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Hike: Выбери свой маршрут для похода</h3>
-                                <a href="/projects/hike">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/projects/tocha"><img class="slider-img" src="{{asset('assets/img/slider-image-4.png')}}" alt="Обложка проекта - Tocha" /></a>
-                            <div class="swiper-slide-main">
-                                <h3 class="swiper-slide-title">Tocha: Telegram чат на вашем сайте</h3>
-                                <a href="/projects/tocha">Посмотреть <img src="{{asset('assets/svg/arrow-up-right.svg')}}" alt="стрелка вверх" /> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-buttons">
-                        <div class="swiper-button-prev">
-                        </div>
-                        <div class="swiper-button-next">
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="wrap_button_white block-animation">
-                <a href="/projects" class="wrap_button">
-                    <button>Смотреть всё</button>
-                </a>
-            </div>
-        </div>
-        <div class="black_wrap ">
-            <div class="div_ul ul_black  marquee3k marque-animation" data-speed="0.5" data-reverse="true">
-                <ul>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                    <li>Как мы работаем</li>
-                </ul>
-            </div>
-            <div class="wrapper" style="flex-direction: column;  align-items: normal;">
-                <div class="timeline">
-                    <ol class="timeline__inner">
-                        <li class="timeline__item block-animation">
-                            <div class="timeline-item">
-                                <div class="timeline-item__title">Знакомство</div>
-                                <div class="timeline-item__info">Мы создали отдельный блок для каждого направления, где вы сможете узнать больше о наших услугах и их ценовой диапазон</div>
-                            </div>
-                        </li>
-                        <li class="timeline__item block-animation">
-                            <div class="timeline-item">
-                                <div class="timeline-item__title">Оформление заказа</div>
-                                <div class="timeline-item__info">Оставьте заявку нам в Telegram, через сайт или по рабочей почте и мы с вами свяжемся</div>
-                            </div>
-                        </li>
-                        <li class="timeline__item block-animation">
-                            <div class="timeline-item">
-                                <div class="timeline-item__title">Оценка</div>
-                                <div class="timeline-item__info">Мы ответим на любые интересующие вас вопросы, предоставим примерную оценку работы, а также уточним все важные детали</div>
-                            </div>
-                        </li>
-                        <li class="timeline__item block-animation">
-                            <div class="timeline-item">
-                                <div class="timeline-item__title">Оплата</div>
-                                <div class="timeline-item__info">Гарантируем безопасную сделку по договору и предлагаем несколько вариантов оплаты</div>
-                            </div>
-                        </li>
-                        <li class="timeline__item block-animation">
-                            <div class="timeline-item">
-                                <div class="timeline-item__title">Исполнение</div>
-                                <div class="timeline-item__info">После создания заказа берём его в работу, отправляем промежуточные отчёты и поддерживаем связь с вами</div>
-                            </div>
-                        </li>
-                        <li></li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-        <div class="white_wrap" style="overflow: hidden">
-            <div class="mainpage-back b1"></div>
-            <div class="mainpage-back b2"></div>
-            <div class="mainpage-back b3"></div>
-            <div class="mainpage-back b4"></div>
-            <div class="white_wrap_pp block-animation">
-                <p>Мы предоставляем <span>весь спектр услуг</span> для вашего digital-проекта: <span>от</span>
-                    разработки сайта <span>и</span> мобильных приложений <span>до</span> продвижения проекта в
-                    поисковых системах Яндекс и Google.
-                </p>
-            </div>
-            <div class="wrap_button_white wrap_button_green block-animation" style="margin-bottom: 0;">
-                <a href="/new-project">
-                    <button style="margin-top: 0">Начать проект</button>
-                </a>
-            </div>
-        </div>
-    </section>
-</main> -->
+
 
 @endsection
