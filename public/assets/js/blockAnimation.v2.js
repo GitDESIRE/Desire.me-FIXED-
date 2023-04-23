@@ -1,6 +1,8 @@
 function onMarqueEntry(entry) {
   entry.forEach(change => {
     if (change.isIntersecting) {
+      console.log(хуй);
+      console.log(change);
       change.target.classList.add('marque-show');
     }
   });
@@ -14,7 +16,28 @@ for (let elm of elements) {
 
 function onBlockEntry(blockEntry) {
   blockEntry.forEach(change => {
+    
+      console.log(change);
     if (change.isIntersecting) {
+      if(change.target.querySelectorAll('.glow').length>0) {
+        const glowElements = document.querySelectorAll('.glow');
+        console.log(glowElements);
+        const ledObserver = new IntersectionObserver(entries => {
+          let timeOutRate = 1000;
+          entries.forEach(entry => {
+  
+            // если элемент в зоне видимости и его свойство display равно none
+            if (entry.target.classList.contains('glow')) {
+              // изменяем свойство display на block
+             setTimeout( () => {entry.target.style.display = 'block'},timeOutRate);
+             timeOutRate = timeOutRate + 1000;
+            }
+          });
+        });
+        glowElements.forEach(element => {
+            ledObserver.observe(element);
+          });
+      }
       change.target.classList.add('block-show');
       $('.block-show').each(function(index){
         $(this).css({
@@ -29,4 +52,16 @@ let blocksObserver = new IntersectionObserver(onBlockEntry, blockOptions);
 let blockElements = document.querySelectorAll('.block-animation');
 for (let elm of blockElements) {
   blocksObserver.observe(elm);
+
 }
+//   
+
+// // создаем объект наблюдателя за изменением видимости элементов
+// 
+//   
+//   // для каждого элемента в списке заметок, который пересекается с видимой областью
+
+// });
+
+// // добавляем каждый элемент в список наблюдаемых элементов
+// 
