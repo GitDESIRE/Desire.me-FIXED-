@@ -552,6 +552,7 @@
             <div class="test-new-timeline">
               <ol class="timeline-source">
                 <li class="timeline-item">
+                <div class="glow"></div> 
                   <div class="timeline-item__src">
                     <h3 class="timeline-item__header">знакомство</h3>
                     <p class="timeline-item__desc">
@@ -562,6 +563,7 @@
                   </div>
                 </li>
                 <li class="timeline-item">
+                <div class="glow"></div> 
                   <div class="timeline-item__src">
                     <h3 class="timeline-item__header">оформление заказа</h3>
                     <p class="timeline-item__desc">
@@ -570,6 +572,7 @@
                   </div>
                 </li>
                 <li class="timeline-item">
+                <div class="glow"></div> 
                   <div class="timeline-item__src">
                     <h3 class="timeline-item__header">оценка</h3>
                     <p class="timeline-item__desc">
@@ -578,6 +581,7 @@
                   </div>
                 </li>
                 <li class="timeline-item">
+                <div class="glow"></div> 
                   <div class="timeline-item__src">
                     <h3 class="timeline-item__header">оплата</h3>
                     <p class="timeline-item__desc">
@@ -587,6 +591,7 @@
                   </div>
                 </li>
                 <li class="timeline-item">
+                  <div class="glow"></div> 
                   <div class="timeline-item__src">
                     <h3 class="timeline-item__header">исполнение</h3>
                     <p class="timeline-item__desc">

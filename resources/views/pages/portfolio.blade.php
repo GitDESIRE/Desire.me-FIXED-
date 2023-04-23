@@ -72,7 +72,7 @@
                                 <img src="{{asset('assets/img/slider-image-2.png')}}" alt="Обложка проекта - DOLFIE" class="cases-img">
                             </a>
                             <div class="ceses-text">
-                                <a href="/projects/dolfie" class="cases-name">Dolfie. Редизайн интрнет-магазина.</a>
+                                <a href="/projects/dolfie" class="cases-name">Dolfie. Редизайн интернет-магазина.</a>
                                 <a href="/projects/dolfie" class="case-link">Посмотреть
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 8.82422L9 0.824219" stroke="#9AD351" stroke-linecap="round" stroke-linejoin="round" />
