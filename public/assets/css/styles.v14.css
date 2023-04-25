@@ -10944,7 +10944,6 @@ form input::placeholder {
     
 
     .section-timeline {
-        padding-top:0;
     }
 
 
@@ -10954,7 +10953,7 @@ form input::placeholder {
 
 .section-portfolio {
    padding-top: 51px;
-   padding-bottom: 0;
+   padding-bottom: 64px;
 }
 
 .banner-chips-list {
@@ -11680,6 +11679,14 @@ form input::placeholder {
 
     .page-link {
 }
+
+    .section-portfolio {
+        padding-bottom:0;
+    }
+
+    .section-timeline {
+        padding-top:1px;
+    }
 
 }
 
